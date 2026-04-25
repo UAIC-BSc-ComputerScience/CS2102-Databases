@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Lab 6 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="Lab_6" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Lab_6","wgTitle":"Lab 6","wgCurRevisionId":48,"wgRevisionId":48,"wgArticleId":10,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Lab_6","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Lab_6 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Lab 6</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="Lab_6#mw-navigation">navigation</a>, 					<a href="Lab_6#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>Objectives: 
+</p>
+<ul><li>Learn how to group records</li>
+<li>Apply aggregate functions</li></ul>
+<p><br />
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Lab_6#Aggregate_functions_in_SQL"><span class="tocnumber">1</span> <span class="toctext">Aggregate functions in SQL</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="Lab_6#Grouping_data"><span class="tocnumber">2</span> <span class="toctext">Grouping data</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="Lab_6#Filtering_groups"><span class="tocnumber">3</span> <span class="toctext">Filtering  groups</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="Lab_6#Exercises"><span class="tocnumber">4</span> <span class="toctext">Exercises</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Aggregate_functions_in_SQL">Aggregate functions in SQL</span></h2>
+<p>Aggregate functions are used within queries to return a single result row based on processing a group of records. They can be used within the SELECT list and in ORDER BY and HAVING clauses. 
+</p><p>CAUTION: do not use any aggregate functions in the WHERE clause&#160;!!!
+</p><p><br />
+</p><p>Aggregate functions can be used in conjunction with the keywords
+</p>
+<ul><li>DISTINCT – duplicates in the group are eliminated and only afterwards the function is applied</li>
+<li>ALL – the default, makes the aggregate function to consider all the values in the group</li></ul>
+<p><br />
+</p>
+<table border="1">
+
+<tr>
+<td><pre>COUNT ({ *|[DISTINCT|ALL] expr})</pre>	</td>
+<td>Returns the number of rows. If the argument is  *, the function will return he size of the group by considering also the null values, otherwise only non-null values are counted. The argument may be CHAR, VARCHAR2, NUMBER, DATE.	</td>
+<td>SELECT COUNT(*) AS "Total number of students" FROM students;
+<p>SELECT COUNT(NVL(scholarship,0)) AS "Total number of students" FROM students;
+</p><p>SELECT COUNT(scholarship) AS "# students earning scholarships" FROM students;
+</p><p>SELECT COUNT(DISTINCT scholarship) AS "# scholarship types" FROM students;
+</p>
+</td></tr>
+<tr>
+<td><pre>AVG ([DISTINCT|ALL]n)</pre>	</td>
+<td>Returns the average. The argument must be numeric.	</td>
+<td>SELECT AVG(value) FROM grades;
+</td></tr>
+
+<tr>
+<td><pre>MAX ([DISTINCT|ALL]expr)</pre>
+</td>
+<td>Returns the maximum. The argument may be of type CHAR, VARCHAR2, NUMBER, DATE	</td>
+<td>SELECT MAX(scholarship) FROM students;
+</td></tr>
+<tr>
+<td><pre>MIN ([DISTINCT|ALL]expr)</pre></td>
+<td>Returns the minimum. The argument may be of type CHAR, VARCHAR2, NUMBER, DATE	</td>
+<td>SELECT MIN(scholarship) FROM students;
+</td></tr>
+<tr>
+<td><pre>STDDEV ([DISTINCT|ALL]x)</pre></td>
+<td>Returns the standard deviation. The argument must be numeric. </td>
+<td>SELECT STDDEV(scholarship) AS "Standard deviation" FROM students;
+</td></tr>
+<tr>
+<td><pre>VARIANCE ([DISTINCT|ALL]x)</pre></td>
+<td>Returns the variance. The argument must be numeric. </td>
+<td>SELECT VARIANCE(scholarship) AS "Variance" FROM students;
+</td></tr>
+<tr>
+<td><pre>SUM([DISTINCT|ALL]n)</pre>	</td>
+<td>Returns the sum. The argument must be numeric.	</td>
+<td>SELECT SUM(scholarship) FROM students;
+</td></tr></table>
+<p>All aggregate functions ignore NULLs. An exception is COUNT with argument * which will treat NULL as a value. If we want NULLs to be considered by aggregate functions, we can make use of the NVL function to substitute nulls by a certain value (ex. 0).
+</p><p>If the group/data does not contain any rows or all rows have NULLs, the aggregate function will return NULL. An exception is COUNT which will return 0 or other number.
+</p>
+<h2><span class="mw-headline" id="Grouping_data">Grouping data</span></h2>
+<p>All the examples above apply the aggregate function to a single group containing all the rows in the table, the result consisting of only one row. 
+</p><p>However, the aggregate functions are usually used in conjunction with the GROUP BY clause which partitions the rows of the table into several groups; the DBMS will apply the aggregate function to each group, returning one result per group.  
+</p><p>Let's revisit the syntax of the Oracle query:
+</p>
+<pre>
+SELECT [DISTINCT | ALL] {* | [column_expression [AS new_name]] [,...] }
+   FROM table_name [alias] [, ...]
+   [WHERE conditiion]
+   [GROUP BY expression1 [HAVING condition] ]
+   [ORDER BY expression2 [ASC|DESC][,…]]
+
+</pre>
+<p><br />
+Example:
+</p>
+<pre>
+SELECT MAX(value) 
+    FROM grades
+    GROUP BY stud_id;
+--How many lines are returned? What is the meaning of each line?
+
+</pre>
+<p><br />
+</p><p>Individual field values cannot be accessed in the SELECT list unless the GROUP BY clause contains the field. This means that all the fields/columns in the SELECT list which are not given as arguments to aggregate functions must also appear in the GROUP BY clause. 
+</p><p>Example:
+</p>
+<pre>
+SELECT MAX(value), course_id
+    FROM grades
+    GROUP BY stud_id;
+--Doesn't work?
+
+</pre>
+<p>Groups may be crated based on several columns:
+Example:
+</p>
+<pre>
+SELECT year, count(*)
+    FROM courses
+    GROUP BY year;
+--How many groups?
+
+SELECT credits, count(*)
+    FROM courses
+    GROUP BY credits;
+--How many groups?
+
+SELECT year, credits, count(*)
+    FROM courses
+    GROUP BY year, credits
+    ORDER BY year, credits;
+--How many groups?
+
+</pre>
+<p>It is not mandatory that the attributes used within the GROUP BY clause appear in the select list; but it is recommended in order to be able to interpret the results.
+</p>
+<h2><span class="mw-headline" id="Filtering_groups">Filtering  groups</span></h2>
+<p>The WHERE clause eliminates individual rows before grouping takes place. 
+</p><p>The HAVING clause is used only in conjunction with the GROUP BY clause in order to eliminate groups based on the results returned by the aggregate functions or based on column values that characterize the entire group and not based on individual row values.
+</p><p>Example:
+</p>
+<pre>
+SELECT course_id, COUNT(value)
+   FROM grades
+   GROUP BY course_id;
+--How many groups?
+
+SELECT course_id, COUNT(value)
+   FROM grades
+   WHERE value&gt;8
+   GROUP BY course_id;
+--How many groups? Why?
+
+SELECT course_id, COUNT(value)
+   FROM grades
+   GROUP BY course_id
+   HAVING COUNT(value)&gt;8;
+--How many groups? Why?
+
+</pre>
+<h2><span class="mw-headline" id="Exercises">Exercises</span></h2>
+<ol><li>Show the number of students in each year of study.</li>
+<li>Show the number of students in each group of each year of study. Order ascending based on the year and then on the group. </li>
+<li>Show the number of students in each group of each year of study and indicate how many of them earn scholarships. </li>
+<li>Show the amount of money the faculty spends for all the scholarships. </li>
+<li>Compute the average amount of money per student allocated by the faculty for scholarships. (consider that the students who do not receive scholarships actually receive an amount equal to 0) </li>
+<li>Compute the distribution of the grade values (how many 10s, how many 9s,etc.). Order descending based on the grade value.</li>
+<li>Show the number of grades for each day of the week. Order descending based on the number of grades. </li>
+<li>Show the number of grades for each day of the week. Order ascending based on the week day.</li>
+<li>For each student who received at least one grade, show the last_name and the average of his/her grades. Order descending on the average.</li>
+<li>Modify the previous query to show also the students who did not receive any grade. Their average will be null.</li>
+<li>Modify the previous query to show for the students who did not receive any grade 0 for the average.</li>
+<li>Modify the previous query to show only the students with the average greater than 8.</li>
+<li>Show the last_name, the smallest grade, the highest grade and the average grade only for the students that have all their grades greater than or equal to 7.</li>
+<li>Show the last_names and the average of their grades for the students receiving at least 4 grades.</li>
+<li>For the students in group A2 year 3, show their names and their average grade.</li>
+<li>Show the highest average grade obtained by a student.</li>
+<li>For each course, show the name, the lowest grade and the highest grade.</li></ol>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.008 seconds
+Real time usage: 0.010 seconds
+Preprocessor visited node count: 123/1000000
+Preprocessor generated node count: 260/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:10-0!*!*!!en!*!* and timestamp 20240223154438 and revision id 48
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_6&amp;oldid=48">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_6&amp;oldid=48</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=Lab+6" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Lab_6"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:Lab_6&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="Lab_6#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Lab_6" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_6&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_6&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="Lab_6#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/Lab_6" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/Lab_6" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_6&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_6&amp;oldid=48" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_6&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 7 November 2017, at 19:58.</li>
+											<li id="footer-info-viewcount">This page has been accessed 2,365 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":88});
+}</script>
+	</body>
+</html>
+	

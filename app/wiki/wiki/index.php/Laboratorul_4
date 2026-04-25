@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ro" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Laboratorul 4 - BD</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="BD (ro)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="Laboratorul_4" />
+<link rel="alternate" type="application/atom+xml" title="BD Abonare Atom" href="../index.php@title=Special%253ASchimbări_recente&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=ro&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-css:7:4df88359e8a55d2a1f91cd845ecbc51d */</style>
+<script src="../load.php@debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Laboratorul_4","wgTitle":"Laboratorul 4","wgCurRevisionId":1264,"wgRevisionId":1264,"wgArticleId":6,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"ro","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"],"wgMonthNamesShort":["","ian","feb","mar","apr","mai","iun","iul","aug","sept","oct","nov","dec"],"wgRelevantPageName":"Laboratorul_4","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"ro","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"ro"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-js:7:2a32e5717ea1d009b03fd0794ab8a12b */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Laboratorul_4 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="ro"><span dir="auto">Laboratorul 4</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">De la BD</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Salt la:					<a href="Laboratorul_4#mw-navigation">navigare</a>, 					<a href="Laboratorul_4#p-search">căutare</a>
+				</div>
+				<div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr"><p>Tematica: join - afișarea informațiilor din mai multe tabele
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Cuprins</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Laboratorul_4#Produsul_cartezian_a_dou.C4.83_tabele"><span class="tocnumber">1</span> <span class="toctext">Produsul cartezian a două tabele</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="Laboratorul_4#Joinul_natural_a_dou.C4.83_tabele"><span class="tocnumber">2</span> <span class="toctext">Joinul natural a două tabele</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="Laboratorul_4#Alias_pentru_tabele"><span class="tocnumber">3</span> <span class="toctext">Alias pentru tabele</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="Laboratorul_4#Join_extern"><span class="tocnumber">4</span> <span class="toctext">Join extern</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="Laboratorul_4#Joinul_mai_multor_tabele"><span class="tocnumber">5</span> <span class="toctext">Joinul mai multor tabele</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="Laboratorul_4#Self-joinul_-_joinul_unei_tabele_cu_ea_ins.C4.83.C8.99i"><span class="tocnumber">6</span> <span class="toctext">Self-joinul - joinul unei tabele cu ea insăși</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="Laboratorul_4#Exercitii"><span class="tocnumber">7</span> <span class="toctext">Exercitii</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Produsul_cartezian_a_dou.C4.83_tabele">Produsul cartezian a două tabele</span></h2>
+<p>Pentru a pune împreună informația din mai multe tabele avem la dispoziție două modalități:
+</p>
+<ol><li> utilizarea operatorilor pe mulțimi (gen reuniune, intersecție, diferență) care pun împreună rezultatele a două sau a mai multor interogări - discutați la laboratorul 2</li>
+<li> utilizarea produsului cartezian si, derivat, a joinului.</li></ol>
+<p>Toate frazele SELECT din cadrul laboratoarelor anterioare au utilizat în cadrul clauzei FROM o singură tabelă. Încercați însă, pe rand, următoarele interogări:
+</p><p><code>SELECT * FROM studenti;</code> --cate linii sunt returnate?
+</p><p><code>SELECT * FROM note;</code> --cate linii sunt returnate?
+</p><p><code>SELECT * FROM studenti, note;</code> --cate linii sunt returnate? de ce?
+</p><p><code>SELECT * FROM studenti, note WHERE prenume='Andrei';</code> --cate linii sunt returnate? de ce?
+</p><p><code>SELECT * FROM studenti, note, cursuri;</code> --cate linii sunt returnate? de ce?
+</p><p>Dacă în cadrul clauzei FROM sunt utilizate mai multe tabele, rezultatul este produsul cartezian al tuturor tabelelor. Numarul de linii returnate este produsul numarului de linii ale tabelelor.
+</p><p>Interogările de mai sus în care în clauza FROM se află o listă de tabele este specifică Oracle. Pentru a realiza însă produsul cartezian și în alte SGBD-uri relaționale, se utilizează următoarea sintaxă care este standard limbajului SQL (valabilă și pentru Oracle, testati-o):
+</p><p><code>SELECT * FROM studenti CROSS JOIN note</code> 
+</p><p><code>SELECT * FROM studenti CROSS JOIN note WHERE prenume='Andrei';</code>
+</p><p><code>SELECT * FROM studenti CROSS JOIN note CROSS JOIN cursuri;</code>
+</p>
+<h2><span class="mw-headline" id="Joinul_natural_a_dou.C4.83_tabele">Joinul natural a două tabele</span></h2>
+<p>Înregistrările dintr-o tabelă își găsesc corespondentul în alt(e) tabel(e) prin intermediul unui atribut ce joacă rol de cheie străină trimițând la un atribut cu rol de cheie (proprietate de identificare unică) în tabela referențiată. De exemplu, în tabela <i>note</i> atributul <i>nr_matricol</i> are rolul de a identifica studentul din tabela <i>studenti</i> iar atributul <i>id_curs</i> identifică înregistrarea corespunzătoare din tabelul <i>cursuri</i>.
+</p><p>Pentru a identifica notele unui anumit student nu este suficient să solicităm informația din ambele tabele - studenti si note (vezi exemplul anterior unde solicitând notele lui Andrei s-a realizat de fapt un produs cartezian conducând la un rezultat incorect), ci trebuie să specificăm și condiția de join - și anume atributul care joacă rol de cheie străină să fie egal cu atributul care joaca rol de identificare unică în tabelul referențiat:
+</p><p><code>SELECT * FROM studenti, note WHERE studenti.nr_matricol = note.nr_matricol ORDER BY nume;</code> --cate inregistrari au fost returnate? de ce?
+</p><p><br />
+Din nou, formularea anterioară este specifică Oracle. Operația care s-a efectuat a fost joinul intern a două tabele, păstrându-se în rezultat acele linii din produsul cartezian care satisfac condiția impusă de clauza WHERE (pentru a înțelege operația de join este util să priviți joinul ca un produs cartezian urmat de selecție; în realitate sistemul tratează operația cu unul dintre algoritmii dedicați joinului - care vor fi explicati la curs). Versiunea admisă însă de standardul SQL și la care aderă cele mai multe sisteme de baze de date relaționale utilizează explicit cuvintele cheie JOIN...ON, după cum urmează:
+</p><p><code>SELECT * FROM studenti JOIN note ON studenti.nr_matricol = note.nr_matricol ORDER BY nume;</code> 
+</p><p><code>SELECT * FROM studenti JOIN note ON studenti.nr_matricol = note.nr_matricol WHERE prenume='Andrei'</code> --cate inregistrari au fost returnate? de ce?
+</p><p><code>SELECT * FROM studenti JOIN note ON studenti.nr_matricol = note.nr_matricol WHERE prenume='Ioana';</code> --cate inregistrari au fost returnate? de ce?
+</p><p>Fiindcă numele atributului cu rol de cheie străină și numele atributului cu rol de identificare unică referențiat coincid în exemplul prezentat, ele au fost prefixate de numele tabelului la care aparțin.
+Ca alternativă, atunci când numele coloanei după care se face JOIN este identic în ambele tabele, condiţia de egalitate a acestora poate fi omisă dacă se foloseşte operaţia de Join natural:
+</p><p><code>SELECT nume, prenume, valoare FROM studenti NATURAL JOIN note WHERE prenume='Ioana';</code>
+</p>
+<h2><span class="mw-headline" id="Alias_pentru_tabele">Alias pentru tabele</span></h2>
+<p>De fiecare dată când într-o interogare apar mai multe tabele și ele conțin atribute cu același nume, orice referire la astfel de atribute trebuiesc prefixate de numele tabelei din care se dorește a fi citită valoarea.
+</p><p>Încercați pe rand
+</p><p><code>SELECT nume, prenume, valoare, nr_matricol FROM studenti JOIN note ON studenti.nr_matricol=note.nr_matricol WHERE prenume = 'Ioana';</code> --de ce nu functioneaza&#160;?
+</p><p><code>SELECT nume, prenume, valoare, studenti.nr_matricol FROM studenti JOIN note ON studenti.nr_matricol = note.nr_matricol WHERE prenume = 'Ioana';</code>
+</p><p>In cazul joinului natural, SGBD-ul ştie că între cele două coloane oricum se aplică operatorul de egalitate. In acest caz nu mai trebuie să prefixaţi numele coloanei cu numele tabelei:
+</p><p><code>SELECT nume, prenume, valoare, nr_matricol FROM studenti NATURAL JOIN note  WHERE prenume='Ioana';</code>
+</p><p>Orice utilizare a unui atribut a cărui nume se regăsește în mai multe tabele referențiate în interogare trebuie prefixat de numele tabelei (exceptie fac tabelele implicate în join natural). Dacă însă numele tabelelor este incomod a fi repetat, putem să dăm aliasuri simple acestora - specificate în clauza FROM imediat dupa numele tabelei. Identificarea atributelor în acest caz se face utilizand aliasul ca și prefix:
+</p><p><code>SELECT nume, prenume, valoare, s.nr_matricol FROM studenti s JOIN note n ON s.nr_matricol = n.nr_matricol;</code>
+</p><p>ATENȚIE: introducerea de aliasuri pentru numele tabelelor necesită utilizarea acestora oriunde e necesar în cadrul interogării.
+</p><p>Încercați:
+</p><p><code>SELECT nume, prenume, valoare, studenti.nr_matricol FROM studenti s JOIN note n ON s.nr_matricol = n.nr_matricol;</code>
+</p>
+<h2><span class="mw-headline" id="Join_extern">Join extern</span></h2>
+<p>Să afișăm în mod distinct numele studenților din joinul între tabelele <i>studenti</i> și <i>note</i>:
+</p><p><code>SELECT DISTINCT nume FROM studenti s NATURAL JOIN note n;</code>
+</p><p>Câte înregistrări au fost returnate? Și câte nume distincte sunt în tabela studenti de fapt? De unde diferența?
+</p><p>Sunt cazuri în care nu toate înregistrările dintr-o tabelă au corespondent în altă tabelă. În exemplul anterior, nu toți studenții au note. În cadrul joinului anterior s-a văzut cum înregistrările fără corespondent nu fac parte din mulțimea rezultat.
+</p><p>In cazul în care se doreşte realizarea unui join între tabelele studenţi şi note, se poate observa că există studenţi care nu au încă note (fiind primul semestru, ei sunt înscrişi la cursurile din anul întâi dar nu au primit încă note). Spunem despre tabela note că este deficitară în informaţii deoarece nu conţine toate numerele matricole existente în tabela studenţi. Dacă se doreşte ca în rezultat să se regăsească şi studenţii fără note, se va utiliza un join extern.
+</p><p>Joinul extern poate fi de mai multe tipuri: 
+</p>
+<ul><li> LEFT OUTER JOIN este utilizat atunci când se doreşte preluarea tuturor informaţiilor din tabela din stânga operatorului join (deci join in acest caz nu este comutativ) şi, eventual, aceste informaţii să fie completate (dacă se poate) cu informaţii din tabela deficitară în informaţii aflată în dreapta operatorului join. De exemplu: <code>SELECT DISTINCT nume FROM studenti s LEFT OUTER JOIN note n ON s.nr_matricol = n.nr_matricol;</code></li></ul>
+<ul><li> RIGHT OUTER JOIN este similar dar de aceasta dată tabela deficitară în informaţii se va afla în stanga. Se vor prelua toate informaţiile din tabela din dreapta şi se vor completa (atunci când se poate) cu informaţii din tabela din stânga. Ca şi exemplu putem schimba ordinea tabelelor din LEFT OUTER JOIN-ul anterior: <code> SELECT DISTINCT nume FROM note n RIGHT OUTER JOIN studenti s ON s.nr_matricol = n.nr_matricol;</code></li></ul>
+<p>Cele două versiuni de join extern se pot realiza în Oracle și cu următoarea sintaxă:
+</p><p><code>SELECT DISTINCT nume FROM studenti s, note n WHERE s.nr_matricol = n.nr_matricol(+);</code>
+</p><p>Simbolul (+) se adaugă pe ramura deficitară în informații.
+</p>
+<ul><li> FULL OUTER JOIN este reuniunea celor de mai sus: sunt afişate toate informaţiile şi completate (eventual) cu informaţii din cealalta tabelă.</li></ul>
+<p>Ce valori primesc în urma unui join extern înregistrările care nu au corespondent?
+</p><p>Alte detalii la: <a rel="nofollow" class="external free" href="http://www.techonthenet.com/oracle/joins.php">http://www.techonthenet.com/oracle/joins.php</a>
+</p><p>Schita a tipurilor de join: <a rel="nofollow" class="external free" href="http://i.stack.imgur.com/udQpD.jpg">http://i.stack.imgur.com/udQpD.jpg</a>
+</p>
+<h2><span class="mw-headline" id="Joinul_mai_multor_tabele">Joinul mai multor tabele</span></h2>
+<p>În interogările anterioare am identificat notele tuturor studenților utilizând un join între două tabele - studenti și note. Cum aflăm însă la ce discipline au fost puse notele? Adăugăm în interogare un al treilea tabel, împreună cu condiția de join necesară:
+</p>
+<pre>
+SELECT nume, prenume, titlu_curs, valoare 
+   FROM studenti s 
+              JOIN note n ON s.nr_matricol=n.nr_matricol 
+              JOIN cursuri c ON c.id_curs=n.id_curs
+</pre>
+<h2><span class="mw-headline" id="Self-joinul_-_joinul_unei_tabele_cu_ea_ins.C4.83.C8.99i">Self-joinul - joinul unei tabele cu ea insăși</span></h2>
+<p>Uneori, modul în care este structurată informația în tabele ne pune în situația de a căuta corespondentul unor înregistrări chiar în același tabel. În cazul de față, un exemplu este determinarea colegilor de grupă pentru un anumit student. Oricând suntem în situația de a apela de două ori la un tabel într-o singură interogare, spunem că realizăm un <i>self-join</i>. În cazul unui self join tabela în cauză este apelată de două ori cu aliasuri distincte, ca și când ar exista două instanțe identice ale aceluiași tabel.
+</p><p>Exemplu:
+</p>
+<pre>
+SELECT s.nume || ' ' || s.prenume || ' este coleg cu ' || colegi.nume || ' ' || colegi.prenume AS &quot;Colegi de grupa&quot; 
+    FROM studenti s JOIN studenti colegi ON s.grupa=colegi.grupa AND s.an=colegi.an
+    WHERE s.prenume='Andrei'
+</pre>
+<p>Cum eliminăm înregistrarea în care studentul apare coleg cu el însuși?
+</p>
+<h2><span class="mw-headline" id="Exercitii">Exercitii</span></h2>
+<ol><li> Afişaţi studenţii şi notele pe care le-au luat si profesorii care le-au pus acele note.</li>
+<li> Afisati studenţii care au luat nota 10 la materia 'BD'. Singurele valori pe care aveţi voie să le hardcodaţi în interogare sunt valoarea notei (10) şi numele cursului ('BD').</li>
+<li> Afisaţi profesorii (numele şi prenumele) impreuna cu cursurile pe care fiecare le ţine. </li>
+<li> Modificaţi interogarea de la punctul 3 pentru a fi afişaţi şi acei profesori care nu au încă alocat un curs.</li>
+<li> Modificaţi interogarea de la punctul 3 pentru a fi afişate acele cursuri ce nu au alocate încă un profesor.</li>
+<li> Modificaţi interogarea de la punctul 3 astfel încât să fie afişaţi atat profesorii care nu au nici un curs alocat cât şi cursurile care nu sunt încă predate de nici un profesor.</li>
+<li> In tabela studenti există studenţi care s-au nascut în aceeasi zi a săptămânii. De exemplu, Cobzaru George şi Pintescu Andrei s-au născut amândoi într-o zi de marti. Construiti o listă cu studentii care s-au născut in aceeaşi zi grupându-i doi câte doi în ordine alfabetică a numelor (de exemplu in rezultat va apare combinatia Cobzaru-Pintescu dar nu va apare şi Pintescu-Cobzaru). Lista va trebui să conţină doar numele de familie a celor doi împreună cu ziua în care cei doi s-au născut. Evident, dacă există şi alţi studenti care s-au născut marti, vor apare si ei in combinatie cu cei doi amintiţi mai sus. Lista va fi ordonată în funcţie de ziua săptămânii în care s-au născut si, în cazul în care sunt mai mult de trei studenţi născuţi în aceeaşi zi, rezultatele vor fi ordonate şi după numele primei persoane din listă .</li>
+<li> Sa se afiseze, pentru fiecare student, numele colegilor care au luat nota mai mare ca ei la fiecare dintre cursuri. Formulati rezultatele ca propozitii (de forma "Popescu Gigel a luat nota mai mare ca Vasilescu Ionel la matera BD."). Dati un nume corespunzator coloanei [pont: interogarea trebuie să returneze 118 rânduri].</li>
+<li> Afisati studentii doi cate doi impreuna cu diferenta de varsta dintre ei. Sortati in ordine crescatoare in functie de aceste diferente. Aveti grija sa nu comparati un student cu el insusi.</li>
+<li> Afisati posibilele prietenii dintre studenti si profesori. Un profesor si un student se pot imprieteni daca numele lor de familie are acelasi numar de litere.</li>
+<li> Afisati denumirile cursurilor la care s-au pus note cel mult egale cu 8 (&lt;=8).</li>
+<li> Afisati numele studentilor care au toate notele mai mari ca 7 sau egale cu 7.</li>
+<li> Sa se afiseze studentii care au luat nota 7 sau nota 10 la OOP intr-o zi de marti.</li>
+<li> O sesiune este identificata prin luna si anul in care a fost tinuta. Scrieti numele si prenumele studentilor ce au promovat o anumita materie, cu notele luate de acestia si sesiunea in care a fost promovata materia. Formatul ce identifica sesiunea este "LUNA, AN", fara alte spatii suplimentare (De ex. "JUNE, 2015" sau "FEBRUARY, 2014"). In cazul in care luna in care s-a tinut sesiunea a avut mai putin de 30 de zile afisati simbolul "+" pe o coloana suplimentara, indicand faptul ca acea sesiune a fost mai grea (avand mai putine zile), in caz contrar (cand luna are mai mult de 29 de zile) valoarea coloanei va fi null.</li></ol>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.015 seconds
+Real time usage: 0.019 seconds
+Preprocessor visited node count: 45/1000000
+Preprocessor generated node count: 80/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bdwiki:pcache:idhash:6-0!*!*!!ro!*!* and timestamp 20240222170108 and revision id 1264
+ -->
+</div>									<div class="printfooter">
+						Adus de la „<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_4&amp;oldid=1264">https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_4&amp;oldid=1264</a>”					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Meniu de navigare</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Unelte personale</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Utilizator:95.76.235.126" class="new" title="Pagina de utilizator pentru adresa IP curentă [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Discu%C8%9Bie_Utilizator:95.76.235.126" class="new" title="Discuții despre editări pentru adresa IP curentă [n]" accesskey="n">Discuția pentru această adresă IP</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Special:Autentificare&amp;returnto=Laboratorul+4" title="Sunteți încurajat să vă autentificați, deși acest lucru nu este obligatoriu. [o]" accesskey="o">Autentificare</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Spații de nume</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Laboratorul_4"  title="Vedeți conținutul paginii [c]" accesskey="c">Pagină</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Discu%C8%9Bie:Laboratorul_4&amp;action=edit&amp;redlink=1"  title="Discuții despre această pagină [t]" accesskey="t">Discuție</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variante</span><a href="Laboratorul_4#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Vizualizări</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Laboratorul_4" >Lectură</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_4&amp;action=edit"  title="Această pagină este protejată. Puteți vizualiza doar codul sursă [e]" accesskey="e">Sursă pagină</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_4&amp;action=history"  title="Versiunile anterioare ale paginii și autorii lor. [h]" accesskey="h">Istoric</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>Mai mult</span><a href="Laboratorul_4#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Căutare</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Căutare" title="Căutare în BD [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Căutare" name="title" /><input type="submit" name="fulltext" value="Căutare" title="Caută în pagini pentru acest text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Salt" title="Deschide pagina cu acest nume, dacă există" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki/images/database.png);" href="../index.php"  title="Pagina principală"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigare</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Vizitați pagina principală [z]" accesskey="z">Pagina principală</a></li>
+													<li id="n-Fisa-disciplinei"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs/Fisa_disciplinei_BD-2019-2020.pdf" rel="nofollow">Fisa disciplinei</a></li>
+													<li id="n-Pregatirea-mediului-de-lucru"><a href="Pregatirea_mediului_de_lucru">Pregatirea mediului de lucru</a></li>
+													<li id="n-Ghid-SQLPlus"><a href="Ghid_SQLPlus">Ghid SQLPlus</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'>
+			<h3 id='p-Baze_de_date-label'>Baze de date</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Materiale-curs"><a href="http://profs.info.uaic.ro/~bd" rel="nofollow">Materiale curs</a></li>
+													<li id="n-Laborator-1"><a href="Laborator_1">Laborator 1</a></li>
+													<li id="n-Laborator-2"><a href="Laboratorul_2">Laborator 2</a></li>
+													<li id="n-Laborator-3"><a href="Laboratorul_3">Laborator 3</a></li>
+													<li id="n-Laborator-4"><a href="Laboratorul_4">Laborator 4</a></li>
+													<li id="n-Laborator-5"><a href="Laboratorul_5">Laborator 5</a></li>
+													<li id="n-Laborator-6"><a href="Laboratorul_6">Laborator 6</a></li>
+													<li id="n-Laborator-7"><a href="Laboratorul_7">Laborator 7</a></li>
+													<li id="n-Laborator-8"><a href="Laboratorul_8">Laborator 8</a></li>
+													<li id="n-Laborator-9"><a href="Laboratorul_9">Laborator 9</a></li>
+													<li id="n-Laborator-10"><a href="Laboratorul_10">Laborator 10</a></li>
+													<li id="n-Laborator-11"><a href="Laboratorul_11">Laborator 11</a></li>
+													<li id="n-Laborator-12"><a href="Laboratorul_12">Laborator 12</a></li>
+													<li id="n-Laborator-13"><a href="Laboratorul_13">Laborator 13</a></li>
+													<li id="n-Laborator-14"><a href="Laboratorul_14">Laborator 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Practica_SGBD' aria-labelledby='p-Practica_SGBD-label'>
+			<h3 id='p-Practica_SGBD-label'>Practica SGBD</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Pagini_Studenti' aria-labelledby='p-Pagini_Studenti-label'>
+			<h3 id='p-Pagini_Studenti-label'>Pagini Studenti</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Expresii-regulate"><a href="Expresii_regulate">Expresii regulate</a></li>
+													<li id="n-Regresii-liniare"><a href="Regresii_liniare">Regresii liniare</a></li>
+													<li id="n-UTL_TCP"><a href="UTL_TCP">UTL_TCP</a></li>
+													<li id="n-Procesare_in_blocuri"><a href="Procesare_in_blocuri">Procesare_in_blocuri</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Unelte</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Ce_se_leag%C4%83_aici/Laboratorul_4" title="Lista tuturor paginilor wiki care conduc spre această pagină [j]" accesskey="j">Ce trimite aici</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Modific%C4%83ri_corelate/Laboratorul_4" title="Schimbări recente în legătură cu această pagină [k]" accesskey="k">Modificări corelate</a></li>
+													<li id="t-specialpages"><a href="Special%253APagini_speciale" title="Lista tuturor paginilor speciale [q]" accesskey="q">Pagini speciale</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_4&amp;printable=yes" rel="alternate" title="Versiunea de tipărit a acestei pagini [p]" accesskey="p">Versiune de tipărit</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_4&amp;oldid=1264" title="Legătura permanentă către această versiune a paginii">Legătură permanentă</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_4&amp;action=info">Informații despre pagină</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> Ultima modificare efectuată la 06:26, 21 octombrie 2022.</li>
+											<li id="footer-info-viewcount">Pagina a fost vizitată de 50.441 de ori.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Politica_de_confiden%C8%9Bialitate" title="BD:Politica de confidențialitate">Politica de confidențialitate</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Despre" title="BD:Despre">Despre BD</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Termeni" title="BD:Termeni">Termeni</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":79});
+}</script>
+	</body>
+</html>
+	

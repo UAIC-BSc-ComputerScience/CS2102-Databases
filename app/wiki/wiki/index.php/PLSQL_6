@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ro" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>PLSQL 6 - BD</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="BD (ro)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="PLSQL_6" />
+<link rel="alternate" type="application/atom+xml" title="BD Abonare Atom" href="../index.php@title=Special%253ASchimbări_recente&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=ro&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-css:7:4df88359e8a55d2a1f91cd845ecbc51d */</style>
+<script src="../load.php@debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"PLSQL_6","wgTitle":"PLSQL 6","wgCurRevisionId":1292,"wgRevisionId":1292,"wgArticleId":19,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"ro","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"],"wgMonthNamesShort":["","ian","feb","mar","apr","mai","iun","iul","aug","sept","oct","nov","dec"],"wgRelevantPageName":"PLSQL_6","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"ro","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"ro"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-js:7:2a32e5717ea1d009b03fd0794ab8a12b */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-PLSQL_6 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="ro"><span dir="auto">PLSQL 6</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">De la BD</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Salt la:					<a href="PLSQL_6#mw-navigation">navigare</a>, 					<a href="PLSQL_6#p-search">căutare</a>
+				</div>
+				<div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr"><div id="toc" class="toc"><div id="toctitle"><h2>Cuprins</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="PLSQL_6#Obiecte"><span class="tocnumber">1</span> <span class="toctext">Obiecte</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="PLSQL_6#Construirea_unei_clase_in_PL.2FSQL"><span class="tocnumber">1.1</span> <span class="toctext">Construirea unei clase in PL/SQL</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="PLSQL_6#Sortarea_.C5.9Fi_comparararea"><span class="tocnumber">1.2</span> <span class="toctext">Sortarea şi comparararea</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="PLSQL_6#Mo.C5.9Ftenirea_.C3.AEn_PLSQL"><span class="tocnumber">1.3</span> <span class="toctext">Moştenirea în PLSQL</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="PLSQL_6#Exercitiu_.285pt.29"><span class="tocnumber">2</span> <span class="toctext">Exercitiu (5pt)</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="PLSQL_6#Tema_.282pt.29"><span class="tocnumber">3</span> <span class="toctext">Tema (2pt)</span></a></li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Obiecte">Obiecte</span></h1>
+<p>Linkuri utile:
+</p>
+<ul><li> <a rel="nofollow" class="external free" href="http://www.tutorialspoint.com/plsql/plsql_object_oriented.htm">http://www.tutorialspoint.com/plsql/plsql_object_oriented.htm</a></li></ul>
+<ul><li> <a rel="nofollow" class="external free" href="https://docs.oracle.com/cd/B28359_01/appdev.111/b28371/adobjplsql.htm">https://docs.oracle.com/cd/B28359_01/appdev.111/b28371/adobjplsql.htm</a></li></ul>
+<ul><li> <a rel="nofollow" class="external free" href="https://docs.oracle.com/cd/B13789_01/appdev.101/b10807/10_objs.htm#i16312">https://docs.oracle.com/cd/B13789_01/appdev.101/b10807/10_objs.htm#i16312</a></li></ul>
+<p><br />
+În majoritatea limbajelor de programare moderne programarea este orientată-obiect. Deşi scripturile care sunt necesare în cadrul bazelor de date sunt de obicei destul de simple şi fac lucruri specifice asupra unei baze de date, şi în cadrul PL/SQL este permis lucrul cu obiecte. 
+</p><p><br />
+Câteva dintre conceptele pe care le cunoaşteţi de la OOP (C++ sau Java) sunt implementate şi aici. Puteţi să compuneţi tipuri, să derivaţi obiecte noi din altele deja existente, etc. Ca şi în programarea OOP, obiectele au o mulţime de proprietăţi (sau atribute) şi o mulţime de metode. Atributele sunt utilizate pentru a reprezenta starea obiectului în timp ce metodele sunt utilizate pentru a simula diverse comportamente ale obiectelor.
+</p>
+<h2><span class="mw-headline" id="Construirea_unei_clase_in_PL.2FSQL">Construirea unei clase in PL/SQL</span></h2>
+<p>"Clasa" din care este făcut un obiect este de fapt un tip pe care îl puteţi declara după sintaxa:
+</p>
+<pre>CREATE OR REPLACE TYPE nume_clasa AS OBJECT ( ... );
+</pre>
+<p>În secţiunea dintre paranteze sunt declarate atributele obiectului şi tipurile lor împreună cu procedurile şi funcţiile membre. Un exemplu în acest sens (vom construi un tip student prin intermediul căruia vom putea "instanţia" studenţi) este următorul:
+</p>
+<pre>
+CREATE OR REPLACE TYPE student AS OBJECT
+(nume varchar2(10),
+ prenume varchar2(10),
+ grupa varchar2(4),
+ an number(1), 
+ data_nastere date,
+ member procedure afiseaza_foaie_matricola
+);
+/ 
+</pre>
+<p>În cadrul declaraţiei unui obiect nu puteţi să utilizaţi&#160;%TYPE. Acest lucru nu este valid deoarece dacă cineva se hotărăşte să modifice tabela pe baza căreia obiectul a fost construit atunci şi obiectul ar avea de suferit (şi probabil şi alte subprograme ce folosesc acest obiect).
+</p><p>Împreună cu declararea unui obiect trebuie declarat şi un BODY pentru acel obiect. În acest body pot fi scrise implementările pentru metodele declarate în obiect (de exemplu pentru procedura afiseaza_foaia_matricola). 
+</p><p>Pentru a crea secţiunea de body se va utiliza următoarea sintaxă:
+</p><p><br />
+</p>
+<pre>
+CREATE OR REPLACE TYPE BODY student AS
+          .................
+END;
+</pre>
+<p>Între antetul BODYului şi cuvântul END sunt scrise toate implementările metodelor declarate în obiect. Ca şi exemplu, pentru obiectul student de mai sus vom putea declara următorul body:
+</p>
+<pre>
+CREATE OR REPLACE TYPE BODY student AS
+   MEMBER PROCEDURE afiseaza_foaie_matricola IS
+   BEGIN
+       DBMS_OUTPUT.PUT_LINE('Aceasta procedura calculeaza si afiseaza foaia matricola');
+   END afiseaza_foaie_matricola;
+END;
+/
+</pre>
+<p>Putem să creem tabele în care să introducem ca şi coloană valori-instanţă ale tipului nou creat (student). De exemplu, dacă executăm comanda următoare vom crea un tabel de tip cheie-valoare în care ca şi cheie vom trece numărul matricol al studentului iar ca şi valoare vom introduce efectiv obiectul:
+</p>
+<pre>
+CREATE TABLE studenti_oop (nr_matricol VARCHAR2(4), obiect STUDENT);
+</pre>
+<p>Un exemplu de declarare şi utilizare a unui obiect de tip student precum şi o comandă de inserare în tabela nou creată este dat în continuare:
+</p>
+<pre>
+set serveroutput on;
+DECLARE
+   v_student1 STUDENT;
+   v_student2 STUDENT;
+BEGIN
+   v_student1 := student('Popescu', 'Ionut', 'A2', 3, TO_DATE('11/04/1994', 'dd/mm/yyyy'));
+   v_student2 := student('Vasilescu', 'George', 'A4', 3, TO_DATE('22/03/1995', 'dd/mm/yyyy'));
+   v_student1.afiseaza_foaie_matricola();
+   dbms_output.put_line(v_student1.nume);
+   insert into studenti_oop values ('100', v_student1);
+   insert into studenti_oop values ('101', v_student2);
+END;
+</pre>
+<p>Acum puteti sa construiti o cerere de tip select care sa va returneze doar anumite campuri din obiectul stocat in baza de date in campul "obiect":
+</p>
+<pre>
+SELECT TREAT(obiect AS student).nume FROM studenti_oop;
+</pre>
+<p>În cadrul obiectului puteţi să declaraţi şi funcţii (în mod asemănător cum a fost definită şi procedura dar cu diferenţele specifice funcţiilor). Antetul funcţiei din body va fi trecut în declaraţia obiectului. Nu uitaţi de cuvântul cheie "Member".
+</p><p>După cum se poate observa în exemplul pe care l-am dat, un obiect are un constructor (care este apelat prin numele tipului obiectului) care preia ca parametri valorile atributelor din acel obiect (în ordinea declarării lor) şi le atribuie obiectului. Dacă doriţi să aveţi un constructor propriu (şi nu cel implicit), iată cum se face acest lucru în cazul exemplului nostru:
+</p><p>În cadrul declaraţiei obiectului adăugaţi ca şi metodă constructorul:
+</p><p><br />
+</p>
+<pre>
+  CONSTRUCTOR FUNCTION student(nume varchar2, prenume varchar2)
+    RETURN SELF AS RESULT
+</pre>
+<p>Apoi, în cadrul body-ului, specificaţi ce doriţi să faceţi în această nouă metodă-constructor:
+</p>
+<pre>
+CONSTRUCTOR FUNCTION student(nume varchar2, prenume varchar2)
+    RETURN SELF AS RESULT
+  AS
+  BEGIN
+    SELF.nume := nume;
+    SELF.prenume := prenume;
+    SELF.data_nastere := sysdate;
+    SELF.an := 1;
+    SELF.grupa := 'A1';
+    RETURN;
+  END;
+</pre>
+<p>Declaraţi o nouă variabilă de tipul student şi instanţiaţi-o folosind noul constructor ce tocmai a fost definit.
+</p><p>Înafara constructorului, o altă metodă "mai specială" este cea care permite compararea a două de acelaşi tip. Această funcţie este necesară pentru că, în mod normal, SGBDul nu ştie care dintre cele două variabile pe care le-am declarat mai sus (v_student1 şi v_student2) este mai mare. În cazul în care am dori să sortăm tabela studenti_oop (declarată mai sus) după coloana obiect, ce ordine ar fi adoptată (cum ar fi comparate două elemente ale acestei coloane? după nume, după prenume sau poate după vârsta studentului&#160;?).
+</p>
+<h2><span class="mw-headline" id="Sortarea_.C5.9Fi_comparararea">Sortarea şi comparararea</span></h2>
+<p>În continuare vă invităm să construiţi în cadrul obiectului student a unei funcţii (nu denumirea varsta_in_zile) ce returnează vârsta în zile a studentului (scădeţi din sysdate valoarea data_nastere din obiect). Vom folosi această funcţie pentru a compara doi studenţi.
+</p><p>Există două metode de a compara două obiecte: Printr-o metodă MAP sau printr-o metodă Order. Metoda de tip MAP va returna o valoare (spre exemplu de tip number). Dacă primul obiect returnează un număr mai mic decat cel de-al doilea obiect atunci el este considerat mai mic.  
+</p><p>Adăugând cuvântul "MAP" în faţa funcţiei varsta_in_zile (pe care aţi creat-o puţin mai înainte), veţi putea compara doua obiecte de tip student în funcţie de numărul de zile de când s-au născut.
+</p><p>Adăugaţi în blocul anonim următoarea secţiune de cod:
+</p>
+<pre>
+   if (v_student1 &lt; v_student2) 
+      THEN DBMS_OUTPUT.PUT_LINE('Studentul '|| v_student1.nume || ' este mai tanar.');
+      ELSE DBMS_OUTPUT.PUT_LINE('Studentul '|| v_student2.nume || ' este mai tanar.');
+   END IF;
+</pre>
+<p>În cele mai multe limbaje de programare funcţia de comparare nu este bazată pe reprezentarea obiectului ca şi o valoare ce ar putea fi comparată cu cea obţinută din reprezentarea similară a unui alt obiect ci mai degrabă prin întoarcerea uneia dintre valorile -1, 0, 1 (în funcţie dacă obiectul curent SELF în PLSQL sau this în Java spre exemplu este -1: mai mic, 0: egal, 1: mai mare decât obiectul dat ca parametru). 
+</p><p>Diferenţa dintre cele două funcţii: MAP şi ORDER este că în timp ce funcţia de tip MAP nu are nevoie de nici un parametru pentru că întoarce reprezentarea obiectului curent ca un tip de dată comparabilă, funcţia de tip ORDER are obligatoriu ca parametru un obiect de acelaşi tip cu obiectul cu care se face comparaţia. Nu se pot folosi ambele metode în acelaşi timp, pentru comparaţia ce va fi făcută cu metoda ORDER, codul dat mai sus pentru MAP este în continuare corect.  Încercaţi să rescrieţi funcţia MAP astfel încât să fie de top ORDER (de fapt când se compară (v_student1 &lt; v_student2) puteţi să vă închipuiţi că se apelează ceva de genul "v_student1.comparaCu(v_student2)" şi de fapt funcţia comparaCu este funcţia ce trebuie declarata cu ORDER).
+</p>
+<h2><span class="mw-headline" id="Mo.C5.9Ftenirea_.C3.AEn_PLSQL">Moştenirea în PLSQL</span></h2>
+<p>În PLSQL, la fel ca şi în alte limbaje orientate obiect, se pot crea obiecte plecând de la obiectele existente. Pentru a putea crea un obiect-copil, clasa parinte (superclasă) trebuie să fie declarată ca NOT FINAL (valoarea predefinită este FINAL). Refaceţi tipul student adăugând cuvintele NOT FINAL la final. Pentru a permite suprascrierea unei metode din cadrul obiectului, în faţa declaraţiei sale trebuie să fie scrise cuvintele NOT FINAL.
+</p><p>În exemplul nostru am putea construi declaraţia studentului în felul următor:
+</p>
+<pre>
+CREATE OR REPLACE TYPE student AS OBJECT
+(nume varchar2(10),
+ prenume varchar2(10),
+ grupa varchar2(4),
+ an number(1), 
+ data_nastere date,
+ NOT FINAL member procedure afiseaza_foaie_matricola,
+ map member FUNCTION varsta_in_zile RETURN NUMBER, 
+ CONSTRUCTOR FUNCTION student(nume varchar2, prenume varchar2)
+    RETURN SELF AS RESULT
+) NOT FINAL;
+/
+</pre>
+<p>În acest caz, se poate crea un nou tip (clasă) ca şi subclasă pentru student şi, mai mult, în această nouă subclasă putem să suprascriem procedura afiseaza_foaia_matricola. 
+</p><p>Iată în continuare codul care creează o subclasă a clasei student care are în plus o proprietate "bursa" şi care suprascrie metoda de afişare a foii matricole. Totodată este dat şi blocul anonimŞ care ar putea fi utilizat pentru a declara şi utiliza acest nou tip de obiect.
+</p><p><br />
+</p>
+<pre>
+drop type student_bazat;
+CREATE OR REPLACE TYPE student_bazat UNDER student
+(    
+   bursa NUMBER(6,2),
+   OVERRIDING member procedure afiseaza_foaie_matricola
+)
+/
+
+
+CREATE OR REPLACE TYPE BODY student_bazat AS
+    OVERRIDING MEMBER PROCEDURE afiseaza_foaie_matricola IS
+    BEGIN
+       dbms_output.put_line('bursier');
+    END afiseaza_foaie_matricola;
+END;
+/
+
+DECLARE
+   v_student_bazat student_bazat;
+BEGIN
+    v_student_bazat := student_bazat('Mihalcea', 'Mircea', 'A1', 2, TO_DATE('18/09/1996', 'dd/mm/yyyy'), 1000);
+    dbms_output.put_line(v_student_bazat.nume);
+    v_student_bazat.afiseaza_foaie_matricola();
+END;
+</pre>
+<p>Construiţi două instanţe ale studentului bazat şi comparaţi-le. Se păstrează metoda de comparare pe care aţi utilizat-o în compararea obiectelor de tip student declarat iniţial&#160;?
+</p><p>Executaţi comanda:
+</p>
+<pre>select * from studenti_oop order by obiect; -- utilizează această comandă ordonarea stabilită de funcţia MAP/ORDER ?
+</pre>
+<p>Pentru a crea o clasă abstractă utilizaţi NOT INSTANTIABLE după declaraţia clasei (înainte de NOT FINAL). Are rost să folosiţi NOT INSTANTIABLE fără a fi urmată de NOT FINAL &#160;?
+</p><p>Executaţi codul:
+</p><p><br />
+</p>
+<pre>
+DECLARE
+  s student;
+BEGIN
+  SELECT obiect INTO s FROM studenti_oop WHERE nr_matricol='100';
+  dbms_output.put_line(s.nume);
+END;
+</pre>
+<p><br />
+</p><p><br />
+</p>
+<h1><span class="mw-headline" id="Exercitiu_.285pt.29">Exercitiu (5pt)</span></h1>
+<p>Creati o clasa la alegere care sa contina macar doua metode si un constructor explicit ( in afara celuil implicit). Tot in cadrul acestei clase scrieti si o metoda de comparare a doua obiecte (MAP sau ORDER), inserati o serie de obiecte intr-o tabela si incercati sa le ordonati dupa coloana in care este introdus obiectul pentru a demonstra ca obiectele pot fi intr-adevar comparate unul cu celalalt. 
+</p><p>Construiti o subclasa pentru clasa de mai sus. Suprascrieti macar o metoda din cele existente in clasa de baza. 
+</p><p>Construiti un bloc anonim in care sa demonstrati functionalitatea claselor construite.
+</p>
+<h1><span class="mw-headline" id="Tema_.282pt.29">Tema (2pt)</span></h1>
+<p>Realizati serializarea unui obiect dintr-o aplicatie proprie (facuta in Java, PHP, Ruby sau alt limbaj ales de voi) intr-o baza de date Oracle (obiectul din OOP va fi stocat ca obiect din PLSQL) si de asemenea deserializarea unui obiect din baza de date inapoi in limbajul respectiv. Tema este echivalenta cu implementarea interfetei Serializable din Java, dar cu stocarea in baza de date a obiectelor.
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.015 seconds
+Real time usage: 0.019 seconds
+Preprocessor visited node count: 150/1000000
+Preprocessor generated node count: 312/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bdwiki:pcache:idhash:19-0!*!*!!ro!*!* and timestamp 20240223084109 and revision id 1292
+ -->
+</div>									<div class="printfooter">
+						Adus de la „<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=PLSQL_6&amp;oldid=1292">https://profs.info.uaic.ro/~bd/wiki/index.php?title=PLSQL_6&amp;oldid=1292</a>”					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Meniu de navigare</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Unelte personale</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Utilizator:95.76.235.126" class="new" title="Pagina de utilizator pentru adresa IP curentă [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Discu%C8%9Bie_Utilizator:95.76.235.126" class="new" title="Discuții despre editări pentru adresa IP curentă [n]" accesskey="n">Discuția pentru această adresă IP</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Special:Autentificare&amp;returnto=PLSQL+6" title="Sunteți încurajat să vă autentificați, deși acest lucru nu este obligatoriu. [o]" accesskey="o">Autentificare</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Spații de nume</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="PLSQL_6"  title="Vedeți conținutul paginii [c]" accesskey="c">Pagină</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Discu%C8%9Bie:PLSQL_6&amp;action=edit&amp;redlink=1"  title="Discuții despre această pagină [t]" accesskey="t">Discuție</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variante</span><a href="PLSQL_6#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Vizualizări</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="PLSQL_6" >Lectură</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=PLSQL_6&amp;action=edit"  title="Această pagină este protejată. Puteți vizualiza doar codul sursă [e]" accesskey="e">Sursă pagină</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=PLSQL_6&amp;action=history"  title="Versiunile anterioare ale paginii și autorii lor. [h]" accesskey="h">Istoric</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>Mai mult</span><a href="PLSQL_6#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Căutare</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Căutare" title="Căutare în BD [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Căutare" name="title" /><input type="submit" name="fulltext" value="Căutare" title="Caută în pagini pentru acest text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Salt" title="Deschide pagina cu acest nume, dacă există" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki/images/database.png);" href="../index.php"  title="Pagina principală"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigare</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Vizitați pagina principală [z]" accesskey="z">Pagina principală</a></li>
+													<li id="n-Fisa-disciplinei"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs/Fisa_disciplinei_BD-2019-2020.pdf" rel="nofollow">Fisa disciplinei</a></li>
+													<li id="n-Pregatirea-mediului-de-lucru"><a href="Pregatirea_mediului_de_lucru">Pregatirea mediului de lucru</a></li>
+													<li id="n-Ghid-SQLPlus"><a href="Ghid_SQLPlus">Ghid SQLPlus</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'>
+			<h3 id='p-Baze_de_date-label'>Baze de date</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Materiale-curs"><a href="http://profs.info.uaic.ro/~bd" rel="nofollow">Materiale curs</a></li>
+													<li id="n-Laborator-1"><a href="Laborator_1">Laborator 1</a></li>
+													<li id="n-Laborator-2"><a href="Laboratorul_2">Laborator 2</a></li>
+													<li id="n-Laborator-3"><a href="Laboratorul_3">Laborator 3</a></li>
+													<li id="n-Laborator-4"><a href="Laboratorul_4">Laborator 4</a></li>
+													<li id="n-Laborator-5"><a href="Laboratorul_5">Laborator 5</a></li>
+													<li id="n-Laborator-6"><a href="Laboratorul_6">Laborator 6</a></li>
+													<li id="n-Laborator-7"><a href="Laboratorul_7">Laborator 7</a></li>
+													<li id="n-Laborator-8"><a href="Laboratorul_8">Laborator 8</a></li>
+													<li id="n-Laborator-9"><a href="Laboratorul_9">Laborator 9</a></li>
+													<li id="n-Laborator-10"><a href="Laboratorul_10">Laborator 10</a></li>
+													<li id="n-Laborator-11"><a href="Laboratorul_11">Laborator 11</a></li>
+													<li id="n-Laborator-12"><a href="Laboratorul_12">Laborator 12</a></li>
+													<li id="n-Laborator-13"><a href="Laboratorul_13">Laborator 13</a></li>
+													<li id="n-Laborator-14"><a href="Laboratorul_14">Laborator 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Practica_SGBD' aria-labelledby='p-Practica_SGBD-label'>
+			<h3 id='p-Practica_SGBD-label'>Practica SGBD</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Pagini_Studenti' aria-labelledby='p-Pagini_Studenti-label'>
+			<h3 id='p-Pagini_Studenti-label'>Pagini Studenti</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Expresii-regulate"><a href="Expresii_regulate">Expresii regulate</a></li>
+													<li id="n-Regresii-liniare"><a href="Regresii_liniare">Regresii liniare</a></li>
+													<li id="n-UTL_TCP"><a href="UTL_TCP">UTL_TCP</a></li>
+													<li id="n-Procesare_in_blocuri"><a href="Procesare_in_blocuri">Procesare_in_blocuri</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Unelte</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Ce_se_leag%C4%83_aici/PLSQL_6" title="Lista tuturor paginilor wiki care conduc spre această pagină [j]" accesskey="j">Ce trimite aici</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Modific%C4%83ri_corelate/PLSQL_6" title="Schimbări recente în legătură cu această pagină [k]" accesskey="k">Modificări corelate</a></li>
+													<li id="t-specialpages"><a href="Special%253APagini_speciale" title="Lista tuturor paginilor speciale [q]" accesskey="q">Pagini speciale</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=PLSQL_6&amp;printable=yes" rel="alternate" title="Versiunea de tipărit a acestei pagini [p]" accesskey="p">Versiune de tipărit</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=PLSQL_6&amp;oldid=1292" title="Legătura permanentă către această versiune a paginii">Legătură permanentă</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=PLSQL_6&amp;action=info">Informații despre pagină</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> Ultima modificare efectuată la 06:26, 3 aprilie 2023.</li>
+											<li id="footer-info-viewcount">Pagina a fost vizitată de 35.004 ori.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Politica_de_confiden%C8%9Bialitate" title="BD:Politica de confidențialitate">Politica de confidențialitate</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Despre" title="BD:Despre">Despre BD</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Termeni" title="BD:Termeni">Termeni</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":94});
+}</script>
+	</body>
+</html>
+	

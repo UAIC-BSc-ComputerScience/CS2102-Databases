@@ -1,0 +1,68 @@
+Afisați informațiile despre cursurile care au 5 credite și încep cu prima literă L. Ordonați-le după anul de studiu în mod crescător.
+
+Afisați informațiile despre cursurile care au 5 credite și încep cu prima literă L. Ordonați-le după anul de studiu în mod crescător.
+
+Afisați prenumele studenților din semianul B și faceți un clasament în ordine descrescătoare dupa bursă.
+
+Afișați infomațiile profesorilor al căror prenume este Lucian, Robert și Mihaela. Ordonați rezultatele după gradul didactic in mod descrescator
+
+Afisați data si notele de 7 dar care nu sunt pentru luna februarie a anului 2015. ordonati rezultatele dupa data de notare.
+
+Afisați studenții al căror prenume începe cu litera "G" și a căror bursă va fi mărită cu 35%. Veți afișa numele acestora concatenat cu prenumele, dând aliasul "Studenti". Ordonati rezultatele dupa numele de familie in mod crescator.
+
+Afisați acei studenti a caror nume se termina in litera n si care sunt nascuti in anul 1996. Ordonati studentii descrescator dupa prenume.
+
+Afisati pe a cata pozitie se gaseste "ar" in numele studentilor. Redenumiti coloana "Coloana Noua" si afisati doar persoanele din grupa B si ordonati dupa valoarea bursei descrescator;
+
+Afișați nr_matricol, id-curs, valoare și ziua din săptămână a notării doar pentru acele note care au fost puse într-o zi de vineri. Veți folosi limba română pentru data calendaristică.
+
+Adaugati in stanga gradului didactic simbolul '#' pana la completarea celor 10 caractere. Rescrieti numele profesorilor de la coada la cap si redenumiti coloana.
+
+Afisati 3 caractere de la pozitia 3 a numelui unui student, scrieti cu minuscule prenumele studentului iar mai apoi concatenati-le. Ordonati descrescator doar studentii din anul 3 dupa data de nastere.
+
+Inlocuiti in prenumele studentilor litera 'c' cu 'a' si 'a' cu 'c'. Afisati cheia primara a studentilor, prenumele acestora modificat, precum si ultima zi din luna in care acestia sunt nascuti.
+
+Afisati profesorii cu grad didactic si cursurile lor din semestru 2
+
+Afișați numărul de puncte (credite*nota) obținut de studenți în sesiunile din februarie.
+
+Afișați studenții care au notă atât la BD cât și la OOP precum si data de notare.
+
+Pentru fiecare student afișați numele, prenumele, numărul de credite obținute la fiecare disciplină unde a fost evaluat precum și titlurile acestora. Vor fi afișați și studenții care nu au fost evaluați la nicio disciplină, creditele asociate acestora fiind 0.
+
+Să se afișeze numărul matricol, numele și prenumele studenților integraliști (care nu au nici o restanță).
+
+Afișați numarul matricol, numele si prenumele studenții care au notă atât la BD cât și la OOP precum si notele obtinute. Redenumiti coloanele corespunzatoare notelor.
+
+Să se afișeze profesorii care au pus note studentului Popescu Bogdan. Afișarea se va face în ordinea în care au fost puse notele.
+
+Afisati profesorii care au pus cel putin o nota intr-o zi de luni. Vor fi afisate doar numele si prenumele acestora fara dubluri.
+
+Scrieți o comandă de actualizare care modifică numărul de credite pentru cursuri, noua valoare fiind egala cu media notelor puse la curs.
+
+Afișați numele și prenumele primilor 3 studenți în ordinea notelor obținute la BD.
+
+Afișați numele și prenumele studenților care sunt pe primul loc la disciplina “BD”.
+
+Afișați câte elemente are mulțimea din care s-au dat nume studenților.
+
+Afișați anii de studiu în care avem mai mult de 2 grupe.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

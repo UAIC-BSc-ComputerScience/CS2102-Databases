@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Lab 4 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="Lab_4" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Lab_4","wgTitle":"Lab 4","wgCurRevisionId":176,"wgRevisionId":176,"wgArticleId":8,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Lab_4","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Lab_4 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Lab 4</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="Lab_4#mw-navigation">navigation</a>, 					<a href="Lab_4#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>Objectives: the JOIN operator - showing information from several tables
+</p><p><br />
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Lab_4#Cartesian_product_of_two_tables"><span class="tocnumber">1</span> <span class="toctext">Cartesian product of two tables</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="Lab_4#Natural_Join_of_two_tables"><span class="tocnumber">2</span> <span class="toctext">Natural Join of two tables</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="Lab_4#Alias_for_tables"><span class="tocnumber">3</span> <span class="toctext">Alias for tables</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="Lab_4#Outer.2FExternal_join"><span class="tocnumber">4</span> <span class="toctext">Outer/External join</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="Lab_4#Joining_more_than_two_tables"><span class="tocnumber">5</span> <span class="toctext">Joining more than two tables</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="Lab_4#Self-join"><span class="tocnumber">6</span> <span class="toctext">Self-join</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="Lab_4#Exercises"><span class="tocnumber">7</span> <span class="toctext">Exercises</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Cartesian_product_of_two_tables">Cartesian product of two tables</span></h2>
+<p>To show information from several tables we have two possibilities:
+</p>
+<ol><li> the use of set operators (union, intersection, subtraction) - build tables vertically</li>
+<li> the use of the Cartesian product or of the derived join operators - build data horizontally.</li></ol>
+<p>All the queries in previous labs used only one table within the FROM clause. Try, subsequently, the following queries: 
+</p><p><code>SELECT * FROM students;</code> --how many rows returned?
+</p><p><code>SELECT * FROM grades;</code> --how many rows returned?
+</p><p><code>SELECT * FROM students, grades;</code> --how many rows returned? why?
+</p><p><code>SELECT * FROM students, grades WHERE fname='Andrei';</code> --how many rows returned? why?
+</p><p><code>SELECT * FROM students, grades, courses;</code> --how many rows returned? why?
+</p><p>If we use several table names within the FROM cluase, the result corresponds to the Cartesian product of the tables. Consequently, the number of rows returned by the query is given by the product of the number of rows of the tables involved in the operation.
+</p><p>The above queries, which allow several table names within the FROM clause, is specific to Oracle. However, to obtain the Cartesian product in other RDBMSs, you must use the following syntax which is defined by the SQL standard (also applicable to Oracle, please test it):
+</p><p><code>SELECT * FROM students CROSS JOIN grades;</code> 
+</p><p><code>SELECT * FROM students CROSS JOIN grades WHERE fname='Andrei';</code>
+</p><p><code>SELECT * FROM students CROSS JOIN grades CROSS JOIN courses;</code>
+</p>
+<h2><span class="mw-headline" id="Natural_Join_of_two_tables">Natural Join of two tables</span></h2>
+<p>The records in one table T1 may have corresponding/related rows in other tables (T2, T3,...); in this situation an attribute in T1 must play as a foreign key referencing a candidate key in T2,T3,... For example, attribute <i>id_stud</i> in table <i>grades</i> is used to identify the student in table <i>students</i>, while attribute <i>id_course</i> in table <i>grades</i>  identifies the course in table <i>courses</i>.
+</p><p>To obtain the grades of a given student, it is not sufficient to show the information in both tables - students and grades (see the example above where asking for the grades of student Andrei we obtained a wrong result containing all the grades - result of the cartesian product), but we also have to specify the join condition: the attribute playing as foreign key in one table must be equal to the attribute playing as an identifier in the second table:
+</p><p><code>SELECT * FROM students, grades WHERE students.id_stud = grades.id_stud ORDER BY lname;</code> --how many rows returned? why?
+</p><p>Again, the above statement is particular to Oracle. The operation executed was the internal join of two tables, corresponding actually to those rows in the Cartesian product which satisfy the condition stated in the WHERE clause. It might be useful to think about join as a cartesian product followed by a selection - in terms of relational algebra; however, the DBMS solves joins with dedicated algorithms - presented in future course lectures.  
+</p><p>The SQL standard, which should be implemented by all RDMSs provides explicit syntax/keywords (JOIN...ON) as follows: 
+</p><p><code>SELECT * FROM students JOIN grades ON students.id_stud = grades.id_stud ORDER BY lname;</code> 
+</p><p><code>SELECT * FROM students JOIN grades ON students.id_stud = grades.id_stud WHERE fname='Andrei'</code> --compare this result with the one in the section for Cartesian product
+</p><p><code>SELECT * FROM students JOIN grades ON students.id_stud = grades.id_stud WHERE fname='Ioana';</code> --how many rows compared to the previous query and why?
+</p><p>The names of the attributes in the WHERE clause were prefixed with names of the tables. This is mandatory only when the two attributes playing as foreign and candidate key have identical names; otherwise, table names may be skipped. 
+</p><p>As an alternative, when the names of the attributes in the join condition are identical, we can use the following syntax which does not require stating the join condition and which corresponds to the <i>natural join</i> operator in relational algebra:  
+</p><p><code>SELECT fname, lname, value FROM students NATURAL JOIN grades WHERE fname='Ioana';</code>
+</p>
+<h2><span class="mw-headline" id="Alias_for_tables">Alias for tables</span></h2>
+<p>When in a query there are involved several tables which have attributes with identical names, any call of an attribute must be prefixed with the table name in order to eliminate ambiguity. 
+</p><p>Try the following:
+</p><p><code>SELECT fname, lname, value, id_stud FROM students JOIN grades ON students.id_stud=grades.id_stud WHERE fname = 'Ioana';</code> --why not working&#160;?
+</p><p><code>SELECT fname, lname, value, students.id_stud FROM students JOIN grades ON students.id_stud=grades.id_stud WHERE fname = 'Ioana';</code>
+</p><p>In the case of natural join, the DBMS knows that on attributes with identical names, it must apply the equality operator as a join condition. In this case there is no need to prefix any attribute: 
+</p><p><code>SELECT fname, lname, value, id_stud FROM students NATURAL JOIN grades WHERE fname='Ioana';</code>
+</p><p>Any attribute name which belongs to more than one table in a query which is not a natural join, must be prefixed. However, we may find tedious repeating (long) table names; in such cases, we may declare simple aliases for these in the FROM clause - this operation corresponds to the <i>renaming operator</i> in relational algebra: 
+</p><p><code>SELECT fname, lname, value, s.id_stud FROM students s JOIN grades g ON s.id_stud=g.id_stud;</code>
+</p><p>ATTENTION: introducing aliases for table names forces us to use them whenever we need to use table names within the query.
+</p><p>Try:
+</p><p><code>SELECT fname, lname, value, students.id_stud FROM students s JOIN grades g ON s.id_stud=g.id_stud;</code>
+</p>
+<h2><span class="mw-headline" id="Outer.2FExternal_join">Outer/External join</span></h2>
+<p>Let's show, uniquely, the last names of the students which result from the join of the tables <i>students</i> and <i>grades</i>:
+</p><p><code>SELECT DISTINCT lname FROM students NATURAL JOIN grades;</code>
+</p><p>How many rows were returned?
+Run a query to see how many distinct names are in the students table. 
+Where comes the difference from?
+</p><p>There are cases in which not all the records in one table have correspondents in the other table. In our example, not all the students have grades; the students not appearing in table grades did not appear in the result of the above natural join.  
+We say about table grades that it is deficient in information because it does not contain all the student ids stored in table students. If we want all the information in one of the tables to be shown, although lacking correspondents in the other table, we may use the Outer Join.
+</p><p>The outer join is of several types: 
+</p>
+<ul><li> LEFT OUTER JOIN is used to take all the data in the left table; the rows in the left table that cannot be associated with rows form the right table, receive as values for the attributes in the right table NULL:</li></ul>
+<p><code>SELECT DISTINCT lname FROM students s LEFT OUTER JOIN grades g ON s.id_stud = g.id_stud;</code>
+<code>SELECT * FROM students s LEFT OUTER JOIN grades g ON s.id_stud = g.id_stud;</code>
+</p>
+<ul><li> RIGHT OUTER JOIN is similar to LEFT OUTER JOIN but the table deficient in information is at the right:  <code> SELECT DISTINCT lname FROM grades g RIGHT OUTER JOIN students s ON s.id_stud = g.id_stud;</code></li></ul>
+<p>The two versions of external join can also be obtained in Oracle as follows: 
+</p><p><code>SELECT DISTINCT lname FROM students s, grades g WHERE s.id_stud = g.id_stud(+);</code>
+</p><p>Symbol (+) is added on the deficient side of the join condition.
+</p>
+<ul><li> FULL OUTER JOIN is the union of the left and right outer join: all the rows in the two tables will be shown. </li></ul>
+<p>More at: <a rel="nofollow" class="external free" href="http://www.techonthenet.com/oracle/joins.php">http://www.techonthenet.com/oracle/joins.php</a>
+</p><p>Nice view of join types: <a rel="nofollow" class="external free" href="http://i.stack.imgur.com/udQpD.jpg">http://i.stack.imgur.com/udQpD.jpg</a>
+</p>
+<h2><span class="mw-headline" id="Joining_more_than_two_tables">Joining more than two tables</span></h2>
+<p>All of the examples above express joins over two tables - students and grades. How can we find out the course names corresponding to the shown grades? We add a second join in the query, with table courses:
+</p>
+<pre>
+SELECT fname, lname, course_name, value 
+   FROM students s 
+              JOIN grades g ON s.id_stud=g.id_stud 
+              JOIN courses c ON c.id=g.id_course;
+</pre>
+<h2><span class="mw-headline" id="Self-join">Self-join</span></h2>
+<p>Sometimes the information is structured in such a way that we need to look for information related to one record, in the very same table. In our faculty database, we need to do this when we want to identify the colleagues of a given student (students that are assigned to the same groupno). In the E/R model, this would correspond to a recursive relationship. Every time we need to call twice a table name in a query, we perform a <i>self-join</i>. In such cases, the two instances of the same table name must be renamed by declaring distinct aliases. It might be helpful to think about self-join as joining two duplicates of the same table.
+</p><p>Example:
+</p>
+<pre>
+SELECT s.fname || ' ' || s.lname || ' is a colleague of ' || coll.fname || ' ' || 
+  coll.lname AS &quot;Andrei's colleagues of study&quot; 
+    FROM students s JOIN students coll ON s.groupno=coll.groupno AND s.year=coll.year
+    WHERE s.fname='Andrei';
+</pre>
+<p>How can we eliminate the row where the student is a colleague of himself?
+</p>
+<h2><span class="mw-headline" id="Exercises">Exercises</span></h2>
+<ol><li> Run a query to retrieve all students' grades in the database. Show the student's last and first names, his/her grade and the last name for the instructor who graded him/her.</li>
+<li> Show the first and last names for the students who received a 10 at 'DB'.</li>
+<li> Show the instructors (last and first names) and all the information about the courses they teach. </li>
+<li> Modify the query at 3, in order to add the instructors that do not teach any courses.</li>
+<li> Modify the query at 3, in order to add the courses that are not assigned to any instructor.</li>
+<li> Modify the query at 3 in order to show both the instructors that do not teach any course and the courses that are not assigned to any instructor yet.</li>
+<li> In students table there exist students which were born in the same week day. For example, Cobzaru George and Pintescu Andrei were both born in a Tuesday. Create a list containing pairs of students that were born in the same week day; do not allow duplicates as {Cobzaru-Pintescu, Pintescu-Cobzaru}. Only the last names will be shown. The list will be sorted accordingly to the week day and if more then 2 students were born in the same week day the rows will be sorted based on the last name of the first student in the pair. (the query should return 11 rows - take care not to have the same row two times).</li>
+<li> Show, for each student, the names of his/her colleagues who received higher grades. Format the result as follows: "Popescu Gigel received a higher grade compared to Vasilescu Ionel at DB." Give an appropriate column alias [the query should return 118 rows].</li>
+<li> Show all pairs of students and the difference in their age in days. Order ascending based on age differences. Do not compare a student with himself.</li>
+<li> Show possible connections between students and instructors. A student and an instructor may be connected if their family names (last_name) have the same length (number of characters). Print student's and instructor's last names. </li>
+<li> Show the (difficult) courses for which all students' grades are less than or equal to 8. </li>
+<li> Show the students who have all the grades greater than or equal to 7. </li>
+<li> Show the students who received a 7 or a 10 at OOP in a Tuesday. </li>
+<li> An exam session is identified by the month and the year it was organized. Write the first and last names for the students who passed the exams, the grades they received and the exam session as a string "MONTH, YEAR" (eg."JUNE, 2015"). Create one extra column where you will show the "+" sign if the month has less than thirty days (null entry otherwise).</li></ol>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.017 seconds
+Real time usage: 0.021 seconds
+Preprocessor visited node count: 45/1000000
+Preprocessor generated node count: 76/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:8-0!*!*!!en!*!* and timestamp 20240223154438 and revision id 176
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_4&amp;oldid=176">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_4&amp;oldid=176</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=Lab+4" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Lab_4"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:Lab_4&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="Lab_4#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Lab_4" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_4&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_4&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="Lab_4#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/Lab_4" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/Lab_4" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_4&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_4&amp;oldid=176" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_4&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 21 October 2022, at 05:10.</li>
+											<li id="footer-info-viewcount">This page has been accessed 10,967 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":132});
+}</script>
+	</body>
+</html>
+	

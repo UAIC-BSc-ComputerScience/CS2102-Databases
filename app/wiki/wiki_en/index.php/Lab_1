@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Lab 1 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="Lab_1" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Lab_1","wgTitle":"Lab 1","wgCurRevisionId":166,"wgRevisionId":166,"wgArticleId":5,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Lab_1","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Lab_1 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Lab 1</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="Lab_1#mw-navigation">navigation</a>, 					<a href="Lab_1#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><b>Objectives:</b>
+</p>
+<ul>
+<li>Understanding the relational model for databases
+<li>An overview of the SQL language
+</ul>
+<p><br />
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Lab_1#The_relational_model"><span class="tocnumber">1</span> <span class="toctext">The relational model</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="Lab_1#The_SQL_language"><span class="tocnumber">2</span> <span class="toctext">The SQL language</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="Lab_1#DDL_.28Data_Definition_Language.29"><span class="tocnumber">2.1</span> <span class="toctext">DDL (Data Definition Language)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="Lab_1#Creating_tables"><span class="tocnumber">2.1.1</span> <span class="toctext">Creating tables</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="Lab_1#Deleting_tables"><span class="tocnumber">2.1.2</span> <span class="toctext">Deleting tables</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="Lab_1#DML_.28Data_Manipulation_Language.29"><span class="tocnumber">2.2</span> <span class="toctext">DML (Data Manipulation Language)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="Lab_1#Inserting_records"><span class="tocnumber">2.2.1</span> <span class="toctext">Inserting records</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="Lab_1#Updating_records"><span class="tocnumber">2.2.2</span> <span class="toctext">Updating records</span></a></li>
+<li class="toclevel-3 tocsection-9"><a href="Lab_1#Deleting_records"><span class="tocnumber">2.2.3</span> <span class="toctext">Deleting records</span></a></li>
+<li class="toclevel-3 tocsection-10"><a href="Lab_1#Querying_the_database"><span class="tocnumber">2.2.4</span> <span class="toctext">Querying the database</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-11"><a href="Lab_1#Datatypes_in_Oracle"><span class="tocnumber">3</span> <span class="toctext">Datatypes in Oracle</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="Lab_1#The_database_schema_-_a_case_study"><span class="tocnumber">4</span> <span class="toctext">The database schema - a case study</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="The_relational_model">The relational model</span></h2>
+<ul><li> is a simple model with efficient implementations and with a simple and expressive query language (SQL);  </li>
+<li> proposed in '70s by Edgar Frank Codd, it is used by the most popular DBMSs: <a rel="nofollow" class="external free" href="http://db-engines.com/en/ranking_trend">http://db-engines.com/en/ranking_trend</a>.</li></ul>
+<p>Features:
+</p>
+<ul><li> The database consists of a set of tables/relations;</li>
+<li> Every table/relation has a unique name in the database it belongs to and contains a set of columns/attributes/fields; </li>
+<li> Every attribute has a unique name in the table it belongs to and can take values to a specific domain it is associated to;</li>
+<li> Every line/record/tuple in a table has values for each attribute of the table (there are no missing values, when a value does not exist the NULL value is filled in);</li>
+<li> The order of the lines/tuples does not matter.</li></ul>
+<p><b>The schema of the database </b> is actually its structural description: table names and table definitions (attributes and associated types).
+</p><p><b>A database instance</b> represents the content of the database at a given time.
+</p><p><b>NULL</b> – is a special value used when we do not know an attribute value for a given record.
+</p><p><b>Candidate key</b> – an attribute which takes unique values for every row in the table 
+- or a set of attributes whose combination of values are unique (uniquely identifies each record in the table), minimal with regard to this property (by excluding any attribute from this set we cannot uniquely identify each tuple); by adding any other attribute to a candidate key we obtain a <b>super-key</b>.
+</p><p><b>Primary key</b> – one of the candidate keys, designated to act as the main key for identifying the records; none of its attributes can be NULL.
+</p><p><b>Alternate key</b> – any candidate key, not designated as primary. 
+</p><p><b>Foreign key</b> – an attribute or a set of attributes in a relation that references a candidate key in other table (or even in the current table, case which corresponds to a <b>recursive foreign key</b>). 
+</p><p>Information is extracted from the database by using queries wirtten in SQL. The result of a query is also structured as a table.
+</p><p><b>Relational algebra</b>
+</p>
+<ul><li> A formal language</li>
+<li> Basic operators: selection, projection, cartesian product, intersection, difference, renaming</li>
+<li> Based on sets and not bags (duplicates are eliminated)</li></ul>
+<h2><span class="mw-headline" id="The_SQL_language">The SQL language</span></h2>
+<p>SQL - Structured Query Language
+</p>
+<ul><li> the language used to manipulate relational databases</li>
+<li> a declarative language: expresses WHAT one wants and NOT HOW one obtains it</li>
+<li> a language that implements the operators of the relational algebra (its semantics is defined by the relational algebra) but based on multi-sets/bags (in a relation there may exist duplicates)</li>
+<li> although considered a non-procedural language, most RDBMSs offer procedural extensions.</li></ul>
+<p>The SQL language was standardized for the first time by ISO in 1987. Since then, the language was subject to many changes/improvements (called revisions), the latest stable version being SQL:2016.
+</p><p>Although standardized at international level, every DBMS provider deviated from and extended the standardized version to offer some advantages. Because of its large size, some providers did not implement all the features present in the standard. On the contrary, there might be the case that the standard has not defined some behaviors, the decisions being left to developers. In these situations there exist today <i>SQL dialects</i>. This phenomenon leads to incompatibilities between various relational DBMSs. Some incompatibilities may be preserved on purpose in order to retain gained customers. 
+</p><p>The Oracle's conformance claims can be accessed at [<a rel="nofollow" class="external text" href="https://docs.oracle.com/database/121/SQLRF/ap_standard_sql003.htm#SQLRF55516%7C">[https://docs.oracle.com/database/121/SQLRF/ap_standard_sql003.htm#SQLRF55516</a>]
+</p><p>In the following we list the most popular SQL commands, using Backus-Naur syntax where: 
+</p>
+<ul><li>	&lt;&gt;		corresponds to a substitution variable</li>
+<li>	|  		signifies disjunction</li>
+<li>	[…]		contains optional items</li>
+<li>	{…|…|…}	        forces the user to choose exactly one item from the list</li></ul>
+<h3><span class="mw-headline" id="DDL_.28Data_Definition_Language.29">DDL (Data Definition Language)</span></h3>
+<h4><span class="mw-headline" id="Creating_tables">Creating tables</span></h4>
+<pre>
+CREATE [{GLOBAL | LOCAL} TEMPORARY] TABLE
+       &lt;table_name&gt;
+        (&lt;column_name1&gt; {data_type | domain_name} [constraints] 
+        [,&lt;column_name2&gt; {data_type | domain_name} [constraints]]
+        […]
+        )     
+       [ ON COMMIT { DELETE | PRESERVE } ROWS ]
+</pre>
+<p><br />
+The TEMPORARY option creates a temporary table, which stores records only during a transaction (until a COMMIT command is triggered), or during a session (in case ON COMMIT PRESERVE ROWS option is used). In Oracle we have only GLOBAL temporary tables: the definition of the temporary table is available from all the sessions but the access to data is private (the records inserted in one session can be accessed only from that session). 
+</p><p><br />
+</p>
+<h4><span class="mw-headline" id="Deleting_tables">Deleting tables</span></h4>
+<pre>
+DROP TABLE &lt;table_name&gt;  [RESTRICT | CASCADE]
+</pre>
+<p>CASCADE forces dropping a table which is referenced by a view or by other foreign keys, propagating the drop command on these objects.
+</p><p>In Oracle a table is dropped using:
+</p>
+<pre>
+DROP TABLE &lt;table_name&gt;  [CASCADE CONSTRAINTS] [PURGE]
+</pre>
+<p>In Oracle the tables are recycled, unless the PURGE option is specified. They can be restored by using:
+</p>
+<pre>
+FLASHBACK TABLE &lt;table_name&gt;   TO 
+     { { SCN | TIMESTAMP } expr 
+     [ { ENABLE | DISABLE } TRIGGERS ] | 
+     BEFORE DROP [ RENAME TO &lt;nume_nou&gt; ]} 
+</pre>
+<h3><span class="mw-headline" id="DML_.28Data_Manipulation_Language.29">DML (Data Manipulation Language)</span></h3>
+<h4><span class="mw-headline" id="Inserting_records">Inserting records</span></h4>
+<pre>
+INSERT INTO &lt;table_name&gt; 
+            [ (columns_list) ]
+            VALUES (values_list)
+</pre>
+<h4><span class="mw-headline" id="Updating_records">Updating records</span></h4>
+<pre>
+UPDATE &lt;table_name&gt;
+       SET &lt;column_name1&gt; = value1
+           [, &lt;column_name2&gt; = valoare2...]
+       [WHERE condition]
+</pre>
+<h4><span class="mw-headline" id="Deleting_records">Deleting records</span></h4>
+<pre> 
+DELETE FROM &lt;table_name&gt; 
+      [WHERE condition]
+</pre>
+<p><br />
+</p>
+<h4><span class="mw-headline" id="Querying_the_database">Querying the database</span></h4>
+<pre>
+SELECT [DISTINCT | ALL] {* | [column_expresion [AS &lt;new_name&gt;]] [,...] }
+       FROM &lt;table_name&gt; [alias] [, ...]
+       [WHERE condition]
+       [GROUP BY columns_list] [HAVING condition]
+       [ORDER BY exp1 [ASC/DESC] [,exp2...]] 
+</pre>
+<h2><span class="mw-headline" id="Datatypes_in_Oracle">Datatypes in Oracle</span></h2>
+<table border="1">
+<tr>
+<td>Type
+</td>
+<td>Properties
+</td></tr>
+<tr>
+<td>CHAR(n)
+</td>
+<td>Strings of fixed length n (1 character is stored on 1 byte). If the string inserted by the user is shorter, the system inserts blanks at the end of the string; if the string to be inserted is longer, an error is triggered (VALUE_ERROR)
+</td></tr>
+<tr>
+<td>VARCHAR2(n)
+</td>
+<td>Strings of variable length, n is the maximum length. It should be used when the values to be inserted differ largely with regard to their length, because it allocates a number of bytes equal to the length of the inserted string.
+</td></tr>
+<tr>
+<td>NUMBER
+</td>
+<td>Stores numbers in range (-10126,  10126), infinity (positive şi negative).
+</td></tr>
+<tr>
+<td>NUMBER(n1, n2)
+</td>
+<td>Numbers with a total of n1 significant digits, n2 specifying the number of digits from the decimal point to the least significant digit. Ex. for NUMBER(5,-2), introducing 12345 generates 12300 while for 12399 generates 12400.
+</td></tr>
+<tr>
+<td>DATE
+</td>
+<td>A moment in time, storing the year, month, day, hours, minutes and seconds.
+</td></tr>
+<tr>
+<td>LOB (large object):<br />BLOB, CLOB, NCLOB, BFILE
+</td>
+<td>Allows storing unstructured data like text, images, videos...
+</td></tr></table>
+<p>For compatibility with other systems, Oracle offers support for other types as well: decimal, integer, smallint, real; however, their internal representation is defined based on the number type.
+</p><p>A complete list can be accessed at [<a rel="nofollow" class="external text" href="http://download.oracle.com/docs/cd/B19306_01/server.102/b14200/sql_elements001.htm">| http://download.oracle.com/docs/cd/B19306_01/server.102/b14200/sql_elements001.htm</a>]
+</p><p><b>NULL</b> is a special value indicating missing information. Both tests NULL=NULL and NULL&lt;&gt;NULL return FALSE. Testing for the NULL value must be done with IS [NOT] NULL.
+</p>
+<h2><span class="mw-headline" id="The_database_schema_-_a_case_study">The database schema - a case study</span></h2>
+<p>Propose a schema for a database that stores information about students (ID, first name, last name, year of study, group, scholarship, date of birth), teachers (id, first name, last name, academic title), courses (ID, title, year, semester, credits) and students' grades. Write SQL commands to create the tables, insert a few records make some updates. Query the database.
+</p><p><br />
+We thought at this exercice to be solved like this: <a rel="nofollow" class="external free" href="https://profs.info.uaic.ro/~vcosmin/BD/faculty.sql">https://profs.info.uaic.ro/~vcosmin/BD/faculty.sql</a>
+</p><p>Save this file in the C:/temp folder, and install our version of the database by running this command in the SQLPlus application: <code>@ C:/temp/faculty.sql</code>.
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.013 seconds
+Real time usage: 0.016 seconds
+Preprocessor visited node count: 119/1000000
+Preprocessor generated node count: 212/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:5-0!*!*!!en!*!* and timestamp 20240223154436 and revision id 166
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_1&amp;oldid=166">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_1&amp;oldid=166</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=Lab+1" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Lab_1"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:Lab_1&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="Lab_1#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Lab_1" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_1&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_1&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="Lab_1#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/Lab_1" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/Lab_1" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_1&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_1&amp;oldid=166" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_1&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 12 October 2022, at 06:10.</li>
+											<li id="footer-info-viewcount">This page has been accessed 4,162 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":139});
+}</script>
+	</body>
+</html>
+	

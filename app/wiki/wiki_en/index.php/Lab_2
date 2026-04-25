@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Lab 2 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="Lab_2" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Lab_2","wgTitle":"Lab 2","wgCurRevisionId":173,"wgRevisionId":173,"wgArticleId":6,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Lab_2","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Lab_2 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Lab 2</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="Lab_2#mw-navigation">navigation</a>, 					<a href="Lab_2#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><b>Objectives:</b>
+</p>
+<ul>
+<li>The SELECT phrase: Operators, WHERE and ORDER BY clauses
+
+</ul>
+<p>In order to be able to run the examples inserted throughout the text, download and execute now [<a rel="nofollow" class="external text" href="http://www.info.uaic.ro/~pmihaela/BD/scripts/script_faculty.sql">| this script</a>]
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Lab_2#Filtering_and_ordering_data:_WHERE_and_ORDER_BY_clauses_in_the_SELECT_phrase"><span class="tocnumber">1</span> <span class="toctext">Filtering and ordering data: WHERE and ORDER BY clauses in the SELECT phrase</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="Lab_2#Selecting_data_from_one_table"><span class="tocnumber">1.1</span> <span class="toctext">Selecting data from one table</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="Lab_2#NULL_values"><span class="tocnumber">1.2</span> <span class="toctext">NULL values</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="Lab_2#Concatenating_strings"><span class="tocnumber">1.3</span> <span class="toctext">Concatenating strings</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="Lab_2#Filtering_rows"><span class="tocnumber">1.4</span> <span class="toctext">Filtering rows</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="Lab_2#Ordering_the_results_of_a_query"><span class="tocnumber">1.5</span> <span class="toctext">Ordering the results of a query</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="Lab_2#Operators"><span class="tocnumber">2</span> <span class="toctext">Operators</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="Lab_2#Usual_arithmetic_operators"><span class="tocnumber">2.1</span> <span class="toctext">Usual arithmetic operators</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="Lab_2#String_operators"><span class="tocnumber">2.2</span> <span class="toctext">String operators</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="Lab_2#Comparison_operators"><span class="tocnumber">2.3</span> <span class="toctext">Comparison operators</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="Lab_2#Logical_operators"><span class="tocnumber">2.4</span> <span class="toctext">Logical operators</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="Lab_2#Set_operators"><span class="tocnumber">2.5</span> <span class="toctext">Set operators</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="Lab_2#Exercises"><span class="tocnumber">3</span> <span class="toctext">Exercises</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Filtering_and_ordering_data:_WHERE_and_ORDER_BY_clauses_in_the_SELECT_phrase">Filtering and ordering data: WHERE and ORDER BY clauses in the SELECT phrase</span></h2>
+<h3><span class="mw-headline" id="Selecting_data_from_one_table">Selecting data from one table</span></h3>
+<p>When one executes a SELECT command, he/she can decide which columns and which rows should be returned.
+</p><p>To obtain all the columns and all the rows from a table, run the following query: 
+</p><p><code>SELECT * FROM &lt;table_name&gt;;</code>
+</p><p>Exercise: return the content of table STUDENTS.
+</p><p>To return a subset of the columns, instead '*' you should supply a list of column names separated by comma. As an example, the following query extracts only students' first and last names: 
+</p><p><code>SELECT fname, lname FROM students;</code>
+</p><p><br />
+</p><p>When, for any reason, you dislike the column name appearing in the result, you can modify it by using aliases in the SELECT phrase. The alias must be inserted immediately after the column name and, optionally (but recommended for legibility) may be preceded by the "AS" keyword. If the alias is composed of several terms containing thus spaces, it must be put between quotation marks. For example, the following query will show a table containing instructors' last names with the header renamed to "Instructor name" 
+</p><p><code>SELECT lname AS "Instructor name" FROM instructors;</code>
+</p><p><span style="color:red">Observation:</span> The AS keyword is optional. In case the alias consists of only one term, quotation marks are not necessary; quatation marks are necessary only when the alias contains spaces or special characters and when we want the characters to respect the case (to be case sensitive). As an example, try to run the following query:
+</p><p><code>SELECT lname AS Instructor name FROM instructors;</code>
+</p><p><br />
+If there are several similar entries/records in the table, all of them will be shown. For example, extract our students' years of study by running the query:
+</p><p><code>SELECT year FROM students;</code>
+</p><p>The year of study will be returned for each student/record in the table. If we want to reduce the output by showing only once each value, we will use the "DISTINCT" keyword: 
+</p><p><code>SELECT DISTINCT year FROM students;</code>
+</p><p>The DISTINCT keyword can appear only once in the SELECT list and acts at the tuple level, not at the attribute level. Run and analyze the output for the following query:
+</p><p><code>SELECT DISTINCT year, groupno FROM students;</code>
+</p><p><br />
+<span style="color:red">Observation:</span> Although SQL reserved keywords were written with uppercase letters, SQL is not a case-sensitive language. We will use on this wiki (and hopefully also when solving exercises during the labs) a simple convention: uppercase letters for reserved words and lowercase letters for identifiers. Be aware that SQL distinguishes between uppercase and lowercase letters in the case of strings stored in a table. For example, if you execute <code>SELECT * FROM courses WHERE course_title='LOGICS';</code> on our table, it will not return any rows.
+</p><p><span style="color:red">Observation:</span> A SQL command can be written on several lines. It must end with a semicolon.
+</p><p>Sometimes, instead of showing row data stored in the table, we would like to process the data and show the results. These where operators come in. If for example, we would like to see how much each student would earn if the scholarship is increased by 10RON, you may use the following query:
+</p><p><code>SELECT fname, lname, scholarship + 10 FROM students;</code>
+</p><p><br />
+<span style="color:green">Exercise: Show half of the scholarship which is firstly increased by 100 RON. Take care of operators precedence. </span>
+</p>
+<h3><span class="mw-headline" id="NULL_values">NULL values</span></h3>
+<p>Sometimes, for some records, some attributes/columns cannot be assigned a value (i.e. not all students receive scholarships; a 0 value is not always the same thing with a missing value, in our case it may indicate that the student was selected for a scholarship but for the moment there are insufficient funds; an unexpected thing would happen if all scholarships would be increased with 100 RON: a student not earning any scholarship and with the table field set to 0 would end-up earning 100 RON).
+If no value is set to a field of a record, this field/attribute will be assigned the NULL value. A null value used in an algebraic expression generate also a null value as result.
+</p>
+<h3><span class="mw-headline" id="Concatenating_strings">Concatenating strings</span></h3>
+<p>To concatenate two strings we can use the || operator. The result is a new string. Let's see some examples:
+</p><p><code>SELECT 'Student '||fname||' '||lname||' is enrolled in the year of study '|| year ||'.' AS info FROM students;</code>
+</p><p><span style="color:red">
+Observation:</span> All strings mus be put between apostrophe marks. The only place where we use quotation marks is the alias.
+</p>
+<h3><span class="mw-headline" id="Filtering_rows">Filtering rows</span></h3>
+<p>We already saw how to filter duplicate rows using the DISTINCT keyword. To restrict further the data that will be shown, we can use the WHERE clause of the SELECT statement. 
+</p><p>This is optional and, when used, it will always follow after the name of the queried table and will specify a filtering condiction. For example, we could show only students in the first year of study by running:
+</p><p><code>SELECT fname, lname FROM students WHERE year = 1;</code>
+</p><p>The conditions that will be used in the WHERE clause are logical expressions that must return one of two possible values: TRUE or FALSE. These expressions may use any arithmetic or string operator but also logical operators. The next example will return the students that earn scholarships.
+</p><p><code>SELECT fname, lname FROM students WHERE scholarship IS NOT NULL;</code>
+</p><p>If we want to further filter the data and show only the first year students that receive scholarships, we make use of logical operators in order to use two filtering conditions: 
+</p><p><code>SELECT fname, lname FROM students WHERE scholarship IS NOT NULL AND year = 1;</code>
+</p><p><span style="color:red">Observation:</span> when evaluating complex logical expressions, the priority of the logical operators decreases in the enumeration: NOT, AND, OR.
+</p><p>A very useful operator for expressing filtering conditions for strings is LIKE. It allows us to formulate regular expressions to match strings stored in the database. These regular expressions may use symbol "%" (percent) which holds for any group of characters while "_" (underscore) holds for exactly one character. For example, if we want to select all the students whose names end with "escu", we can use:
+</p><p><code>SELECT fname, lname FROM students WHERE lname LIKE '%escu';</code>
+</p><p><span style="color:red">Observation:</span> when you need to use&#160;% or _ as part of a string, these must be preceded by the escape character \ (backslash).
+</p>
+<h3><span class="mw-headline" id="Ordering_the_results_of_a_query">Ordering the results of a query</span></h3>
+<p>To order the rows returned by a query, we can use the ORDER BY clause followed by a list of columns (or expressions built over column_names). Optionally, after each column name we can use one keyword from {ASC, DESC}  specifying increasing/decreasing order; by default the order is ascending.
+</p><p>Let's order the students by the year of study:
+</p><p><code>SELECT fname, lname, year FROM students ORDER BY year ASC;</code>
+</p><p>When there are several students in an year of study we would like to order them by their study_group:
+</p><p><code>SELECT fname, lname, year FROM students ORDER BY year ASC, groupno DESC;</code>
+</p><p>Let's build a query that has both the WHERE and the ORDER By clauses:
+</p><p><code>SELECT fname, lname, groupno FROM students WHERE year=1 ORDER BY groupno ASC;</code>
+</p><p>Also, we can specify the field/attribute to be used for ordering by its position in the table definition:
+</p><p><code>SELECT * FROM students ORDER BY 2;</code> -- orders the returned records by the family name
+</p>
+<h2><span class="mw-headline" id="Operators">Operators</span></h2>
+<h3><span class="mw-headline" id="Usual_arithmetic_operators">Usual arithmetic operators</span></h3>
+<table border="1">
+<tr>
+<td>Operator	</td>
+<td>Description	</td>
+<td>Example
+</td></tr>
+<tr>
+<td>*	</td>
+<td>multiplication - for all numerical types	</td>
+<td>SELECT value / 10 FROM grades;
+</td></tr>
+<tr>
+<td>/	</td>
+<td>division - for all numerical types	</td>
+<td>SELECT value* 5 FROM grades;
+</td></tr>
+<caption>	</caption>
+<caption>summation - for all numerical types and DATE  	</caption>
+<caption>SELECT value + 1 FROM grades;
+</caption>
+<tr>
+<td> -	</td>
+<td>subtraction - for all numerical types and DATE  	</td>
+<td>SELECT value-1 FROM grades;
+</td></tr></table>
+<p>If one of the operands is NULL the result is NULL
+</p>
+<h3><span class="mw-headline" id="String_operators">String operators</span></h3>
+<p><b>||</b>  - concatenation	
+</p><p>Ex:  
+<code>SELECT 'The name of the student is: ' || fname FROM students;</code>
+</p><p>If one of the operands is NULL, the result consists of the other operand; if both operands are NULL the result is NULL.
+</p>
+<h3><span class="mw-headline" id="Comparison_operators">Comparison operators</span></h3>
+<p>- return TRUE or FALSE, are applicable to all data types 
+</p>
+<table border="1">
+<tr>
+<td>Operator	</td>
+<td>Description    </td>
+<td>Example
+</td></tr>
+<tr>
+<td>= <br /> &gt; <br /> &gt;= <br /> &lt; <br />  &lt;= <br /> &lt;&gt;
+</td>
+<td>Binary operators, the usual meaning
+</td>
+<td>SELECT fname AS "Student" FROM students WHERE year = 2;
+</td></tr>
+<tr>
+<td>ANY/ <br /> SOME
+</td>
+<td>Operator applicable to a list of values or to the result of a query in conjunction with one of the common comparison operators above; the meaning is as follows: the common operator takes as a second operand each of the values in the list; it returns TRUE if <b>at least one</b> of the values in the list returns TRUE; otherwise the result is FALSE.
+</td>
+<td>SELECT * FROM students WHERE year = SOME (2,3);
+</td></tr>
+<tr>
+<td>ALL
+</td>
+<td>Same as ANY/SOME, with the difference that the result is TRUE only if the common operator returns TRUE for <b>all</b> the values in the list.
+</td>
+<td>SELECT * FROM students WHERE year &gt;= ALL (1, 2);
+</td></tr>
+<tr>
+<td>IN
+</td>
+<td>Checks if the first operand belongs to the list/set corresponding to the second operand. It is equivalent to „=ANY”
+</td>
+<td>SELECT * FROM students WHERE first_name IN ('Adrian', 'Alex');
+</td></tr>
+<tr>
+<td>NOT IN
+</td>
+<td>Returns FALSE if the first operand does not belong to the list/set corresponding to the second operand. It is equivalent to „&lt;&gt;ANY”
+</td>
+<td>SELECT * FROM students WHERE year NOT IN (1,2);
+</td></tr>
+<tr>
+<td>BETWEEN x AND y
+</td>
+<td>We can consider it as a ternary operator: it returna TRUE if the first operand satisfies in the same time the two conditions:  &gt;=x and &lt;=y, where x and y correspond to the other two operands.
+</td>
+<td>SELECT fname, lname FROM students WHERE year BETWEEN 1 AND 3;
+</td></tr>
+<tr>
+<td>LIKE
+</td>
+<td>Binary operator, checks if the first operand satisfies the pattern expressed by the second operand. The pattern is a string that may contain one of the following special characters::
+<dl><dd> <b>%</b>  any string, even the empty string (of length 0)</dd>
+<dd> <b>_</b>  exactly one character</dd></dl>
+</td>
+<td> SELECT * FROM students WHERE fname LIKE '%andr%';
+</td></tr>
+<tr>
+<td>IS [NOT] NULL
+</td>
+<td>The only way to check for NULL
+</td>
+<td>SELECT * FROM students WHERE scholarship IS NOT NULL AND scholarship &gt; 200;
+</td></tr>
+<tr>
+<td>EXISTS
+</td>
+<td>Checks if the subquery returns at least one row
+</td>
+<td>SELECT * FROM students WHERE NOT EXISTS (SELECT * FROM grades WHERE students.id_stud = grades.id_stud);<br /> SELECT * FROM students WHERE EXISTS(SELECT* FROM grades WHERE value=10 AND students.id_stud=grades.id_stud);
+</td></tr></table>
+<h3><span class="mw-headline" id="Logical_operators">Logical operators</span></h3>
+<table border="1">
+<tr>
+<td>Operator	</td>
+<td>Description	</td>
+<td>Example
+</td></tr>
+<tr>
+<td>NOT	</td>
+<td>negation	</td>
+<td>SELECT * FROM students WHERE NOT (scholarship IS NULL);
+</td></tr>
+<tr>
+<td>AND	</td>
+<td>logical AND </td>
+<td>SELECT * FROM students WHERE year='3' AND scholarship IS NOT NULL;
+</td></tr>
+<tr>
+<td>OR	</td>
+<td> logical OR	</td>
+<td>SELECT * FROM students WHERE year='3' OR scholarship IS NOT NULL;
+</td></tr></table>
+<h3><span class="mw-headline" id="Set_operators">Set operators</span></h3>
+<p>- The operands are queries (query results – therefore tables), their definition and restrictions of applicability are those specified in the relational algebra.
+</p>
+<table border="1">
+<tr>
+<td>Operator	</td>
+<td>Description	</td>
+<td>Example
+</td></tr>
+<tr>
+<td>UNION [ALL]	</td>
+<td>Sets union. If specifying ALL the duplicates are not eliminated.	</td>
+<td>SELECT lname FROM students WHERE year = '2' <br />UNION <br />SELECT lname FROM students WHERE year = '3';
+</td></tr>
+<tr>
+<td>INTERSECT [ALL]	</td>
+<td>Sets intersection, duplicates are eliminated.	</td>
+<td>SELECT last_name FROM students WHERE year = 2 <br /> INTERSECT <br />SELECT lname FROM students WHERE scholarship IS NOT NULL;
+</td></tr>
+<tr>
+<td>MINUS	</td>
+<td>Distinct rows from the first query which do not exist in the second query.	</td>
+<td>SELECT lname FROM students WHERE year = 3 <br /> MINUS <br /> SELECT lname FROM students WHERE scholarship IS NULL;
+</td></tr></table>
+<h2><span class="mw-headline" id="Exercises">Exercises</span></h2>
+<ol><li> Write a query to display the first name, last name, year of study and date of birth for all students. Edit in SQL*Plus and run. Save the query in a file named p1.sql.</li>
+<li> Display all information about students who have two occurrences of the letter "a" in their first name.</li>
+<li> Load the file p1.sql into the buffer. Give each column in the SELECT clause an alias. Run the query (Execute).</li>
+<li> Display the name concatenated with the first name followed by comma and the year of study. Then, sort ascending by the year of study. Name the column "Students by years of study".</li>
+<li> Display the first name, the last name and the date of birth of the students born between 1st of January 1995 and 10th of June 1997. Order the results in descending order of their year of study.</li>
+<li> Display the first name, the last name and the year in which they are (study year) for all the students born in the year 1995.</li>
+<li> Display every information you have about the students that don't have a scholarship.</li>
+<li> Display the first and last name of the students that have a scholarhip and are in the 2nd or 3rd year of study. Order the setudents alphabetically by their name and, if there are two students with the same name, display them in the reverse order of their first name.</li>
+<li> Display the students that have a scholarship, and its value if it would be increased by 15%</li>
+<li> Select/Show the students whose name starts with the letter 'P' and are in their first year of study.</li>
+<li> Display everything about the students which have the letter 'a' appearing two times in their names.</li>
+<li> Display everything about the students named “Susan”, “Jane” or “Maria”.</li>
+<li> Display all the students that have scholarship and are in the groups starting with 'A'.</li>
+<li> Display the first and last names of teachers whose last name ends with the letter "n".</li></ol>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.017 seconds
+Real time usage: 0.019 seconds
+Preprocessor visited node count: 58/1000000
+Preprocessor generated node count: 70/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:6-0!*!*!!en!*!* and timestamp 20240223025224 and revision id 173
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_2&amp;oldid=173">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_2&amp;oldid=173</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=Lab+2" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Lab_2"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:Lab_2&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="Lab_2#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Lab_2" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_2&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_2&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="Lab_2#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/Lab_2" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/Lab_2" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_2&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_2&amp;oldid=173" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_2&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 19 October 2022, at 07:30.</li>
+											<li id="footer-info-viewcount">This page has been accessed 21,674 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":122});
+}</script>
+	</body>
+</html>
+	

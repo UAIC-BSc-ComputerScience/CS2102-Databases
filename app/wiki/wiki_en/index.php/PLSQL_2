@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>PLSQL 2 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="PLSQL_2" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"PLSQL_2","wgTitle":"PLSQL 2","wgCurRevisionId":125,"wgRevisionId":125,"wgArticleId":20,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"PLSQL_2","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-PLSQL_2 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">PLSQL 2</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="PLSQL_2#mw-navigation">navigation</a>, 					<a href="PLSQL_2#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="PLSQL_2#Control_structures"><span class="tocnumber">1</span> <span class="toctext">Control structures</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="PLSQL_2#Conditional_control_structure"><span class="tocnumber">1.1</span> <span class="toctext">Conditional control structure</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="PLSQL_2#LOOPING_in_PLSQL"><span class="tocnumber">1.2</span> <span class="toctext">LOOPING in PLSQL</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="PLSQL_2#WHILE"><span class="tocnumber">1.2.1</span> <span class="toctext">WHILE</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="PLSQL_2#LOOP"><span class="tocnumber">1.2.2</span> <span class="toctext">LOOP</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="PLSQL_2#FOR"><span class="tocnumber">1.2.3</span> <span class="toctext">FOR</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="PLSQL_2#Using_cursors"><span class="tocnumber">2</span> <span class="toctext">Using cursors</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="PLSQL_2#Implicit_cursors"><span class="tocnumber">2.1</span> <span class="toctext">Implicit cursors</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="PLSQL_2#Explicit_Cursors"><span class="tocnumber">2.2</span> <span class="toctext">Explicit Cursors</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="PLSQL_2#Declaring_explicit_cursor_with_FOR_UPDATE_clause"><span class="tocnumber">2.3</span> <span class="toctext">Declaring explicit cursor with FOR UPDATE clause</span></a>
+<ul>
+<li class="toclevel-3 tocsection-11"><a href="PLSQL_2#Exercices"><span class="tocnumber">2.3.1</span> <span class="toctext">Exercices</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Control_structures">Control structures</span></h1>
+<p>A structured programming language, has to have three types of operations (<a rel="nofollow" class="external free" href="https://en.wikipedia.org/wiki/Structured_program_theorem">https://en.wikipedia.org/wiki/Structured_program_theorem</a>):
+</p>
+<ul><li> sequence</li>
+<li> conditions</li>
+<li> looping</li></ul>
+<p>PL/SQL also has those operations. In the first laboratory you met the sequence (although you had an example of conditional branching). Let's discuss the other two:
+</p>
+<h2><span class="mw-headline" id="Conditional_control_structure">Conditional control structure</span></h2>
+<p>In PLSQL checking some condition is done with the IF - THEN - ELSE - END IF command. After the IF keyword an expression that has a result a boolean value must be present. The format for this command is:
+</p><p><br />
+</p>
+<pre>
+IF boolean_expression THEN 
+         some instructions that will be executed if the boolean_expression is true;
+   ELSE
+         some instructions that will be executed if the boolean_expression is false;
+END IF; 
+
+</pre>
+<p>As in other programming languages, the ELSE section can be absent (together with the associated block of instructions). Here is an example:
+</p><p><br />
+</p>
+<pre>
+set serveroutput on;
+accept x prompt &quot;Please enter your name: &quot;; -- allows the user to enter a value
+DECLARE
+   v_number NUMBER(5);
+   x NUMBER(5);
+BEGIN   
+   v_number := &amp;x;
+   IF (v_number MOD 2 = 0)
+      THEN 
+        DBMS_OUTPUT.PUT_LINE('Number is even.');
+      ELSE
+        DBMS_OUTPUT.PUT_LINE('Number is odd.');
+   END IF;
+END; 
+
+</pre>
+<p>In the ELSE section you can insert a new condition. For this you can use the ELSIF and the new condition that has to be tested. This section will have a new THEN section and also an ELSE section. However, being part of the initial IF command, it does not have an END IF (except the one from the original IF). Let's see an example where we want to test if a number belongs to an interval:
+</p>
+<pre>
+DECLARE
+   v_number NUMBER(5) := 50;
+BEGIN
+   IF (v_number &lt; 10)
+       THEN
+           DBMS_OUTPUT.PUT_LINE('The number is less then 10.');
+       ELSIF (v_number &gt; 80) THEN
+           DBMS_OUTPUT.PUT_LINE('The number is greater then 80.');
+       ELSE
+           DBMS_OUTPUT.PUT_LINE('The number is in the interval [10,80]');  
+   END IF;
+END;
+</pre>
+<p>You can test a variable against more possible values. In this case you can use the CASE command. If none of the values matches the value of the variable, a DEFAULT section of commands will be executed. For example:
+</p>
+<pre>
+DECLARE
+   v_number NUMBER := 5;
+BEGIN
+   CASE (v_number )
+       WHEN 1 THEN DBMS_OUTPUT.PUT_LINE('First natural number bigger then 0.');
+       WHEN 2 THEN DBMS_OUTPUT.PUT_LINE('First even natural number.');
+       ELSE
+           DBMS_OUTPUT.PUT_LINE('Some number that is not 1 or 2');
+   END CASE;
+END;
+</pre>
+<p>The decode function can be emulated with a CASE instruction:
+</p>
+<pre>
+SELECT lname, fname,
+CASE scholarship
+   WHEN 450 THEN 'more then four hundred'
+   WHEN 350 THEN 'more then three hundred'
+   WHEN 250 THEN 'more then two hundred'
+   ELSE 'No scholarship'
+END
+FROM students;
+</pre>
+<p>CASE command can be used without having an initial operand. In this case, each section will have it's own boolean expression and will be executed only if that expression is evaluated to true:
+</p>
+<pre>
+SELECT lname, fname,
+CASE 
+   WHEN scholarship&gt;1200 THEN 'RICH'      
+   ELSE 'POOR'
+END
+FROM students;
+</pre>
+<h2><span class="mw-headline" id="LOOPING_in_PLSQL">LOOPING in PLSQL</span></h2>
+<p>As in other programming languages, PLSQL Loops can also be with initial conditioning (the first execution of the code will be conditioned by the boolean expression value), with final conditioning (the code will be executed at least once and will repeat if the condition holds true) or with a fixed number of steps (a particular case of initial conditioning loops). 
+</p><p>Initial condition loopin can be achieved by using WHILE(boolean_expression) ... END LOOP.
+</p><p>Final condition looping is done by using LOOP ... END LOOP structure.
+</p><p>Looping by a certain number of times is done by using FOR counter IN initial_value..final_value LOOP ... END LOOP;
+</p><p>Let's see some examples:
+</p>
+<h6><span class="mw-headline" id="WHILE">WHILE</span></h6>
+<pre>
+set serveroutput on;
+DECLARE
+   v_counter INTEGER := 0;
+BEGIN
+   WHILE (v_counter &lt; 10) LOOP       
+       v_counter := v_counter + 1;
+       DBMS_OUTPUT.PUT_LINE(v_counter );  
+   END LOOP;
+END;
+</pre>
+<h6><span class="mw-headline" id="LOOP">LOOP</span></h6>
+<p>When using LOOP command, you have to manually exit the loop. This is done by using the EXIT command (actually, in other programming languages this is like a WHILE(true) from where you exit using break; command). The exit command is usually followed by the condition in where you write what condition has to be accomplished to exit the loop (e.g EXIT WHEN (boolean_expression); ). You can also add a label to tell the code where to jump from the loop (when there are more nested loops and you want to exit to a certain loop).
+</p><p><br />
+</p>
+<pre>
+set serveroutput on;
+DECLARE
+   v_counter INTEGER := 0;
+BEGIN
+   LOOP
+       v_counter := v_counter + 1;
+       DBMS_OUTPUT.PUT_LINE(v_counter );  
+       EXIT WHEN v_counter = 10;
+   END LOOP;
+END;
+</pre>
+<h6><span class="mw-headline" id="FOR">FOR</span></h6>
+<p>We can use the FOR command when having an exact number of steps:
+</p>
+<pre>
+set serveroutput on;
+DECLARE
+   v_counter INTEGER := 0;
+BEGIN
+   FOR v_counter IN 1..10 LOOP
+       DBMS_OUTPUT.PUT_LINE(v_counter );  
+   END LOOP;
+END;
+</pre>
+<p>If you want the FOR command to go in reverse direction, you need to tell this before writing the interval of values: FOR v_counter IN REVERSE 1..10 LOOP .
+</p><p>EXIT can be written in any loop structure to exit it. Let's see a variant where exiting to a certain label is done:
+</p>
+<pre>
+set serveroutput on;
+DECLARE
+   v_counter1 INTEGER;
+   v_counter2 INTEGER;
+BEGIN
+   &lt;&lt;my_label&gt;&gt;
+   FOR v_counter1 IN 1..5 LOOP
+       FOR v_counter2 IN 10..20 LOOP
+           DBMS_OUTPUT.PUT_LINE(v_counter1 ||'-'||v_counter2 );  
+           EXIT my_label WHEN ((v_counter1=3) AND (v_counter2=17));
+       END LOOP;
+   END LOOP;
+END;
+</pre>
+<p>The CONTINUE command will skip the remaining lines in the loop and start with the next one. Replace the exit command in the previous code with the following one and test it:
+</p>
+<pre>
+CONTINUE WHEN ((v_counter1=3) AND (v_counter2=13));
+</pre>
+<p>How will you do this so you won't display the 3-17 combination&#160;?
+</p><p>A last command that can affect the way a loop executes is GOTO. This has the role to skip to a certain label and is not necessarily intended for loops:
+</p>
+<pre>
+set serveroutput on;
+BEGIN
+   GOTO my_label;
+   DBMS_OUTPUT.PUT_LINE('Won't display.');
+   &lt;&lt;my_label&gt;&gt;         
+   DBMS_OUTPUT.PUT_LINE('Will display.');
+END;
+</pre>
+<p>Can you use two GOTO commands to emulate a loop&#160;?
+</p>
+<h1><span class="mw-headline" id="Using_cursors">Using cursors</span></h1>
+<p>The memory where a query is kept together with the data that represent the result of that query form a cursor. There are two types of cursors: implicit and explicit. 
+</p>
+<ul><li> The implicit cursor cannot be controlled or manipulated by the user. It is automatically executed by the server and the user can only ask some information about how that was executed. </li>
+<li> The explicit cursor is defined by the user and he has the control of what it happens to it.</li></ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Implicit_cursors">Implicit cursors</span></h2>
+<p>Although the programmer don't have direct access to an implicit cursor, he can obtain some information about how it was executed (mostly about the number of rows processed). For this he can use the following attributes of an implicit cursor:
+</p>
+<ul><li> SQL%FOUND</li>
+<li> SQL%NOTFOUND</li>
+<li> SQL%ROWCOUNT.</li></ul>
+<p>Let's consider the following PLSQL code that will modify all the scholarships bigger then 500 (by adding 10):
+</p>
+<pre>
+DECLARE
+   v_rows INTEGER;
+BEGIN  
+   UPDATE students set scholarship = scholarship + 10 WHERE scholarship &gt; 500;
+   IF(SQL%FOUND) -- if the command updated at least one row, SQL%FOUND will be true
+      THEN
+         DBMS_OUTPUT.PUT_LINE('We processed ' || SQL%ROWCOUNT || ' scholarships.');
+      ELSE
+         DBMS_OUTPUT.PUT_LINE('Nobody got more money.');
+    END IF;
+END;
+</pre>
+<p>Implicit cursors are usually met when updating or deleting rows from the database;
+</p>
+<h2><span class="mw-headline" id="Explicit_Cursors">Explicit Cursors</span></h2>
+<p>Explicit cursors are declared and used in PLSQL scripts. As we have seen in the previous laboratory, a query can return 0, 1 or more rows. If it returns only one row then selecting it's value to a single variable (or a group of variables if you select more then only one column) is done by using the keyword INTO. We will postpone the discussion about 0 rows returned when we will discuss about exceptions. For now we will proceed to processing multiple rows by the usage of explicit cursors. 
+</p><p>There are several steps that have to be followed when you are using an explicit cursor: declaring, opening, fetching lines and closing the cursor.
+</p><p>An explicit cursor is usually defined in the declaration area of the PLSQL block (although that is not a rule). In order to declare an explicit cursor you can use the following format:
+</p><p><br />
+</p>
+<pre>
+DECLARE
+   CURSOR   name_of_cursor IS select_command;
+   ....
+</pre>
+<p>In this case, the select_command is any type of SELECT from SQL language (JOINS, GROUPS, etc.) If the cursor uses any variables, the variables have to be declared before the cursor.
+</p><p>The cursor will be opened in the BEGIN-END section. This is done with OPEN command followed by the name of the cursor to be opened. When the cursor is opened the SELECT command defining the cursor will be executed and the result will be available for the programmer to fetch line by line. A pointer is automatically positioned on the first row in the result and each time you fetch a new row the cursor will skip to the next one.
+</p>
+<pre>OPEN name_of_cursor 
+</pre>
+<p>Usually after the cursor is opened a LOOP section follows. In this loop each row of the result will be individually fetched and processed. To get the new line you can use the command FETCH followed by the name of the cursor you want to fetch data from (useful when you have two or more cursor opened in the same time). In the end of the fetch command you have to specifiy the variables that will be populated with the values from the fetched row. 
+</p><p><br />
+</p>
+<pre>FECTH name_of_cursor INTO v_var1, v_var2, v_var3;
+</pre>
+<p>To test if you got the last row you have to check the value of the NOTFOUND attribute of the cursor ( name_of_cursor%NOTFOUND ). This will be true when the FETCH operation was not able to get another line from the cursor. This is the moment where you usually exit the loop processing each row:
+</p><p><br />
+</p>
+<pre>EXIT WHEN name_of_cursor%NOTFOUND; --Probably immediately after FETCH
+</pre>
+<p>In the end, after exiting the loop processing each row you will have to close the cursor. Use CLOSE to do that. By calling again  OPEN command, the cursor will be reopened (by re-executing the SELECT command, re-positioning the pointer on the first row of the result, etc.)
+</p><p>Some other attributes an explicit cursor has are:
+</p>
+<ul><li>&#160;%ISOPEN, </li>
+<li>&#160;%FOUND, </li>
+<li>&#160;%ROWCOUNT. </li></ul>
+<p>(tip: display ROWCOUNT inside the loop).
+</p><p>Let's see where is a good place to exit the loop via an example:
+</p><p><br />
+</p>
+<pre>
+DECLARE
+   CURSOR list_of_scholarship_owners  IS
+       SELECT lname, fname FROM students WHERE scholarship IS NOT NULL;
+   v_lname students.lname%type;       
+   v_fname students.fname%type;
+BEGIN
+    OPEN list_of_scholarship_owners  ;
+    LOOP
+        FETCH list_of_scholarship_owners  INTO v_lname, v_fname ;
+        EXIT WHEN list_of_scholarship_owners%NOTFOUND;
+        DBMS_OUTPUT.PUT_LINE(v_lname||' '|| v_fname);
+    END LOOP;
+    CLOSE list_of_scholarship_owners  ;  
+END;
+</pre>
+<p>Obvious, the list of scholarship owners could be displayed with a simple SELECT. If you want the data to be accessible inside the script then you need to use a cursor (we can for example manipulate each name in the script, not only displaying it).
+</p><p>When you can avoid explicit cursors, do that. FSometimes you don't really need an explicit cursor for taking all the data from a table, change them somehow and then write them to another table. For example:
+</p>
+<pre>
+DROP TABLE people;
+CREATE TABLE people(lname Varchar2(10), fname varchar2(10));
+BEGIN
+   INSERT INTO people SELECT upper(lname), fname FROM students;
+   INSERT INTO people SELECT upper(lname), fname FROM instructors;
+END;
+</pre>
+<p>If the select we used in defining the cursor returns too many columns, they can be all taken in a single variable having the type name_of_cursor%ROWTYPE. In order to access a certain field from a variable of that type, we can add a dot and the name of the field. Here is an example:
+</p>
+<pre>
+DECLARE
+   CURSOR student_list IS
+       SELECT * FROM students;
+   v_std_row student_list%ROWTYPE;       
+BEGIN
+    OPEN student_list;
+    LOOP
+        FETCH student_list INTO v_std_row;
+        EXIT WHEN student_list%NOTFOUND;
+        DBMS_OUTPUT.PUT_LINE(v_std_row.lname||' '|| v_std_row.dob);
+    END LOOP;
+    CLOSE student_list;  
+END;
+</pre>
+<p>Explicit cursor are very easy to use in a FOR type of loop. You can automatically open the cursor and in each interation fetch the next row (they are doing automatic fetching). The fields in this line can be uset the same way. The previous code re-writen with a FOR command is:
+</p>
+<pre>
+DECLARE
+   CURSOR student_list IS
+       SELECT * FROM students;
+BEGIN
+    FOR v_std_row IN student_list LOOP    
+        DBMS_OUTPUT.PUT_LINE(v_std_row.lname||' '|| v_std_row.dob);
+    END LOOP;  
+END;
+</pre>
+<p>Observe that: 
+</p>
+<ul><li> in a FOR used together with a cursor we don't have the following operations: OPEN, FETCH, CLOSE;</li>
+<li> we didn't declared a variable of type&#160;%ROWTYPE (is automatically declared);</li>
+<li> the exit is done automatically when there are no more rows to fetch.</li></ul>
+<p><br />
+You can do even more: you can not declare the cursor at all, just use the select directly into the FOR construction (however you should use round paranthesys):
+</p>
+<pre>
+BEGIN
+    FOR v_std_row IN  (SELECT * FROM students) LOOP     
+        DBMS_OUTPUT.PUT_LINE(v_std_row.lname||' '|| v_std_row.dob);
+    END LOOP;  
+END;
+</pre>
+<p>An explicit cursor can be declared using parameters (for example because we would want to open the cursor to include only some data - e.g. opening the cursor for the student being first in his year and displaying his grades). For this we can open an explicit cursor having a parameter. The difference is that after the name of the cursor we need to add (in some round parenthesis) the variables that are going to be sued inside the definition of the cursor together with their types. When opening the cursor we will also provide the values for those variables. Here is an example:
+</p>
+<pre>
+DECLARE
+   CURSOR scholarship_owners (p_scholarship students.scholarship%type, p_year students.year%type) IS
+       SELECT lname, fname FROM students WHERE scholarship &gt; p_scholarship AND year &gt; p_year;
+   v_std_row scholarship_owners%ROWTYPE;       
+BEGIN
+    OPEN scholarship_owners (300,2); -- the values here can be computed by some other PL/SQL code
+    LOOP
+        FETCH scholarship_owners INTO v_std_row;
+        EXIT WHEN scholarship_owners%NOTFOUND;
+        DBMS_OUTPUT.PUT_LINE(v_std_row.lname||' '|| v_std_row.fname);
+    END LOOP;
+    CLOSE scholarship_owners;  
+END;
+</pre>
+<h2><span class="mw-headline" id="Declaring_explicit_cursor_with_FOR_UPDATE_clause">Declaring explicit cursor with FOR UPDATE clause</span></h2>
+<p>If while processing the rows we want to modify some data (or even delete the entire row), after declaring the cursor we can use the keywords "FOR UPDATE". This will lock the database, and restrict the access of some other users that want to modify the table selected by the cursor but will allow reading of data for those users. After the "FOR UPDATE" keywords you can specify what are the fields that you want to modify. This is done by using the OF keyword and the names of the columns to be updated (this will only restrict that columns).
+</p><p>If the table is already opened for update by some other cursor, you can specify a number of seconds for the script to pause and retry the reopening of the cursor; if it fails the second time an error will be returned. Adding a number of seconds is done by the use of the keyword WAIT and the number of seconds (or you can use NOWAIT if you want the error to be returned the first time). 
+</p><p>To modify the current row, after the command updating the data (or deleting the row) you have to add the keywords "WHERE CURRENT OF" followed by the name of the cursor where the update will be done.
+</p><p>For example, here is an cursor that updates all the students having some problems with passing at some course:
+</p>
+<pre>
+DECLARE 
+   CURSOR update_grades IS
+      SELECT * FROM grades FOR UPDATE OF value NOWAIT;
+BEGIN
+   FOR v_row IN update_grades LOOP
+       IF (v_row.value &lt; 5) 
+            THEN 
+                 UPDATE grades SET value=5 WHERE CURRENT OF update_grades;
+       END IF;
+   END LOOP;
+END;
+</pre>
+<p><br />
+The update in the code will modify the value in the table, not in the cursor.
+</p><p><br />
+</p>
+<h6><span class="mw-headline" id="Exercices">Exercices</span></h6>
+<p>1. (4pt) Build an anonymous PLSQL code that will populate a table containing two fields A and B this way: The value of field A will be a number in 1..10000 interval that have the sum of all digits modulo 9 equal to a value declared as a constant in the declaration section of the script (obviously it will have a value smaller then 9). The field B will be 0 or 1: 0 when the number is not a prime number and 1 when the number is prime.
+</p><p>2. (2pt) Using an explicit cursor opened with the FOR UPDATE clause, build a script that will update the values in field B (from exercice 1) such that instead displaying the primality of the number it will show if the number is or isn't a Fibonacci number. The script will display the number of updated values (the number of values that changed from 0 to 1 plus the number of values that changed from 1 to 0).
+</p><p>3. (4pt) Without using any grouping function or join, cartesian product, display the name, the grades and the courses where those grades are taken of the best student in the faculty that has at least three grades. If there are two best students, display the one that is in the higher year or, if they are both in the same year, display the one that is the first in alphabetical order.
+</p><p><br />
+Test the last exercise by using the following query:
+</p>
+<pre>
+select T1.id, T1.fname, T1.lname, T1.year, c.course_title, n.value, T1.&quot;avg&quot; from ( select * from (select  s.id, s.fname, s.lname, s.year, 
+avg(n.value) as &quot;avg&quot; from students s join grades n on n.id_student=s.id group by s.id, s.fname, s.lname, s.year, s.fname, s.lname
+having count(n.value) &gt;= 3 order by avg(n.value) desc, s.year desc, s.fname asc, s.lname asc ) where rownum = 1) T1 join grades n on
+n.id_student = T1.id join courses c on c.id = n.id_course;
+
+</pre>
+<!-- 
+NewPP limit report
+CPU time usage: 0.015 seconds
+Real time usage: 0.016 seconds
+Preprocessor visited node count: 261/1000000
+Preprocessor generated node count: 548/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:20-0!*!*!!en!*!* and timestamp 20240222225610 and revision id 125
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_2&amp;oldid=125">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_2&amp;oldid=125</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=PLSQL+2" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="PLSQL_2"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:PLSQL_2&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="PLSQL_2#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="PLSQL_2" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_2&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_2&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="PLSQL_2#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/PLSQL_2" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/PLSQL_2" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_2&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_2&amp;oldid=125" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_2&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 12 March 2018, at 08:21.</li>
+											<li id="footer-info-viewcount">This page has been accessed 10,823 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":54});
+}</script>
+	</body>
+</html>
+	

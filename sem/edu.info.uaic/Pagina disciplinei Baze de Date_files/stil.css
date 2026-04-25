@@ -1,0 +1,119 @@
+body{
+    background-color:#E0FBFC;
+}
+
+
+.fakeimg {
+   height: 200px;
+   background: #aaa;      
+}
+.navbar-custom {
+ background-color:#3D5A80;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+   color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+   color: rgba(255,255,255,.5);
+   cursor:pointer;      
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+   color: #ffffff;
+}  
+
+.custom-toggler.navbar-toggler {
+   border-color: #293241;
+}
+.custom-toggler .navbar-toggler-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(148,97,142, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.dropdown-menu, .dropdown-item{
+   background-color:#fff;
+}             
+.dropdown-item{
+   color: rgba(255,255,255,.5); 
+}  
+.dropdown .dropdown-menu a:hover
+{
+ color: #fff;
+ background-color:#3D5A80;
+ border-color: #fff;
+}  
+
+
+.jumbotron{
+background-color:#293241;
+color:#F8EEE7;  
+}
+
+.top-margin{
+margin-top:40px;
+}  
+
+h1{
+ color: #F8EEE7;
+ font-size: 28px;
+}
+h2, h3, h4, h5, h6{
+   color: #3D5A80;  
+}
+
+
+
+.grape{
+  background-color:#293241;
+  color:#F8EEE7;
+}
+.eggplant{
+  background-color:#3D5A80;
+  color:#F8EEE7;
+}
+.sand{
+  background-color:#F4DECB;
+}
+.shell{
+  background-color:#F8EEE7;
+}
+
+table tr td{
+padding:2px !important;
+}
+
+#ocupare{
+ width:80%;
+ margin:auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+     
+}
+#ocupare > tbody > tr > td{
+ text-align:center; 
+}
+
+#ocupare > thead > tr > th{ 
+ text-align:center; 
+}
+#ocupare > tbody > tr:nth-child(2n+1){
+ background-color:lightgray;
+}
+
+tr:nth-child(even) {background-color: #C4E7E8;}
+
+th{background-color: #A8D3D4;}
+
+table, tr, td, th{
+   border:1px solid black;
+   padding: 5px;
+   vertical-align:top;
+}
+
+pre{
+border:1px dashed black;
+
+}

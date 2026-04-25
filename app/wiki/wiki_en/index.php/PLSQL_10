@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>PLSQL 10 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="PLSQL_10" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"PLSQL_10","wgTitle":"PLSQL 10","wgCurRevisionId":155,"wgRevisionId":155,"wgArticleId":27,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"PLSQL_10","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-PLSQL_10 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">PLSQL 10</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="PLSQL_10#mw-navigation">navigation</a>, 					<a href="PLSQL_10#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="PLSQL_10#UTL_TCP"><span class="tocnumber">1</span> <span class="toctext">UTL_TCP</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="PLSQL_10#CONNECTION_Record_Type"><span class="tocnumber">1.1</span> <span class="toctext">CONNECTION Record Type</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="PLSQL_10#OPEN_CONNECTION_Function"><span class="tocnumber">1.2</span> <span class="toctext">OPEN_CONNECTION Function</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="PLSQL_10#SECURE_CONNECTION_Procedure"><span class="tocnumber">1.3</span> <span class="toctext">SECURE_CONNECTION Procedure</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="PLSQL_10#AVAILABLE_Function"><span class="tocnumber">1.4</span> <span class="toctext">AVAILABLE Function</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="PLSQL_10#FLUSH_Procedure"><span class="tocnumber">1.5</span> <span class="toctext">FLUSH Procedure</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="PLSQL_10#GET_LINE.2C_and_GET_LINE_NCHAR_Functions"><span class="tocnumber">1.6</span> <span class="toctext">GET_LINE, and GET_LINE_NCHAR Functions</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="PLSQL_10#GET_RAW.2C_GET_TEXT.2C_and_GET_TEXT_NCHAR_Functions"><span class="tocnumber">1.7</span> <span class="toctext">GET_RAW, GET_TEXT, and GET_TEXT_NCHAR Functions</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="PLSQL_10#READ_LINE_Function"><span class="tocnumber">1.8</span> <span class="toctext">READ_LINE Function</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="PLSQL_10#READ_RAW.2C_and_READ_TEXT_Functions"><span class="tocnumber">1.9</span> <span class="toctext">READ_RAW, and READ_TEXT Functions</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="PLSQL_10#WRITE_LINE.2C_WRITE_RAW.2C_and_WRITE_TEXT_Functions"><span class="tocnumber">1.10</span> <span class="toctext">WRITE_LINE, WRITE_RAW, and WRITE_TEXT Functions</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="PLSQL_10#CLOSE_CONNECTION_and_CLOSE_ALL_CONNECTIONS_Procedures"><span class="tocnumber">1.11</span> <span class="toctext">CLOSE_CONNECTION and CLOSE_ALL_CONNECTIONS Procedures</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="PLSQL_10#Exercices"><span class="tocnumber">2</span> <span class="toctext">Exercices</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="UTL_TCP">UTL_TCP</span></h2>
+<p>Acest pachet este definit in fisierul utltcp.sql (care este gasit in acelasi fisier in care se afla si utlfile.sql).  Pachetul pune la dispozitie functionalitatile
+protocului TCP/IP pe partea de client prin deschiderea unui socket pentru a comunica cu un server prin orice protocol precum HTTP, SMTP, sau FTP. Cateva obiecte ce
+ne sunt la dispozitie in acest pachet sunt urmatoarele...
+</p>
+<h3><span class="mw-headline" id="CONNECTION_Record_Type">CONNECTION Record Type</span></h3>
+<p>This package is defined in the utltcp.sql (which is found in the same file as utlfile.sql). The package provides the TCP/IP functionalities on the client side by 
+opening a socket to communicate with a server through any protocol such as HTTP, SMTP or FTP. Some objects which we can use in this package are...
+</p>
+<pre>
+TYPE connection IS RECORD (
+    remote_host    VARCHAR2(255),
+    remote_port    PLS_INTEGER,
+    local_host     VARCHAR2(255),
+    local_port     PLS_INTEGER,
+    charset        VARCHAR2(30),
+    newline        VARCHAR2(2),
+    tx_timeout     PLS_INTEGER,
+    private_sd     PLS_INTEGER);
+/
+
+</pre>
+<ul><li> REMOTE_HOST&#160;: this parameter contains the remote host's name for the duration of the connection. This field is NULL if the connection is not estabilished.</li>
+<li> REMOTE_PORT&#160;: this parameter contains the remote host's port for the duration of the connection. This field is NULL if the connection is not estabilished.</li>
+<li> LOCAL_HOST&#160;: this parameter contains the name of the local host used for the connection. This field is NULL if the connection is not estabilished. Currently, this parameter is not supported.</li>
+<li> LOCAL_PORT&#160;: this parameter contains the port of the local host used for the connection. This field is NULL if the connection is not estabilished. Currently, this parameter is not supported.</li>
+<li> CHARSET&#160;: this parameter is used for character conversion.</li>
+<li> NEWLINE&#160;: this parameter contains the newline character sequence.</li>
+<li> TX_TIMEOUT&#160;: this parameter contains the timeout time in seconds before giving up the connection in the attempt time.</li>
+<li> PRIVATE_SD&#160;: this parameter is used for the internal use of the package and must not be manipulated.</li></ul>
+<h3><span class="mw-headline" id="OPEN_CONNECTION_Function">OPEN_CONNECTION Function</span></h3>
+<p>This function opens a connection to the mentioned web service using the TCP/IP protocol. 
+The connection opened by this function stays open and can be transffered between databases using shared server configuration. 
+These connections must be explicitly closed. Leaving them open leads to undesired ressource usage. The functions prototype is as follows...
+</p>
+<pre>
+UTL_TCP.OPEN_CONNECTION (
+   remote_host      IN VARCHAR2,
+   remote_port      IN PLS_INTEGER,
+   local_host       IN VARCHAR2 DEFAULT NULL,
+   local_port       IN PLS_INTEGER DEFAULT NULL,
+   in_buffer_size   IN PLS_INTEGER DEFAULT NULL,
+   out_buffer_size  IN PLS_INTEGER DEFAULT NULL,
+   charset          IN VARCHAR2 DEFAULT NULL,
+   newline          IN VARCHAR2 DEFAULT CRLF,
+   tx_timeout       IN PLS_INTEGER DEFAULT NULL,
+   wallet_path      IN VARCHAR2 DEFAULT NULL,
+   wallet_password  IN VARCHAR2 DEFAULT NULL)
+ RETURN connection;
+
+</pre>
+<ul><li> IN_BUFFER_SIZE&#160;: this parameter accepts the size of the input buffer to increase the performance of the execution of the information received from the server</li>
+<li> OUT_BUFFER_SIZE&#160;: this parameter accepts the size of the output buffer to increase the performance of the execution of the information sent to the server</li>
+<li> WALLET_PATH&#160;: this parameter accepts the wallet path for the stored certificates which are necessary to make a request for information from a secure connection. The format is file: &lt;Directory_path&gt;</li>
+<li> WALLET_PASSWORD&#160;: this parameter accepts the password necessary to open the wallet. When the parameter AUTO_LOGIN is enabled, this parameter can be set to NULL.</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="SECURE_CONNECTION_Procedure">SECURE_CONNECTION Procedure</span></h3>
+<p>This procedure secures the estabilished TCP/IP connection using the SSL/TLS configuration. This requires an Oracle wallet with a valid
+certificate which must be specified during the connection call using the OPEN_CONNECTION function. The prototype is...
+</p>
+<pre>
+UTL_TCP.SECURE_CONNECTION (c IN OUT NOCOPY connection);
+
+</pre>
+<ul><li> C&#160;:       this parameter accepts and returns the connection details from the server from which we receive information.</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="AVAILABLE_Function">AVAILABLE Function</span></h3>
+<p>This function returns the number of available bytes for reading from the connected server without blocking after the connection is estabilished. On some platforms, this function 
+can return 1, if there exists information that can be received from the server, or 0, otherwise. The function is used to perform safety checks to verify if the 
+information are available or not, before reading and resource allocation for reading said information. The function prototype is...
+</p>
+<pre>
+UTL_TCP.AVAILABLE (
+   c            IN OUT NOCOPY connection,
+   timeout      IN PLS_INTEGER DEFAULT 0)
+ RETURN PLS_INTEGER;
+
+</pre>
+<ul><li> TIMEOUT&#160;: this parameter accepts the timeout time in seconds before giving up on a connection during the attempt time</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="FLUSH_Procedure">FLUSH Procedure</span></h3>
+<p>This procedure flushes all information to the server from the output buffer after estabilishing a connection. The prototype is...
+</p>
+<pre>
+UTL_TCP.FLUSH(c IN OUT NOCOPY connection);
+
+</pre>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="GET_LINE.2C_and_GET_LINE_NCHAR_Functions">GET_LINE, and GET_LINE_NCHAR Functions</span></h3>
+<p>These functions return the row of data from the database. The functions prototypes are...
+</p>
+<pre>
+UTL_TCP.GET_LINE (
+   c                IN OUT NOCOPY connection,
+   remove_crlf      IN BOOLEAN DEFAULT FALSE,
+   peek             IN BOOLEAN DEFAULT FALSE)
+ RETURN VARCHAR2;
+
+UTL_TCP.GET_LINE_NCHAR (
+   c                IN OUT NOCOPY connection,
+   remove_crlf      IN BOOLEAN DEFAULT FALSE,
+   peek             IN BOOLEAN DEFAULT FALSE)
+ RETURN NVARCHAR2;
+
+</pre>
+<ul><li> REMOVE_CRLF&#160;: this parameter removes trailing CRLF characters from the received message</li>
+<li> PEEK&#160;: the parameter is set to a boolean value of true when we want to look-ahead at the information without losing it from the queue and it will be available</li></ul>
+<p>for reading at a future call. This parameter needs an input buffer to be created before the connection opening. 
+This buffer will hold the information available to peek without conflicting with te information from the next call.
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="GET_RAW.2C_GET_TEXT.2C_and_GET_TEXT_NCHAR_Functions">GET_RAW, GET_TEXT, and GET_TEXT_NCHAR Functions</span></h3>
+<p>These functions return raw data, text data and, respectively, text data in national character read from the server. The functions prototypes are...
+</p>
+<pre>
+UTL_TCP.GET_RAW (
+   c                IN OUT NOCOPY connection,
+   len              IN PLS_INTEGER DEFAULT 1,
+   peek             IN BOOLEAN     DEFAULT FALSE)
+ RETURN RAW;
+
+UTL_TCP.GET_TEXT (
+   c                IN OUT NOCOPY connection,
+   len              IN PLS_INTEGER DEFAULT 1,
+   peek             IN BOOLEAN     DEFAULT FALSE)
+ RETURN VARCHAR2;
+
+UTL_TCP.GET_TEXT_NCHAR (
+   c                IN OUT NOCOPY connection,
+   len              IN PLS_INTEGER DEFAULT 1,
+   peek             IN BOOLEAN DEFAULT FALSE)
+ RETURN NVARCHAR2;
+
+</pre>
+<ul><li> LEN&#160;: this parameter accepts the number of bytes of information which will be received</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="READ_LINE_Function">READ_LINE Function</span></h3>
+<p>This function receives a line of text from the server in an open connection. A line feed, carriage return or a carriage return 
+followed by a linefeed determines the line separator. The function return the number of characters of data received. The prototype is as follows...
+.
+</p>
+<pre>
+UTL_TCP.READ_LINE (
+   c           IN OUT NOCOPY connection,
+   data        IN OUT NOCOPY VARCHAR2 CHARACTER SET ANY_CS,
+   peek        IN BOOLEAN DEFAULT FALSE)
+ RETURN PLS_INTEGER;
+
+</pre>
+<ul><li> DATA&#160;: this parameter accepts and returns the received information</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="READ_RAW.2C_and_READ_TEXT_Functions">READ_RAW, and READ_TEXT Functions</span></h3>
+<p>These function receive binary data, or, respectively, text data from the server with an open connection. The functions return data only if the specified number of bytes 
+is read or if (End Of Input) is reached. The size of the VARCHAR2 buffer should be equal with the number of characters which wll be read, multiplied with the maximum
+number of bytes of a character from the set of characters from the database. This function returns the number of characters of data which have been received.
+The functions prototypes are...
+</p><p><br />
+</p>
+<pre>
+UTL_TCP.READ_RAW (
+   c                        IN OUT NOCOPY connection,
+   data                     IN OUT NOCOPY RAW,
+   len                      IN PLS_INTEGER DEFAULT 1,
+   peek  IN                 BOOLEAN DEFAULT FALSE)
+ RETURN PLS_INTEGER;
+
+UTL_TCP.READ_TEXT (
+   c                        IN OUT NOCOPY connection,
+   data                     IN OUT NOCOPY VARCHAR2 CHARACTER SET ANY_CS,
+   len  IN                  PLS_INTEGER DEFAULT 1,
+   peek IN                  BOOLEAN DEFAULT FALSE)
+ RETURN PLS_INTEGER;
+
+</pre>
+<h3><span class="mw-headline" id="WRITE_LINE.2C_WRITE_RAW.2C_and_WRITE_TEXT_Functions">WRITE_LINE, WRITE_RAW, and WRITE_TEXT Functions</span></h3>
+<p>These functions write a line of text, a binary message, and, respectively, a text mesagge to the server in an open connection. The functions return the number of characters 
+of data received after writing the number of bytes specified to the server (in case of WRITE_RAW and WRITE_TEXT). The WRITE_LINE function adds a newline 
+character to the message before sending it. The WRITE_TEXT function converts the information to a on-the-wire character set before sending it.
+The functions prototypes are...
+</p><p><br />
+</p>
+<pre>
+UTL_TCP.WRITE_LINE (
+   c                        IN OUT NOCOPY connection,
+   data                     IN VARCHAR2 DEFAULT NULL CHARACTER SET ANY_CS)
+ RETURN PLS_INTEGER;
+
+UTL_TCP.WRITE_RAW (
+   c                        IN OUT NOCOPY connection,
+   data                     IN RAW,
+   len                      IN PLS_INTEGER DEFAULT NULL)
+ RETURN PLS_INTEGER;
+
+UTL_TCP.WRITE_TEXT (
+   c                        IN OUT NOCOPY connection,
+   data                     IN VARCHAR2 CHARACTER SET ANY_CS,
+   len                      IN PLS_INTEGER DEFAULT NULL)
+ RETURN num_chars PLS_INTEGER;
+
+</pre>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="CLOSE_CONNECTION_and_CLOSE_ALL_CONNECTIONS_Procedures">CLOSE_CONNECTION and CLOSE_ALL_CONNECTIONS Procedures</span></h3>
+<p>These procedures close a single connection, respectively all connections. A TCP/IP connecton remains open until these functions are called. Not doing this will lead to
+unwanted resource usage. The procedures prototypes are...
+</p><p><br />
+</p>
+<pre>
+UTL_TCP.CLOSE_CONNECTION (c IN OUT NOCOPY connection);
+
+UTL_TCP.CLOSE_ALL_CONNECTIONS;
+
+</pre>
+<p>Aside from functions and procedures, the UTL_TCP package also offers us some exceptions which can be useful to us.
+</p>
+<pre>
+buffer_too_small               EXCEPTION;  -- Buffer is too small for I/O
+end_of_input                   EXCEPTION;  -- End of input from connection
+network_error                  EXCEPTION;  -- Network error
+bad_argument                   EXCEPTION;  -- Bad argument passed in API call
+partial_multibyte_char         EXCEPTION;  -- A partial multi-byte char found
+transfer_timeout               EXCEPTION;  -- Transfer time-out occurred
+network_access_denied          EXCEPTION;  -- Network access denied
+
+buffer_too_small_errcode       CONSTANT PLS_INTEGER:= -29258;
+end_of_input_errcode           CONSTANT PLS_INTEGER:= -29259;
+network_error_errcode          CONSTANT PLS_INTEGER:= -29260;
+bad_argument_errcode           CONSTANT PLS_INTEGER:= -29261;
+partial_multibyte_char_errcode CONSTANT PLS_INTEGER:= -29275;
+transfer_timeout_errcode       CONSTANT PLS_INTEGER:= -29276;
+network_access_denied_errcode  CONSTANT PLS_INTEGER:= -24247;
+ 
+</pre>
+<p>And now, we will create an iterative server in JAVA, and a client application in PL/SQL.
+</p><p><b>JAVA CODE</b>
+</p>
+<pre>
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        ServerSocket listener = new ServerSocket(8010);
+        try {
+            while (true) {
+                System.out.println(&quot;Waiting client...&quot;);
+                Socket socket = listener.accept();
+                System.out.println(&quot;Received client...&quot;);
+
+                BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                try {
+                    PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+
+                    String inputLine = in.readLine();
+                    if (null != inputLine) {
+                        out.println(inputLine.toUpperCase());
+                    }
+                    out.flush();
+                    out.close();
+                } finally {
+                    socket.close();
+                }
+            }
+        } finally {
+            listener.close();
+        }
+    }
+}
+
+</pre>
+<p><b>PL/SQL CODE</b>
+</p>
+<pre>
+SET SERVEROUTPUT ON
+/
+CLEAR SCREEN
+/
+DECLARE
+    CONN            UTL_TCP.CONNECTION;
+    RETVAL          BINARY_INTEGER;
+    L_RESPONSE      VARCHAR2(1000) := '';
+    L_TEXT          VARCHAR2(1000);    
+BEGIN
+    
+    --We open the connection...
+    CONN := UTL_TCP.OPEN_CONNECTION(
+        REMOTE_HOST   =&gt; '127.0.0.1',
+        REMOTE_PORT   =&gt; 8010,
+        TX_TIMEOUT    =&gt; 10
+    );
+    
+    L_TEXT := 'Hello there...';
+    --We write in socket...
+    RETVAL := UTL_TCP.WRITE_LINE(CONN,L_TEXT);
+    UTL_TCP.FLUSH(CONN);
+    
+    --We check if we have received something and read the answer from the socket...
+    BEGIN
+        WHILE UTL_TCP.AVAILABLE(CONN, 10) &gt; 0 LOOP
+            L_RESPONSE := L_RESPONSE ||  UTL_TCP.GET_LINE(CONN,TRUE);
+        END LOOP;
+    EXCEPTION
+        WHEN UTL_TCP.END_OF_INPUT THEN
+            NULL;
+    END;
+
+    DBMS_OUTPUT.PUT_LINE('Response from Socket Server : ' || L_RESPONSE);
+    
+    --We close the connection because, otherwise, we would be wasting resources...
+    UTL_TCP.CLOSE_CONNECTION(CONN);
+EXCEPTION
+    WHEN OTHERS THEN
+        RAISE_APPLICATION_ERROR(-20101, SQLERRM);
+        UTL_TCP.CLOSE_CONNECTION(CONN);
+END;
+/
+
+</pre>
+<p><b>Observation</b>
+</p><p>If it all goes alright, you should see te following message...
+</p>
+<pre>
+Response from Socket Server : HELLO THERE...
+
+
+PL/SQL procedure successfully completed.
+ 
+</pre>
+<p>If not...
+</p>
+<ul><li> Package Error</li></ul>
+<pre>
+PLS-00201: identifier 'UTL_TCP' must be declared
+PLS-00320: the declaration of the type of this
+expression is incomplete or malformed
+ 
+</pre>
+<p>Explanation: The user tries to use the UTL_TCP package, but doesn't have the permission.
+</p><p>Solution: Open SQL PLUS and login as the admin using <i>CONN / AS SYSDBA;</i>
+Run this command: <i>GRANT EXECUTE ON UTL_TCP TO STUDENT;</i>
+</p>
+<ul><li> ACL Error</li></ul>
+<pre>
+ORA-24247: network access denied by access control list (ACL)
+ 
+</pre>
+<p>Explanation: From Oracle 11g, Access Control List is introduced. We cand control who has access to packkages through <i>GRANT</i>, but now we can also control what
+recources the users can use. In the example above, we have access to the UTL_TCP package, but we can't connect because we don't have the permission
+to use the resources at connect.
+</p><p><br />
+Solutie: Deschideti SQL PLUS si intrati pe contul de admin folosind <i>CONN / AS SYSDBA;</i>
+Rulati scriptul:
+</p>
+<pre>
+ 
+BEGIN
+  DBMS_NETWORK_ACL_ADMIN.CREATE_ACL(acl         =&gt; 'example.xml',
+                                    description =&gt; 'UTL TCP EXAMPLE',
+                                    principal   =&gt; 'STUDENT',
+                                    is_grant    =&gt; true,
+                                    privilege   =&gt; 'connect');
+ 
+  DBMS_NETWORK_ACL_ADMIN.ADD_PRIVILEGE(acl       =&gt; 'example.xml',
+                                       principal =&gt; 'STUDENT',
+                                       is_grant  =&gt; true,
+                                       privilege =&gt; 'resolve');
+ 
+  DBMS_NETWORK_ACL_ADMIN.ASSIGN_ACL(acl  =&gt; 'example.xml',
+                                    host =&gt; '127.0.0.1');
+END;
+/
+COMMIT;
+
+</pre>
+<p><br /> 
+</p>
+<h2><span class="mw-headline" id="Exercices">Exercices</span></h2>
+<p>1. (3pt) <i>HTTP Request</i>
+</p><p>Create a stored procedure which will connect to a web server and will make a asimple HTTP reqest. The function will have as parameters the host name and port.
+The received result will be printed in the created function. If you can't connect to the host, it will only print 'FAIL'. Test in an anonymus block with a few hosts.
+</p><p><br />
+2. (4pt) <i>SMTP Server</i>
+</p><p>Create a stored procedure which will have the role of connecting to a SMTP server. The procedure will receive as arguments, the host of the mail serverand the respective
+port, with whom it will estabilish a connection. In case it can't connect, the message shown will be 'FAIL'. The created procedure will send a single message to a
+random e-mail address. The data necessary or the content of the mail are irrelevant and, so, it will be hardcoded. In case of an exception appearing while using the
+SMTP protocol, it will be announced and the procedure will end it's execution. At the end of the sending, the message shown will be 'MAIL SENT'. As a final check, we
+will see if the mail was received and read it's contents.
+</p><p>PS &#160;: reread about the SMTP protocol, which was taught at the 'Computer Networks' course
+</p><p>PS2: you can se any program necessary for testing the SMTP server
+</p><p>Bonus (5pt): Whoever manages to login to gmail and send the e-mail from there as 5 bonus points.The e-mail will be sent to the laboratory professor.
+</p><p><br />
+3. (3pt) <i>Chit-Chat</i>
+</p><p>Create a client in PL/SQL and an iterative server in JAVA. The server will have to manage a chat between exactly 2 persons. The client is a stored procedure which has 
+as arguments the host adress, the port it will connect to, the inputdirectory and the name of the input file. The respective input file contains the lines which the
+client must use(in the exact order as in the file, empty lines will be ignored). The way the chat must work is as follows: client 1 reads the line from the file,
+prints it in the console, transmits it to the server and the server will send it to client 2, which will print it in the console. This way, at the end of the
+conversation, each client's console will contain the complete dialogue. When a client doesn't have any more lines, it will print only the lines of the other user.
+Each user has at least one line. The format used is the one from the following model.
+</p><p>Example. Let there be the users ALLEN and MARK, and the input files F1.txt (ALLEN'S)
+</p><p>line1
+line3
+line5
+line7
+line9
+line11
+</p><p>and F2.txt (MARK'S)
+</p><p>line2
+line4
+line6
+</p><p>Considering that ALLEN connected first, the 2 of them will have as the following as the output printed:
+</p><p>ALLEN: line1
+MARK: line2
+ALLEN: line3
+MARK: line4
+ALLEN: line5
+MARK: line6
+ALLEN: line7
+ALLEN: line9
+ALLEN: line11
+</p><p>PS: aside from checking the xml, you will have to add another user with connect privileges to solve the problem (exactly like in the model above)
+</p><p><br />
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.013 seconds
+Real time usage: 0.017 seconds
+Preprocessor visited node count: 212/1000000
+Preprocessor generated node count: 420/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:27-0!*!*!!en!*!* and timestamp 20240223154442 and revision id 155
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_10&amp;oldid=155">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_10&amp;oldid=155</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=PLSQL+10" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="PLSQL_10"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:PLSQL_10&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="PLSQL_10#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="PLSQL_10" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_10&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_10&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="PLSQL_10#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/PLSQL_10" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/PLSQL_10" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_10&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_10&amp;oldid=155" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_10&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 21 May 2018, at 07:47.</li>
+											<li id="footer-info-viewcount">This page has been accessed 2,066 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":99});
+}</script>
+	</body>
+</html>
+	

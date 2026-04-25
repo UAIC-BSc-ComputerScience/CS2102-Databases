@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0046)https://edu.info.uaic.ro/blockchain/lab07.html -->
+<html class=" nlthifee idc0_350"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="./Blockchain_files/style.css" rel="stylesheet" type="text/css" media="all">
+<title>Blockchain</title>
+<link rel="stylesheet" type="text/css" href="./Blockchain_files/prettify.css">
+<style>
+    li[class*="L"]{
+      list-style-type: decimal !important;
+    }
+    </style>
+
+
+<link rel="stylesheet" href="./Blockchain_files/prism-coy.min.css">
+<link rel="stylesheet" href="./Blockchain_files/prism-line-numbers.min.css">
+</head>
+
+<body>
+
+<div class="header">
+        <div class="wrap">
+		    <div class="clear"></div>
+                <div class="nav">
+                <ul>
+                    <li><a href="https://profs.info.uaic.ro/emanuel.onica/">Bio</a></li>
+                    <li><a href="https://profs.info.uaic.ro/emanuel.onica/research.html">Research</a></li>
+                    <li><a href="https://profs.info.uaic.ro/emanuel.onica/teaching.html">Teaching</a></li>
+                    <li><a href="https://profs.info.uaic.ro/emanuel.onica/contact.html">Contact</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+</div>
+
+<div class="wrap">
+    <div class="content">
+            <div class="b-box">
+
+
+<h1>Laborator 7</h1>
+<h2>Tematica laboratorului: ERC-20 Tokens si <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRhAxdtB5Ny3kNd-x95L6-8g9bxmdS72tl_iAO-S3D_nRNqCDsRcZQBHzD-_mOzUMqOG9hpacSk6r8z/pubhtml">prezentari articole</a></h2>
+
+<p>Implementarea unui token in Ethereum poate fi utila in diverse scopuri cum ar fi: definirea unei noi unitati de currency, reprezentarea unor actiuni (in sensul de actionariat al unei companii), reprezentarea unor voturi, etc. Mai multe detalii relativ la tokens au fost prezentate in cadrul cursului.<br>
+Exista mai multe standarde pentru implementarea de tokens, ce definesc practic interfete si precizeaza anumite detalii recomandate in implementare. Unul din cele mai populare astfel de standarde este ERC-20, a carui specificatie poate fi consultata la aceasta <a href="https://eips.ethereum.org/EIPS/eip-20">adresa</a>.<br>
+O implementare de token ce respecta aceasta interfata ar trebui sa ofere cel putin urmatoarele functii si evenimente:
+</p><ul>
+<li><i>totalSupply</i> - returneaza numarul total de unitati existente definite pentru token</li>
+<li><i>balanceOf</i> - returneaza balanta in unitati de token de la o anumita adresa</li>
+<li><i>transfer</i> - transfera o anumita cantitate de unitati de token de la apelant la o adresa data</li> 
+<li><i>approve</i> - autorizeaza o anume adresa sa poata transfera pana la o anume limita de unitati de token din balanta apelantului</li>
+<li><i>transferFrom</i> - transfera o anumita cantitate de unitati de token de la o adresa data catre alta adresa, pe baza unei aprobari date folosind functia anterioara</li>
+<li><i>allowance</i> - returneaza suma ramasa permisa pentru a fi transferata de catre o adresa autorizata de la o alta adresa ce a autorizat o limita de transfer</li>
+<li><i>Transfer</i> - eveniment lansat la un transfer efectuat cu succes</li>
+<li><i>Approval</i> - eveniment lansat la o autorizarea efectuata cu succes</li>
+</ul>
+<p></p>
+
+<p>
+Signaturile complete ale functiilor si evenimentelor de mai sus ar fi urmatoarele:
+</p><pre>   function totalSupply() constant returns (uint theTotalSupply);
+   function balanceOf(address _owner) constant returns (uint balance);
+   function transfer(address _to, uint _value) returns (bool success);
+   function transferFrom(address _from, address _to, uint _value) returns (bool success);
+   function approve(address _spender, uint _value) returns (bool success);
+   function allowance(address _owner, address _spender) constant returns (uint remaining);
+   event Transfer(address indexed _from, address indexed _to, uint _value);
+   event Approval(address indexed _owner, address indexed _spender, uint _value);
+</pre>
+<p></p>
+
+<p>
+In plus, standardul defineste si trei functii optionale: <i>name</i>, <i>symbol</i> si <i>decimals</i> ce ar trebui sa returneze un nume al tokenului, un acronim (simbol) pentru token si respectiv un numar de zecimale reprezentand gradul de divizibilitate a tokenului. 
+</p>
+
+<p>
+De regula implementarile ERC-20 definesc doi membri de tip mapping, unul pentru retinerea balantelor asociate cu tokenul respectiv si unul pentru retinerea permisiunilor de transfer. Ca o analogie un contract ce implementeaza un token poate fi asemanat cu o banca/institutie financiara ce emite o moneda proprie si detine in permanenta o centralizare a conturilor tuturor entitatilor ce detin moneda respectiva si a permisiunilor acestora de limite de plati din propriul cont. 
+</p>
+
+<p>
+Balantele asociate in tokenul respectiv pentru adresele ce il folosesc e definit de regula printr-un simplu mapping de forma:
+</p><pre>mapping(address =&gt; uint256) public balances;</pre>
+<p></p>
+
+<p>
+Permisiunile de transfer se pastreaza de regula intr-un mapping bi-dimensional, unde prima cheie este adresa proprietarului balantei, a doua cheie adresa autorizata pentru a realiza transferul din balanta proprietarului si valoarea finala reprezentand suma ramasa permisa pentru a fi transferata:
+</p><pre>mapping (address =&gt; mapping (address =&gt; uint256)) public allowed;</pre>
+<p></p>
+
+<p>Doua implementari publice ale tokenului ERC-20 (ce pot fi utilizate de exemplu pentru a defini un token propriu ERC-20 prin mostenire) sunt cele oferite de <a href="https://github.com/ConsenSys/Tokens/blob/master/contracts/eip20/EIP20.sol">ConsenSys</a> si <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v1.12.0/contracts/token/ERC20/StandardToken.sol">OpenZepellin</a>. Ca nota, se poate observa ca si contractele respective extind alte contracte, o parte din elementele necesare in token fiind definite in aceste contracte/interfete de baza (de exemplu totalSupply in cazul implementarii ConsenSys, care este de altfel definit ca o variabila membru si nu ca functie). De asemenea implementarile pot include si metode aditionale, cum ar fi <i>increaseApproval</i> sau <i>decreaseApproval</i> dedicate cresterii sau scaderii unei autorizari de transfer in cadrul implementarii OpenZepellin.
+</p>
+
+<h3>Exercitiu</h3>
+
+<p>
+Integrati un token ERC-20 in locul monedei de baza Ethereum in situatiile in care sunt necesare transferuri (bid, withdraw, etc.), in contractul sursa al aplicatiei de licitatie din laboratorul anterior.
+</p>
+
+
+
+</div>
+        </div>
+    <div class="f-menu">
+        <div class="copy">© 2024 Emanuel Onica. Parts of design by <a href="http://w3layouts.com/" style="color:#A68775;"></a> <a href="http://w3layouts.com/" style="color:#555;">W3Layouts</a></div>
+    </div>
+    </div>
+
+
+
+</body></html>

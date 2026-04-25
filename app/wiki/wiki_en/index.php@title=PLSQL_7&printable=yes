@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>PLSQL 7 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<meta name="robots" content="noindex,follow" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="index.php/PLSQL_7" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="https://profs.info.uaic.ro/~bd/wiki_en/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles&amp;only=styles&amp;printable=1&amp;skin=vector&amp;*" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="https://profs.info.uaic.ro/~bd/wiki_en/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;printable=1&amp;skin=vector&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"PLSQL_7","wgTitle":"PLSQL 7","wgCurRevisionId":157,"wgRevisionId":157,"wgArticleId":25,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"PLSQL_7","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-PLSQL_7 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">PLSQL 7</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="index.php@title=PLSQL_7&amp;printable=yes#mw-navigation">navigation</a>, 					<a href="index.php@title=PLSQL_7&amp;printable=yes#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><a rel="nofollow" class="external free" href="http://docs.oracle.com/cd/E11882_01/appdev.112/e25519/triggers.htm#LNPLS759">http://docs.oracle.com/cd/E11882_01/appdev.112/e25519/triggers.htm#LNPLS759</a>
+</p><p><br />
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="index.php@title=PLSQL_7&amp;printable=yes#Using_Triggers"><span class="tocnumber">1</span> <span class="toctext">Using Triggers</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="index.php@title=PLSQL_7&amp;printable=yes#DML_Triggers_.28with_BEFORE_.2F_AFTER.29"><span class="tocnumber">2</span> <span class="toctext">DML Triggers (with BEFORE / AFTER)</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="index.php@title=PLSQL_7&amp;printable=yes#Errors_of_type_Mutating_Table"><span class="tocnumber">3</span> <span class="toctext">Errors of type Mutating Table</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="index.php@title=PLSQL_7&amp;printable=yes#Instead_of_type_triggers"><span class="tocnumber">4</span> <span class="toctext">Instead of type triggers</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="index.php@title=PLSQL_7&amp;printable=yes#DDL_triggers"><span class="tocnumber">5</span> <span class="toctext">DDL triggers</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="index.php@title=PLSQL_7&amp;printable=yes#System_triggers"><span class="tocnumber">6</span> <span class="toctext">System triggers</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="index.php@title=PLSQL_7&amp;printable=yes#Homework"><span class="tocnumber">6.1</span> <span class="toctext">Homework</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Using_Triggers">Using Triggers</span></h2>
+<p>Triggers are blocks of code which are automatically executed, usually when a DML operation is executed in the database. These have a name (identifier) and can be activated or deactivated by using it.
+When a trigger is created, the time when it will be automatically executed has to be specified as well. This execution is associated with a certain operation executed on a table, a view (triggers on tables/views are DMLs), a database schema (of DDL type) or even on the entire database (of type system). Together with the type of the operation which will launch the execution of the trigger, the time of the execution will also be specified: for example, if we wish to do a delete operation on a table and want the value that will be deleted to be copied into another bkup table, it is obvious to expect the execution of the trigger before the delete operation is used - this way we have access to the value that will be deleted and we can copy it to the bkup table.
+</p><p>Here are the reasons why we would prefer to use a trigger:
+</p>
+<ul><li> automatically generated values in a column</li>
+<li> creation of LOG's</li>
+<li> creation of statistics</li>
+<li> modifying data in a table when an operation is executed in a view</li>
+<li> integrity assurance between primary/foreign keys when the tables are not in the same tablespace ( for example the table Students is on a computer and the table Grades is on another one and when we add a new grade we want to check if the key exists in the table stored on the other computer)</li>
+<li> publication of events when certain operations are executed on the database ( for example the automatic display in the console when someone is trying to delete data from the database).</li>
+<li> forbidding DML operations in a set time interval (for example grades can be added only during exam day).</li>
+<li> forbidding incorrect transactions or restricting based on complex rules which can be obtained only from primary/foreign keys, uniqueness or other constraints at table level (for example we could allow to have more records with the same identifier with the condition that the sum of a specific field is smaller than a certain value).  </li></ul>
+<h2><span class="mw-headline" id="DML_Triggers_.28with_BEFORE_.2F_AFTER.29">DML Triggers (with BEFORE / AFTER)</span></h2>
+<p>Operations of type delete, insert, update can be built. Taking into account the moment the trigger is executed relative to the moment when the operation is executed on the table, triggers can be BEFORE or AFTER.
+</p><p>When we talk about BEFORE we can be referring to the moment of execution of the DML command or we can specify a greater granularity and execute the trigger before every row which will be changed by the DML operations. Likewise, a trigger which is executed for a certain row can have access to the pieces of information that existed in that row before (or will be added to it).
+</p><p>Let's see a trigger which is executed before an insert, delete or update operations are used: 
+</p>
+<pre>
+set serveroutput on;
+
+CREATE OR REPLACE TRIGGER dml_stud
+   BEFORE INSERT OR UPDATE OR DELETE ON students
+BEGIN
+  dbms_output.put_line('DML operation on students table !');
+  -- here you can see when the trigger is launched
+  CASE
+     WHEN INSERTING THEN DBMS_OUTPUT.PUT_LINE('INSERT');
+     WHEN DELETING THEN DBMS_OUTPUT.PUT_LINE('DELETE');
+     WHEN UPDATING THEN DBMS_OUTPUT.PUT_LINE('UPDATE');
+     -- WHEN UPDATING('NAME') THEN .... // see below triggers which are executed only when a given field is modified
+  END CASE;
+END;
+/
+
+delete from students where id=10000;
+
+</pre>
+<p>You can see the BEFORE/AFTER effect by compiling the following triggers:
+</p>
+<pre>
+set serveroutput on;
+
+CREATE OR REPLACE TRIGGER dml_stud1
+   BEFORE INSERT OR UPDATE OR DELETE ON students
+declare   
+   v_name students.lname%type;
+BEGIN  
+  select lname into v_name from students where id=200;
+  dbms_output.put_line('Before DML TRIGGER: ' || v_name);
+END;
+/
+
+CREATE OR REPLACE TRIGGER dml_stud2
+   AFTER INSERT OR UPDATE OR DELETE ON students
+declare   
+   v_name students.lname%type;
+BEGIN  
+  select lname into v_name from students where id=200;
+  dbms_output.put_line('After DML TRIGGER: ' || v_name);
+END;
+/
+
+</pre>
+<p>And then executing:   
+</p>
+<pre>
+
+update students set lname='NewName' where id=200;
+</pre>
+<p>These triggers will be executed even when an update is made on another field or on another ID (and will always display information related to the student with ID 200).
+</p><p>In order to refer to the values in the current row a new trigger will be created and executed when the operation on the row is executed. Here's such an example which will display the old and the new grades every time an update is made, even if the result requires more than one row to be displayed).
+</p>
+<pre>
+set serveroutput on;
+CREATE OR REPLACE TRIGGER increase_grade
+  before UPDATE OF value ON grades   -- here it is executed only when the grade is modified !
+  FOR EACH ROW
+BEGIN
+  dbms_output.put_line('grade ID: ' || :OLD.id); -- you have access to other fields, not only those that have been modified...
+  dbms_output.put_line('previous grade: ' || :OLD.value);  
+  dbms_output.put_line('new grade: ' || :NEW.value);    
+
+  -- however it is not allowed to update if the value is lower (according to university regulations):
+  IF (:OLD.value&gt;:NEW.value) THEN :NEW.value := :OLD.value;
+  end if;  
+END;
+/
+
+update grades set value =8 where id in (1,2,3,4);
+
+</pre>
+<p>In case the modification is made in a nested table from one of the fields, you can have access to the row which contains that nested table through&#160;:PARENT. When you execute an insert type operation the&#160;:OLD value is NULL (because it does not exist), same with&#160;:NEW in case of a delete type operation.
+</p><p>As you have seen so far, in order to avoid lowering a grade, we modified the value from&#160;:NEW by adding something else instead of the true value. You cannot do this action for the&#160;:OLD value (it already exists in the table). Evidently, if the operation is delete, it is not possible to modify the&#160;:NEW value since it has to be NULL. 
+</p><p>Also, you can see that the trigger is built with BEFORE. You cannot modify the&#160;:NEW value in an AFTER type trigger (because the value has already been written in the table when the trigger is launched).
+</p><p>If a change launches two triggers, a BEFORE one and an AFTER one, and the BEFORE trigger modifies the&#160;:NEW value, the AFTER trigger will view the modified value (also in&#160;:NEW).
+</p>
+<h2><span class="mw-headline" id="Errors_of_type_Mutating_Table">Errors of type Mutating Table</span></h2>
+<p>When a DML operation is used and it involves executing a trigger, this trigger is not allowed to read data from the table which is currently modified. Trying to execute a select over this table will result in a Mutating Table error. Here's an example:
+</p>
+<pre>
+create or replace trigger mutate_example
+after delete on grades for each row
+declare 
+   v_left int;
+begin
+   dbms_output.put_line('Delete value with ID: '|| :OLD.id);
+   select count(*) into v_left from grades;
+   dbms_output.put_line('There are '|| v_left || ' values left.');
+end;
+/
+delete from note where id between 101 and 110;
+/
+
+</pre>
+<p>Evidently, the moment an exception is thrown, the DML modification will not be applied (you can check that nothing has actually been modified in the table and the grade with id 101 is still the same). 
+</p><p>There are to methods to avoid Mutating Table errors:
+</p>
+<ul><li> Using compound triggers</li>
+<li> Using a temporary table</li></ul>
+<p>A compound trigger is actually a composition of the four types of available triggers: BEFORE, BEFORE EACH ROW, AFTER EACH ROW, AFTER (this is also the order in which the triggers are executed in case more of them exist). The solution for the previous problem is to build a trigger which is supposed to show the number of rows left only at the end (only triggers of type "For each row" will create mutating tables). Here is how a compound trigger looks like:
+</p>
+<pre>
+set serveroutput on;
+
+CREATE OR REPLACE TRIGGER delete_grades 
+FOR DELETE ON GRADES
+COMPOUND TRIGGER
+  v_left INT;
+  
+  AFTER EACH ROW IS 
+  BEGIN
+     dbms_output.put_line('Delete grade with ID: '|| :OLD.id);
+  END AFTER EACH ROW;
+  
+  AFTER STATEMENT IS BEGIN
+     select count(*) into v_left from grades;
+     dbms_output.put_line('There are '|| v_left || ' grades left.');  
+  END AFTER STATEMENT ;
+END delete_grades;
+/
+delete from grades where id between 241 and 250;
+
+
+</pre>
+<p>If you have two triggers with the same type of launch (for example both are of type for each row), you can control the order in which these are executed with FOLLOWS or PRECEDES. 
+</p><p>In order to activate/deactivate a trigger you can modify it as follows:
+</p>
+<pre>
+ALTER TRIGGER DELETE_GRADES DISABLE; -- OR ENABLE
+
+</pre>
+<h2><span class="mw-headline" id="Instead_of_type_triggers">Instead of type triggers</span></h2>
+<p>This type of triggers cannot be built for DML operations which are executed on tables but only if these operations affect a view. Let's create a view:
+</p>
+<pre>
+create view std as select * from students;
+
+</pre>
+<p>It is quite complicated to delete from the students table... but not if we use triggers. This trigger can be made directly on the table ( with BEFORE and AFTER) but this time we will build it over the view previously created. The trigger is meant to delete every information from the additional tables when we wish to delete a student:
+</p>
+<pre>
+CREATE OR REPLACE TRIGGER delete_student
+  INSTEAD OF delete ON std
+BEGIN
+  dbms_output.put_line('Deleting:' || :OLD.lname);
+  delete from grades where id_student=:OLD.id;
+  delete from friendships where id_student1=:OLD.id;
+  delete from friendships where id_student2=:OLD.id;
+  delete from friendships where id=:OLD.id;
+END;
+
+</pre>
+<p>And let's test the trigger by deleting a student:
+</p>
+<pre>
+delete from std where id=75;
+
+</pre>
+<h2><span class="mw-headline" id="DDL_triggers">DDL triggers</span></h2>
+<p>According to the moment they are created, system triggers can be of type BEFORE, AFTER or INSTEAD.
+</p><p>According to the event which can be treated, there are triggers which are executed when the schema is modified by the database or the instead of create type.
+</p><p>Example: 
+</p>
+<pre>
+CREATE OR REPLACE TRIGGER drop_trigger
+  BEFORE DROP ON student.SCHEMA
+  BEGIN
+    RAISE_APPLICATION_ERROR (
+      num =&gt; -20000,
+      msg =&gt; 'can''t touch this');
+  END;
+/
+
+DROP TABLE GRADES;
+
+</pre>
+<p>In Oracle triggers can be built to be activated when a create operation is executed:
+</p>
+<pre>
+CREATE OR REPLACE TRIGGER t
+  INSTEAD OF CREATE ON SCHEMA
+  BEGIN
+    EXECUTE IMMEDIATE 'CREATE TABLE T (n NUMBER, m NUMBER)';
+  END;
+/
+create table a(x number); -- this will actually create the table T.
+
+</pre>
+<p>The list of all DDL triggers can be seen here: <a rel="nofollow" class="external free" href="https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/triggers.htm#CHDGIJDB">https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/triggers.htm#CHDGIJDB</a>
+</p>
+<h2><span class="mw-headline" id="System_triggers">System triggers</span></h2>
+<p>Apart from DDL type operations triggers, there are two types of triggers through which you can get diverse information when certain events occur in the system. For example you can create a log table in which you will write the IP address of the client which has connected to the database or their name. Let's create such a table in which we will store the list of users who log in onto the system and the time of their authentication (obviously, these have to be made from the sys account.... no one else should have access to the users which are authenticated in the DBMS.
+</p>
+<pre>
+create table authentications(lname varchar2(30), log_time timestamp);
+/
+CREATE OR REPLACE TRIGGER check_user
+  AFTER LOGON ON DATABASE
+DECLARE
+  v_name VARCHAR2(30);
+BEGIN
+  v_name := user_login_time;
+  INSERT INTO authentications VALUES(v_name, CURRENT_TIMESTAMP);
+END;
+/
+
+</pre>
+<p>after which try to log in as student, then as sys as sysdba and then check the contents of the authentication table.
+</p><p>You can view more information in a trigger of type system. A complete list of variables which can be queried can be found here: <a rel="nofollow" class="external free" href="https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/triggers.htm#CHDCFDJG">https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/triggers.htm#CHDCFDJG</a>
+</p><p>When you no longer need triggers, you can delete them by using DROP TRIGGER followed by the name of the trigger you wish to delete.
+</p>
+<h6><span class="mw-headline" id="Homework">Homework</span></h6>
+<p>1. (4pt) 
+</p><p>Create two tables of your choice which will be connected by a primary/foreign key and a view on the full outer join between the two tables.
+Create triggers which will allow the user to  INSERT, UPDATE, DELETE on the view. When presenting the problem, your view should have at least 10 rows (so we can have something to delete).
+</p><p>2. (2pt) 
+</p><p>Create a trigger which writes in a LOG table the number of grades which have been modified by an UPDATE command. Only increasing the grade value will be allowed. 
+</p><p>3. (4pt)
+</p><p>Create a trigger through which any destructive operation on the database will be prevented:
+</p>
+<ul><li> Deleting a column from a table</li>
+<li> Deleting a table</li>
+<li> Truncating a table</li></ul>
+<p>In an additional table the time when the destructive operation was attempted and the name of the user who tried to do it will be inserted. (<a rel="nofollow" class="external free" href="http://www.java2s.com/Code/Oracle/User-Previliege/Getcurrentusername.htm">http://www.java2s.com/Code/Oracle/User-Previliege/Getcurrentusername.htm</a>).
+</p><p>PS. you will need two users with access in the same database schema (check this: <a rel="nofollow" class="external free" href="https://profs.info.uaic.ro/~bd/wiki/index.php/Doi_utilizatori_cu_aceeasi_schema">https://profs.info.uaic.ro/~bd/wiki/index.php/Doi_utilizatori_cu_aceeasi_schema</a>). 
+</p><p>PS2. if only one of the users starts the trigger that you have previously created, you will lose two points.
+</p><p>Important: 3 files in the directory ....
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.011 seconds
+Real time usage: 0.013 seconds
+Preprocessor visited node count: 144/1000000
+Preprocessor generated node count: 292/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:25-0!*!*!!en!*!* and timestamp 20240223154441 and revision id 157
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_7&amp;oldid=157">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_7&amp;oldid=157</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=PLSQL+7&amp;returntoquery=printable%3Dyes" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="index.php/PLSQL_7"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:PLSQL_7&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="index.php@title=PLSQL_7&amp;printable=yes#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="index.php/PLSQL_7" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_7&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_7&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="index.php@title=PLSQL_7&amp;printable=yes#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="index.php/Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="index.php/SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="index.php/Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="index.php/Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="index.php/Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="index.php/Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="index.php/Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="index.php/Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="index.php/Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="index.php/Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="index.php/Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="index.php/Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="index.php/Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="index.php/Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="index.php/PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="index.php/PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="index.php/PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="index.php/PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="index.php/PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="index.php/PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="index.php/PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="index.php/PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="index.php/PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="index.php/PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="index.php/PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="index.php/PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/PLSQL_7" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/PLSQL_7" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="index.php/Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_7&amp;oldid=157" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="index.php@title=PLSQL_7&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 21 May 2018, at 08:56.</li>
+											<li id="footer-info-viewcount">This page has been accessed 2,342 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":72});
+}</script>
+	</body>
+</html>
+	

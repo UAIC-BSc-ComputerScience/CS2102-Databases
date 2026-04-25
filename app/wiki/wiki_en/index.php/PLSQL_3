@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>PLSQL 3 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="PLSQL_3" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"PLSQL_3","wgTitle":"PLSQL 3","wgCurRevisionId":134,"wgRevisionId":134,"wgArticleId":21,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"PLSQL_3","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-PLSQL_3 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">PLSQL 3</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="PLSQL_3#mw-navigation">navigation</a>, 					<a href="PLSQL_3#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="PLSQL_3#PLSQL_procedures_and_functions"><span class="tocnumber">1</span> <span class="toctext">PLSQL procedures and functions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="PLSQL_3#Registering_procedures"><span class="tocnumber">1.1</span> <span class="toctext">Registering procedures</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="PLSQL_3#Procedures"><span class="tocnumber">1.2</span> <span class="toctext">Procedures</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="PLSQL_3#Functions"><span class="tocnumber">1.3</span> <span class="toctext">Functions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="PLSQL_3#Packages"><span class="tocnumber">2</span> <span class="toctext">Packages</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="PLSQL_3#header"><span class="tocnumber">2.1</span> <span class="toctext">header</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="PLSQL_3#Body"><span class="tocnumber">2.2</span> <span class="toctext">Body</span></a>
+<ul>
+<li class="toclevel-3 tocsection-8"><a href="PLSQL_3#Exercices"><span class="tocnumber">2.2.1</span> <span class="toctext">Exercices</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="PLSQL_procedures_and_functions">PLSQL procedures and functions</span></h1>
+<h2><span class="mw-headline" id="Registering_procedures">Registering procedures</span></h2>
+<p>Procedures in PLSQL are recorded in the database. Because of this they are also called "stored procedures". (take care: if you work on a public computer for this laboratory, you need to delete your own procedures due to the fact that they will persist even though you deleted all the files you created).
+</p><p>For example, let's write the following PLSQL procedure:
+</p>
+<pre>
+CREATE OR REPLACE PROCEDURE display AS
+   my_name varchar2(20):='George';
+BEGIN
+   DBMS_OUTPUT.PUT_LINE('My name is ' || my_name);
+END display;
+</pre>
+<p>Select the code in SQL developer and "run" the procedure. This will be automatically checked to see if the syntax is correct. If there are no problems then the entire script is stored in the database. If you execute the code later, DB knows that it's already correct and will not check it again. In SQL developer, in the left sidebar you can see that there is a section called "Procedures". You can see your newly compiled procedure in that section (both the name and the sourcecode).
+</p><p>Procedures can be executed only by calling them from an anonymous PL/SQL code. 
+</p>
+<pre>
+set serveroutput on;
+BEGIN
+   display();
+END;
+</pre>
+<p>To erase a procedure you can drop it:
+</p>
+<pre>
+DROP PROCEDURE display;
+</pre>
+<p>The source code of the compiled procedures can be found in the table "USER_SOURCE". 
+Find out the structure of this table and try to find the procedure you just created:  
+</p>
+<pre>
+SELECT text FROM user_source WHERE LOWER(name) LIKE 'display';
+</pre>
+<p>Beside the USER_SOURCE table you can access two other interesting tables: USER_OBJECTS and USER_PROCEDURES. 
+For now you can discover by yourself what are those tables for (we will come back to the subject later this semester).
+</p><p>Remember: <span style="color:red; font-weight:bold">DELETE THE PROCEDURES FROM THE COMPUTERS IN THE LABORATORY.</span>
+</p><p>There are two types of sub-programs that you can create: procedure and functions. Let's get into detail for each of them.
+</p>
+<h2><span class="mw-headline" id="Procedures">Procedures</span></h2>
+<p>The PL/SQL blocks that you executed up to this point are called anonymous blocks - just because they don't have any name to be called upon. Anonymous blocks are not stored into USER_SOURCE because they don't have a name and that is why nobody could reference/call them anyway.
+</p><p>In anonymous blocks there is a "DECLARE" section, where you can define the variables used in the anonymous block. This section was optional - if there was no variable needed in the block, you can not add a declare section
+</p><p>to declare a stored procedure, we use the following syntax:
+</p>
+<pre>
+CREATE [OR REPLACE] PROCEDURE name_of_procedure [(param1 [behaviour] data_type1, param2 [behaviour] data_type2,... paramN [behaviour] data_typeN)] AS|IS
+[var1 type1; etc.]
+BEGIN
+    ..... -- code with instructions
+END [nume_procedura];
+</pre>
+<p>After CREATE there are two optional words (that have to be added together): "OR REPLACE". Without those, the procedure can't be re-written - you need to drop it in order to create a procedure having the same name.
+</p><p>The word PROCEDURE indicates the type of sub-program you want to create. For functions we will use the word FUNCTION. "name_of_procedure" is the identifier for the programmer to be able to call this procedure.
+</p><p>A stored procedure can have more input parameters, output parameters or parameters that can be both input and output. The parameters are given in the round parenthesis following the name of the procedure; they are separated by commas. The behaviour section define the way that parameter is (input, output or both): "IN", "OUT", "IN OUT". If the behaviour is missing it is default considered that the parameter is for input (IN). When you call the procedure, you need to have variables in the same position where the OUT parameters are (not constants or hardcoded values). Also, those variables have to be of the same type as the ones that are define in the header of the procedure. After the procedure is executed, those variables will be populated with the values from the procedure. You can defin the types usint&#160;%TYPE and don't forget to add the prefix p_ to the variables inside the procedure - just to have a reminder that those are parameters. 
+</p><p>The word AS or IS is telling the compiler that there is the point the procedure starts. After one of these the declaration section follows (we don't need to add the DECLARE keyword this time) and the BEGIN-END section.
+</p><p>A procedure can be called from an anonymous block, from some other procedure or from some application that can interact with the SQL server (e.g from PHP/Java). 
+</p><p><br />
+Here is a procedure that increments a value that is received as a parameter.
+</p>
+<pre>
+CREATE OR REPLACE PROCEDURE inc (p_val IN OUT NUMBER) AS
+BEGIN
+   p_val := p_val + 1;
+END;
+</pre>
+<pre>
+set serveroutput on;
+DECLARE
+   v_number NUMBER := 7;
+BEGIN
+   inc(v_number);
+   DBMS_OUTPUT.PUT_LINE( v_number );
+END;
+</pre>
+<p>Explain the error that is given by the following PLSQL anonymous block:
+</p>
+<pre>BEGIN
+   inc(7);   
+END;
+</pre>
+<p>What about this one&#160;? will this function&#160;?
+</p>
+<pre>
+set serveroutput on;
+DECLARE
+   v_number varchar2(10) := '7';
+BEGIN
+   inc(v_number);
+   DBMS_OUTPUT.PUT_LINE( v_number );
+END;
+</pre>
+<p>Try to do something similar for a variable having the type date.
+</p><p>Can you build a procedure that has two input parameters and one output parameter that sums the input parameters in the output one? Call this procedure by having numbers instead of variables in the input parameters positions.
+</p><p>As you could see, you can send a varchar2 to the increment procedures and is still going to work. That is because PLSQL knows to automatically convert some data. However, from the point of view of performance, it is better to have a perfect match between the parameters in the call and the ones in the header of the 
+procedure. If you don;t know the type of the parameters, you can use describe followed by the name of the procedure to find out.
+</p><p>Some programming languages allow having a predefined value for input parameters. PLSQL also do this. Let's see an example where we will build a procedure that displays in the console the exponentiation of two numbers:
+</p>
+<pre>
+CREATE OR REPLACE PROCEDURE pow (p_base IN Integer := 3, p_exponent IN INTEGER DEFAULT 5) AS
+   v_result INTEGER;
+BEGIN
+    v_result := p_base ** p_exponent;
+    DBMS_OUTPUT.PUT_LINE(v_result);
+END;
+</pre>
+<p>In this case the input parameters are initialized. If the procedure is called with two parameters then the values send to the procedure override the ones defined in the header. You can also send only one parameter (not both of them) and in this case, you need to do an call that also specify what parameter do you want to override (use the form key=&gt;value). For example, the following three scripts will have the same effect:
+</p>
+<pre>
+set serveroutput on;
+BEGIN
+   pow(2, 3);
+END;
+</pre>
+<pre>
+set serveroutput on;
+BEGIN
+   pow(p_base=&gt;2, p_exponent=&gt;3);
+END;
+</pre>
+<pre>
+set serveroutput on;
+BEGIN
+   pow(p_exponent=&gt;3, p_base=&gt;2);
+END;
+</pre>
+<p>Can you figure out what are the outputs for the following anonymous blocks&#160;?
+</p>
+<pre>
+set serveroutput on;
+BEGIN
+   pow(2, p_exponent=&gt;3);
+END;
+</pre>
+<pre>
+set serveroutput on;
+BEGIN
+   pow(p_base=&gt;2);
+END;
+</pre>
+<pre>
+set serveroutput on;
+BEGIN
+   pow(p_exponent=&gt;3);
+END;
+</pre>
+<p>Let's see how we call this when we want the output to be sent back to the anonymous block:
+</p>
+<pre>
+CREATE OR REPLACE PROCEDURE pow (p_base IN Integer := 3, p_exponent IN INTEGER DEFAULT 5, p_out OUT Integer) AS   
+BEGIN
+    p_out := p_base ** p_exponent;    
+END;
+</pre>
+<pre>
+set serveroutput on;
+DECLARE 
+   v_out INTEGER;
+BEGIN
+   pow(p_base=&gt;3, p_out =&gt; v_out);
+   DBMS_OUTPUT.PUT_LINE(v_out);
+END;
+</pre>
+<p>Fact: A procedure can have a RETURN comand (that will force the exit from that procedure).
+</p>
+<h2><span class="mw-headline" id="Functions">Functions</span></h2>
+<p>Procedures are useful when the PLSQL code return more than only one value. When a single value is returned, you should use functions.
+</p><p>The advantage of creating functions is that they can also be used inside a SQL command (e.g. upper function). There are several types of data that can prevent the usage of a function inside a SQL command (e.g BOOLEAN).
+</p><p>DML (data manipulation language - delete/update/insert) should be avoided in functions. Also don't modify the structure or delete tables. COMMIT/ROLLBACK keywords should also be avoided. Basically a function should only compute something and return something (you can select data though).
+</p><p>The syntax is similar to the procedure (you use FUNCTION instead of PROCEDURE and before IS/AS add the returned type). IN a function it is mandatory to have the RETURN command followed by the value of the same type as the returned type declared in the header of the function (you can still use IN/OUT but if you use OUT you cannot use the function in a SQL query).
+</p><p>Here is a function having a varchar2 as an input parameter and that returns some manipulation of the input string.
+</p>
+<pre>
+CREATE OR REPLACE FUNCTION make_waves(p_input_string varchar2)
+RETURN varchar2 AS
+   v_index INTEGER;
+   v_result varchar2(1000) := '';
+BEGIN
+    FOR v_index IN 1..length(p_input_string) LOOP
+        IF(v_index MOD 2 = 1)
+        THEN
+           v_result := v_result || UPPER(SUBSTR(p_input_string,v_index,1));
+        ELSE
+           v_result := v_result || LOWER(SUBSTR(p_input_string,v_index,1));
+        END IF;
+    END LOOP;
+    return v_result ;
+END;
+</pre>
+<p>You can call the function from a query:
+</p>
+<pre>
+select make_waves('Computer Science') from dual;
+</pre>
+<p>But also from an anonymous block:
+</p>
+<pre>
+DECLARE
+   v_string VARCHAR2(1000) :='Computer Science';
+BEGIN
+   v_string := make_waves(v_string);
+   DBMS_OUTPUT.PUT_LINE(v_string);
+END;
+</pre>
+<p>Not all functions need parameters (e.g. SYSDATE).
+</p><p>You cannot use the syntax key=&gt;value like in procedures.
+</p><p>Functions called in a SELECT command should not contain any DML commands.
+</p><p>Functions called in a UPDATE or DELETE should not use SELECT or DML.
+</p><p>Functions called in a SQL command should not COMMIT nor ROLLBACK.
+</p><p>Functions called in a SQL command cannot contain DDL commands (e.g. CREATE TABLE) or DCL(e.g. ALTER SESSION) because those do an automatic COMMIT.
+</p>
+<h1><span class="mw-headline" id="Packages">Packages</span></h1>
+<p>As in Java (and not only) packages are used for better organizing the source code. They group together functions or procedures that either depend one upon the other or have the same domain of activity (e.g. management of students in a faculty). Packages in PLSQL can group together procedures, functions, variables, cursors and exceptions.
+</p><p>It is build from two entities: 
+</p>
+<ul><li> header specifications -  is almost like an interface that tells the user what are the functions in that packages and their parameters. This should be declared at the begin (or before) because you cannot compile the second part without having this header section.</li>
+<li> body - it contains the code for each procedure and function described in the header section. Can contain some other functions and procedures but those will not be available in public domain. You can recompile the body without recompiling the header (if the headers of the functions don't change).</li></ul>
+<h3><span class="mw-headline" id="header">header</span></h3>
+<p>You can use the following syntax for defining the header:
+</p>
+<pre>
+CREATE [OR REPLACE] PACKAGE package_name IS|AS
+        public types        
+        public variables (will be NULL if not specified)
+        public specs for procedures and functions
+END [package_name]
+
+</pre>
+<p>Everything that is here is available to any user that has the EXECUTE right on that package.
+</p><p>Example:
+</p>
+<pre>
+CREATE OR REPLACE PACKAGE manager_faculty IS
+      g_today_date   DATE:= SYSDATE;
+      CURSOR student_list IS SELECT REGISTRATION_NUMBER, LNAME, FNAME, GROUPNO, YEAR FROM students ORDER BY lname;
+     PROCEDURE add_student (lname students.lname%type, fname students.fname%type);
+     PROCEDURE remove_student (nr students.REGISTRATION_NUMBER%type);
+END manager_faculty;
+</pre>
+<h3><span class="mw-headline" id="Body">Body</span></h3>
+<p>You can use the following syntax to build the body:
+</p>
+<pre>
+CREATE [OR REPLACE] PACKAGE BODY package_name IS|AS
+      private variables and data types
+      public or private functions and procedures;
+[BEGIN  initialization area]
+END package_name;
+</pre>
+<p>If you want to use a procedure inside some other procedure, you have to define it first. Each procedure defined in the header has to have an implementation in the body section. Here is an example for the previous header:
+</p>
+<pre>
+CREATE OR REPLACE PACKAGE BODY manager_faculty IS
+
+    faculty_name VARCHAR2(100) := 'Computer Science from IASI';
+
+    FUNCTION compute_age (dob DATE) RETURN INT AS
+    BEGIN
+       RETURN FLOOR((g_today_date - dob)/365);
+    END compute_age;   
+
+    PROCEDURE add_student (lname students.lname%type, fname students.fname%type)
+       IS BEGIN
+           DBMS_OUTPUT.PUT_LINE('Call a private function: '|| compute_age (to_date('01/01/1990','DD/MM/YYYY')));
+           DBMS_OUTPUT.PUT_LINE('Implementation should be done by you:');
+    END add_student;
+    
+    PROCEDURE remove_student (nr students.REGISTRATION_NUMBER%type) IS
+    BEGIN
+       null; -- it does nothing (yet)
+    END remove_student;
+    
+END manager_faculty;   
+</pre>
+<p>In this example, the compute_age function was not exposed to the public. Therefore only functions and procedures inside the package can call it. 
+</p><p>Describe on the name of the package will allow you to see what;s in there.
+</p><p>To call a function or a procedure inside the package you can only write it's name. If you want to do it from outside the package (public domain) you need to write the name of the package, a dot and the name of the procedure as in the following example:
+</p><p><br />
+</p>
+<pre>
+set serveroutput on;
+BEGIN
+   manager_faculty.add_student('Becali', 'Gigi');
+END;
+</pre>
+<p>To delete a package you can execute:
+</p>
+<pre>DROP PACKAGE package_name;
+</pre>
+<p>To delete the body do this:
+</p>
+<pre>DROP PACKAGE BODY package_name
+</pre>
+<p>you cannot delete the header without deleting the body.
+</p>
+<h6><span class="mw-headline" id="Exercices">Exercices</span></h6>
+<p>Ex. 1 (8 pt):
+</p><p>Build a PLSQL package to manage a Faculty: 
+</p><p>It has to have the following:
+</p>
+<ul><li> (2pt) - a private procedure that will return the age of the student (in years, months and days - you can reuse code from homework 1) of the student;</li>
+<li> (2pt) - procedure that will add a student into the database and emulate some grades and friendships for him.</li>
+<li> (2pt) - a procedure that will remove a student together with his constraints.</li>
+<li> (2pt) - a procedure that will display statistics about a student: matricol number, average of his grades, his grades and the courses, his age (use the private procedure at part 1), his position in a top (for example in his group or in his year), how many friends he has, etc..</li></ul>
+<p><br />
+Ex. 2 (5 pt - all or nothing):
+</p>
+<ul><li> (5pt) Build a procedure that runs under  <span style="color:red">2 seconds </span> and display (via IDs) which are the frinds that has the same trunc(avg(grades)). (e.g. student having ID 1 and an average of 7.25 has as friends the students 2 (8.33), 3 (7.99) and 4 (7.25), you will display the following couples: 1-3 and 1-4). Create a SQL query to prove that also shows the average for a student. There is also a contest in the romanian version of the site... if you want to participate, conditions will be explained at the laboratory.</li></ul>
+<p>Hint: use indexes;
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.015 seconds
+Real time usage: 0.017 seconds
+Preprocessor visited node count: 284/1000000
+Preprocessor generated node count: 600/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:21-0!*!*!!en!*!* and timestamp 20240223154441 and revision id 134
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_3&amp;oldid=134">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_3&amp;oldid=134</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=PLSQL+3" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="PLSQL_3"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:PLSQL_3&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="PLSQL_3#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="PLSQL_3" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_3&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_3&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="PLSQL_3#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/PLSQL_3" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/PLSQL_3" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_3&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_3&amp;oldid=134" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_3&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 18 March 2018, at 21:30.</li>
+											<li id="footer-info-viewcount">This page has been accessed 5,210 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":93});
+}</script>
+	</body>
+</html>
+	

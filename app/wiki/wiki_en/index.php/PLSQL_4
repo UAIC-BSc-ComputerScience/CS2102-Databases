@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>PLSQL 4 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="PLSQL_4" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"PLSQL_4","wgTitle":"PLSQL 4","wgCurRevisionId":139,"wgRevisionId":139,"wgArticleId":22,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"PLSQL_4","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-PLSQL_4 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">PLSQL 4</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="PLSQL_4#mw-navigation">navigation</a>, 					<a href="PLSQL_4#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>Translated by Bogdan Gospodaru on 16.03.2018.
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="PLSQL_4#Collections_and_Records"><span class="tocnumber">1</span> <span class="toctext">Collections and Records</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="PLSQL_4#Associative_arrays"><span class="tocnumber">1.1</span> <span class="toctext">Associative arrays</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="PLSQL_4#Nested_tables"><span class="tocnumber">1.2</span> <span class="toctext">Nested tables</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="PLSQL_4#Varrays"><span class="tocnumber">1.3</span> <span class="toctext">Varrays</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="PLSQL_4#Functions_that_can_be_applied_to_collections"><span class="tocnumber">1.4</span> <span class="toctext">Functions that can be applied to collections</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="PLSQL_4#Records"><span class="tocnumber">1.5</span> <span class="toctext">Records</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="PLSQL_4#Exercice"><span class="tocnumber">1.5.1</span> <span class="toctext">Exercice</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Collections_and_Records">Collections and Records</span></h1>
+<p>Useful links:
+</p>
+<ul><li> <a rel="nofollow" class="external free" href="http://docs.oracle.com/cd/B28359_01/appdev.111/b28370/collections.htm">http://docs.oracle.com/cd/B28359_01/appdev.111/b28370/collections.htm</a></li>
+<li> <a rel="nofollow" class="external free" href="http://www.orafaq.com/wiki/NESTED_TABLE">http://www.orafaq.com/wiki/NESTED_TABLE</a></li>
+<li> <a rel="nofollow" class="external free" href="http://cursuri.cs.pub.ro/~radulescu/bd/plsql/8.html">http://cursuri.cs.pub.ro/~radulescu/bd/plsql/8.html</a></li>
+<li> <a rel="nofollow" class="external free" href="http://docs.oracle.com/cd/A97630_01/appdev.920/a96624/05_colls.htm#1059">http://docs.oracle.com/cd/A97630_01/appdev.920/a96624/05_colls.htm#1059</a></li></ul>
+<p>To use arrays of elements in SQL there are 2 data types: TABLE and VARRAY.
+</p><p>Collections - each element of a collection has an index which uniquely identifies it inside the collection. In PLSQL there are 3 types of collections:
+</p>
+<ul><li> associative arrays</li>
+<li> nested tables</li>
+<li> varrays</li></ul>
+<p>To use these data types you must first define a type and then declare variables (of the defined type) inside the declaration section (anonymous block, function/procedure).
+</p><p>A collection can be passed as a parameter (to send multiple data at the same time).
+</p>
+<h2><span class="mw-headline" id="Associative_arrays">Associative arrays</span></h2>
+<p>An associative array (also called an index-by table - known in other programming languages as hash table) is a set of key-value pairs. Each key is unique, and is used to locate the corresponding value. The key can be either an integer or a string.
+The purpose of this type of data is temporary storage (they are available only inside the PL/SQL app - they are not stored on disk, to do this you must generate a special code which will save them inside a database).
+</p><p>If the key doesn't exist when an assign instruction is executed, the key will be automatically created.
+</p><p>The definition of an associative array:
+</p><p>TYPE type_name IS TABLE OF element_type [NOT NULL] INDEX BY [BINARY_INTEGER | PLS_INTEGER | VARCHAR2(size)];
+</p><p>After the definition, you must declare a variable of that type. "type_name" is an identifier for the new type of data, "element_type" is the type of the elements that will be stored (you can specify a rule for the value to never be null) and in the end the type of the key is specified (numeric type or string).
+</p><p>An example where the variables inside the associative array are integers and the keys are strings:
+</p><p><br />
+</p>
+<pre>DECLARE 
+    TYPE MyTab IS TABLE OF NUMBER INDEX BY VARCHAR2(10);
+    age MyTab;
+BEGIN
+   age('Gigel') := 3;
+   age('Ionel') := 4;
+   DBMS_OUTPUT.PUT_LINE('Gigel's age: ' || age('Gigel'));
+   DBMS_OUTPUT.PUT_LINE('Ionel's age: ' || age('Ionel'));
+END;
+
+</pre>
+<p>In the previous example you may observe the assignment of a key with a value as well as the way of extracting the value when knowing the key (in the output operation).
+</p><p>If you want to add another child with the key already in the array (for example 'Ionel' with age=7), it cannot be accomplished, instead it will change the value of the existing (key, value) pair.
+</p><p>You can build an associative array in which the keys are integers, and the values are lines in a table.
+</p>
+<pre>DECLARE 
+    TYPE MyTab IS TABLE OF students%ROWTYPE INDEX BY PLS_INTEGER;
+    lines MyTab;
+BEGIN
+    SELECT * INTO lines(0) FROM students WHERE ROWNUM = 1;
+    DBMS_OUTPUT.PUT_LINE(lines(0).fname);
+END;
+
+</pre>
+<p>If the key does not have the correct type (or it cannot be casted - incompatible - by SGBD) it will show an error.
+In case the types are compatible, the code will run correctly.
+Example: If you provide a date instead of a varchar2 for the key (if the key's data type is a varchar2) it will not show any error.
+</p>
+<pre>DECLARE 
+    TYPE MyTab IS TABLE OF number INDEX BY varchar2(20);
+    lines MyTab;  
+BEGIN
+    lines(sysdate) := 123;
+    DBMS_OUTPUT.PUT_LINE(lines(sysdate));
+END;
+
+</pre>
+<p>Pay attention to the DATE type, TO_CHAR can return different results on different computers (thus getting different (key, value) pairs on different computers).
+</p><p>Functions that can be used on an associative array (you can test this on your own to observe the execution - explications about these functions are at the bottom of this page):
+</p><p><br />
+</p>
+<pre>DECLARE 
+    TYPE MyTab IS TABLE OF NUMBER INDEX BY VARCHAR2(10);
+    age MyTab;
+BEGIN
+   age('Gigel') := 3;
+   age('Ionel') := 4;
+   age('Maria') := 6;
+   
+   DBMS_OUTPUT.PUT_LINE('Array size: ' || age.COUNT);
+   
+   DBMS_OUTPUT.PUT_LINE('First key: ' || age.FIRST);
+   DBMS_OUTPUT.PUT_LINE('Last key`: ' || age.LAST);
+
+   DBMS_OUTPUT.PUT_LINE('Before Ionel: ' || age.PRIOR('Ionel'));
+   DBMS_OUTPUT.PUT_LINE('After Ionel: ' || age.NEXT('Ionel'));
+      
+   age.DELETE('Maria');   
+   DBMS_OUTPUT.PUT_LINE('After Ionel: ' || age.NEXT('Ionel'));   
+END;
+
+</pre>
+<h2><span class="mw-headline" id="Nested_tables">Nested tables</span></h2>
+<p>Conceptually, a nested table is like a one-dimensional array with an arbitrary number of elements (similar to a table in the database where data is more like a set rather than organized).
+This type of data is widely used for storing a lot of data associated with a single line (row). Because the elements are not organized, you cannot know which is the first one or the second one etc. However, when you want to iterate it, a temporary number can be assigned to each row (rownum).
+You can create tables in which the elements are also tables (a matrix).
+</p><p>Within the database, a nested table is a column type that holds a set of values. The database stores the rows of a nested table in no particular order. When you retrieve a nested table from the database into a PL/SQL variable, the rows are given consecutive subscripts starting at 1. These subscripts give you array-like access to individual rows.
+</p><p>To access the elements, use the technique from associative arrays. There are, however, different ways to store the data by SGBD, and they are also easier to pass around as parameters to functions or procedures.
+</p><p>Nested tables data types can be stored as a field inside a table in the database - you can create tables which contain nested tables fields.
+</p><p>The definition of a nested table:
+</p><p><br />
+</p>
+<pre>TYPE type_name IS TABLE OF elemenet_type [NOT NULL];
+</pre>
+<p>Then, declare a variable of type "type_name" in which you can store elements of type "element_type"
+Example:
+</p><p><br />
+</p>
+<pre>DECLARE
+    TYPE fname IS TABLE OF varchar2(10);
+    student fname;
+BEGIN
+    student := fname('Gigel', 'Ionel');
+    for i in student.first..student.last loop
+       DBMS_OUTPUT.PUT_LINE(i||' - '||student(i));    
+    end loop;
+END;
+
+</pre>
+<p>Let's declare a table with 3 elements, add 4 more elements by copying the second element and then delete it.
+</p><p><br />
+</p>
+<pre>DECLARE
+    TYPE fname IS TABLE OF varchar2(10);
+    student fname;
+BEGIN
+    student := fname('Gigel', 'Ionel', 'Maria');  
+    student.EXTEND(4,2); -- copy the 2nd element 4 times
+    student.delete(2); -- delete the 2nd element
+    for i in student.first..student.last loop
+        if student.exists(i) then -- check the existence, otherwise it will throw an error
+           DBMS_OUTPUT.PUT_LINE(i||' - '||student(i)); -- print
+        end if;
+    end loop;
+END;
+
+</pre>
+<p>As you can see, deleting the 2nd element didn't shift the whole table (positions 3..7), instead that position is now empty. Trying to print or access it will throw an error.
+</p><p>The value of element_type can be something else (other than varchar2). You can try to give it the type of an existent column from a table (students.fname%type), a row from a table (students%ROWTYPE) or a row from a cursor (cursor%ROWTYPE).
+</p><p>Example which loads inside a table data type all the elements of the students table:
+</p><p><br />
+</p>
+<pre>DECLARE 
+   CURSOR course IS SELECT * FROM students;
+   TYPE student_line IS TABLE OF course%ROWTYPE;
+   student_list student_line;
+BEGIN
+   open course;
+   SELECT * BULK COLLECT INTO student_list FROM studenti;
+   close course;
+    for i in student_list.first..student_list.last loop
+        if student_list.exists(i) then
+           DBMS_OUTPUT.PUT_LINE(i||' - '||student_list(i).nume);
+        end if;
+    end loop;   
+    DBMS_OUTPUT.PUT_LINE('Number of students: '||student_list.COUNT);
+END;
+
+</pre>
+<p>The example can be refactored to use the NEXT function to obtain the key of the next element. In this case, you don't need to check the existence of the element (the if condition).
+</p><p>Example creating tables with a field of type 'nested table':
+</p><p><br />
+</p>
+<pre>
+
+GRANT CREATE TYPE TO STUDENTS;
+
+CREATE OR REPLACE TYPE fname_list AS TABLE OF VARCHAR2(10);
+/
+CREATE TABLE people (nume varchar2(10), 
+       fname fname_list)
+       NESTED TABLE fname STORE AS lista;
+/       
+
+INSERT INTO people VALUES('Popescu', fname_list('Ionut', 'Razvan'));
+INSERT INTO people VALUES('Ionescu', fname_list('Elena', 'Madalina'));
+INSERT INTO people VALUES('Rizea', fname_list('Mircea', 'Catalin'));
+/
+SELECT * FROM people;
+
+
+</pre>
+<p><br />
+PL/SQL function for inserting a person in the above table:
+</p><p><br />
+</p>
+<pre>DECLARE    
+    fname_line people.fname%type;
+BEGIN
+    fname_line := lista_prenume('Cristi', 'Tudor', 'Virgil');
+    INSERT INTO people VALUES ('Gurau', fname_line);
+    DBMS_OUTPUT.PUT_LINE('Done');
+END;
+
+</pre>
+<p>Do not forget to test the tables' specific functions (from later in this lab).
+</p>
+<h2><span class="mw-headline" id="Varrays">Varrays</span></h2>
+<p>Varray is an array with a variable size.
+The definition of a varray:
+</p>
+<pre>TYPE type_name IS {VARRAY | VARYING ARRAY} (size) OF element_type [NOT NULL];
+</pre>
+<p>Example (the last element is deleted and then 2 new elements are added):
+</p>
+<pre>DECLARE
+  TYPE varr IS VARRAY(5) OF varchar2(10);
+  towns varr;
+BEGIN
+  towns := varr('Iasi', 'Bacau', 'Suceava', 'Botosani');
+  DBMS_OUTPUT.PUT_LINE('Number of towns: '||towns.COUNT);
+  towns.TRIM;
+  FOR i IN towns.FIRST..towns.LAST LOOP
+     DBMS_OUTPUT.PUT_LINE(towns(i));
+  END LOOP;
+  
+  towns.EXTEND(2);
+  towns(4):='Sibiu';
+  towns(5):='Brasov';
+  DBMS_OUTPUT.PUT_LINE('After add:');
+  FOR i IN towns.FIRST..towns.LAST LOOP
+     DBMS_OUTPUT.PUT_LINE(towns(i));
+  END LOOP;  
+END;
+
+</pre>
+<p>Do not forget to test the other functions that can be applied to the variables of type varray (from the list of collection functions inside this page).
+</p>
+<h2><span class="mw-headline" id="Functions_that_can_be_applied_to_collections">Functions that can be applied to collections</span></h2>
+<ul><li> FIRST - returns the value of the key (or the index) of the first element;</li>
+<li> LAST - returns the value of the key (or the index) of the last element;</li>
+<li> PRIOR(key) - returns the key of the element that is before the parameter in the collection</li>
+<li> NEXT(key) - return the key of the element that is after the parameter in the collection</li>
+<li> EXISTS(key) - returns true if the there is a value assigned to the key, false otherwise</li>
+<li> COUNT - returns the number of elements;</li>
+<li> varray.LIMIT - how many elements can be added in a variable of type varray;</li>
+<li> EXTEND [(n[,i])] - for nested tables and varray: to add n positions in the structure (optional: equal to the value of the element at position i). In case of no parameter, it will add just one element (doesn't apply to associative arrays).</li>
+<li> TIRM [(n)] - for nested tables and varrays: deletes n elements from the end. In case of no parametere, it will delete the last element.</li>
+<li> DELETE [(n,[m])] - for associative arrays and nested tables: if no parameter, deletes all elements, otherwise delete the element at position n (or n, n+1, ..., m)</li></ul>
+<p><br />
+</p>
+<h2><span class="mw-headline" id="Records">Records</span></h2>
+<p>PL/SQL lets you define records that contain objects, collections, and other records (called nested records). However, records cannot be attributes of object types.
+Every field of a record has a name (which can identify it) and a type.
+</p><p>You encountered a RECORD variable when you declared them as ROWTYPE (inside a cursor for example).
+</p><p>The definition of a record:
+</p><p><br />
+</p>
+<pre>TYPE type_name IS RECORD (field_name field_type[,field_name field_type]...);
+</pre>
+<p>Example:
+</p>
+<pre>CREATE TABLE minions (color varchar2(20), nr_of_eyes number(3), name varchar2(20));
+ /
+DECLARE
+   TYPE minion IS RECORD(
+      color varchar2(20) := 'Yellow', 
+      nr_of_eyes number(3), 
+      name varchar2(20)
+      );
+   v_minion minion;   
+BEGIN      
+   v_minion.color:='Yellow';
+   v_minion.nr_of_eyes := 2;
+   v_minion.name:='Kevin';
+   INSERT INTO MINIONS VALUES V_MINION;
+   DBMS_OUTPUT.PUT_LINE(v_minion.color);
+END;
+
+</pre>
+<p><br />
+</p>
+<h6><span class="mw-headline" id="Exercice">Exercice</span></h6>
+<p>Ex. 1 (10pt) Build a  <span style="color:red">package</span> that:
+</p>
+<ul><li> (3pt) Has a stored procedure (or function) that receives as a parameter a list of records that contains the IDs of the students and a percentage that will be used to increase the scholarship. If the student has no scholarship, you will add a minimum value of 100 before increasing it with the percentage. </li></ul>
+<ul><li> (4pt) Modify the table students in order to have a new field that will be able to store a list of scholarships (a history of what the student had). Modify the exercice at 1 to store those values</li></ul>
+<ul><li> (2pt) For every student that had at least one scholarship modification, show the history of the scholarship.</li></ul>
+<ul><li> (1pt) Create an anonymous block that will modify the scholarship of 5 students (based on their IDs - you will send a list of records, the type should be defined in the package).  Also in this anonymous block call the procedure that will display the history.</li></ul>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.012 seconds
+Real time usage: 0.014 seconds
+Preprocessor visited node count: 163/1000000
+Preprocessor generated node count: 334/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:22-0!*!*!!en!*!* and timestamp 20240223143745 and revision id 139
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_4&amp;oldid=139">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_4&amp;oldid=139</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=PLSQL+4" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="PLSQL_4"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:PLSQL_4&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="PLSQL_4#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="PLSQL_4" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_4&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_4&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="PLSQL_4#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/PLSQL_4" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/PLSQL_4" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_4&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_4&amp;oldid=139" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_4&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 23 March 2018, at 11:59.</li>
+											<li id="footer-info-viewcount">This page has been accessed 7,423 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":73});
+}</script>
+	</body>
+</html>
+	

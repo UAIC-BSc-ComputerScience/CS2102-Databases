@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Lab 3 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="Lab_3" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Lab_3","wgTitle":"Lab 3","wgCurRevisionId":170,"wgRevisionId":170,"wgArticleId":7,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Lab_3","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Lab_3 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Lab 3</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="Lab_3#mw-navigation">navigation</a>, 					<a href="Lab_3#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><b>Objectives:</b> working with single-row functions in SQL
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Lab_3#Single-Row_Functions"><span class="tocnumber">1</span> <span class="toctext">Single-Row Functions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="Lab_3#Numeric_functions"><span class="tocnumber">1.1</span> <span class="toctext">Numeric functions</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="Lab_3#Functions_taking_character_data_as_input_and_returning_numeric_values"><span class="tocnumber">1.2</span> <span class="toctext">Functions taking character data as input and returning numeric values</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="Lab_3#Functions_taking_character_data_as_input_and_returning_character_values"><span class="tocnumber">1.3</span> <span class="toctext">Functions taking character data as input and returning character values</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="Lab_3#Functions_for_Dates"><span class="tocnumber">1.4</span> <span class="toctext">Functions for Dates</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="Lab_3#Conversion_functions"><span class="tocnumber">1.5</span> <span class="toctext">Conversion functions</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="Lab_3#Other_functions"><span class="tocnumber">1.6</span> <span class="toctext">Other functions</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="Lab_3#Exercises"><span class="tocnumber">2</span> <span class="toctext">Exercises</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Single-Row_Functions">Single-Row Functions</span></h2>
+<p>Single-row functions are functions which, when used in SQL queries, are called and executed for each row/tuple/record of the queried table (row to be included in the result of the query). The functions may take as input a user constant, a variable name, a column name or an expression.
+They may be used within the SELECT list, or within WHERE and ORDER BY clauses.
+If called with a NULL argument these functions return NULL. Exceptions are CONCAT, NVL, REPLACE and REGEXP_REPLACE.
+</p><p>Most of the functions illustrated in the following, are specific to the Oracle's SQL dialect.
+</p>
+<h3><span class="mw-headline" id="Numeric_functions">Numeric functions</span></h3>
+<p>get as input and also return numeric data
+</p>
+<table border="1">
+
+<tr>
+<td>CEIL (n) </td>
+<td>the smallest integer that is greater than or equal to n	</td>
+<td>SELECT CEIL(51.3) FROM DUAL;
+</td></tr>
+<tr>
+<td>FLOOR(n) </td>
+<td>the largest integer that is smaller than or equal to n	</td>
+<td>SELECT FLOOR(51.3) FROM DUAL;
+</td></tr>
+<tr>
+<td>ROUND(n [,m])	</td>
+<td>Rounds n to the closest number using m decimal places. By default m is 0, equivalent to rounding to the closest integer. m may also take negative values.	</td>
+<td>SELECT ROUND(21.365,2) AS "Round - positive" FROM DUAL;
+<p><br />
+SELECT ROUND (21.665,-1) AS " Round - negative " FROM DUAL;
+</p>
+</td></tr>
+<tr>
+<td>TRUNC(n [,m]) </td>
+<td>Truncates n to m decimals; by default m is 0; m may also take negative values.	</td>
+<td>SELECT TRUNC(21.365,2) AS "Truncate - positive" FROM DUAL;
+<p><br />
+SELECT TRUNC(21.665,-1) AS " Truncate - negative" FROM DUAL;
+</p>
+</td></tr>
+<tr>
+<td>MOD(m, n)</td>
+<td>Returns the remainder of the division of m to n	</td>
+<td>SELECT MOD (26,11) AS "Mod" FROM DUAL;
+</td></tr></table>
+<p>To the above functions we may also add common trigonometrical functions: (COS(n), ACOS(n), SIN(n), ASIN(n), TAN(n), ATAN(n)), logarithm functions: (LN(n), LOG(base, n)), exponentiation (EXP(n), POWER(m,n), square root (SQRT(n)).
+</p>
+<h3><span class="mw-headline" id="Functions_taking_character_data_as_input_and_returning_numeric_values">Functions taking character data as input and returning numeric values</span></h3>
+<table border="1">
+
+<tr>
+<td>LENGTH (char)	</td>
+<td>Returns the length of the string char.	</td>
+<td>SELECT LENGTH('word') AS "Word lengtht" FROM DUAL;
+<p><br />
+SELECT fname, LENGTH(fname) FROM instructors WHERE UPPER(TRIM(fname))='COSMIN'; -- why 10?
+</p>
+</td></tr>
+<tr>
+<td>ASCII (char)	</td>
+<td>Returns the ASCII code for the first character in the string	</td>
+<td>SELECT ASCII('A') FROM DUAL;
+</td></tr>
+<tr>
+<td>INSTR(char1, char2
+<p>[, n [, m ]])
+</p>
+</td>
+<td>Looks for the m th match of char2 within char1, staring search from position n; returns the position in char1 of the first character of char2 string, relative to n. By default n and m are 1. If no match is found, the result is 0. </td>
+<td>SELECT INSTR('CORPORATE FLOOR','OR',3,2) AS "Instring" FROM DUAL;
+<p><br />
+SELECT lname, INSTR(lname,'ra') FROM instructors;
+</p>
+</td></tr></table>
+<h3><span class="mw-headline" id="Functions_taking_character_data_as_input_and_returning_character_values">Functions taking character data as input and returning character values</span></h3>
+<table border="1">
+
+<tr>
+<td>INITCAP(char) </td>
+<td>Returns char formatted such that the first character is in uppercase and the rest in lowercase. </td>
+<td>SELECT INITCAP('first leTTER in uPPERCASE') FROM DUAL;
+</td></tr>
+<tr>
+<td>UPPER(char) </td>
+<td>Returns char typed in uppercase </td>
+<td>SELECT UPPER('Stefan') FROM DUAL;
+</td></tr>
+<tr>
+<td>LOWER(char) </td>
+<td>Returns char typed in lowercase	</td>
+<td>SELECT LOWER('LOWER') FROM DUAL;
+</td></tr>
+<tr>
+<td>CONCAT(char1, char2)	</td>
+<td>Returns char1 concatenated with char2; equivalent to the concatenation operator </td>
+<td>SELECT CONCAT( CONCAT(fname, ' is student in year '), year) FROM students;
+</td></tr>
+<tr>
+<td>SUBSTR(char, m [, n ])	</td>
+<td>Extract n characters from char starting with position m; missing n leads to using the end of char; a negative value for m determines the counting to be performed from right to left. </td>
+<td>SELECT SUBSTR('ABCDEFG',3,4) FROM DUAL;
+</td></tr>
+<tr>
+<td>RPAD(char1,n [,char2 ])  	</td>
+<td>Returns char1 filled with empty spaces at right untill length n is reached, if char2 is missing; otherwise, char2 is coped at the right of char1 until length n </td>
+<td>SELECT RPAD(lname,12,'ab') FROM students WHERE lname = 'Ford';
+</td></tr>
+<tr>
+<td>LPAD(char1,n [,char2 ])  	</td>
+<td>Similar to RPAD but the operations are performed at the left of char1	</td>
+<td>SELECT LPAD('Page',15,'*.') FROM DUAL;
+</td></tr>
+<tr>
+<td>CHR(n) </td>
+<td>returns the character having the binary equivalent to n, as a VARCHAR2	</td>
+<td>SELECT CHR(68)||CHR(65)||CHR(84)||CHR(69) FROM DUAL;
+</td></tr>
+<tr>
+<td>TRIM (char) </td>
+<td>Eliminates blanks from the beginning and the end of char	</td>
+<td> SELECT '-'|| TRIM('   test   ')||'-' FROM DUAL;
+</td></tr>
+<tr>
+<td>LTRIM(char) </td>
+<td>Eliminates blanks from the left/beginning of char</td>
+<td> SELECT '-'|| LTRIM('   test   ')||'-' FROM DUAL;
+</td></tr>
+<tr>
+<td>RTRIM(char) </td>
+<td>Eliminates blanks from the left/beginning of char</td>
+<td> SELECT '-'|| RTRIM('   test   ')||'-' FROM DUAL;
+</td></tr>
+<tr>
+<td>REPLACE(char, search_string [, replacement_string])	</td>
+<td>Returns char after replacing search_string with replacement_string; if replacement_string is not given, search_string is simply eliminated 	</td>
+<td>SELECT REPLACE('Andrei','i','ea') FROM DUAL;
+</td></tr>
+<tr>
+<td>TRANSLATE(char, from, to)	</td>
+<td>Returns char modified as follows: every occurrence of a character in from is replaced by the character in to having the same position; if from is longer then to, the characters in from having no corresponding character are deleted.  </td>
+<td>SELECT TRANSLATE('48KLM980', '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ', '9999999999XXXXXXXXXXXXXXXXXXXXXXXXXX') "COD" FROM DUAL;
+</td></tr></table>
+<p>The functions that change the case of the letters (transform the text in lowercase or in uppercase) are frequently used in the WHERE clause in order to look for text for which we d not know how it was stored (in uppercase or lowercase or initcap format). For example, if we do not know how the first names were stored and we would like to retrieve information for a student named Andrei, we will process the field extracted from the database to bring it to a convenient fromat:
+<code>SELECT * FROM students WHERE first_name = 'ANDREI';</code> --returns 0 rows
+</p><p><code>SELECT * FROM students WHERE UPPER(fname) = 'ANDREI'; </code>--returns the wanted data
+</p><p>Also, TRIM is a function largely used to retrieve data when the attributes are declared as CHAR():
+</p><p><code>SELECT * FROM instructors WHERE UPPER(lname) = 'BREABAN'; </code>--returns 0 rows
+</p><p><code>SELECT * FROM instructors WHERE TRIM(UPPER(lname)) = 'BREABAN'; </code>--returns the wanted records
+</p>
+<h3><span class="mw-headline" id="Functions_for_Dates">Functions for Dates</span></h3>
+<p>The default date format for an Oracle Database date value is derived from the NLS_DATE_FORMAT and NLS_DATE_LANGUAGE. Most of you, after installing the database server on your systems will probably have the "DD-MON-YY" format (ex: '10-JUN-15'), but this can be modified by the user (ALTER SESSION SET NLS_DATE_FORMAT....).  To overcome incompatibility issues, it is recommended when working with Dates to make use of the function  TO_DATE (described in the next section), which will specify the format.
+</p>
+<table border="1">
+
+<tr>
+<td>CURRENT_DATE
+</td>
+<td>Returns the current date as given by the time zone of the current session </td>
+<td>SELECT CURRENT_DATE FROM DUAL;
+</td></tr>
+<tr>
+<td>CURRENT_TIMESTAMP
+</td>
+<td>Returns the current timestamp (up to miliseconds) as given by the time zone of the current session </td>
+<td>SELECT CURRENT_TIMESTAMP FROM DUAL;
+</td></tr>
+<tr>
+<td>SYSDATE	</td>
+<td>Returns the current date of the system  </td>
+<td>SELECT SYSDATE FROM DUAL;
+</td></tr>
+<tr>
+<td>MONTHS_BETWEEN(d1, d2 )	</td>
+<td>The number of months elapsed between d1 and d2	</td>
+<td>SELECT MONTHS_BETWEEN(
+<p>TO_DATE('02-02-2015','MM-DD-YYYY'),
+TO_DATE('01-01-2015','MM-DD-YYYY') ) AS "Months"
+FROM DUAL;
+</p>
+</td></tr>
+<tr>
+<td>ADD_MONTHS(d, n)
+</td>
+<td>
+</td>
+<td>SELECT dob, ADD_MONTHS(dob,1) FROM students WHERE lname = 'Popescu';
+</td></tr>
+<tr>
+<td>NEXT_DAY(d, char)	</td>
+<td>Returns the date corresponding to the first week day given by char, after date d </td>
+<td>SELECT NEXT_DAY('13-OCT-15','TUESDAY') FROM DUAL;
+</td></tr>
+<tr>
+<td>LAST_DAY(d)	</td>
+<td>Returns the date corresponding to the last day in the month specified by d. </td>
+<td>SELECT SYSDATE,   LAST_DAY(SYSDATE) AS "Last" FROM DUAL;
+</td></tr>
+<tr>
+<td>ROUND(d [, fmt ]) </td>
+<td>	Rounds to the closest date based on the given format.
+</td>
+<td>SELECT ROUND (TO_DATE ('27-OCT-16','DD-MON-YY'),'YEAR')"New Year" FROM DUAL;
+</td></tr>
+<tr>
+<td>TRUNC(d [, fmt ])	</td>
+<td>If the format is missing, truncates to the closest day.
+</td>
+<td>SELECT TRUNC(TO_DATE('27-OCT-16','DD-MON-YY'), 'YEAR')"First Day of the Year" FROM DUAL; <br />
+<p>SELECT TRUNC(TO_DATE('27-OCT-16','DD-MON-YY'), 'MONTH')"Beginning of Oct." FROM DUAL;
+</p>
+</td></tr></table>
+<p>Study the fmt format at <a rel="nofollow" class="external free" href="http://download.oracle.com/docs/cd/B19306_01/server.102/b14200/functions230.htm">http://download.oracle.com/docs/cd/B19306_01/server.102/b14200/functions230.htm</a> 
+</p><p>Remember what these formats do: D, DAY, DD, HH, MI, MM, MON, MONTH, SS, YYYY, YY, YEAR
+</p><p>The database stores dates internally as numbers. Dates are stored in fixed-length fields of 7 bytes each, corresponding to century, year, month, day, hour, minute, and second. Being stored as numbers, applying numerical operators is possible: 
+</p>
+<ul><li>summing or subtracting a number to/from a date results in a new date:</li></ul>
+<p><code>SELECT SYSDATE + 10 FROM dual;</code> How was the resultant date computed? How can we add a number of hours to a date? 
+</p>
+<ul><li>subtracting two dates generates the number of days between the two: <code> SELECT (SYSDATE - dob)/365 FROM students;</code></li></ul>
+<h3><span class="mw-headline" id="Conversion_functions">Conversion functions</span></h3>
+<p>Oracle converts by default the following types:
+</p><p>VARCHAR2 -&gt; NUMBER
+</p><p>CHAR -&gt; NUMBER
+</p><p>VARCHAR2 -&gt; DATE
+</p><p>CHAR -&gt; DATE
+</p><p>NUMBER -&gt; VARCHAR2
+</p><p>DATE -&gt; VARCHAR2
+</p><p>For other conversions the following functions are supplied:
+</p>
+<table border="1">
+
+<tr>
+<td>TO_CHAR(char)	</td>
+<td>Converts a char value to VARCHAR2	</td>
+<td>
+</td></tr>
+<tr>
+<td>TO_CHAR(n [, fmt])	</td>
+<td>Converts a numerical value n to VARCHAR2, according to the fmt format. Numeric formats are described a: <a rel="nofollow" class="external free" href="http://docs.oracle.com/cd/B19306_01/server.102/b14200/sql_elements004.htm#i34570">http://docs.oracle.com/cd/B19306_01/server.102/b14200/sql_elements004.htm#i34570</a> </td>
+<td>SELECT TO_CHAR('01110' + 1) FROM dual; <br /> SELECT TO_CHAR(scholarship,'$99,999') FROM students;
+</td></tr>
+<tr>
+<td>TO_CHAR({ datetime} [, fmt ])
+</td>
+<td>Converts datetime to VARCHAR2 according to fmt
+</td>
+<td>SELECT TO_CHAR (SYSDATE, 'Day, Month, DD, YYYY')"TO_CHAR example" FROM DUAL;
+</td></tr>
+<tr>
+<td>TO_DATE(char [, fmt ])
+</td>
+<td>Converts a character string to a date according to fmt. Study the format here: <a rel="nofollow" class="external free" href="https://docs.oracle.com/cd/B28359_01/server.111/b28286/sql_elements004.htm#i34924">https://docs.oracle.com/cd/B28359_01/server.111/b28286/sql_elements004.htm#i34924</a>
+</td>
+<td>SELECT TO_DATE('January 26, 1996, 12:38 A.M.', 'Month dd YYYY HH:MI A.M.') FROM DUAL;
+</td></tr>
+<tr>
+<td>TO_NUMBER(char [, fmt ])
+</td>
+<td><a rel="nofollow" class="external free" href="http://docs.oracle.com/cd/B19306_01/server.102/b14200/sql_elements004.htm#i34570">http://docs.oracle.com/cd/B19306_01/server.102/b14200/sql_elements004.htm#i34570</a>
+</td>
+<td>SELECT TO_NUMBER('100.52','9,999.99') FROM DUAL;
+</td></tr>
+<tr>
+<td>CAST(expr AS type_name)</td>
+<td>   </td>
+<td>SELECT CAST(CURRENT_TIMESTAMP AS VARCHAR(50)) FROM DUAL;
+</td></tr>
+<tr>
+<td>CONVERT(char, dest_char_set
+<p>[, source_char_set ])
+</p>
+</td>
+<td>Converts char (any character string) to a new encoding. Common encoding are:
+<p>-US7ASCII: US 7-bit ASCII character set
+-WE8DEC: West European 8-bit character set
+-F7DEC: DEC French 7-bit character set
+-WE8EBCDIC500: IBM West European EBCDIC Code Page 500
+-WE8ISO8859P1: ISO 8859-1 West European 8-bit character set
+-UTF8: Unicode 4.0 UTF-8 Universal character set, CESU-8 compliant
+-AL32UTF8: Unicode 4.0 UTF-8 Universal character set	
+</p>
+</td>
+<td>SELECT CONVERT('Ä Ê Í Ó Ø A B C D E ', 'US7ASCII', 'WE8ISO8859P1') FROM DUAL;
+</td></tr></table>
+<p>To study the formats for dates to be used within to_char function, study the information at:
+<a rel="nofollow" class="external free" href="http://docs.oracle.com/cd/B19306_01/server.102/b14200/sql_elements004.htm#i34924">http://docs.oracle.com/cd/B19306_01/server.102/b14200/sql_elements004.htm#i34924</a>
+</p>
+<h3><span class="mw-headline" id="Other_functions">Other functions</span></h3>
+<table border="1">
+
+<tr>
+<td>USER	</td>
+<td>Returns the name of the current schema </td>
+<td>SELECT USER FROM DUAL;
+</td></tr>
+<tr>
+<td>NVL(expr1, expr2)	</td>
+<td>If expr1 is NULL returns expr2, otherwise returns expr1
+</td>
+<td>SELECT lname, NVL(scholarship,0) "scholarship" FROM students;<br />SELECT lname, NVL(TO_CHAR(scholarship),'No scholarship') "scholarship" FROM students;
+</td></tr>
+<tr>
+<td>NULLIF(expr1, expr2)
+</td>
+<td>If expr1 is equal to expr2 returns NULL, otherwise returns expr1
+</td></tr>
+<tr>
+<td>DECODE(expr, search1, result1
+<p>[, search2, result2]...
+[, default ])	
+</p>
+</td>
+<td>Compares expr with every value search_i in the list. In case of equality returns the corresponding result_i. If no match exists, DEFAULT is returned; if this is not indicated, returns NULL. If expr is NULL, equality is considered only if there exists a search_i which is NULL.
+</td>
+<td>SELECT DECODE(scholarship, 450, '1st prize',350, '2nd prize',250, '3rd prize', '?') FROM students;
+</td></tr>
+<tr>
+<td>LEAST(expr1
+<p>[, expr2 ]...
+) 	
+</p>
+</td>
+<td>Returns the smallest element from the list
+</td>
+<td>SELECT LEAST('Mihai','Andrei','Anca') "LEAST" FROM DUAL;
+</td></tr>
+<tr>
+<td>GREATEST (expr1
+<p>[, expr2 ]...
+)	
+</p>
+</td>
+<td>Returns the largest element from the list
+</td>
+<td>SELECT GREATEST('Mihai','Andrei','Anca') "GREATEST" FROM DUAL;
+</td></tr></table>
+<p>NVL function is frequently used to avoid null results when applying operators/functions. For example, if all students would be given some funds (ex. 100 RON), the total amount of money received by a student cannot be obtained by using
+</p><p><code>SELECT 100+scholarship FROM students;</code>
+</p><p>but using
+</p><p><code>SELECT 100+NVL(scholarship,0) FROM students;</code>
+</p>
+<h2><span class="mw-headline" id="Exercises">Exercises</span></h2>
+<ol><li> Write a query to show the current date. Label the column "Today". </li>
+<li> For every student, show the first name, date of birth and the number of months between the current date and the date of birth. </li>
+<li> For every student, show the day of the week when he/she was born.</li>
+<li> Using the concatenation function, show for every student the text: 'Student &lt;fname&gt; is in group &lt;groupno&gt;'.</li>
+<li> Show the scholarships on 10 characters, filling the empty slots at the right of the number with character '$'.</li>
+<li> For the instructors whose last names begin with B, show the name with the first letter in lowercase and the rest in uppercase, and the number of characters. </li>
+<li> For every student show the name, the date of birth, the date when the student is going to celebrate his/her birthday and the date corresponding to the first Sunday after celebration. </li>
+<li> Order the students who do not earn a scholarship based on the month when they were born; print the first name, last name, and the month of birth.</li>
+<li>For every student show first name, scholarship and the text: '1st place' for value 450, '2nd place' for 350, 3rd place' for 250 and 'mention' for the students not earning a scholarship. Give alias "Prize" for the third column.</li>
+<li> Show all students' first names, replacing letter <i>i</i> with <i>a</i> and letter <i>a</i> with <i>i</i>.</li>
+<li> For every student print first name, age as '&lt;x&gt; years &lt;y&gt; months and &lt;z&gt; days' (i.e. '19 years 3 months and 2 days'), and the number of days until the student will celebrate his/her birthday.</li>
+<li> Assuming that next month the scholarships are increased as follows: 450 with 10%, 350 with 15% and 250 with 20%, show for every student his/her first name, the date corresponding to the first day of next month and the new value of the scholarship. The students not earning a scholarship will have assigned value 0.</li>
+<li> For the students earning a scholarship, show the first name and the corresponding scholarship using only the star symbol (*) as follows: every symbol corresponds to 50 RON. In the table, align the symbols at the right.</li></ol>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.018 seconds
+Real time usage: 0.020 seconds
+Preprocessor visited node count: 112/1000000
+Preprocessor generated node count: 216/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:7-0!*!*!!en!*!* and timestamp 20240223154437 and revision id 170
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_3&amp;oldid=170">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_3&amp;oldid=170</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=Lab+3" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Lab_3"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:Lab_3&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="Lab_3#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Lab_3" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_3&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_3&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="Lab_3#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/Lab_3" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/Lab_3" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_3&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_3&amp;oldid=170" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_3&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 12 October 2022, at 07:44.</li>
+											<li id="footer-info-viewcount">This page has been accessed 13,099 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":104});
+}</script>
+	</body>
+</html>
+	

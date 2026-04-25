@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>PLSQL 12 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="PLSQL_12" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"PLSQL_12","wgTitle":"PLSQL 12","wgCurRevisionId":158,"wgRevisionId":158,"wgArticleId":29,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"PLSQL_12","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-PLSQL_12 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">PLSQL 12</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="PLSQL_12#mw-navigation">navigation</a>, 					<a href="PLSQL_12#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>Note: for this problem you don’t need any supplementary information. The time spent solving the problem takes longer because the time spent learning is 0. (and I have set a bigger score of points).
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="PLSQL_12#Exercise_.2815pt.29"><span class="tocnumber">1</span> <span class="toctext">Exercise (15pt)</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="PLSQL_12#First_function_.286pt.29"><span class="tocnumber">1.1</span> <span class="toctext">First function (6pt)</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="PLSQL_12#Second_function_.289pt.29"><span class="tocnumber">1.2</span> <span class="toctext">Second function (9pt)</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="PLSQL_12#Example_.2F_study_case"><span class="tocnumber">1.2.1</span> <span class="toctext">Example / study case</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Exercise_.2815pt.29">Exercise (15pt)</span></h2>
+<p>Build a multiple-choice test solving application (could be a web application, java, even a CLI – but not just PLSQL scripts)
+</p><p>The application will be connected to an Oracle server which offers two functions:
+</p>
+<h4><span class="mw-headline" id="First_function_.286pt.29">First function (6pt)</span></h4>
+<p>Will allow user authentication: it will receive as parameters the username and the password hash and will check if the user is in the database having associated that hash. In case of successful authentication, you will create a new hash (H2) which will be associated to the test generated for that user (in PLSQL you can use ora_hash(param)). In a new table you will store the username, the new generated hash (H2) and a generated test.
+</p><p>How the test is generated:
+It will have a number of 10 questions from 10 different fields; a question from each field.
+</p><p>The n-th field, marked with Dn, will contain a number of questions for that field. Every existing question will have a different number of answers from which at least one is correct.
+</p><p>To generate a question, firstly is selected a field that haven’t been selected yet. It’s randomly picked a question from that field and then for that question it will be added a number of 5 answers: the first answer will be compulsory a correct one and then it will be randomly chosen from the other answers one or more correct or incorrect answers (in total 4 more), taking care of not having duplicated answers (if you choose randomly you can get the same answer twice). After the answers are selected, they will be reordered. The same process is identical for generating the rest of the questions until there are no more fields left to be selected.
+</p><p>You can store as you want the test (as nested tables or strings in CSV format etc.). It is recommended to keep the question’s content as an ID rather then keeping the actual content (same for associated answers). For example, I can store a test in a CSV as:
+</p><p>D4:q2-a75,a22,a89,a12,a34#D2:q94-a41,a77,a78,a80,a79#..... where D4 indicates that the first question of the test is from the field 4, is the question with the ID 2 in the question table and the selected answers for it are the ones with IDs 75, 22, 89, 12, 34 – they already have an order (for example the correct answers could be IDs 89 and 34.)
+</p><p>Don’t forget: the username, the generated hash (H2) along with the test (in any format you want) must be stored in a table.
+</p><p>This function returns either the generated hash (H2) (back to the PHP app) or a standard value (for example 0 or null) if the user cannot be authenticated in the system.
+</p><p>In the case the user can authenticate and he already has a generated test from a previous authentication, it will be returned the existing hash (H2 which was generated previously).
+</p>
+<h4><span class="mw-headline" id="Second_function_.289pt.29">Second function (9pt)</span></h4>
+<p>It will have 2 parameters:
+</p>
+<ul><li> H2 hash (which the PHP acknowledges because it was returned in the previous function)</li>
+<li> The answer to a previous question (for example: D4:q2-a89,a34 – he/she answered correctly to the first question).</li></ul>
+<p>The function will return a question along with the possible answers (which will be displayed in your application’s interface) this way: Due to the hash, this second function will allow receiving the next question from the test – the one the user haven’t answered yet (for example, I can check the table with answers for the ones which were given at the test with the received hash as parameter). After the question is found, this question will be formulated in a string parsable by your application and will be sent to it.
+</p><p>When this function cannot generate any question further (because it is reached the final of the test), it will calculate the final score and will return it to the application in a parsable format (for example: “Score:92”) and in the same time it will be stored in a table with final result where are memorized the usernames and the final score. The application will display the final score.
+</p><p>For computing scores proceed as follows: the 100 points available will be allocated identically for every field: for question from field 1 there will be given 10 points, for question from field D2 another 10 points and so on. The number of points associated to a question are divided to the number of correct answers selected. In the previous example were picked 2 correct answers, so everyone of them values 5 points. For every correct answer it is added 5 points, for every wrong answer are decreased 5 points. To be considered that there aren’t negative scores – for example, if at the given question as example the answer would be “D4:q2-a75,a22,a89”, 89 will be the only one correct, therefore the question will value 0 points.
+</p><p>Observation: the PLSQL code could also contain other functions, but at the end PHP application will only call the two functions described above.
+</p><p>The questions and answers tables could be obtain using this script:
+<a rel="nofollow" class="external free" href="https://docs.google.com/document/d/1Ps0-R_4NyDkMK04Jmk3bhZiy4bKg2LIjEq_G4Scojqk/edit?usp=sharing">https://docs.google.com/document/d/1Ps0-R_4NyDkMK04Jmk3bhZiy4bKg2LIjEq_G4Scojqk/edit?usp=sharing</a> (<span style="color:red"> this document can be edited by anyone, especially to be able to add the rest of fields – insert easy questions in order that all of us can answer them&#160;:D </span>)
+</p><p><br />
+</p>
+<h6><span class="mw-headline" id="Example_.2F_study_case">Example / study case</span></h6>
+<p>This is just an example (probably inefficient). You can implement this story in other ways.
+</p><p>George has the password gigi which is encrypted with sha-1: "3277d1158b8e7b677d96e0f6f0005c30035a9f37". He calls the first function: function1(‘George’, ‘3277d1158b8e7b677d96e0f6f0005c30035a9f37’) from the PHP application. The function searches the table with the users and founds that the password is correct for user George. Then, searches in the table which stores the tests and sees that George doesn’t appear in that table. For that reason, is build a hash (H2): 29152212 and is generated a test, for him:
+</p><p>D2:Q6-A50,A45,A53,A54,A47#D1:Q2-A15,A16,A18,A19,A17#.......
+His name, along with H2 and the generated test are written in the database in the table “Tests”. The function returns value of H2: 29152212 towards PHP application.
+</p><p>The PHP application calls now the second function this way: function2(29152212, ‘’); function2 returns the text of question Q6 with the answers in the established order in the generated test, in a format that can be parsed by PHP: ‘Q6: Which one of this number are even? *50:13*45:2*53:7*54:9*47:6'. The text is split by * (the programmer made sure that * cannot appear in the questions or answers) and displays for George:
+
+Which of the following numbers are even?
+a) 13
+b) 2
+c) 7
+d) 9
+e) 6
+George is smart but neglectful. He chooses as even number a, b and e. When the submit button is pressed, the answers are sent to PHP which calls function2 again, this time filling the second parameter: function2(29152212,'Q6-A50,A45,A47'). This call will lead to complete in the database with answers of George’s answer: Q6-A50,A45,A47, then it is observed in the table with answers, which are the questions from George’s test that are not answered yet: Q2 (from the field 1). The following string is sent to PHP: ‘Q2:Which one of the geometric shapes have more than 4 angles?*15:Rectangle*16:Parallelogram*18:Dodecagon*19:Pentagon*17:Hexagon’.
+</p><p>The process continues until George reaches next question. When he sends to the database the answer from that last question, because there aren’t questions found to be answered, the database server computes the sum of points: every question will have 10 points. Question 1 had 2 correct answers selected (the one with IDs 45 and 47). For that reason every answer values 5 point (10/2). George had answered with IDs 50, 45, 47 so he scored -5, 5, 5 = totally 5 points for this question. Computing continues for the rest of the questions and in the end the sum is 87.333. Ceil is used (because we don’t like a sad George) and this time function2 sends to PHP app the string ‘Score: 88’, after writing this score in a table with “final grades”. George is happy 😊. He passed your multiple-choice test.
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.011 seconds
+Real time usage: 0.015 seconds
+Preprocessor visited node count: 19/1000000
+Preprocessor generated node count: 42/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:29-0!*!*!!en!*!* and timestamp 20240222173341 and revision id 158
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_12&amp;oldid=158">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_12&amp;oldid=158</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=PLSQL+12" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="PLSQL_12"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:PLSQL_12&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="PLSQL_12#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="PLSQL_12" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_12&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_12&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="PLSQL_12#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/PLSQL_12" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/PLSQL_12" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_12&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_12&amp;oldid=158" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_12&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 28 May 2018, at 13:53.</li>
+											<li id="footer-info-viewcount">This page has been accessed 1,349 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":59});
+}</script>
+	</body>
+</html>
+	

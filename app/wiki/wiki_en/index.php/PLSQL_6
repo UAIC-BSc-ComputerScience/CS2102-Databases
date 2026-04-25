@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>PLSQL 6 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="PLSQL_6" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"PLSQL_6","wgTitle":"PLSQL 6","wgCurRevisionId":154,"wgRevisionId":154,"wgArticleId":24,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"PLSQL_6","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-PLSQL_6 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">PLSQL 6</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="PLSQL_6#mw-navigation">navigation</a>, 					<a href="PLSQL_6#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>Translated by Ilinca Topciu on 30.03.2018
+</p><p><br />
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="PLSQL_6#Objects"><span class="tocnumber">1</span> <span class="toctext">Objects</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="PLSQL_6#Creating_a_class_in_PL.2FSQL"><span class="tocnumber">1.1</span> <span class="toctext">Creating a class in PL/SQL</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="PLSQL_6#Sorting_and_comparing"><span class="tocnumber">1.2</span> <span class="toctext">Sorting and comparing</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="PLSQL_6#Inheritance_in_PLSQL"><span class="tocnumber">1.3</span> <span class="toctext">Inheritance in PLSQL</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Objects">Objects</span></h1>
+<p>Useful links:
+</p>
+<ul><li> <a rel="nofollow" class="external free" href="http://www.tutorialspoint.com/plsql/plsql_object_oriented.htm">http://www.tutorialspoint.com/plsql/plsql_object_oriented.htm</a></li></ul>
+<ul><li> <a rel="nofollow" class="external free" href="https://docs.oracle.com/cd/B28359_01/appdev.111/b28371/adobjplsql.htm">https://docs.oracle.com/cd/B28359_01/appdev.111/b28371/adobjplsql.htm</a></li></ul>
+<ul><li> <a rel="nofollow" class="external free" href="https://docs.oracle.com/cd/B13789_01/appdev.101/b10807/10_objs.htm#i16312">https://docs.oracle.com/cd/B13789_01/appdev.101/b10807/10_objs.htm#i16312</a></li></ul>
+<p><br />
+In most modern programming languages, programming is object-oriented. Even though the scripts that are necessary in databases are usually quite simple and do specific things over a database, working with objects is allowed in PL/SQL.
+</p><p><br />
+Some of the OOP (C++ or Java) concepts that you already know are implemented here. You can create types, derive an object from other existing objects and so on. Like in OOP programming, objects have a set of properties (or attributes) and a set of methods. Attributes are used to represent the state of the object, while methods are used to simulate the behaviour of various objects.
+</p>
+<h2><span class="mw-headline" id="Creating_a_class_in_PL.2FSQL">Creating a class in PL/SQL</span></h2>
+<p>The "class" an object belongs to is, in fact, a type which we can declare using this syntax:
+</p>
+<pre>CREATE OR REPLACE TYPE class_name AS OBJECT ( ... );
+</pre>
+<p>In the section between parenthesis we declare the attributes of the object and their type, along with procedures and member functions. We have the following example (we will create a student type which we will use to "instantiate" students):
+</p>
+<pre>
+CREATE OR REPLACE TYPE student AS OBJECT
+(lname varchar2(10),
+ fname varchar2(10),
+ groupno varchar2(4),
+ year number(1), 
+ date_of_birth date,
+ member procedure display_report_card
+);
+/ 
+</pre>
+<p>You cannot use&#160;%TYPE when declaring an object. This is not valid because if somebody wants to modify the table based on which the object was created, then the object would be damaged (and probably the subprograms that use the object as well).
+</p><p>When declaring an object, you need to declare the body of the object as well. In this body you can write the implementation of the methods declared in the object (in our case the procedure display_report_card).
+</p><p>To create the body section we have the following syntax:
+</p><p><br />
+</p>
+<pre>
+CREATE OR REPLACE TYPE BODY student AS
+          .................
+END;
+</pre>
+<p>Between the header of the BODY and the word END we write the implementation of all methods. For the student object from above we could declare the following BODY:
+</p>
+<pre>
+CREATE OR REPLACE TYPE BODY student AS
+   MEMBER PROCEDURE display_report_card IS
+   BEGIN
+       DBMS_OUTPUT.PUT_LINE('This procedure computes and displays the report card');
+   END display_report_card;
+END;
+/
+</pre>
+<p>We can create tables in which we introduce as a column instance-values of the previously declared type (student). If we execute the following command we will create a table of type key-value in which the key is the registration number of the student and the value is the object:
+</p>
+<pre>
+CREATE TABLE oop_students (registration_number VARCHAR2(4), object STUDENT);
+</pre>
+<p>Here is an example of declaring and using an object of type student and a command for inserting in the newly created table:
+</p>
+<pre>
+set serveroutput on;
+DECLARE
+   v_student1 STUDENT;
+   v_student2 STUDENT;
+BEGIN
+   v_student1 := student('Smith', 'John', 'A2', 3, TO_DATE('11/04/1994', 'dd/mm/yyyy'));
+   v_student2 := student('Jones', 'George', 'A4', 3, TO_DATE('22/03/1995', 'dd/mm/yyyy'));
+   v_student1.display_report_card();
+   dbms_output.put_line(v_student1.lname);
+   insert into oop_students values ('100', v_student1);
+   insert into oop_students values ('101', v_student2);
+END;
+</pre>
+<p>You can also declare functions inside objects (similarly to how we created procedures but with the differences specific to functions). The header of the function from the body will be put in the declaration of the object. Do not forget the keyword "Member".
+</p><p>As you can see in the example given, an object has a constructor (which is called through the name of the object's type) which takes as parameters the values of the attributes from that object (in the order of the declaration) and assigns them to the object. If you want to have your own constructor (and not the implicit one), here is how you can do this:
+</p><p>In the declaration of the object add the constructor as a method:
+</p><p><br />
+</p>
+<pre>
+  CONSTRUCTOR FUNCTION student(lname varchar2, fname varchar2)
+    RETURN SELF AS RESULT
+</pre>
+<p>Then, in the body, specify what you want to do in this new constructor-method:
+</p>
+<pre>
+CONSTRUCTOR FUNCTION student(lname varchar2, fname varchar2)
+    RETURN SELF AS RESULT
+  AS
+  BEGIN
+    SELF.lname := lname;
+    SELF.fname := fname;
+    SELF.date_of_birth := sysdate;
+    SELF.year := 1;
+    SELF.groupno := 'A1';
+    RETURN;
+  END;
+</pre>
+<p>Declare a new variable of type student and instantiate it using the new constructor which we have just defined.
+</p><p>Beside the constructor, another "more special" method is the one that allows the comparison of two object of the same type. This function is necessary because, normally, the DBMS does not know which of the two variables (v_student1 and v_student2) is bigger. In case we want to sort the table oop_students (declared above) after the column object, what is the order taken into consideration (how would two elements from this column be compared? after lname, fname or age?)
+</p>
+<h2><span class="mw-headline" id="Sorting_and_comparing">Sorting and comparing</span></h2>
+<p>Next, we invite you to create, inside the student object, a function (called age_in_days) which returns the age of the student in days (decrease from sysdate the value of date_of_birth from the object). We will use this function to compare 2 students.
+</p><p>There are 2 methods of comparing 2 objects: through a MAP method or an ORDER method. The method of type MAP will return a value (of type number for example). If the first object returns a number which is less than the second object than it will be considered smaller.
+</p><p>Adding the word "MAP" in front of the function age_in_days (which you have previously created), will enable you to compare 2 objects of type student based on the number of days that have passed since they were born.
+</p><p>Add in the anonymous block the following code section:
+</p>
+<pre>
+   if (v_student1 &lt; v_student2) 
+      THEN DBMS_OUTPUT.PUT_LINE('Student '|| v_student1.lname || ' is younger.');
+      ELSE DBMS_OUTPUT.PUT_LINE('Student '|| v_student2.lname || ' is younger.');
+   END IF;
+</pre>
+<p>In most programming languages, the comparison function is not based on the object's representation as a value which could be compared to the one obtained through the similar representation of another object, but rather by returning -1, 0 or 1 (if the current object SELF in PLSQL or this in Java is -1: smaller, 0: equal, 1:bigger than the object given as parameter).
+</p><p>The difference between the two functions: MAP and ORDER is that while the MAP type one does not need any parameters because it returns the current object's representation as a comparable data type, the ORDER type function has as mandatory parameter an object of the same type as the one that it will be compared to. Both methods cannot be used at the same time, for the comparison that is going to be made using ORDER, the code above for MAP is still valid. Try to rewrite the MAP function in order for it to be of type ORDER (actually, when you compare (v_student1 &lt; v_student2) you can imagine calling something like "v_student1.compareWith(v_student2)" and the function compareWith is the one that needs to be declared using ORDER).
+</p>
+<h2><span class="mw-headline" id="Inheritance_in_PLSQL">Inheritance in PLSQL</span></h2>
+<p>In PLSQL, like in other object-oriented languages, we can create objects starting from existing objects. In order to create a child-object, the parent class (superclass) needs to be declared as NOT FINAL (predefined value is FINAL). Rewrite student type using the words NOT FINAL at the end. To allow method overriding, in front of its declaration we need to add the words NOT FINAL.
+</p><p>In our example we can create the declaration of the student as follows:
+</p>
+<pre>
+CREATE OR REPLACE TYPE student AS OBJECT
+(lname varchar2(10),
+ fname varchar2(10),
+ groupno varchar2(4),
+ year number(1), 
+ date_of_birth date,
+ NOT FINAL member procedure display_report_card,
+ map member FUNCTION age_in_days RETURN NUMBER, 
+ CONSTRUCTOR FUNCTION student(lname varchar2, fname varchar2)
+    RETURN SELF AS RESULT
+) NOT FINAL;
+/
+</pre>
+<p>In this case, a new type (class) can be created as a subclass for student and in this new class we can override the procedure display_report_card.
+</p><p>In the following code, we create a student subclass which has an additional property "scholarship" and which overrides the display_report_card method. You also have the anonymous block used to declare and use this new object type.
+</p><p><br />
+</p>
+<pre>
+drop type knowledgeable_student;
+CREATE OR REPLACE TYPE knowledgeable_student UNDER student
+(    
+   scholarship NUMBER(6,2),
+   OVERRIDING member procedure display_report_card
+)
+/
+
+
+CREATE OR REPLACE TYPE BODY knowledgeable_student AS
+    OVERRIDING MEMBER PROCEDURE display_report_card IS
+    BEGIN
+       dbms_output.put_line('scholar');
+    END display_report_card;
+END;
+/
+
+DECLARE
+   v_knowledgeable_student knowledgeable_student;
+BEGIN
+    v_knowledgeable_student := knowledgeable_student('Smith', 'John', 'A1', 2, TO_DATE('18/09/1996', 'dd/mm/yyyy'), 1000);
+    dbms_output.put_line(v_knowledgeable_student.lname);
+    v_knowledgeable_student.display_report_card();
+END;
+</pre>
+<p>Create the 2 instances of knowledgeable_student and compare them. Is the comparison method used in comparing 2 objects of type student maintained?
+</p><p>Execute the command:
+</p>
+<pre>select * from oop_students order by object; -- does this command use the order established by the MAP/ORDER function?
+</pre>
+<p>To create an abstract class use NOT INSTANTIABLE after declaring the class (before NOT FINAL). Does it make sense to use NOT INSTANTIABLE without it being followed by NOT FINAL&#160;?
+</p><p>Execute the code:
+</p><p><br />
+</p>
+<pre>
+DECLARE
+  s student;
+BEGIN
+  SELECT object INTO s FROM oop_students WHERE registration_number='100';
+  dbms_output.put_line(s.lname);
+END;
+</pre>
+<p><br />
+</p><p>Exercise 1 (10pt)
+</p>
+<ul><li> (2pt) Create a class (any class). The class must have at least 2 methods and at least one additional constructor.(besides the implicit one)</li></ul>
+<ul><li> (2pt) For the class created at the previous point, implement a method that enables the comparison of 2 objects (MAP or ORDER), insert a series of objects in a table and try to sort the column where you have inserted the objects to demonstrate that the objects can really be compared.</li></ul>
+<ul><li> (2pt)	Create a subclass that has as base class the class created at the first point. Overwrite at least one method from the existing ones(from point 1). Give an example of a method that cannot be overwritten.</li></ul>
+<ul><li> (2pt) Overloading is done by declaring functions that have the same name but different parameters. Exemplify this process for one of the classes that you have created (the one at point 1 or the one from point 3).</li></ul>
+<ul><li> (2pt) Create a PLSQL code and a Java code through which you will serialize/deserialize objects directly into/from a database: you will save the properties of the Java object in the database as a PLSQL object (in the table from point 2) and you will be able to recreate the objects in Java from the data stored in the database.</li></ul>
+<p>Example: I have a car object in Java: brand:Dacia, model: Logan, color: 
+White, fabrication year: 2018. When I call the function java having as parameter the object of 
+type car, the function will write in the database the information about the car and
+return an identifier from the database representing the car (an ID field
+automatically added by the PLSQL function. In the database, an object will be created with the properties of the java object (Dacia brand, Logan model, white color, and fabrication year 2018 - we will see these properties using an example PLSQL script- don't write a sequence of bits representing the Java standard serialization).
+When you deserialize, you will give an ID and you will get the object.
+As a more interesting exercise, you could implement the Serializable interface from Java in order to serialize and deserialize.
+Java is compulsory but the interface is not. It is enough to show the serialization and deserialization in the console.
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.010 seconds
+Real time usage: 0.012 seconds
+Preprocessor visited node count: 108/1000000
+Preprocessor generated node count: 280/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:24-0!*!*!!en!*!* and timestamp 20240223154441 and revision id 154
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_6&amp;oldid=154">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_6&amp;oldid=154</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=PLSQL+6" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="PLSQL_6"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:PLSQL_6&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="PLSQL_6#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="PLSQL_6" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_6&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_6&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="PLSQL_6#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/PLSQL_6" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/PLSQL_6" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_6&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_6&amp;oldid=154" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_6&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 11 May 2018, at 12:59.</li>
+											<li id="footer-info-viewcount">This page has been accessed 2,526 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":106});
+}</script>
+	</body>
+</html>
+	

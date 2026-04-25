@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="ro" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Laboratorul 10 - BD</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="BD (ro)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="Laboratorul_10" />
+<link rel="alternate" type="application/atom+xml" title="BD Abonare Atom" href="../index.php@title=Special%253ASchimbări_recente&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=ro&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-css:7:4df88359e8a55d2a1f91cd845ecbc51d */</style>
+<script src="../load.php@debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Laboratorul_10","wgTitle":"Laboratorul 10","wgCurRevisionId":1284,"wgRevisionId":1284,"wgArticleId":12,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"ro","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"],"wgMonthNamesShort":["","ian","feb","mar","apr","mai","iun","iul","aug","sept","oct","nov","dec"],"wgRelevantPageName":"Laboratorul_10","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"ro","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"ro"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-js:7:2a32e5717ea1d009b03fd0794ab8a12b */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Laboratorul_10 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="ro"><span dir="auto">Laboratorul 10</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">De la BD</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Salt la:					<a href="Laboratorul_10#mw-navigation">navigare</a>, 					<a href="Laboratorul_10#p-search">căutare</a>
+				</div>
+				<div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr"><div id="toc" class="toc"><div id="toctitle"><h2>Cuprins</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Laboratorul_10#Variabile_de_substitu.C8.9Bie_SQL.2APlus"><span class="tocnumber">1</span> <span class="toctext">Variabile de substituție SQL*Plus</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="Laboratorul_10#Comenzi_DML_-_Modificare_date"><span class="tocnumber">2</span> <span class="toctext">Comenzi DML - Modificare date</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="Laboratorul_10#Ad.C4.83ugarea_.C3.AEnregistr.C4.83rilor"><span class="tocnumber">2.1</span> <span class="toctext">Adăugarea înregistrărilor</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="Laboratorul_10#SECVENTE"><span class="tocnumber">2.1.1</span> <span class="toctext">SECVENTE</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="Laboratorul_10#Exercitii"><span class="tocnumber">2.1.2</span> <span class="toctext">Exercitii</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="Laboratorul_10#Actualizarea_.C3.AEnregistr.C4.83rilor"><span class="tocnumber">2.2</span> <span class="toctext">Actualizarea înregistrărilor</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="Laboratorul_10#Exercitii_2"><span class="tocnumber">2.2.1</span> <span class="toctext">Exercitii</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="Laboratorul_10#.C8.98tergerea_.C3.AEnregistr.C4.83rilor"><span class="tocnumber">2.3</span> <span class="toctext">Ștergerea înregistrărilor</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="Laboratorul_10#Exercitii_3"><span class="tocnumber">2.3.1</span> <span class="toctext">Exercitii</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="Laboratorul_10#Comenzi_DDL_-_creare.2Fmodificare_structuri_de_date"><span class="tocnumber">3</span> <span class="toctext">Comenzi DDL - creare/modificare structuri de date</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="Laboratorul_10#CREATE_TABLE_AS"><span class="tocnumber">3.1</span> <span class="toctext">CREATE TABLE AS</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="Laboratorul_10#Exercitii_4"><span class="tocnumber">3.1.1</span> <span class="toctext">Exercitii</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-13"><a href="Laboratorul_10#ALTER_TABLE"><span class="tocnumber">3.2</span> <span class="toctext">ALTER TABLE</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="Laboratorul_10#Exercitii_5"><span class="tocnumber">3.2.1</span> <span class="toctext">Exercitii</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="Laboratorul_10#Tranzac.C8.9Bii"><span class="tocnumber">4</span> <span class="toctext">Tranzacții</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="Laboratorul_10#Exerci.C8.9Bii"><span class="tocnumber">4.1</span> <span class="toctext">Exerciții</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Variabile_de_substitu.C8.9Bie_SQL.2APlus">Variabile de substituție SQL*Plus</span></h1>
+<p>Variabilele de substituție au rolul de a suplini constante, condiții utilizate în clauza WHERE, nume de campuri utilizate în clauza ORDER BY, nume de tabele sau chiar întregi fraze SELECT.
+</p><p>Variabilele de substituție sunt precedate de simbolul <b>&amp;</b> iar la execuția interogării SQLPlus va solicita de la utilizator valorile necesare.
+</p><p>Exemplu 1:
+</p>
+<pre>
+SELECT *
+    FROM studenti
+    WHERE an=&amp;an AND nume LIKE '&amp;nume'
+
+</pre>
+<p>Exemplu 2:
+</p>
+<pre>
+SELECT nume, &amp;camp_afisare
+    FROM studenti
+    WHERE &amp;conditie2
+    ORDER BY &amp;camp_sortare;
+
+</pre>
+<p>Executați interogările de mai sus de mai multe ori inserand diverse valori pentru variabilele de substituție. Verificați rezultatul.
+</p><p>Variabilele de substituție pot fi predefinite și instanțiate, caz în care la execuția interogării nu se mai solicită valoarea:
+</p>
+<pre>
+DEFINE camp=prenume
+SELECT nume, &amp;camp
+    FROM studenti
+    ORDER BY &amp;camp;
+
+</pre>
+<p>Variabila este stocată pe parcursul sesiunii curente până la eliminarea ei cu comanda UNDEFINE sau până la închiderea sesiunii.
+</p>
+<pre>
+UNDEFINE camp
+
+</pre>
+<p>Comenzile DEFINE si UNDEFINE sunt specifice utilitarului SQL*Plus și nu limbajului SQL.
+</p>
+<h1><span class="mw-headline" id="Comenzi_DML_-_Modificare_date">Comenzi DML - Modificare date</span></h1>
+<p>Până acum s-au utilizat în cadrul laboratoarelor doar comenzi de interogarea a datelor - adică fraza SELECT - care sunt parte tot din cadrul componentei DML (Data Manipulation Language) a limbajului SQL.
+În această secțiune exemplificăm comenzile de modificare a datelor.
+</p>
+<h2><span class="mw-headline" id="Ad.C4.83ugarea_.C3.AEnregistr.C4.83rilor">Adăugarea înregistrărilor</span></h2>
+<p>Inserarea de noi înregistrări în baza de date se realizează cu ajutorul comenzii INSERT care poate lua două forme:
+</p>
+<table border="1">
+<tr>
+<td><pre>INSERT INTO nume_tabel [ (lista_coloane) ]
+      VALUES (lista_valori)</pre>
+</td>
+<td> INSERT INTO cursuri VALUES(30, 'Inv. automata', 3, 1, 5);<br />
+<p>INSERT INTO cursuri (ID_curs, titlu_curs) VALUES(31, 'NoSQL');
+</p>
+</td></tr>
+<tr>
+<td><pre>INSERT INTO nume_tabel [ (lista_coloane) ]
+   fraza_select	</pre>
+</td>
+<td>
+<pre>INSERT INTO note 
+SELECT nr_matricol, 30, 10, SYSDATE
+  FROM studenti
+  WHERE an=3;
+</pre>
+</td></tr></table>
+<h3><span class="mw-headline" id="SECVENTE">SECVENTE</span></h3>
+<p>De multe ori suntem puși în situația de a crea atribute sintetice care să joace rol de cheie, deci să ia valori unice în cadrul unei tabele. Secvențele sunt obiecte care ne ajută să generăm automat numere întregi unice în momentul inserării înregistrilor.
+</p><p>Sintaxa creării unei secvențe:
+</p>
+<pre>
+CREATE SEQUENCE nume_secventa
+  [INCREMENT BY n]               -- pasul
+  [START WITH n1]                -- valoarea de start
+  [MAXVALUE n_max | NOMAXVALUE]  -- valoarea de oprire
+  [MINVALUE n_min | NOMINVALUE]  -- valoarea minima (listele pot fi siruri descrescatoare)
+  [CYCLE | NOCYCLE]              -- daca se continua generarea cand se ajunge la min/max
+
+</pre>
+<p>Comanda NEXTVAL generează următorul număr din șir iar CURRVAL obține valoarea curentă. NEXTVAL trebuie executată înainte ca lista să conțină breun număr.
+</p><p>CYCLE -&gt; furnizati si optiunea NOCACHE
+</p><p>Exemplu:
+</p>
+<pre>
+CREATE SEQUENCE s1
+  INCREMENT BY 2
+  START WITH 10
+  MAXVALUE 15;
+
+SELECT s1.NEXTVAL FROM DUAL; --executati in mod repetat comanda; cand ridica eroare?
+
+</pre>
+<p>Pentru a elimina secventa se va executa comanda 
+</p>
+<pre>
+DROP SEQUENCE nume_secventa;
+
+</pre>
+<h3><span class="mw-headline" id="Exercitii">Exercitii</span></h3>
+<p>Cum poate fi utilizată o secvență la inserare?
+Răspundeți creând o secvență care sa vă ajute sa inserați noi cursuri cu id unic, cu intrari consecutive crescătoare cu pasul 1. Inserati 3 cursuri noi cu id-ul generat de secventa.
+</p>
+<h2><span class="mw-headline" id="Actualizarea_.C3.AEnregistr.C4.83rilor">Actualizarea înregistrărilor</span></h2>
+<table border="1">
+<tr>
+<td><pre>UPDATE nume_tabel [alias]
+  SET nume_coloana1 = valoare1
+     [, nume_coloana2 = valoare2...]
+      [WHERE conditie]</pre>
+</td>
+<td>UPDATE studenti
+<p>SET bursa=bursa*0.15
+WHERE bursa&lt;300;
+</p>
+</td></tr>
+<tr>
+<td><pre>UPDATE nume_tabel [alias]
+  SET (nume_coloana1 [,nume_coloana2]...) = (subinterogare)
+    [WHERE conditie]</pre>
+</td>
+<td>
+</td></tr></table>
+<h3><span class="mw-headline" id="Exercitii_2">Exercitii</span></h3>
+<ol><li>Actualizati valoarea bursei pentru studentii care au măcar o notă de 10. Acestia vor primi ca bursa 500RON.</li>
+<li>Toti studentii primesc o bursa egala cu 100*media notelor lor. Efectuati modificarile necesare.</li></ol>
+<h2><span class="mw-headline" id=".C8.98tergerea_.C3.AEnregistr.C4.83rilor">Ștergerea înregistrărilor</span></h2>
+<table border="1">
+<tr>
+<td><pre>DELETE FROM nume_tabel 
+  [WHERE conditie]</pre>
+</td>
+<td>DELETE FROM note WHERE valoare &lt; 5;
+</td></tr></table>
+<h3><span class="mw-headline" id="Exercitii_3">Exercitii</span></h3>
+<p>Stergeti toti studentii care nu au nici o nota.
+</p>
+<h1><span class="mw-headline" id="Comenzi_DDL_-_creare.2Fmodificare_structuri_de_date">Comenzi DDL - creare/modificare structuri de date</span></h1>
+<p>Aceste comenzi sunt menite a crea sau a șterge tabele (sau alte tipuri de obiecte), precum și a modifica structura tabelelor (obiectelor) existente. Comenzile necesare fac parte din componenta DDL (Data Definition Language) a limbajului SQL.
+</p>
+<h2><span class="mw-headline" id="CREATE_TABLE_AS">CREATE TABLE AS</span></h2>
+<p>Comenzile de creare a tabelelor au fost pe larg explicate la curs, cu diversele constrângeri care pot fi impuse asupra datelor la momentul creării. Aici tratăm doar comanda CREATE cu subinterogări.
+</p>
+<pre>
+CREATE TABLE nume_tabel [(col1, col2,...)] [AS] fraza_select;
+
+</pre>
+<p>Comanda este similară cu cea dedicată creării viewului, diferența fiind că la crearea unui tabel, acesta este umplut cu datele returnate de interogare.
+</p>
+<h3><span class="mw-headline" id="Exercitii_4">Exercitii</span></h3>
+<p>Executati comanda ROLLBACK. Creati apoi o tabelă care să stocheze numele, prenumele, bursa si mediile studentilor.
+</p>
+<h2><span class="mw-headline" id="ALTER_TABLE">ALTER TABLE</span></h2>
+<p>Structura tabelelor create deja poate fi modificată, chiar dacă tabelul conține deja date. Modificările pot să vizeze adăugarea de noi coloane, ștergerea unor coloane existente, modificarea definiției unei coloane (tipul și constrângerile impuse), redenumirea unei coloane, redenumirea tabelului, adăugarea sau ștergerea de constângeri (chei candidat, chei primare, chei străine, constrângeri NOT NULL, CHECK).
+</p><p>Găsiți în continuare comenzile necesare: 
+</p>
+<table border="1">
+<tr>
+<td>ALTER TABLE nume_tabel ADD (col1 definitie_col1 [,col2 definitie_col2....])
+</td>
+<td><pre>ALTER TABLE cursuri ADD (abreviere CHAR(2) NULL, 
+                 descriere VARCHAR(40) DEFAULT 'curs obligatoriu');</pre>
+</td></tr>
+<tr>
+<td>ALTER TABLE nume_tabel DROP COLUMN col
+</td>
+<td><pre>ALTER TABLE cursuri DROP COLUMN descriere;</pre>
+</td></tr>
+<tr>
+<td>ALTER TABLE nume_tabel MODIFY (col1 definitie_col1 [,col2 definitie_col2....])
+</td>
+<td><pre>ALTER TABLE profesori MODIFY (nume VARCHAR(20), 
+                            prenume VARCHAR(20));</pre>
+</td></tr>
+<tr>
+<td>ALTER TABLE nume_tabel RENAME COLUMN col_veche TO col_noua
+</td>
+<td><pre>ALTER TABLE note RENAME COLUMN valoare TO nota;</pre>
+</td></tr>
+<tr>
+<td>ALTER TABLE nume_vechi_tabel RENAME TO nume_nou_tabel
+</td>
+<td><pre>ALTER TABLE profesori RENAME TO cadre_didactice;</pre>
+</td></tr>
+<tr>
+<td>ALTER TABLE nume_tabel ADD CONSTRAINT nume_constrangere definitie_constrangere;
+</td>
+<td><pre>ALTER TABLE studenti ADD CONSTRAINT 
+     pk_studs PRIMARY KEY (nr_matricol);</pre>
+<pre>ALTER TABLE note ADD CONSTRAINT 
+     fk_studs FOREIGN KEY (nr_matricol) 
+           REFERENCES studenti(nr_matricol) ON DELETE CASCADE;</pre>
+</td></tr>
+<tr>
+<td>ALTER TABLE nume_tabel DROP CONSTRAINT nume_constrangere;
+</td>
+<td><pre>ALTER TABLE note DROP CONSTRAINT fk_studs;</pre>
+</td></tr></table>
+<h3><span class="mw-headline" id="Exercitii_5">Exercitii</span></h3>
+<p>Executati din nou scriptul de creare de aici: <a rel="nofollow" class="external free" href="../../../~vcosmin/BD/facultate.sql">http://profs.info.uaic.ro/~vcosmin/BD/facultate.sql</a><br />
+</p>
+<ol><li>Adăugați constrângerile de tip cheie primară pentru tabelele Studenti, Profesori, Cursuri.</li>
+<li>Adăugați constrângerile referențiale pentru tabelele Note și Didactic. La ștergerea unui profesor din tabela Profesori, în tabela Didactic id-ul profesorului șters va deveni null. La stergerea unui curs din tabela Cursuri, in tabela Didactic va fi stearsă înregistrarea care referențiază cursul șters. Scrieți comenzi de ștergere înregistrări pentru tabelele referențiate și studiați comportamentul.</li>
+<li>Impuneți constrângerea ca un student să nu aibă mai mult de o notă la un curs.</li>
+<li>Impuneți constrângerea ca valoarea notei să fie cuprinsă între 1 și 10.</li></ol>
+<h1><span class="mw-headline" id="Tranzac.C8.9Bii">Tranzacții</span></h1>
+<p>O tranzacție reprezintă un grup de comenzi de modificare de date (DML) care trebuie executate împreună, pentru a garanta consistența datelor. Eșuarea oricărei comenzi din cadrul unei tranzacții determină revenirea la starea inițială, dinaintea tranzacției.
+</p><p>O tranzacție începe de la prima comandă DML executată și se încheie la întâlnirea uneia dintre comenzile COMMIT și ROLLBACK, la întâlnirea unei comenzi DDL, la închiderea sesiunii sau la o eroare a sistemului. 
+</p><p>Comanda ROLLBACK încheie tranzacția readucând baza de date la starea de dinaintea începerii tranzacției. O cădere a sistemului rezultă tot într-o comandă de tip ROLLBACK, adică revenirea la starea de dinaintea începerii tranzacției; este modalitatea prin care este protejată integritatea datelor. Restul situațiilor enumerate mai sus care determină încheierea unei tranzacții, fac ca modificările efectate asupra datelor să fie permanente, fără posibilitatea revenirii la o stare anterioară.
+</p><p>Imediat ce o tranzacție s-a încheiat, prima comandă DML lansată marchează nceputul uneia noi.
+</p><p>În cadrul acestui laborator ați executat comanda ROLLBACK înainte de a experimenta cu comanda CREATE TABLE, adică înainte de prima comandă de tip DDL lansată. Rezultatul a fost revenirea bazei de date la starea existentă la începutul sesiunii de lucru. Dacă nu ar fi fost lansată comanda ROLLBACK, modificările efectuate asupra datelor ar fi devenit permanente în momentul executării comenzii DDL (așa cum s-a specificat mai sus, orice comandă DDL încheie tranzacția marcând modificările ca fiind permanente).
+</p>
+Pe parcursul unei tranzacții pot fi adăugați niște marcatori/indicatori cu ajutorul cărora să putem reveni la stări intermediare. Adăugarea unui indicator se realizează cu ajutorul comenzii <pre>SAVEPOINT nume_indicator</pre> iar revenirea la starea bazei de date din acel moment se realizează cu ajutorul comenzii <pre>ROLLBACK TO SAVEPOINT nume_indicator</pre>.
+<p>Orice comandă DDL este considerată a forma o tranzacție.
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="Exerci.C8.9Bii">Exerciții</span></h3>
+<ol><li> Asigurati-va că începeți o nouă tranzacție.</li>
+<li> Ștergeți toate înregistrările din tabela Profesori.</li>
+<li> Inserați un profesor.</li>
+<li> Marcați starea curentă ca 's1'.</li>
+<li> Schimbați numele profesorului inserat.</li>
+<li> Vizualizați datele.</li>
+<li> Reveniți la starea s1.</li>
+<li> Vizualizați datele.</li>
+<li> Reveniția la starea de dinaintea ștergerii.</li></ol>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.019 seconds
+Real time usage: 0.022 seconds
+Preprocessor visited node count: 271/1000000
+Preprocessor generated node count: 532/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bdwiki:pcache:idhash:12-0!*!*!!ro!*!* and timestamp 20240222163021 and revision id 1284
+ -->
+</div>									<div class="printfooter">
+						Adus de la „<a dir="ltr" href="../index.php@title=Laboratorul_10&amp;oldid=1284">https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_10&amp;oldid=1284</a>”					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Meniu de navigare</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Unelte personale</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Utilizator:95.76.235.126" class="new" title="Pagina de utilizator pentru adresa IP curentă [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Discu%C8%9Bie_Utilizator:95.76.235.126" class="new" title="Discuții despre editări pentru adresa IP curentă [n]" accesskey="n">Discuția pentru această adresă IP</a></li><li id="pt-login"><a href="../index.php@title=Special%253AAutentificare&amp;returnto=Laboratorul+10" title="Sunteți încurajat să vă autentificați, deși acest lucru nu este obligatoriu. [o]" accesskey="o">Autentificare</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Spații de nume</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Laboratorul_10"  title="Vedeți conținutul paginii [c]" accesskey="c">Pagină</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Discu%C8%9Bie:Laboratorul_10&amp;action=edit&amp;redlink=1"  title="Discuții despre această pagină [t]" accesskey="t">Discuție</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variante</span><a href="Laboratorul_10#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Vizualizări</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Laboratorul_10" >Lectură</a></span></li>
+															<li id="ca-viewsource"><span><a href="../index.php@title=Laboratorul_10&amp;action=edit"  title="Această pagină este protejată. Puteți vizualiza doar codul sursă [e]" accesskey="e">Sursă pagină</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_10&amp;action=history"  title="Versiunile anterioare ale paginii și autorii lor. [h]" accesskey="h">Istoric</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>Mai mult</span><a href="Laboratorul_10#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Căutare</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Căutare" title="Căutare în BD [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Căutare" name="title" /><input type="submit" name="fulltext" value="Căutare" title="Caută în pagini pentru acest text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Salt" title="Deschide pagina cu acest nume, dacă există" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki/images/database.png);" href="../index.php"  title="Pagina principală"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigare</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Vizitați pagina principală [z]" accesskey="z">Pagina principală</a></li>
+													<li id="n-Fisa-disciplinei"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs/Fisa_disciplinei_BD-2019-2020.pdf" rel="nofollow">Fisa disciplinei</a></li>
+													<li id="n-Pregatirea-mediului-de-lucru"><a href="Pregatirea_mediului_de_lucru">Pregatirea mediului de lucru</a></li>
+													<li id="n-Ghid-SQLPlus"><a href="Ghid_SQLPlus">Ghid SQLPlus</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'>
+			<h3 id='p-Baze_de_date-label'>Baze de date</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Materiale-curs"><a href="http://profs.info.uaic.ro/~bd" rel="nofollow">Materiale curs</a></li>
+													<li id="n-Laborator-1"><a href="Laborator_1">Laborator 1</a></li>
+													<li id="n-Laborator-2"><a href="Laboratorul_2">Laborator 2</a></li>
+													<li id="n-Laborator-3"><a href="Laboratorul_3">Laborator 3</a></li>
+													<li id="n-Laborator-4"><a href="Laboratorul_4">Laborator 4</a></li>
+													<li id="n-Laborator-5"><a href="Laboratorul_5">Laborator 5</a></li>
+													<li id="n-Laborator-6"><a href="Laboratorul_6">Laborator 6</a></li>
+													<li id="n-Laborator-7"><a href="Laboratorul_7">Laborator 7</a></li>
+													<li id="n-Laborator-8"><a href="Laboratorul_8">Laborator 8</a></li>
+													<li id="n-Laborator-9"><a href="Laboratorul_9">Laborator 9</a></li>
+													<li id="n-Laborator-10"><a href="Laboratorul_10">Laborator 10</a></li>
+													<li id="n-Laborator-11"><a href="Laboratorul_11">Laborator 11</a></li>
+													<li id="n-Laborator-12"><a href="Laboratorul_12">Laborator 12</a></li>
+													<li id="n-Laborator-13"><a href="Laboratorul_13">Laborator 13</a></li>
+													<li id="n-Laborator-14"><a href="Laboratorul_14">Laborator 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Practica_SGBD' aria-labelledby='p-Practica_SGBD-label'>
+			<h3 id='p-Practica_SGBD-label'>Practica SGBD</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Pagini_Studenti' aria-labelledby='p-Pagini_Studenti-label'>
+			<h3 id='p-Pagini_Studenti-label'>Pagini Studenti</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Expresii-regulate"><a href="Expresii_regulate">Expresii regulate</a></li>
+													<li id="n-Regresii-liniare"><a href="Regresii_liniare">Regresii liniare</a></li>
+													<li id="n-UTL_TCP"><a href="UTL_TCP">UTL_TCP</a></li>
+													<li id="n-Procesare_in_blocuri"><a href="Procesare_in_blocuri">Procesare_in_blocuri</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Unelte</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Ce_se_leag%C4%83_aici/Laboratorul_10" title="Lista tuturor paginilor wiki care conduc spre această pagină [j]" accesskey="j">Ce trimite aici</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Modific%C4%83ri_corelate/Laboratorul_10" title="Schimbări recente în legătură cu această pagină [k]" accesskey="k">Modificări corelate</a></li>
+													<li id="t-specialpages"><a href="Special%253APagini_speciale" title="Lista tuturor paginilor speciale [q]" accesskey="q">Pagini speciale</a></li>
+													<li id="t-print"><a href="../index.php@title=Laboratorul_10&amp;printable=yes" rel="alternate" title="Versiunea de tipărit a acestei pagini [p]" accesskey="p">Versiune de tipărit</a></li>
+													<li id="t-permalink"><a href="../index.php@title=Laboratorul_10&amp;oldid=1284" title="Legătura permanentă către această versiune a paginii">Legătură permanentă</a></li>
+													<li id="t-info"><a href="../index.php@title=Laboratorul_10&amp;action=info">Informații despre pagină</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> Ultima modificare efectuată la 06:38, 29 noiembrie 2022.</li>
+											<li id="footer-info-viewcount">Pagina a fost vizitată de 29.679 de ori.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Politica_de_confiden%C8%9Bialitate" title="BD:Politica de confidențialitate">Politica de confidențialitate</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Despre" title="BD:Despre">Despre BD</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Termeni" title="BD:Termeni">Termeni</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":125});
+}</script>
+	</body>
+</html>
+	

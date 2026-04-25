@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ro" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Regresii liniare - BD</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="BD (ro)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="Regresii_liniare" />
+<link rel="alternate" type="application/atom+xml" title="BD Abonare Atom" href="../index.php@title=Special%253ASchimbări_recente&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=ro&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-css:7:4df88359e8a55d2a1f91cd845ecbc51d */</style>
+<script src="../load.php@debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Regresii_liniare","wgTitle":"Regresii liniare","wgCurRevisionId":906,"wgRevisionId":906,"wgArticleId":50,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"ro","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"],"wgMonthNamesShort":["","ian","feb","mar","apr","mai","iun","iul","aug","sept","oct","nov","dec"],"wgRelevantPageName":"Regresii_liniare","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"ro","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"ro"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-js:7:2a32e5717ea1d009b03fd0794ab8a12b */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Regresii_liniare skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="ro"><span dir="auto">Regresii liniare</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">De la BD</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Salt la:					<a href="Regresii_liniare#mw-navigation">navigare</a>, 					<a href="Regresii_liniare#p-search">căutare</a>
+				</div>
+				<div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr"><div id="toc" class="toc"><div id="toctitle"><h2>Cuprins</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Regresii_liniare#Regresia_Liniar.C4.83"><span class="tocnumber">1</span> <span class="toctext">Regresia Liniară</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="Regresii_liniare#Exemplu"><span class="tocnumber">1.1</span> <span class="toctext">Exemplu</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="Regresii_liniare#Exemple_.C3.AEn_cod_PLSQL"><span class="tocnumber">1.2</span> <span class="toctext">Exemple în cod PLSQL</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="Regresii_liniare#Func.C8.9Biile_pachetului"><span class="tocnumber">1.3</span> <span class="toctext">Funcțiile pachetului</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="Regresii_liniare#Bibliografie"><span class="tocnumber">1.4</span> <span class="toctext">Bibliografie</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Regresia_Liniar.C4.83">Regresia Liniară</span></h1>
+<p>Regresia liniară este o metodă prezentă în statistică care este folosită pentru a prezice, pe baza unor date introduse, urmările pentru un set nou date. Spre exemplu pentru venitul lunar al unei persoane și cheltuielile acesteia putem folosi această metodă (împreună cu date din trecut) pentru a găsi o variantă cât mai bună de a estima cât cheltuiește o persoană pe lună în funcție de ce venit are.
+</p>
+<h2><span class="mw-headline" id="Exemplu">Exemplu</span></h2>
+<p>Pentru început, vom ilustra cea mai ușoară metodă de a stabili o prezicere voi relua exemplul prezentat în început însă doar cu datele de cheltuieli lunare, venitul va fi ignorat (aceasta este o variabilă ajutătoare pe care o vom folosi mai încolo la regresia liniară).
+</p><p>În cazul în care singurele date pe care le avem sunt cheltuielile, cea mai bună estimare este media tuturor cheltuielilor introduse până acum. Astfel, spre exemplu, dacă media acestora este 1000 RON atunci valorile reale ar trebui să fie cel mai des apropiate de 1000. (recomandăm vizionarea imaginii <a rel="nofollow" class="external free" href="https://imgur.com/42ZLPBJ">https://imgur.com/42ZLPBJ</a> pentru a putea observa mai bine metoda aceasta de predicție)
+</p><p>Pentru a ne da seama de cât de bună este această estimare (vom compara cu metoda regresiei liniare) vom calcula suma erorilor ridicate la pătrat (erorile se ridică la pătrat pentru a fi valori pozitive și pentru a se putea cumula toate într-o valoare finală, precum și pentru a fi mai vizibile erorile). Aceasta este o cumulare a discrepanței dintre prezicerea actuală și valorile de până acum și ne indică un grad de eroare, suma trebuie să fie cât mai mică posibil pentru ca prezicerile să fie cât mai precise. Ea se calculează astfel: calculăm pentru fiecare valoare a cheltuielilor pe lună introduse, diferența dintre aceasta și prezicerea noastră actuală, după care ridicăm diferența la pătrat și facem suma tuturor diferențelor obținute. În cazul nostru, datele introduse să spunem că sunt (1300,2600,2200,3800,2700,2000,2500,2800), media va fi 2487.5 iar suma erorilor medie va fi 3608750.  Suma obținută în acest exemplu o vom numi SUMA_ERORILOR_MEDIE.
+</p>
+<pre>1300-2487.5 = -1187.5 și ridicat la pătrat = 1 410 156.25
+2600-2487.5 = 112.5   și ridicat la pătrat = 12 656.25
+2200-2487.5 = -287.5  și ridicat la pătrat = 82 656.25
+3800-2487.5 = 1312.5  și ridicat la pătrat = 1 722 656.25
+2700-2487.5 = 212.5   și ridicat la pătrat = 45 156.25
+2000-2487.5 = -487.5  și ridicat la pătrat = 237 656.25
+2500-2487.5 = 12.5    și ridicat la pătrat = 156.25
+2800-2487.5 = 312.5   și ridicat la pătrat = 97 656.25
+Adunând aceste valori obținem SUMA_ERORILOR_MEDIE = 3 608 750
+
+</pre>
+<p>Însă estimările obținute de pe urma acestei metode sunt slabe și le putem îmbunătăți folosind regresia liniară simplă care se bazează pe scăderea erorilor cât mai mult posibil găsind o dreapta a cărei ecuație să fie cât mai aproape de datele introduse. Pentru a face acest lucru, vom insera o nouă variabilă, aceasta fiind venitul pe lună al persoanei.
+</p><p>Regresia liniară simplă se realizează folosind ca date perechi de valori. Din aceste perechi, un set de valori sunt independente (nu depind de alți factori relevanți problemei, în cazul nostru, venitul) și celalalt set sunt dependente (au șansa de a depinde de valorile independente considerate de noi, acestea putând să ofere o precizie mai mare a estimării ). (de exemplu, pentru perechea (x,y), conventia este că x sunt datele independente si y sunt datele dependente)
+Pentru a realiza regresia liniară trebuie să ne folosim și de ecuația dreptei din matematică, aceasta fiind y = m*x + b, unde m este panta dreptei (sau panta de regresie în cazul de față) și b este intersecția dreptei cu axa OY (mai este denumit și interceptul). Pentru exemplul de mai devreme în care nu am folosit regresia liniară simplă y = 0*x + 2487.5,  deoarece dreapta ce reprezintă prezicerea este constantă iar aceasta este media valorilor.
+</p><p>Pentru a calcula ecuația dreptei regresiei liniare vom folosi următoarele formule:
+</p><p>• m = sumă ( (x_i - medie(x)) * (y_i - medie(y)) ) / sumă ((x_i - medie(x)) * (x_i - medie(x)))
+• b = medie(y) - medie(x) * m   (nu putem afla interceptul dacă nu avem panta dreptei)
+unde x_i și y_i sunt coordonatele x respectiv y ale fiecărui punct furnizat și medie(x) este media aritmetică a tuturor coordonatelor x
+</p>
+<pre>
+Folosim datele : 
+   x:2600 y:1300 (x este venitul pe lună)
+                 x:4800 y:2600 (y este cheltuiala pe luna respectivă)
+                 x:3700 y:2200
+                 x:7800 y:3800
+                 x:5300 y:2700
+                 x:2800 y:2000
+                 x:4100 y:2500
+                 x:6100 y:2800
+Pentru a calcula m:
+medie(x) = 4650
+medie(y) = 2487.5
+(x_1 - medie(x)) * (y_1 - medie(y)) = 2 434 375
+(x_2 - medie(x)) * (y_2 - medie(y)) =  16 875
+(x_3 - medie(x)) * (y_3 - medie(y)) = 273 125
+(x_4 - medie(x)) * (y_4 - medie(y)) = 4 134 375
+(x_5 - medie(x)) * (y_5 - medie(y)) = 138 125
+(x_6 - medie(x)) * (y_6 - medie(y)) = 901 875
+(x_7 - medie(x)) * (y_7 - medie(y)) = -6 875
+(x_8 - medie(x)) * (y_8 - medie(y)) = 453 125
+sumă ((x_i - medie(x)) * (y_i - medie(y))) = 8 345 000
+ 
+(x_1 - medie(x)) * (x_1 - medie(x)) = 4 202 500
+(x_2 - medie(x)) * (x_2 - medie(x)) =  22 500
+(x_3 - medie(x)) * (x_3 - medie(x)) =  902 500
+(x_4 - medie(x)) * (x_4 - medie(x)) = 9 922 500
+(x_5 - medie(x)) * (x_5 - medie(x)) =  422 500
+(x_6 - medie(x)) * (x_6 - medie(x)) = 3 422 500
+(x_7 - medie(x)) * (x_7 - medie(x)) =  302 500
+(x_8 - medie(x)) * (x_8 - medie(x)) = 2 102 500
+sumă ((x_i - medie(x)) * (x_i - medie(x))) = 21 300 000
+ 
+m = sumă ((x_i - medie(x)) * (y_i - medie(y))) / sumă ((x_i - medie(x)) * (x_i - medie(x))) = 0.3918
+ 
+Iar pentru interceptul b:
+b = medie(y) - medie(x) * m = 2487.5 - 4650 * 0.3918 = 2487.5 - 1821.87 = 665.63
+
+
+</pre>
+<p>Astfel, am aflat ecuația dreptei regresiei liniare: y = 0.3918*x + 665.63 
+</p><p>Folosind această formulă, putem estima pentru un x dat care va fi rezultatul. Adică pentru un venit lunar x, putem prezice cam cât ar fi cheltuielile de pe luna curentă y luând în considerare datele deja adunate.
+</p><p>Pentru a afla cât de bună este regresia liniară simplă pe lângă metoda ce folosește media aritmetică, relativ la acest exemplu, vom calcula din nou media erorilor, însă de data aceasta folosind ecuația obținută pentru a stabili distanțele dintre date și dreaptă. Pentru a face acest lucru, vom calcula distanța de la punctele ce reprezintă datele preluate, până la dreaptă. Apoi vom ridica această distanță la pătrat și vom face din nou suma lor.
+</p>
+<pre>1300-(0.3918*2600 + 665.63) = -384.31 și ridicat la pătrat = 147 694.1761
+2600-(0.3918*4800 + 665.63) = 53.73   și ridicat la pătrat = 2886.9129
+2200-(0.3918*3700 + 665.63) = 84.71   și ridicat la pătrat = 7175.7841
+3800-(0.3918*7800 + 665.63) = 78.33   și ridicat la pătrat = 6135.5889
+2700-(0.3918*5300 + 665.63) = -42.17  și ridicat la pătrat = 1778.3089
+2000-(0.3918*2800 + 665.63) = 237.33  și ridicat la pătrat = 56 325.5289
+2500-(0.3918*4100 + 665.63) = 227.99  și ridicat la pătrat = 51 979.4401
+2800-(0.3918*6100 + 665.63) = -255.61 și ridicat la pătrat = 65 336.4721
+Adunând aceste valori obținem SUMA_ERORILOR_REGRESIE = 339 312.212
+
+</pre>
+<p>Din valoarea acesteia se poate observa cum eroarea este mai mică pentru regresia liniară. Vom numi suma erorilor obținută folosind metoda regresiei liniare simple  SUMA_ERORILOR_REGRESIE.
+</p><p>Mai mult de atât, pentru a afla ce procentaj din erorile din SUMA_ERORILOR_MEDIE sunt eliminate prin metoda regresiei liniare, putem calcula COEFICIENTUL DETERMINĂRII care este notat cu r^2 (r la puterea a doua). Pentru a calcula acest coeficient folosim pur și simplu formula r^2 = ( SUMA_ERORILOR_MEDIE - SUMA_ERORILOR_REGRESIE) / SUMA_ERORILOR_MEDIE.
+</p><p>Prin procentajul obținut putem afla și câte erori rămân, folosind diferența simplă 100% - r^2.
+</p>
+<pre>r^2 = (3 608 750 - 339 312.212)/3 608 750 = 0.90597514042 = 0.9060
+
+
+</pre>
+<p>Putem stabili deci că regresia liniară oferă un rezultat satisfăcător, îmbunătățind predicțiile considerabil.
+</p>
+<h2><span class="mw-headline" id="Exemple_.C3.AEn_cod_PLSQL">Exemple în cod PLSQL</span></h2>
+<pre>set serveroutput on;
+
+CREATE TABLE informatii(
+  venit NUMBER,
+  cheltuieli NUMBER);
+/
+INSERT INTO informatii values(2600,1300);/
+INSERT INTO informatii values(4800,2600);/
+INSERT INTO informatii values(3700,2200);/
+INSERT INTO informatii values(7800,3800);/
+INSERT INTO informatii values(5300,2700);/
+INSERT INTO informatii values(2800,2000);/
+INSERT INTO informatii values(4100,2500);/
+INSERT INTO informatii values(6100,2800);/
+
+DECLARE
+  v_x NUMBER;
+  v_input NUMBER;
+  v_medie_x NUMBER;
+  v_medie_y NUMBER;
+  v_slope NUMBER;
+  v_intercept NUMBER;
+  v_r_2 NUMBER;
+  v_sxx NUMBER;
+  v_sxy NUMBER;
+  BEGIN
+  SELECT REGR_AVGX(cheltuieli, venit) into v_medie_x from informatii;
+  SELECT REGR_AVGY(cheltuieli, venit) into v_medie_y from informatii;
+  DBMS_OUTPUT.PUT_LINE('Valoare medie pentru valorile independente(x) este: ' || v_medie_x);
+  DBMS_OUTPUT.PUT_LINE('Valoare medie pentru valorile dependente(y) este: ' || v_medie_y);
+  
+  SELECT REGR_SXX(cheltuieli, venit), REGR_SXY(cheltuieli, venit) INTO v_sxx, v_sxy FROM informatii;
+  DBMS_OUTPUT.PUT_LINE('suma((x_i - medie(x))*(y_i - medie(y))) = '||v_sxy);
+  DBMS_OUTPUT.PUT_LINE('suma((x_i - medie(x))*(x_i - medie(x))) = '||v_sxx);
+  DBMS_OUTPUT.PUT_LINE('panta m = suma((x_i - medie(x))*(y_i - medie(y))) / suma((x_i - medie(x))*(x_i - medie(x))) = '||TRUNC(v_sxy/v_sxx,4));
+  
+  SELECT REGR_SLOPE(cheltuieli, venit) INTO v_slope FROM informatii;
+  SELECT REGR_INTERCEPT(cheltuieli, venit) INTO v_intercept FROM informatii;
+  SELECT REGR_R2(cheltuieli, venit) into v_r_2 from informatii;
+  DBMS_OUTPUT.PUT_LINE('Panta regresiei liniare este m = ' || TRUNC(v_slope, 4) || ', iar interceptul cu ordonata este b = ' || TRUNC(v_intercept,4));
+  DBMS_OUTPUT.PUT_LINE('Ecuatia dreptei de regresie este y = '|| TRUNC(v_slope,4) ||'*x + '|| TRUNC(v_intercept,4));
+  DBMS_OUTPUT.PUT_LINE('Coeficientul determinarii (r la puterea a doua) este: ' || TRUNC(v_r_2,4)); 
+  
+END;
+
+
+</pre>
+<p>În exemplul de mai sus apelăm funcțiile din pachet pentru a valida calculele făcute mai sus. Într-adevăr, rezultatele sunt aceleași și ne folosim de ecuația obținută in următorul exemplu pentru a face preziceri pentru orice valoare.
+</p>
+<pre>set serveroutput on;
+
+CREATE OR REPLACE PROCEDURE calculeaza_valoare_estimata(v_x NUMBER) AS
+v_slope NUMBER;
+v_intercept NUMBER;
+v_y NUMBER;
+BEGIN
+    SELECT TRUNC(REGR_SLOPE(cheltuieli, venit),4) INTO v_slope FROM informatii;
+    SELECT TRUNC(REGR_INTERCEPT(cheltuieli, venit),4) INTO v_intercept FROM informatii;
+    DBMS_OUTPUT.PUT_LINE('Panta regresiei liniare este: ' || v_slope || ', iar interceptul cu ordonata este: ' || v_intercept);
+    
+    v_y := TRUNC(v_x * v_slope + v_intercept, 4);
+    DBMS_OUTPUT.PUT_LINE('Valoare estimata pentru x=' || v_x || ' este y=' || v_y);
+END;
+/
+accept v_input prompt &quot;Introduceti o valoare: &quot;;
+DECLARE
+  v_x NUMBER;
+  v_input NUMBER;
+BEGIN
+  v_x := &amp;v_input;
+  calculeaza_valoare_estimata(v_x);
+END;
+
+</pre>
+<p>În acest cod estimăm pentru un x (un venit) cât ar fi y (cheltuiala de pe luna curentă) folosind funcția calculeaza_valoare_estimata ce folosește ecuația dreptei regresiei liniare și calculează și ecuația în același timp conform datelor din tabelă.
+</p>
+<h2><span class="mw-headline" id="Func.C8.9Biile_pachetului">Funcțiile pachetului</span></h2>
+<table border="1">
+
+<tr>
+<td>REGR_SLOPE(expr1, expr2)
+</td>
+<td>Calculează panta din ecuația dreptei regresiei liniare
+</td></tr>
+<tr>
+<td>REGR_INTERCEPT(expr1, expr2)
+</td>
+<td>Calculează interceptul din ecuația dreptei regresiei liniare
+</td></tr>
+<tr>
+<td>REGR_COUNT(expr1, expr2)
+</td>
+<td>Returnează numărul de perechi de valori nenule din setul de date
+</td></tr>
+<tr>
+<td>REGR_R2(expr1, expr2)
+</td>
+<td>Calculează coeficientul determinării (r la patrăt)
+</td></tr>
+<tr>
+<td>REGR_AVGX(expr2)
+</td>
+<td>Calculează media tuturor valorilor x din perechile de valori (x,y)
+</td></tr>
+<tr>
+<td>REGR_AVGY(expr1)
+</td>
+<td> Calculează media tuturor valorilor y din perechile de valori (x,y)
+</td></tr>
+<tr>
+<td>REGR_SXX(expr1, expr2)
+</td>
+<td> sumă((x_i - medie(x))* (x_i - medie(x)))
+<p><br />
+Numitorul fracției cu care aflăm panta regresiei liniare
+</p>
+</td></tr>
+<tr>
+<td>REGR_SYY(expr1, expr2)
+</td>
+<td> sumă((y_i - medie(y))* (y_i - medie(y)))
+</td></tr>
+<tr>
+<td>REGR_SXY(expr1, expr2)
+</td>
+<td> sumă((x_i - medie(x))* (y_i - medie(y)))
+<p><br />
+Numărătorul fracției cu care aflăm panta regresiei liniare
+</p>
+</td></tr></table>
+<p>Convenția in plsql este expr2 este x iar expr1 este y (ca și coordinate).
+</p><p>Autori: Asoltanei Cristian și Gafița Andrei
+</p>
+<h2><span class="mw-headline" id="Bibliografie">Bibliografie</span></h2>
+<ul><li> <a rel="nofollow" class="external free" href="https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions132.htm">https://docs.oracle.com/cd/B19306_01/server.102/b14200/functions132.htm</a></li>
+<li> <a rel="nofollow" class="external free" href="https://en.wikipedia.org/wiki/Linear_regression#Simple_and_multiple_linear_regression">https://en.wikipedia.org/wiki/Linear_regression#Simple_and_multiple_linear_regression</a></li>
+<li> <a rel="nofollow" class="external free" href="http://statisticasociala.tripod.com/regresie.htm">http://statisticasociala.tripod.com/regresie.htm</a></li>
+<li> <a rel="nofollow" class="external free" href="https://www.youtube.com/playlist?list=PLIeGtxpvyG-LoKUpV0fSY8BGKIMIdmfCi">https://www.youtube.com/playlist?list=PLIeGtxpvyG-LoKUpV0fSY8BGKIMIdmfCi</a></li></ul>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.016 seconds
+Real time usage: 0.019 seconds
+Preprocessor visited node count: 72/1000000
+Preprocessor generated node count: 144/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bdwiki:pcache:idhash:50-0!*!*!!ro!*!* and timestamp 20240222163157 and revision id 906
+ -->
+</div>									<div class="printfooter">
+						Adus de la „<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Regresii_liniare&amp;oldid=906">https://profs.info.uaic.ro/~bd/wiki/index.php?title=Regresii_liniare&amp;oldid=906</a>”					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Meniu de navigare</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Unelte personale</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Utilizator:95.76.235.126" class="new" title="Pagina de utilizator pentru adresa IP curentă [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Discu%C8%9Bie_Utilizator:95.76.235.126" class="new" title="Discuții despre editări pentru adresa IP curentă [n]" accesskey="n">Discuția pentru această adresă IP</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Special:Autentificare&amp;returnto=Regresii+liniare" title="Sunteți încurajat să vă autentificați, deși acest lucru nu este obligatoriu. [o]" accesskey="o">Autentificare</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Spații de nume</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Regresii_liniare"  title="Vedeți conținutul paginii [c]" accesskey="c">Pagină</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Discu%C8%9Bie:Regresii_liniare&amp;action=edit&amp;redlink=1"  title="Discuții despre această pagină [t]" accesskey="t">Discuție</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variante</span><a href="Regresii_liniare#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Vizualizări</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Regresii_liniare" >Lectură</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Regresii_liniare&amp;action=edit"  title="Această pagină este protejată. Puteți vizualiza doar codul sursă [e]" accesskey="e">Sursă pagină</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Regresii_liniare&amp;action=history"  title="Versiunile anterioare ale paginii și autorii lor. [h]" accesskey="h">Istoric</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>Mai mult</span><a href="Regresii_liniare#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Căutare</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Căutare" title="Căutare în BD [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Căutare" name="title" /><input type="submit" name="fulltext" value="Căutare" title="Caută în pagini pentru acest text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Salt" title="Deschide pagina cu acest nume, dacă există" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki/images/database.png);" href="../index.php"  title="Pagina principală"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigare</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Vizitați pagina principală [z]" accesskey="z">Pagina principală</a></li>
+													<li id="n-Fisa-disciplinei"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs/Fisa_disciplinei_BD-2019-2020.pdf" rel="nofollow">Fisa disciplinei</a></li>
+													<li id="n-Pregatirea-mediului-de-lucru"><a href="Pregatirea_mediului_de_lucru">Pregatirea mediului de lucru</a></li>
+													<li id="n-Ghid-SQLPlus"><a href="Ghid_SQLPlus">Ghid SQLPlus</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'>
+			<h3 id='p-Baze_de_date-label'>Baze de date</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Materiale-curs"><a href="http://profs.info.uaic.ro/~bd" rel="nofollow">Materiale curs</a></li>
+													<li id="n-Laborator-1"><a href="Laborator_1">Laborator 1</a></li>
+													<li id="n-Laborator-2"><a href="Laboratorul_2">Laborator 2</a></li>
+													<li id="n-Laborator-3"><a href="Laboratorul_3">Laborator 3</a></li>
+													<li id="n-Laborator-4"><a href="Laboratorul_4">Laborator 4</a></li>
+													<li id="n-Laborator-5"><a href="Laboratorul_5">Laborator 5</a></li>
+													<li id="n-Laborator-6"><a href="Laboratorul_6">Laborator 6</a></li>
+													<li id="n-Laborator-7"><a href="Laboratorul_7">Laborator 7</a></li>
+													<li id="n-Laborator-8"><a href="Laboratorul_8">Laborator 8</a></li>
+													<li id="n-Laborator-9"><a href="Laboratorul_9">Laborator 9</a></li>
+													<li id="n-Laborator-10"><a href="Laboratorul_10">Laborator 10</a></li>
+													<li id="n-Laborator-11"><a href="Laboratorul_11">Laborator 11</a></li>
+													<li id="n-Laborator-12"><a href="Laboratorul_12">Laborator 12</a></li>
+													<li id="n-Laborator-13"><a href="Laboratorul_13">Laborator 13</a></li>
+													<li id="n-Laborator-14"><a href="Laboratorul_14">Laborator 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Practica_SGBD' aria-labelledby='p-Practica_SGBD-label'>
+			<h3 id='p-Practica_SGBD-label'>Practica SGBD</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Pagini_Studenti' aria-labelledby='p-Pagini_Studenti-label'>
+			<h3 id='p-Pagini_Studenti-label'>Pagini Studenti</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Expresii-regulate"><a href="Expresii_regulate">Expresii regulate</a></li>
+													<li id="n-Regresii-liniare"><a href="Regresii_liniare">Regresii liniare</a></li>
+													<li id="n-UTL_TCP"><a href="UTL_TCP">UTL_TCP</a></li>
+													<li id="n-Procesare_in_blocuri"><a href="Procesare_in_blocuri">Procesare_in_blocuri</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Unelte</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Ce_se_leag%C4%83_aici/Regresii_liniare" title="Lista tuturor paginilor wiki care conduc spre această pagină [j]" accesskey="j">Ce trimite aici</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Modific%C4%83ri_corelate/Regresii_liniare" title="Schimbări recente în legătură cu această pagină [k]" accesskey="k">Modificări corelate</a></li>
+													<li id="t-specialpages"><a href="Special%253APagini_speciale" title="Lista tuturor paginilor speciale [q]" accesskey="q">Pagini speciale</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Regresii_liniare&amp;printable=yes" rel="alternate" title="Versiunea de tipărit a acestei pagini [p]" accesskey="p">Versiune de tipărit</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Regresii_liniare&amp;oldid=906" title="Legătura permanentă către această versiune a paginii">Legătură permanentă</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Regresii_liniare&amp;action=info">Informații despre pagină</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> Ultima modificare efectuată la 11:24, 1 iunie 2019.</li>
+											<li id="footer-info-viewcount">Pagina a fost vizitată de 5.215 ori.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Politica_de_confiden%C8%9Bialitate" title="BD:Politica de confidențialitate">Politica de confidențialitate</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Despre" title="BD:Despre">Despre BD</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Termeni" title="BD:Termeni">Termeni</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":96});
+}</script>
+	</body>
+</html>
+	

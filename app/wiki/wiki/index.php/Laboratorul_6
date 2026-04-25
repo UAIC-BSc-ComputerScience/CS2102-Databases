@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ro" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Laboratorul 6 - BD</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="BD (ro)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="Laboratorul_6" />
+<link rel="alternate" type="application/atom+xml" title="BD Abonare Atom" href="../index.php@title=Special%253ASchimbări_recente&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=ro&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-css:7:4df88359e8a55d2a1f91cd845ecbc51d */</style>
+<script src="../load.php@debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Laboratorul_6","wgTitle":"Laboratorul 6","wgCurRevisionId":1322,"wgRevisionId":1322,"wgArticleId":8,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"ro","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"],"wgMonthNamesShort":["","ian","feb","mar","apr","mai","iun","iul","aug","sept","oct","nov","dec"],"wgRelevantPageName":"Laboratorul_6","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"ro","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"ro"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-js:7:2a32e5717ea1d009b03fd0794ab8a12b */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Laboratorul_6 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="ro"><span dir="auto">Laboratorul 6</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">De la BD</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Salt la:					<a href="Laboratorul_6#mw-navigation">navigare</a>, 					<a href="Laboratorul_6#p-search">căutare</a>
+				</div>
+				<div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr"><p>Tematica: 
+</p>
+<ul><li>gruparea înregistrărilor</li>
+<li>aplicarea funcțiilor de agregare</li></ul>
+<p><br />
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Cuprins</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Laboratorul_6#Func.C5.A3ii_de_agregare_.C3.AEn_SQL"><span class="tocnumber">1</span> <span class="toctext">Funcţii de agregare în SQL</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="Laboratorul_6#Gruparea_datelor"><span class="tocnumber">2</span> <span class="toctext">Gruparea datelor</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="Laboratorul_6#Filtrarea_grupurilor"><span class="tocnumber">3</span> <span class="toctext">Filtrarea grupurilor</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="Laboratorul_6#Exerci.C8.9Bii"><span class="tocnumber">4</span> <span class="toctext">Exerciții</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Func.C5.A3ii_de_agregare_.C3.AEn_SQL">Funcţii de agregare în SQL</span></h2>
+<p>Funcţiile de agregare sunt funcţii care, utilizate în interogări, returnează o singură linie rezultat pe baza unui grup de linii. Pot fi utilizate în cadrul listei SELECT şi în clauzele ORDER BY şi HAVING.
+</p><p>ATENȚIE: nu utilizați funcțiile de agregare în clauza WHERE&#160;!!!
+</p><p><br />
+</p><p>Funcţiile de agregare pot accepta clauzele
+</p>
+<ul><li>DISTINCT – specifică luarea în considerare doar a valorilor distincte de către funcţie</li>
+<li>ALL – este implicit, determină funcţia de agregare sa calculeze rezultatul pe baza tuturor valorilor</li></ul>
+<p><br />
+</p>
+<table border="1">
+
+<tr>
+<td><pre>COUNT ({ *|[DISTINCT|ALL] expr})</pre>	</td>
+<td>Returnează numărul de linii.  Dacă argumentul este * se numără şi valorile NULL, altfel se numără doar valorile nenule. Argumentul poate lua tipul CHAR, VARCHAR2, NUMBER, DATE.	</td>
+<td>SELECT COUNT(*) AS "Total studenti" FROM studenti;
+<p>SELECT COUNT(NVL(bursa,0)) AS "Total studenti" FROM studenti;
+</p><p>SELECT COUNT(bursa) AS "Studenti bursieri" FROM studenti;
+</p><p>SELECT COUNT(DISTINCT bursa) AS "Variante bursa" FROM studenti;
+</p>
+</td></tr>
+<tr>
+<td><pre>AVG ([DISTINCT|ALL]n)</pre>	</td>
+<td>Returnează media valorilor. Argumentul trebuie să fie numeric.	</td>
+<td>SELECT AVG(valoare) FROM note;
+</td></tr>
+
+<tr>
+<td><pre>MAX ([DISTINCT|ALL]expr)</pre>
+</td>
+<td>Returnează valoare maximă. Argumentul poate lua tipul CHAR, VARCHAR2, NUMBER, DATE	</td>
+<td>SELECT MAX(bursa) FROM studenti;
+</td></tr>
+<tr>
+<td><pre>MIN ([DISTINCT|ALL]expr)</pre></td>
+<td>Returnează valoare minimă. Argumentul poate lua tipul CHAR, VARCHAR2, NUMBER, DATE	</td>
+<td>SELECT MIN(bursa) FROM studenti;
+</td></tr>
+<tr>
+<td><pre>STDDEV ([DISTINCT|ALL]x)</pre></td>
+<td>Returnează deviatia standard a valorilor. Argumentul trebuie să fie numeric.	</td>
+<td>SELECT STDDEV(bursa) AS "Deviatie standard" FROM studenti;
+</td></tr>
+<tr>
+<td><pre>VARIANCE ([DISTINCT|ALL]x)</pre></td>
+<td>Returnează varianţa valorilor. Argumentul trebuie să fie numeric.	</td>
+<td>SELECT VARIANCE(bursa) AS "Varianta" FROM studenti;
+</td></tr>
+<tr>
+<td><pre>SUM([DISTINCT|ALL]n)</pre>	</td>
+<td>Returnează suma valorilor. Argumentul trebuie să fie numeric.	</td>
+<td>SELECT SUM(bursa) FROM studenti;
+</td></tr></table>
+<p>Toate funcţiile de agregare ignoră valorile NULL. Excepţie face funcţia COUNT cu argumentul * care va considera NULL ca fiind o valoare distinctă. Pentru ca valoarea NULL să fie luată în considerare se poate utiliza NVL în cadrul funcţiei de agregare pentru a substitui NULL cu o valoare anume (ex. 0).
+</p><p>Dacă setul de date nu conţine linii sau conţine doar linii cu valori NULL ca argumente a funcţiilor de agregare, funcţia va returna NULL. Excepţie face COUNT care returnează 0 sau un alt număr.
+</p>
+<h2><span class="mw-headline" id="Gruparea_datelor">Gruparea datelor</span></h2>
+<p>Toate exemplele ilustrate anterior aplică funcțiile de agregare asupra intregului conținut al tabelului, rezultatul interogării fiind alcătuit dintr-o singură linie.
+</p><p>Funcțiile de agregare sunt însa utilizate în general împreună cu clauza GROUP BY care specifică împărţirea liniilor tabelului interogat în mai multe grupuri; Oracle aplică funcţiile de agregare fiecărui astfel de grup returnând un singur rezultat pentru fiecare grup. 
+</p><p>Reamintim sintaxa interogării în Oracle:
+</p>
+<pre>
+SELECT [DISTINCT | ALL] {* | [expresie_coloana [AS nume_nou]] [,...] }
+   FROM nume_tabel [alias] [, ...]
+   [WHERE conditie]
+   [GROUP BY expresie [HAVING conditie] ]
+   [ORDER BY expresie1 [ASC|DESC][,…]]
+
+</pre>
+<p><br />
+Exemplu:
+</p>
+<pre>
+SELECT MAX(valoare) 
+    FROM note
+    GROUP BY nr_matricol;
+--Câte linii sunt returnate? Ce reprezintă fiecare linie?
+
+</pre>
+<p><br />
+</p><p>Valori individuale nu pot fi utilizate în lista select decât dacă în clauză GROUP BY este specificată coloana individuală. Deci toate câmpurile din lista select care nu sunt utilizate în cadrul funcţiilor de agregare trebuie să apară în clauza GROUP BY.
+</p><p>Exemplu:
+</p>
+<pre>
+SELECT MAX(valoare), id_curs
+    FROM note
+    GROUP BY nr_matricol;
+--De ce nu merge?
+
+</pre>
+<p>Grupurile pot fi create și pe baza mai multor atribute:
+Exemplu:
+</p>
+<pre>
+SELECT an, count(*)
+    FROM cursuri
+    GROUP BY an;
+--Cate grupuri?
+
+SELECT credite, count(*)
+    FROM cursuri
+    GROUP BY credite;
+--Cate grupuri?
+
+SELECT an, credite, count(*)
+    FROM cursuri
+    GROUP BY an, credite
+    ORDER BY an, credite;
+--Cate grupuri?
+
+</pre>
+<p>Nu este obligatoriu ca atributele utilizate in clauza GROUP BY să apară în lista select; este însă indicată includerea acestora pentru ca înregistrările rezultat să poată fi interpretate.
+</p>
+<h2><span class="mw-headline" id="Filtrarea_grupurilor">Filtrarea grupurilor</span></h2>
+<p>Clauza WHERE elimină valori individuale (linii) înainte de a avea loc gruparea. 
+</p><p>Clauza HAVING este utilizată doar în conjuncţie cu clauza GROUP BY având rolul de a elimina unele grupuri pe baza rezultatului funcţiilor de agregare şi nu a valorilor individuale ale liniilor.
+</p><p>Exemplu:
+</p>
+<pre>
+SELECT id_curs, COUNT(valoare)
+   FROM note
+   GROUP BY id_curs;
+--Cate grupuri?
+
+SELECT id_curs, COUNT(valoare)
+   FROM note
+   WHERE valoare&gt;8
+   GROUP BY id_curs;
+--Cate grupuri? De ce?
+
+SELECT id_curs, COUNT(valoare)
+   FROM note
+   GROUP BY id_curs
+   HAVING COUNT(valoare)&gt;8;
+--Cate grupuri? De ce?
+
+</pre>
+<h2><span class="mw-headline" id="Exerci.C8.9Bii">Exerciții</span></h2>
+<ol><li>Afișați numărul de studenți din fiecare an.</li>
+<li>Afișați numărul de studenți din fiecare grupă a fiecărui an de studiu. Ordonați crescător după anul de studiu și după grupă.</li>
+<li>Afișați numărul de studenți din fiecare grupă a fiecărui an de studiu și specificați câți dintre aceștia sunt bursieri.</li>
+<li>Afișați suma totală cheltuită de facultate pentru acordarea burselor.</li>
+<li>Afișați valoarea bursei/cap de student (se consideră că studentii care nu sunt bursieri primesc 0 RON); altfel spus: cât se cheltuiește în medie pentru un student?</li>
+<li>Afișați numărul de note de fiecare fel (câte note de 10, câte de 9,etc.). Ordonați descrescător după valoarea notei.</li>
+<li>Afișați numărul de note pus în fiecare zi a săptămânii. Ordonați descrescător după numărul de note.</li>
+<li>Afișați numărul de note pus în fiecare zi a săptămânii. Ordonați crescător după ziua saptamanii: Sunday, Monday, etc.</li>
+<li>Afișați pentru fiecare elev care are măcar o notă, numele și media notelor sale. Ordonați descrescător după valoarea mediei.</li>
+<li>Modificați interogarea anterioară pentru a afișa și elevii fără nici o notă. Media acestora va fi null.</li>
+<li>Modificați interogarea anterioară pentru a afișa pentru elevii fără nici o notă media 0.</li>
+<li>Modificati interogarea de mai sus pentru a afisa doar studentii cu media mai mare ca 8.</li>
+<li>Afișați numele, cea mai mare notă, cea mai mică notă și media doar pentru acei studenti care au primit doar note mai mari sau egale cu 7 (au cea mai mică notă mai mare sau egală cu 7).</li>
+<li>Afișați numele și mediile studenților care au cel puțin un număr de 3 note puse în catalog.</li>
+<li>Afișați numele și mediile studenților care au cel puțin un număr de 3 note diferite puse în catalog.</li>
+<li>Afișați numele și mediile studenților din grupa A2 anul 3.</li>
+<li>Afișați cea mai mare medie obținută de vreun student. Puteți să afișați și numărul matricol al studentului care are acea medie maximală&#160;? Argumentați.</li>
+<li>Un profesor este iubit de studenti daca pune note mai mari (adica media notelor sale este mai mare). Afisati toti profesorii in ordinea preferintelor studentilor impreuna cu mediile notelor puse de ei scrise cu doua zecimale . </li>
+<li>Afisati numarul de restantieri generati de <b>FIECARE</b> profesor (tip: 1 cu 2 restantieri, 4 cu 1 restantier, 11 cu 0 restantieri) 😈 </li></ol>
+<p><br />
+</p><p><br />
+</p><p><br />
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.011 seconds
+Real time usage: 0.015 seconds
+Preprocessor visited node count: 125/1000000
+Preprocessor generated node count: 276/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bdwiki:pcache:idhash:8-0!*!*!!ro!*!* and timestamp 20240222170109 and revision id 1322
+ -->
+</div>									<div class="printfooter">
+						Adus de la „<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_6&amp;oldid=1322">https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_6&amp;oldid=1322</a>”					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Meniu de navigare</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Unelte personale</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Utilizator:95.76.235.126" class="new" title="Pagina de utilizator pentru adresa IP curentă [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Discu%C8%9Bie_Utilizator:95.76.235.126" class="new" title="Discuții despre editări pentru adresa IP curentă [n]" accesskey="n">Discuția pentru această adresă IP</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Special:Autentificare&amp;returnto=Laboratorul+6" title="Sunteți încurajat să vă autentificați, deși acest lucru nu este obligatoriu. [o]" accesskey="o">Autentificare</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Spații de nume</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Laboratorul_6"  title="Vedeți conținutul paginii [c]" accesskey="c">Pagină</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Discu%C8%9Bie:Laboratorul_6&amp;action=edit&amp;redlink=1"  title="Discuții despre această pagină [t]" accesskey="t">Discuție</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variante</span><a href="Laboratorul_6#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Vizualizări</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Laboratorul_6" >Lectură</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_6&amp;action=edit"  title="Această pagină este protejată. Puteți vizualiza doar codul sursă [e]" accesskey="e">Sursă pagină</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_6&amp;action=history"  title="Versiunile anterioare ale paginii și autorii lor. [h]" accesskey="h">Istoric</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>Mai mult</span><a href="Laboratorul_6#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Căutare</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Căutare" title="Căutare în BD [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Căutare" name="title" /><input type="submit" name="fulltext" value="Căutare" title="Caută în pagini pentru acest text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Salt" title="Deschide pagina cu acest nume, dacă există" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki/images/database.png);" href="../index.php"  title="Pagina principală"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigare</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Vizitați pagina principală [z]" accesskey="z">Pagina principală</a></li>
+													<li id="n-Fisa-disciplinei"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs/Fisa_disciplinei_BD-2019-2020.pdf" rel="nofollow">Fisa disciplinei</a></li>
+													<li id="n-Pregatirea-mediului-de-lucru"><a href="Pregatirea_mediului_de_lucru">Pregatirea mediului de lucru</a></li>
+													<li id="n-Ghid-SQLPlus"><a href="Ghid_SQLPlus">Ghid SQLPlus</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'>
+			<h3 id='p-Baze_de_date-label'>Baze de date</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Materiale-curs"><a href="http://profs.info.uaic.ro/~bd" rel="nofollow">Materiale curs</a></li>
+													<li id="n-Laborator-1"><a href="Laborator_1">Laborator 1</a></li>
+													<li id="n-Laborator-2"><a href="Laboratorul_2">Laborator 2</a></li>
+													<li id="n-Laborator-3"><a href="Laboratorul_3">Laborator 3</a></li>
+													<li id="n-Laborator-4"><a href="Laboratorul_4">Laborator 4</a></li>
+													<li id="n-Laborator-5"><a href="Laboratorul_5">Laborator 5</a></li>
+													<li id="n-Laborator-6"><a href="Laboratorul_6">Laborator 6</a></li>
+													<li id="n-Laborator-7"><a href="Laboratorul_7">Laborator 7</a></li>
+													<li id="n-Laborator-8"><a href="Laboratorul_8">Laborator 8</a></li>
+													<li id="n-Laborator-9"><a href="Laboratorul_9">Laborator 9</a></li>
+													<li id="n-Laborator-10"><a href="Laboratorul_10">Laborator 10</a></li>
+													<li id="n-Laborator-11"><a href="Laboratorul_11">Laborator 11</a></li>
+													<li id="n-Laborator-12"><a href="Laboratorul_12">Laborator 12</a></li>
+													<li id="n-Laborator-13"><a href="Laboratorul_13">Laborator 13</a></li>
+													<li id="n-Laborator-14"><a href="Laboratorul_14">Laborator 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Practica_SGBD' aria-labelledby='p-Practica_SGBD-label'>
+			<h3 id='p-Practica_SGBD-label'>Practica SGBD</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Pagini_Studenti' aria-labelledby='p-Pagini_Studenti-label'>
+			<h3 id='p-Pagini_Studenti-label'>Pagini Studenti</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Expresii-regulate"><a href="Expresii_regulate">Expresii regulate</a></li>
+													<li id="n-Regresii-liniare"><a href="Regresii_liniare">Regresii liniare</a></li>
+													<li id="n-UTL_TCP"><a href="UTL_TCP">UTL_TCP</a></li>
+													<li id="n-Procesare_in_blocuri"><a href="Procesare_in_blocuri">Procesare_in_blocuri</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Unelte</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Ce_se_leag%C4%83_aici/Laboratorul_6" title="Lista tuturor paginilor wiki care conduc spre această pagină [j]" accesskey="j">Ce trimite aici</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Modific%C4%83ri_corelate/Laboratorul_6" title="Schimbări recente în legătură cu această pagină [k]" accesskey="k">Modificări corelate</a></li>
+													<li id="t-specialpages"><a href="Special%253APagini_speciale" title="Lista tuturor paginilor speciale [q]" accesskey="q">Pagini speciale</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_6&amp;printable=yes" rel="alternate" title="Versiunea de tipărit a acestei pagini [p]" accesskey="p">Versiune de tipărit</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_6&amp;oldid=1322" title="Legătura permanentă către această versiune a paginii">Legătură permanentă</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Laboratorul_6&amp;action=info">Informații despre pagină</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> Ultima modificare efectuată la 13:31, 9 noiembrie 2023.</li>
+											<li id="footer-info-viewcount">Pagina a fost vizitată de 38.290 de ori.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Politica_de_confiden%C8%9Bialitate" title="BD:Politica de confidențialitate">Politica de confidențialitate</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Despre" title="BD:Despre">Despre BD</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Termeni" title="BD:Termeni">Termeni</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":77});
+}</script>
+	</body>
+</html>
+	

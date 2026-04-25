@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>SQL*Plus Guide - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="SQL%252APlus_Guide" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"SQL*Plus_Guide","wgTitle":"SQL*Plus Guide","wgCurRevisionId":7,"wgRevisionId":7,"wgArticleId":4,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"SQL*Plus_Guide","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-SQL_Plus_Guide skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">SQL*Plus Guide</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="SQL%252APlus_Guide#mw-navigation">navigation</a>, 					<a href="SQL%252APlus_Guide#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="SQL%252APlus_Guide#Using_SQL.2APlus"><span class="tocnumber">1</span> <span class="toctext">Using SQL*Plus</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="SQL%252APlus_Guide#SQL.2APlus_commands"><span class="tocnumber">2</span> <span class="toctext">SQL*Plus commands</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="SQL%252APlus_Guide#Buffer_manipulation"><span class="tocnumber">2.1</span> <span class="toctext">Buffer manipulation</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="SQL%252APlus_Guide#Working_with_files"><span class="tocnumber">2.2</span> <span class="toctext">Working with files</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="SQL%252APlus_Guide#Commands_from_connecting.2Fdisconnecting_to.2Ffrom_the_database_server"><span class="tocnumber">2.3</span> <span class="toctext">Commands from connecting/disconnecting to/from the database server</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="SQL%252APlus_Guide#Commands_for_the_SQL.2APlus_screen"><span class="tocnumber">2.4</span> <span class="toctext">Commands for the SQL*Plus screen</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="SQL%252APlus_Guide#Observations"><span class="tocnumber">2.5</span> <span class="toctext">Observations</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Using_SQL.2APlus">Using SQL*Plus</span></h2>
+<p>During Oracle server instalation, on your computers will also be installed an application called SQL*Plus; this can be later accessed also under the Oracle menu as <i>Run SQL Command Line</i>. This is the default console of the Oracle database server and allows you to connect to the database and interact with it.
+</p><p>The commands that can be executed using SQL*Plus are of two types: 
+</p>
+<ul><li> SQL*Plus specific commands, which are run by this utility without accesssing the database server; </li>
+<li> SQL commands, which are sent to the SQL server which will execute them and return the answer to SQL*Plus which will just show it to us.</li></ul>
+<p>Any SQL command (run on the database server) has to be closed/delimited by ";". In case you pressed Enter but you forgot this symbol, SQL*Plus considers you have not finished the command and waits for you on a new line to type the remainder; you just type ";" and press again Enter.
+</p><p>You can type SQL*Plus specific commands without introducing ";"; however, if you do, you will get no error and the command will be executed.
+</p><p>Any command meant for the SQL server (further called SQL commands) are automatically stored in a buffer by SQL*Plus. Actually, always the latest executed command replaces the previous one in the buffer, so that only the last SQL command is stored. Most of the SQL*Plus commands are designed to work with the content of the buffer.
+</p><p>Next, we list some of the most important SQL*Plus commands.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="SQL.2APlus_commands">SQL*Plus commands</span></h2>
+<pre>The syntax for listing the commands is the following:
+- The text outside any parenthesis is mandatory;
+- In braces there are several options, delimited by "|"; one option must be used;
+- The text within squared brackets is optional;
+</pre>
+<h6><span class="mw-headline" id="Buffer_manipulation">Buffer manipulation</span></h6>
+<ul><li> <code>{RUN | /}</code>: re-executes the SQL command already stored in the buffer. </li>
+<li> <code>{EDIT | ED}</code>: opens the editor for editing the content of the buffer. This editor must be closed to be able to execute the buffer content.</li>
+<li> <code>APPEND text</code>: appends desired text at the end of the buffer.</li></ul>
+<h6><span class="mw-headline" id="Working_with_files">Working with files</span></h6>
+<ul><li> <code>SAVE file [CREATE | REPLACE | APPEND]</code>: saves the content of the buffer in a file</li>
+<li> <code>GET file [<u>LIST</u> | NOLIST]</code>: takes the content of the file and loads it in the buffer without executing it. Its content is then listed, excepting the case when the command ends with the option <code>NOLIST</code>;</li>
+<li> <code> SPOOL [file] [CREATE | <u>REPLACE</u> | APPEND][OFF | OUT]</code>: puts in the file "file" all the content that is printed in SQL*Plus. The file is not actually written to disk until you execute <code>SPOOL OFF</code>. For sending the file to the printer you may use <code>SPOOL OUT</code>. </li>
+<li> <code>{START | @}{file.sql | url}</code>: executes all the commands in the file "file.sql" or from the given url (where, of course, a file containing SQL commands should be stored).</li></ul>
+<h6><span class="mw-headline" id="Commands_from_connecting.2Fdisconnecting_to.2Ffrom_the_database_server">Commands from connecting/disconnecting to/from the database server</span></h6>
+<ul><li> <code>CONNECT usr[/pass]</code>: allows the user "usr" to connect using password "pass". In case you are already connected with other account, the current connection is closed (it's like a DISCONNECT command is invisibly launched) and a new one is created. If the password is not given (note that it is optional in the connection string) than you will be prompted for it. Be aware that under Linux operating systems it is good practice to omit the password in the connection string to avoid storing it in the commands history.</li>
+<li> <code>DISCONNECT</code>: disconnects the current user;</li>
+<li> <code>{EXIT | QUIT}  [SUCCESS | FAILURE | WARNING | n | variable |&#160;:BindVariable] [COMMIT | ROLLBACK]</code>) will COMMIT the changes to the database, will disconnect the user and will close SQL*Plus;</li></ul>
+<p><br />
+</p>
+<h6><span class="mw-headline" id="Commands_for_the_SQL.2APlus_screen">Commands for the SQL*Plus screen</span></h6>
+<ul><li> <code>CLEAR [<u>SCREEN</u> | BUFFER]</code>: clears the screen or the content of the buffer;</li>
+<li> <code>LINESIZE n</code>: by default, SQL*Plus skips to the next line if the text exceeds 80 characters. In case the size of the window running SQL*Plus is modified (i.e. right click on the window title, then Properties -&gt; Layout and change the numerical values for Width) and SQL*Plus should show more characters (140) on one line; it does not do so until you modify the LINESIZE variable too.</li>
+<li> <code>PAGESIZE n</code>: as LINESIZE but it is about the number of lines and not columns; by default, 14 rows/lines are shown by SQL*Plus.</li></ul>
+<h6><span class="mw-headline" id="Observations">Observations</span></h6>
+<p>Notice that the window which is used to run SQL*Plus is a typical Windows' window (like the ones opened with CMD command). Therefore, you are able to modify the font, the color of the text or of the background, by accessing the Properties menu (right click on the right-top corner). Also with right-click on the window bar you can use copy/paste commands (although, it is recommended to type the commands by your own). You even can make the console editable by right click -&gt; Properties -&gt; Options and checking Quick Edit Mode. From now on you can paste using right click.
+</p><p>You can browse
+<a rel="nofollow" class="external text" href="https://docs.oracle.com/database/121/SQPUG/toc.htm">a complete list of SQL*Plus commands</a>. DO NOT mistake them for SQL commands&#160;!
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.007 seconds
+Real time usage: 0.012 seconds
+Preprocessor visited node count: 26/1000000
+Preprocessor generated node count: 32/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:4-0!*!*!!en!*!* and timestamp 20240223154435 and revision id 7
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=SQL*Plus_Guide&amp;oldid=7">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=SQL*Plus_Guide&amp;oldid=7</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=SQL%2APlus+Guide" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="SQL%252APlus_Guide"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:SQL*Plus_Guide&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="SQL%252APlus_Guide#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="SQL%252APlus_Guide" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=SQL*Plus_Guide&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=SQL*Plus_Guide&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="SQL%252APlus_Guide#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/SQL*Plus_Guide" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/SQL*Plus_Guide" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=SQL*Plus_Guide&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=SQL*Plus_Guide&amp;oldid=7" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=SQL*Plus_Guide&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 3 October 2017, at 20:42.</li>
+											<li id="footer-info-viewcount">This page has been accessed 2,194 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":110});
+}</script>
+	</body>
+</html>
+	

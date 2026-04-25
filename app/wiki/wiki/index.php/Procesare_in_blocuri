@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ro" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Procesare in blocuri - BD</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="BD (ro)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="Procesare_in_blocuri" />
+<link rel="alternate" type="application/atom+xml" title="BD Abonare Atom" href="../index.php@title=Special%253ASchimbări_recente&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=ro&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-css:7:4df88359e8a55d2a1f91cd845ecbc51d */</style>
+<script src="../load.php@debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Procesare_in_blocuri","wgTitle":"Procesare in blocuri","wgCurRevisionId":1206,"wgRevisionId":1206,"wgArticleId":52,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"ro","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"],"wgMonthNamesShort":["","ian","feb","mar","apr","mai","iun","iul","aug","sept","oct","nov","dec"],"wgRelevantPageName":"Procesare_in_blocuri","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"ro","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"ro"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-js:7:2a32e5717ea1d009b03fd0794ab8a12b */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Procesare_in_blocuri skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="ro"><span dir="auto">Procesare in blocuri</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">De la BD</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Salt la:					<a href="Procesare_in_blocuri#mw-navigation">navigare</a>, 					<a href="Procesare_in_blocuri#p-search">căutare</a>
+				</div>
+				<div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr"><div id="toc" class="toc"><div id="toctitle"><h2>Cuprins</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Procesare_in_blocuri#Bulk_Binds"><span class="tocnumber">1</span> <span class="toctext">Bulk Binds</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="Procesare_in_blocuri#Prezentare_generala_a_legaturilor_in_bloc"><span class="tocnumber">2</span> <span class="toctext">Prezentare generala  a legaturilor in bloc</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="Procesare_in_blocuri#FORALL"><span class="tocnumber">2.1</span> <span class="toctext">FORALL</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="Procesare_in_blocuri#BULK_COLLECT_INTO"><span class="tocnumber">2.2</span> <span class="toctext">BULK COLLECT INTO</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Bulk_Binds">Bulk Binds</span></h1>
+<h1><span class="mw-headline" id="Prezentare_generala_a_legaturilor_in_bloc">Prezentare generala  a legaturilor in bloc</span></h1>
+<p>Oracle Database foloseste doua motoare pentru a rula unitati PL / SQL. Motorul PL / SQL ruleaza instructiunile procedurale, iar motorul SQL ruleaza instructiunile SQL. Fiecare instructiune SQL provoaca o comutare de context intre cele doua motoare. Puteti imbunatati foarte mult performanta aplicatiei de baza de date prin minimizarea numarului de comutatoare de context pentru fiecare unitate PL / SQL.
+Cand o instructiune SQL ruleaza intr-o bucla care foloseste elemente de colectie ca variabile de legare, numarul mare de comutatoare de context necesare poate provoca performante slabe. Colectiile includ:
+</p>
+<ul><li> Tablouri asociative</li>
+<li> Tablouri de dimensiuni variabile</li>
+<li> Tabelele imbricate</li>
+<li> Matrice de gazda</li></ul>
+<p>Legarea este atribuirea de valori variabilelor PL / SQL in instructiunile SQL. Legarea in bloc leaga o intreaga colectie simultan. Legaturile in bloc trec intreaga colectie intre cele doua motoare intr-o singura operatie.
+Care sunt tipurile de legare in bloc:
+</p>
+<ul><li> FORALL&#160;: INSERT, UPDATE si DELETE care utilizeaza colectii pentru a schimba foarte repede mai multe randuri de date</li>
+<li> BULK COLLECT INTO: Instructiuni SELECT care recupereaza mai multe randuri cu o singura preluare, imbunatatind viteza de recuperare a datelor</li>
+<li> RETURNING &#160;:Out-Bind</li></ul>
+<p>Utilitate&#160;: 
+Daca codificam un program care foloseste o multime de preluare de date si bucle, atunci provoaca o multime de comutari contextuale intre motoarele PL / SQL si SQL, reducand astfel performanta considerabil. Aici este utila legarea in bloc. Cand folosim conceptele de legare in masa in programele noastre, elimina comutarea multipla a contextului intre cele doua motoare si creste considerabil performanta programului.
+</p><p><br />
+</p>
+<h2><span class="mw-headline" id="FORALL">FORALL</span></h2>
+<p>Cateva lucruri de stiut despre FORALL:
+</p>
+<ul><li> Fiecare instructiune FORALL poate contine doar o singura instructiune DML. Daca bucla dvs. contine doua actualizari si o stergere, atunci va trebui sa scrieti trei instructiuni FORALL.</li>
+<li> PL / SQL declara iteratorul FORALL ca intreg, la fel ca in cazul unei bucle FOR. Nu este necesar  si nu ar trebui  sa declarati o variabila cu acelasi nume.</li>
+<li> In cel putin un loc din instructiunea DML, trebuie sa faceti referire la o colectie si sa utilizati iteratorul FORALL ca valoare a indexului in acea colectie.</li>
+<li> Atunci cand utilizati IN_ low_value. . . sintaxa high_value din antetul FORALL, colectiile la care se face referire in instructiunea FORALL trebuie sa fie umplute dens. Adica, fiecare valoare a indexului intre low_value si high_value trebuie definita.</li>
+<li> In cazul in care colectia dvs. nu este umpluta dens, ar trebui sa utilizati INDICATII sau valorile sintaxei din antetul FORALL.</li>
+<li> FORALL este una dintre cele mai importante functii in performanta PLSQL. Ar trebui sa o folosim ori de cate ori executam instructiunea DML intr-o bucla.</li></ul>
+<p>Cream o tabela de test&#160;:
+</p>
+<pre>
+CREATE TABLE Bulk_Binds(
+  id           NUMBER(10),
+comentariu  VARCHAR2(50));
+  ALTER TABLE Bulk_Binds ADD (
+  CONSTRAINT Bulk_Binds_pk PRIMARY KEY (id));
+  SET TIMING ON
+</pre>
+<p>METODA NEEFICIENTA: inseram 10.000 de rânduri folosind FOR..LOOP instrucțiuni regulate .
+</p>
+<pre>
+DECLARE
+  TYPE id_type IS TABLE OF Bulk_Binds.id%TYPE;
+  TYPE comentariu_type IS TABLE OF Bulk_Binds.comentariu%TYPE;
+  t_id id_type := id_type();
+  t_comentariu  comentariu_type := comentariu_type();
+    CURSOR c_data IS
+    SELECT *
+    FROM   Bulk_Binds;
+BEGIN
+  FOR cur_rec IN c_data LOOP
+    t_id.extend;
+    t_comentariu.extend;
+    t_id(t_id.last):= cur_rec.id;
+    t_comentariu(t_comentariu.last) := cur_rec.comentariu;
+  END LOOP;
+END;
+/
+PL/SQL procedure successfully completed.
+Elapsed: 00:00:00.284 
+</pre>
+<p>METODA EFICIENTA: Folosind constructul FORALL pentru a lega în bloc inserțiile
+</p>
+<pre>
+DECLARE
+  TYPE id_type  IS TABLE OF Bulk_Binds.id%TYPE;
+  TYPE comentariu_type IS TABLE OF Bulk_Binds.comentariu%TYPE;
+    t_id  id_type := id_type();
+  t_comentariu  comentariu_type := comentariu_type();
+BEGIN
+  FOR i IN 5001 .. 10000 LOOP
+    t_id.extend;
+    t_comentariu.extend;
+    t_id(t_id.last) := i;
+    t_comentariu(t_comentariu.last) := 'comentariu: ' || To_Char(i);
+  END LOOP;
+   FORALL i IN t_id.first .. t_id.last
+    INSERT INTO Bulk_Binds (id, comentariu)
+    VALUES (t_id(i), t_comentariu(i));
+  COMMIT;
+END;
+/
+PL/SQL procedure successfully completed.
+Elapsed: 00:00:00.058
+</pre>
+<h2><span class="mw-headline" id="BULK_COLLECT_INTO">BULK COLLECT INTO</span></h2>
+<p>Pentru a profita de procesarea in bloc pentru interogari, pur si simplu puneti BULK COLLECT inainte de cuvantul cheie INTO si apoi furnizati una sau mai multe colectii dupa cuvantul cheie INTO. Iata cateva lucruri de stiut despre cum functioneaza BULK COLLECT:
+</p>
+<ul><li> Poate fi utilizat cu toate cele trei tipuri de colectii: tablouri asociative, tabele imbricate si VARIE.</li>
+<li> Puteti prelua in colectii individuale (una pentru fiecare expresie din lista SELECT) sau intr-o singura colectie de inregistrari.</li>
+<li> Colectia este intotdeauna populata dens, incepand de la valoarea indexului 1.</li>
+<li> Daca nu sunt preluate randuri, atunci colectia este golita de toate elementele.</li></ul>
+<p>Ori de cate ori utilizam clauza BULK COLLECT, atunci este necesara o zona de memorie SGA suficienta. Ori de cate ori nu este disponibila o zona de memorie SGA suficienta, serverul Oracle returneaza o eroare.
+Pentru a depasi aceasta problema, Oracle ofera clauza LIMIT impreuna cu declaratia de preluare a cursorului. LIMIT este o clauza optionala care este utilizata pentru a restrictiona numarul de randuri din colectie.
+</p>
+<pre>
+--METODA NEEFICIENTA:
+DECLARE
+  TYPE id_type IS TABLE OF Bulk_Binds.id%TYPE;
+  TYPE comentariu_type IS TABLE OF Bulk_Binds.comentariu%TYPE;
+    t_id id_type := id_type();
+  t_comentariu  comentariu_type := comentariu_type();
+    CURSOR c_data IS
+    SELECT *
+    FROM   Bulk_Binds;
+BEGIN
+  FOR cur_rec IN c_data LOOP
+    t_id.extend;
+    t_comentariu.extend;
+    t_id(t_id.last):= cur_rec.id;
+    t_comentariu(t_comentariu.last) := cur_rec.comentariu;
+  END LOOP;
+END;
+/
+PL/SQL procedure successfully completed.
+Elapsed: 00:00:00.060 
+</pre>
+<pre>
+--METODA EFICIENTA:
+DECLARE
+  TYPE id_type  IS TABLE OF Bulk_Binds .id%TYPE;
+  TYPE comentariu_type IS TABLE OF Bulk_Binds .comentariu%TYPE;
+    t_id  id_type;
+  t_comentariu  comentariu_type;
+BEGIN
+  SELECT id, comentariu 
+  BULK COLLECT INTO t_id, t_comentariu FROM Bulk_Binds ;
+END;
+/
+PL/SQL procedure successfully completed.
+Elapsed: 00:00:00.013
+</pre>
+<p>Autor: Mototolea Cosmin David
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.006 seconds
+Real time usage: 0.008 seconds
+Preprocessor visited node count: 47/1000000
+Preprocessor generated node count: 120/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bdwiki:pcache:idhash:52-0!*!*!!ro!*!* and timestamp 20240222162828 and revision id 1206
+ -->
+</div>									<div class="printfooter">
+						Adus de la „<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Procesare_in_blocuri&amp;oldid=1206">https://profs.info.uaic.ro/~bd/wiki/index.php?title=Procesare_in_blocuri&amp;oldid=1206</a>”					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Meniu de navigare</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Unelte personale</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Utilizator:95.76.235.126" class="new" title="Pagina de utilizator pentru adresa IP curentă [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Discu%C8%9Bie_Utilizator:95.76.235.126" class="new" title="Discuții despre editări pentru adresa IP curentă [n]" accesskey="n">Discuția pentru această adresă IP</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Special:Autentificare&amp;returnto=Procesare+in+blocuri" title="Sunteți încurajat să vă autentificați, deși acest lucru nu este obligatoriu. [o]" accesskey="o">Autentificare</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Spații de nume</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Procesare_in_blocuri"  title="Vedeți conținutul paginii [c]" accesskey="c">Pagină</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Discu%C8%9Bie:Procesare_in_blocuri&amp;action=edit&amp;redlink=1"  title="Discuții despre această pagină [t]" accesskey="t">Discuție</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variante</span><a href="Procesare_in_blocuri#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Vizualizări</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Procesare_in_blocuri" >Lectură</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Procesare_in_blocuri&amp;action=edit"  title="Această pagină este protejată. Puteți vizualiza doar codul sursă [e]" accesskey="e">Sursă pagină</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Procesare_in_blocuri&amp;action=history"  title="Versiunile anterioare ale paginii și autorii lor. [h]" accesskey="h">Istoric</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>Mai mult</span><a href="Procesare_in_blocuri#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Căutare</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Căutare" title="Căutare în BD [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Căutare" name="title" /><input type="submit" name="fulltext" value="Căutare" title="Caută în pagini pentru acest text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Salt" title="Deschide pagina cu acest nume, dacă există" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki/images/database.png);" href="../index.php"  title="Pagina principală"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigare</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Vizitați pagina principală [z]" accesskey="z">Pagina principală</a></li>
+													<li id="n-Fisa-disciplinei"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs/Fisa_disciplinei_BD-2019-2020.pdf" rel="nofollow">Fisa disciplinei</a></li>
+													<li id="n-Pregatirea-mediului-de-lucru"><a href="Pregatirea_mediului_de_lucru">Pregatirea mediului de lucru</a></li>
+													<li id="n-Ghid-SQLPlus"><a href="Ghid_SQLPlus">Ghid SQLPlus</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'>
+			<h3 id='p-Baze_de_date-label'>Baze de date</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Materiale-curs"><a href="http://profs.info.uaic.ro/~bd" rel="nofollow">Materiale curs</a></li>
+													<li id="n-Laborator-1"><a href="Laborator_1">Laborator 1</a></li>
+													<li id="n-Laborator-2"><a href="Laboratorul_2">Laborator 2</a></li>
+													<li id="n-Laborator-3"><a href="Laboratorul_3">Laborator 3</a></li>
+													<li id="n-Laborator-4"><a href="Laboratorul_4">Laborator 4</a></li>
+													<li id="n-Laborator-5"><a href="Laboratorul_5">Laborator 5</a></li>
+													<li id="n-Laborator-6"><a href="Laboratorul_6">Laborator 6</a></li>
+													<li id="n-Laborator-7"><a href="Laboratorul_7">Laborator 7</a></li>
+													<li id="n-Laborator-8"><a href="Laboratorul_8">Laborator 8</a></li>
+													<li id="n-Laborator-9"><a href="Laboratorul_9">Laborator 9</a></li>
+													<li id="n-Laborator-10"><a href="Laboratorul_10">Laborator 10</a></li>
+													<li id="n-Laborator-11"><a href="Laboratorul_11">Laborator 11</a></li>
+													<li id="n-Laborator-12"><a href="Laboratorul_12">Laborator 12</a></li>
+													<li id="n-Laborator-13"><a href="Laboratorul_13">Laborator 13</a></li>
+													<li id="n-Laborator-14"><a href="Laboratorul_14">Laborator 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Practica_SGBD' aria-labelledby='p-Practica_SGBD-label'>
+			<h3 id='p-Practica_SGBD-label'>Practica SGBD</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Pagini_Studenti' aria-labelledby='p-Pagini_Studenti-label'>
+			<h3 id='p-Pagini_Studenti-label'>Pagini Studenti</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Expresii-regulate"><a href="Expresii_regulate">Expresii regulate</a></li>
+													<li id="n-Regresii-liniare"><a href="Regresii_liniare">Regresii liniare</a></li>
+													<li id="n-UTL_TCP"><a href="UTL_TCP">UTL_TCP</a></li>
+													<li id="n-Procesare_in_blocuri"><a href="Procesare_in_blocuri">Procesare_in_blocuri</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Unelte</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Ce_se_leag%C4%83_aici/Procesare_in_blocuri" title="Lista tuturor paginilor wiki care conduc spre această pagină [j]" accesskey="j">Ce trimite aici</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Modific%C4%83ri_corelate/Procesare_in_blocuri" title="Schimbări recente în legătură cu această pagină [k]" accesskey="k">Modificări corelate</a></li>
+													<li id="t-specialpages"><a href="Special%253APagini_speciale" title="Lista tuturor paginilor speciale [q]" accesskey="q">Pagini speciale</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Procesare_in_blocuri&amp;printable=yes" rel="alternate" title="Versiunea de tipărit a acestei pagini [p]" accesskey="p">Versiune de tipărit</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Procesare_in_blocuri&amp;oldid=1206" title="Legătura permanentă către această versiune a paginii">Legătură permanentă</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Procesare_in_blocuri&amp;action=info">Informații despre pagină</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> Ultima modificare efectuată la 05:38, 9 iunie 2021.</li>
+											<li id="footer-info-viewcount">Pagina a fost vizitată de 1.497 de ori.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Politica_de_confiden%C8%9Bialitate" title="BD:Politica de confidențialitate">Politica de confidențialitate</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Despre" title="BD:Despre">Despre BD</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Termeni" title="BD:Termeni">Termeni</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":90});
+}</script>
+	</body>
+</html>
+	

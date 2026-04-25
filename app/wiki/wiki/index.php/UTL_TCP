@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ro" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>UTL TCP - BD</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="BD (ro)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="UTL_TCP" />
+<link rel="alternate" type="application/atom+xml" title="BD Abonare Atom" href="../index.php@title=Special%253ASchimbări_recente&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=ro&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-css:7:4df88359e8a55d2a1f91cd845ecbc51d */</style>
+<script src="../load.php@debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"UTL_TCP","wgTitle":"UTL TCP","wgCurRevisionId":1202,"wgRevisionId":1202,"wgArticleId":45,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"ro","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"],"wgMonthNamesShort":["","ian","feb","mar","apr","mai","iun","iul","aug","sept","oct","nov","dec"],"wgRelevantPageName":"UTL_TCP","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"ro","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"ro"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-js:7:2a32e5717ea1d009b03fd0794ab8a12b */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-UTL_TCP skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="ro"><span dir="auto">UTL TCP</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">De la BD</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Salt la:					<a href="UTL_TCP#mw-navigation">navigare</a>, 					<a href="UTL_TCP#p-search">căutare</a>
+				</div>
+				<div id="mw-content-text" lang="ro" dir="ltr" class="mw-content-ltr"><div id="toc" class="toc"><div id="toctitle"><h2>Cuprins</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="UTL_TCP#UTL_TCP"><span class="tocnumber">1</span> <span class="toctext">UTL_TCP</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="UTL_TCP#CONNECTION_Record_Type"><span class="tocnumber">1.1</span> <span class="toctext">CONNECTION Record Type</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="UTL_TCP#OPEN_CONNECTION_Function"><span class="tocnumber">1.2</span> <span class="toctext">OPEN_CONNECTION Function</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="UTL_TCP#SECURE_CONNECTION_Procedure"><span class="tocnumber">1.3</span> <span class="toctext">SECURE_CONNECTION Procedure</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="UTL_TCP#AVAILABLE_Function"><span class="tocnumber">1.4</span> <span class="toctext">AVAILABLE Function</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="UTL_TCP#FLUSH_Procedure"><span class="tocnumber">1.5</span> <span class="toctext">FLUSH Procedure</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="UTL_TCP#GET_LINE.2C_and_GET_LINE_NCHAR_Functions"><span class="tocnumber">1.6</span> <span class="toctext">GET_LINE, and GET_LINE_NCHAR Functions</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="UTL_TCP#GET_RAW.2C_GET_TEXT.2C_and_GET_TEXT_NCHAR_Functions"><span class="tocnumber">1.7</span> <span class="toctext">GET_RAW, GET_TEXT, and GET_TEXT_NCHAR Functions</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="UTL_TCP#READ_LINE_Function"><span class="tocnumber">1.8</span> <span class="toctext">READ_LINE Function</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="UTL_TCP#READ_RAW.2C_and_READ_TEXT_Functions"><span class="tocnumber">1.9</span> <span class="toctext">READ_RAW, and READ_TEXT Functions</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="UTL_TCP#WRITE_LINE.2C_WRITE_RAW.2C_and_WRITE_TEXT_Functions"><span class="tocnumber">1.10</span> <span class="toctext">WRITE_LINE, WRITE_RAW, and WRITE_TEXT Functions</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="UTL_TCP#CLOSE_CONNECTION_and_CLOSE_ALL_CONNECTIONS_Procedures"><span class="tocnumber">1.11</span> <span class="toctext">CLOSE_CONNECTION and CLOSE_ALL_CONNECTIONS Procedures</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-13"><a href="UTL_TCP#Exercitii"><span class="tocnumber">2</span> <span class="toctext">Exercitii</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="UTL_TCP">UTL_TCP</span></h2>
+<p>Acest pachet este definit in fisierul utltcp.sql (care este gasit in acelasi fisier in care se afla si utlfile.sql).  Pachetul pune la dispozitie functionalitatile
+protocului TCP/IP pe partea de client prin deschiderea unui socket pentru a comunica cu un server prin orice protocol precum HTTP, SMTP, sau FTP. Cateva obiecte ce
+ne sunt la dispozitie in acest pachet sunt urmatoarele...
+</p>
+<h3><span class="mw-headline" id="CONNECTION_Record_Type">CONNECTION Record Type</span></h3>
+<p>Acesta este folosit pentru a stabili o conexiune TCP/IP prin subprograme PL/SQL. Campurile din acest record sunt folosite pentru a oferi informatii despre
+conexiunea respectiva. Prototipul este urmatorul...
+</p>
+<pre>
+TYPE connection IS RECORD (
+    remote_host    VARCHAR2(255),
+    remote_port    PLS_INTEGER,
+    local_host     VARCHAR2(255),
+    local_port     PLS_INTEGER,
+    charset        VARCHAR2(30),
+    newline        VARCHAR2(2),
+    tx_timeout     PLS_INTEGER,
+    private_sd     PLS_INTEGER);
+/
+
+</pre>
+<ul><li> REMOTE_HOST&#160;: parametrul contine numele host-ului remote in timpul unei conexiuni. Campul este NULL daca conexiunea nu este stabilita.</li>
+<li> REMOTE_PORT&#160;: parametrul contine port-ul host-ului remote in timpul unei conexiuni. Campul este NULL daca conexiunea nu este stabilita.</li>
+<li> LOCAL_HOST&#160;:  parametrul contine numele local host-ului folosit pentru conexiune. Campul este NULL daca conexiunea nu este stabilita. Curent, acest parametru este nesuportat.</li>
+<li> LOCAL_PORT&#160;:  parametrul contine port-ul local host-ului folosit pentru conexiune. Campul este NULL daca conexiunea nu este stabilita. Curent, acest parametru este nesuportat.</li>
+<li> CHARSET&#160;:     parametrul este folosit la convertirea caracterelor.</li>
+<li> NEWLINE&#160;:     parametrul contine secventa de caractere newline</li>
+<li> TX_TIMEOUT&#160;:  parameter contine timpul de timeout in secunde inainte de a renunta la conexiune in timpul incercarii.</li>
+<li> PRIVATE_SD&#160;:  parametrul este folosit pentru folosirea interna a pachetului si nu trebuie sa fie manipulata.</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="OPEN_CONNECTION_Function">OPEN_CONNECTION Function</span></h3>
+<p>Aceasta functie deschide o conexiune catre serviciul web mentionat folosind protocolul TCP/IP. Conexiunea deschisa de aceasta functie ramane deschisa si poate fi transferata
+intre baze de date folosind <i>shared server configuration</i>. Aceste conexiuni trebuie sa fie inchise explicit. Nerealizarea acestui lucru va duce la consum nedorit de resurse.
+Prototipul functiei este urmatorul...
+</p>
+<pre>
+UTL_TCP.OPEN_CONNECTION (
+   remote_host      IN VARCHAR2,
+   remote_port      IN PLS_INTEGER,
+   local_host       IN VARCHAR2 DEFAULT NULL,
+   local_port       IN PLS_INTEGER DEFAULT NULL,
+   in_buffer_size   IN PLS_INTEGER DEFAULT NULL,
+   out_buffer_size  IN PLS_INTEGER DEFAULT NULL,
+   charset          IN VARCHAR2 DEFAULT NULL,
+   newline          IN VARCHAR2 DEFAULT CRLF,
+   tx_timeout       IN PLS_INTEGER DEFAULT NULL,
+   wallet_path      IN VARCHAR2 DEFAULT NULL,
+   wallet_password  IN VARCHAR2 DEFAULT NULL)
+ RETURN connection;
+
+</pre>
+<ul><li> IN_BUFFER_SIZE&#160;:  parametrul accepta dimensiunea buffer-ului input pentru a mari performanta executiei a informatiei primite de la server</li>
+<li> OUT_BUFFER_SIZE&#160;: parametrul accepta dimensiunea buffer-ului output pentru a mari performanta executiei a informatiei trimise catre server</li>
+<li> WALLET_PATH&#160;:     parametrul accepta path-ul wallet pentru certificatele stocate ce sunt necesare pentru a face request la informatie de la o conexiune securizata. Formatul este <i>file: &lt;Directory_path&gt;</i></li>
+<li> WALLET_PASSWORD&#160;: parametrul accepta parola necesara deschiderii wallet-ului. Cand parametrul AUTO_LOGIN este enabled, acest parametru poate fi setat la NULL.</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="SECURE_CONNECTION_Procedure">SECURE_CONNECTION Procedure</span></h3>
+<p>Aceasta procedura securizeaza conexiunea TCP/IP realizata folosind configuratie SSL/TLS. Acest lucru necesita un wallet Oracle cu un certificat valid
+sa fie specificat in timpul apelului de conexiune folosind functia OPEN_CONNECTION. Prototipul este...
+</p>
+<pre>
+UTL_TCP.SECURE_CONNECTION (c IN OUT NOCOPY connection);
+
+</pre>
+<ul><li> C&#160;:       parametrul accepta si returneaza detaliile conexiunii de la server de unde primim informatii.</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="AVAILABLE_Function">AVAILABLE Function</span></h3>
+<p>Aceasta functie returneaza numarul de bytes disponibili pentru citirea de la serverul conectat fara a bloca dupa ce se realizarea o conexiune. Pe unele platforme, aceasta
+functie poate returna 1 daca exista informatii de primit de la server si 0 in caz contrar. Functia este folosita pentru a face check-uri de siguranta pentru a verifica daca
+informatiile sunt disponibile sau nu, inainte de citire si alocarea resurselor pentru citirea informatiei. Prototipul functiei este urmatorul...
+</p>
+<pre>
+UTL_TCP.AVAILABLE (
+   c            IN OUT NOCOPY connection,
+   timeout      IN PLS_INTEGER DEFAULT 0)
+ RETURN PLS_INTEGER;
+
+</pre>
+<ul><li> TIMEOUT&#160;: parametrul accepta timpul de timeout in secunde inainte de a renunta la o conexiune in timpul incercarii</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="FLUSH_Procedure">FLUSH Procedure</span></h3>
+<p>Aceasta procedura face flush la toata informatia catre server din buffer-ul de output dupa stabilirea unei conexiuni. Prototipul este...
+</p>
+<pre>
+UTL_TCP.FLUSH(c IN OUT NOCOPY connection);
+
+</pre>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="GET_LINE.2C_and_GET_LINE_NCHAR_Functions">GET_LINE, and GET_LINE_NCHAR Functions</span></h3>
+<p>Aceste functii returneaza linia de informatie citita in baza de date. Prototipurile functiilor sunt...
+</p>
+<pre>
+UTL_TCP.GET_LINE (
+   c                IN OUT NOCOPY connection,
+   remove_crlf      IN BOOLEAN DEFAULT FALSE,
+   peek             IN BOOLEAN DEFAULT FALSE)
+ RETURN VARCHAR2;
+
+UTL_TCP.GET_LINE_NCHAR (
+   c                IN OUT NOCOPY connection,
+   remove_crlf      IN BOOLEAN DEFAULT FALSE,
+   peek             IN BOOLEAN DEFAULT FALSE)
+ RETURN NVARCHAR2;
+
+</pre>
+<ul><li> REMOVE_CRLF&#160;:  parameter elimina trailing CRLF caractere din mesajul primit</li>
+<li> PEEK&#160;:         parametrul este setat la o valoarea booleana true cand dorim sa facem look-ahead la informatie fara a o pierde din coada astfel incat va fi disponibila</li></ul>
+<p>la citire intr-un apel viitor. Acest parametru are nevoie de un buffer input sa fie create inainte de deschiderea conexiunii. Acest buffer va tine informatia
+pusa la dispozitie pentru peek fara a intra in conflict cu informatia din urmatorul apel
+</p><p><br />
+</p>
+<h3><span class="mw-headline" id="GET_RAW.2C_GET_TEXT.2C_and_GET_TEXT_NCHAR_Functions">GET_RAW, GET_TEXT, and GET_TEXT_NCHAR Functions</span></h3>
+<p>Functiile returneaza raw data, text data si respectiv, text data in national character citit de la server. Prototipurile functiilor sunt...
+</p>
+<pre>
+UTL_TCP.GET_RAW (
+   c                IN OUT NOCOPY connection,
+   len              IN PLS_INTEGER DEFAULT 1,
+   peek             IN BOOLEAN     DEFAULT FALSE)
+ RETURN RAW;
+
+UTL_TCP.GET_TEXT (
+   c                IN OUT NOCOPY connection,
+   len              IN PLS_INTEGER DEFAULT 1,
+   peek             IN BOOLEAN     DEFAULT FALSE)
+ RETURN VARCHAR2;
+
+UTL_TCP.GET_TEXT_NCHAR (
+   c                IN OUT NOCOPY connection,
+   len              IN PLS_INTEGER DEFAULT 1,
+   peek             IN BOOLEAN DEFAULT FALSE)
+ RETURN NVARCHAR2;
+
+</pre>
+<ul><li> LEN&#160;: parametrul accepta numarul de bytes de informatie care vor fi primiti</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="READ_LINE_Function">READ_LINE Function</span></h3>
+<p>Aceasta functie primeste un text line de la server intr-o conexiune deschida. Un line feed, carriage return sau un carriage return 
+urmat de un linefeed determina line separatorul. Functia returneaza numarul de caractere de data primit. Prototipul este urmatorul...
+</p>
+<pre>
+UTL_TCP.READ_LINE (
+   c           IN OUT NOCOPY connection,
+   data        IN OUT NOCOPY VARCHAR2 CHARACTER SET ANY_CS,
+   peek        IN BOOLEAN DEFAULT FALSE)
+ RETURN PLS_INTEGER;
+
+</pre>
+<ul><li> DATA&#160;: parametrul accepta si returneaza informatia ce este primita</li></ul>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="READ_RAW.2C_and_READ_TEXT_Functions">READ_RAW, and READ_TEXT Functions</span></h3>
+<p>Aceste functii primesc in binar, respectiv text data de la serverul cu o conexiune deschisa. Functiile returneaza data doar daca numarul de bytes specificat
+este citit sau daca EOI (End Of Input) este atins. Dimensiunea buffer-ului VARCHAR2 ar trebui sa fie egala cu numarul de caractere ce vor fi citite,
+inmultit cu numarul maxim de bytes al unui caracter din setul de caractere din baza de date. Aceste functii returneaza numarul de caractere de data ce au fost primite.
+Prototipurile functiilor sunt...
+</p>
+<pre>
+UTL_TCP.READ_RAW (
+   c                        IN OUT NOCOPY connection,
+   data                     IN OUT NOCOPY RAW,
+   len                      IN PLS_INTEGER DEFAULT 1,
+   peek  IN                 BOOLEAN DEFAULT FALSE)
+ RETURN PLS_INTEGER;
+
+UTL_TCP.READ_TEXT (
+   c                        IN OUT NOCOPY connection,
+   data                     IN OUT NOCOPY VARCHAR2 CHARACTER SET ANY_CS,
+   len  IN                  PLS_INTEGER DEFAULT 1,
+   peek IN                  BOOLEAN DEFAULT FALSE)
+ RETURN PLS_INTEGER;
+
+</pre>
+<h3><span class="mw-headline" id="WRITE_LINE.2C_WRITE_RAW.2C_and_WRITE_TEXT_Functions">WRITE_LINE, WRITE_RAW, and WRITE_TEXT Functions</span></h3>
+<p>Aceste functii scriu o linie de text, mesaj binar, si respectiv un text message, catre server intr-o conexiune deschisa. Functiile returneaza numarul de
+caractere de data primite dupa scrierea numarul de bytes specificat catre server (in cazul lui WRITE_RAW si WRITE_TEXT).
+Functia WRITE_LINE adauga un caracter newline la mesaj inainte de a fi trimis. Functia WRITE_TEXT converteste informatia la on-the-wire caracter set inainte 
+de fi trimisa. Prototipurile functiilor sunt...
+</p>
+<pre>
+UTL_TCP.WRITE_LINE (
+   c                        IN OUT NOCOPY connection,
+   data                     IN VARCHAR2 DEFAULT NULL CHARACTER SET ANY_CS)
+ RETURN PLS_INTEGER;
+
+UTL_TCP.WRITE_RAW (
+   c                        IN OUT NOCOPY connection,
+   data                     IN RAW,
+   len                      IN PLS_INTEGER DEFAULT NULL)
+ RETURN PLS_INTEGER;
+
+UTL_TCP.WRITE_TEXT (
+   c                        IN OUT NOCOPY connection,
+   data                     IN VARCHAR2 CHARACTER SET ANY_CS,
+   len                      IN PLS_INTEGER DEFAULT NULL)
+ RETURN num_chars PLS_INTEGER;
+
+</pre>
+<p><br />
+</p>
+<h3><span class="mw-headline" id="CLOSE_CONNECTION_and_CLOSE_ALL_CONNECTIONS_Procedures">CLOSE_CONNECTION and CLOSE_ALL_CONNECTIONS Procedures</span></h3>
+<p>Aceste proceduri inchid o singura conexiune, respectiv toate conexiunile. O conexiune TCP/IP ramane deschisa pana cand aceste functii sunt apelate. Nerealizarea
+acestui lucru va duce la consum de resurse nedorit. Prototipurile procedurilor sunt...
+</p>
+<pre>
+UTL_TCP.CLOSE_CONNECTION (c IN OUT NOCOPY connection);
+
+UTL_TCP.CLOSE_ALL_CONNECTIONS;
+
+</pre>
+<p>Pe langa functii si proceduri, pachetul UTL_TCP ne pune la dispozitie si cateva exceptii ce ne pot fi de folos.
+</p>
+<pre>
+buffer_too_small               EXCEPTION;  -- Buffer is too small for I/O
+end_of_input                   EXCEPTION;  -- End of input from connection
+network_error                  EXCEPTION;  -- Network error
+bad_argument                   EXCEPTION;  -- Bad argument passed in API call
+partial_multibyte_char         EXCEPTION;  -- A partial multi-byte char found
+transfer_timeout               EXCEPTION;  -- Transfer time-out occurred
+network_access_denied          EXCEPTION;  -- Network access denied
+
+buffer_too_small_errcode       CONSTANT PLS_INTEGER:= -29258;
+end_of_input_errcode           CONSTANT PLS_INTEGER:= -29259;
+network_error_errcode          CONSTANT PLS_INTEGER:= -29260;
+bad_argument_errcode           CONSTANT PLS_INTEGER:= -29261;
+partial_multibyte_char_errcode CONSTANT PLS_INTEGER:= -29275;
+transfer_timeout_errcode       CONSTANT PLS_INTEGER:= -29276;
+network_access_denied_errcode  CONSTANT PLS_INTEGER:= -24247;
+ 
+</pre>
+<p>In continuare vom realiza un server iterativ in JAVA, si o aplicatie client in PL/SQL.
+</p><p><b>COD JAVA</b>
+</p>
+<pre>
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Main {
+
+    public static void main(String[] args) throws IOException {
+        ServerSocket listener = new ServerSocket(8010);
+        try {
+            while (true) {
+                System.out.println(&quot;Waiting client...&quot;);
+                Socket socket = listener.accept();
+                System.out.println(&quot;Received client...&quot;);
+
+                BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+                try {
+                    PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
+
+                    String inputLine = in.readLine();
+                    if (null != inputLine) {
+                        out.println(inputLine.toUpperCase());
+                    }
+                    out.flush();
+                    out.close();
+                } finally {
+                    socket.close();
+                }
+            }
+        } finally {
+            listener.close();
+        }
+    }
+}
+
+</pre>
+<p><b>COD PL/SQL</b>
+</p>
+<pre>
+SET SERVEROUTPUT ON
+/
+CLEAR SCREEN
+/
+DECLARE
+    CONN            UTL_TCP.CONNECTION;
+    RETVAL          BINARY_INTEGER;
+    L_RESPONSE      VARCHAR2(1000) := '';
+    L_TEXT          VARCHAR2(1000);    
+BEGIN
+    
+    --Deschidem conexiunea...
+    CONN := UTL_TCP.OPEN_CONNECTION(
+        REMOTE_HOST   =&gt; '127.0.0.1',
+        REMOTE_PORT   =&gt; 8010,
+        TX_TIMEOUT    =&gt; 10
+    );
+    
+    L_TEXT := 'Hello there...';
+    --Scriem in socket...
+    RETVAL := UTL_TCP.WRITE_LINE(CONN,L_TEXT);
+    UTL_TCP.FLUSH(CONN);
+    
+    --Verificam daca am primit ceva si citim raspunsul din socket...
+    BEGIN
+        WHILE UTL_TCP.AVAILABLE(CONN, 10) &gt; 0 LOOP
+            L_RESPONSE := L_RESPONSE ||  UTL_TCP.GET_LINE(CONN,TRUE);
+        END LOOP;
+    EXCEPTION
+        WHEN UTL_TCP.END_OF_INPUT THEN
+            NULL;
+    END;
+
+    DBMS_OUTPUT.PUT_LINE('Response from Socket Server : ' || L_RESPONSE);
+    
+    --Inchidem conexiunea pentru a nu irosi resurse in mod inutil...
+    UTL_TCP.CLOSE_CONNECTION(CONN);
+EXCEPTION
+    WHEN OTHERS THEN
+        RAISE_APPLICATION_ERROR(-20101, SQLERRM);
+        UTL_TCP.CLOSE_CONNECTION(CONN);
+END;
+/
+
+</pre>
+<p><b>Observatii</b>
+</p><p>Daca totul merge ok, ar trebui sa obtineti acest mesaj...
+</p>
+<pre>
+Response from Socket Server : HELLO THERE...
+
+
+PL/SQL procedure successfully completed.
+ 
+</pre>
+<p>Daca nu...
+</p>
+<ul><li> Package Error</li></ul>
+<pre>
+PLS-00201: identifier 'UTL_TCP' must be declared
+PLS-00320: the declaration of the type of this
+expression is incomplete or malformed
+ 
+</pre>
+<p>Explicatie: Userul incearca sa foloseasca pachetul UTL_TCP, dar nu are permisiunea.
+</p><p>Solutie: Deschideti SQL PLUS si intrati pe contul de admin folosind <i>CONN / AS SYSDBA;</i>
+Rulati comanda <i>GRANT EXECUTE ON UTL_TCP TO STUDENT;</i>
+</p>
+<ul><li> ACL Error</li></ul>
+<pre>
+ORA-24247: network access denied by access control list (ACL)
+ 
+</pre>
+<p>Explicatie: De la Oracle 11g, Access Control List este introdus. Noi puteam controla cine are acces la pachete prin <i>GRANT</i>, dar acum putem controla
+si la ce resurse pot apela utilizatorii. In exemplul de mai sus, avem acces la pachetul UTL_TCP, dar nu ne putem conecta pentru ca nu avem permisiunea sa
+folosim resurse la connect.
+</p><p>Solutie: Deschideti SQL PLUS si intrati pe contul de admin folosind <i>CONN / AS SYSDBA;</i>
+Rulati scriptul:
+</p>
+<pre>
+ 
+BEGIN
+  DBMS_NETWORK_ACL_ADMIN.CREATE_ACL(acl         =&gt; 'example.xml',
+                                    description =&gt; 'UTL TCP EXAMPLE',
+                                    principal   =&gt; 'STUDENT',
+                                    is_grant    =&gt; true,
+                                    privilege   =&gt; 'connect');
+ 
+  DBMS_NETWORK_ACL_ADMIN.ADD_PRIVILEGE(acl       =&gt; 'example.xml',
+                                       principal =&gt; 'STUDENT',
+                                       is_grant  =&gt; true,
+                                       privilege =&gt; 'resolve');
+ 
+  DBMS_NETWORK_ACL_ADMIN.ASSIGN_ACL(acl  =&gt; 'example.xml',
+                                    host =&gt; '127.0.0.1');
+END;
+/
+COMMIT;
+
+</pre>
+<p><br /> 
+</p>
+<h2><span class="mw-headline" id="Exercitii">Exercitii</span></h2>
+<p>1. (3pt) <i>HTTP Request</i>
+</p><p>Creati o procedura stocata care se va conecta la un server Web si va face un simplu HTTP request. Functia va avea ca parametri, numele host-ului si port-ul respectiv.
+Rezultatul primit va fi afisat in functia creata. In cazul in care nu va puteti conecta la host, se va afisa doar 'FAIL'. Testati intr-un bloc anonim pentru cateva host-uri.
+</p><p><br />
+2. (4pt) <i>SMTP Server</i>
+</p><p>Creati o procedura stocata care va avea rolul de a se conecta la un server SMTP. Procedura va primi ca argumente, host-ul de mail server si portul respectiv, la care se va conecta.
+In cazul in care nu se poate conecta, se va afisa 'FAIL'. Procedura creata va trimite un singur mesaj catre un mail oarecare. Datele necesare continutului mail-ului sunt
+irelevante si astfel vor fi hardcodate. In cazul aparitiei unei exceptii in timpul folosirii protocolului SMTP, aceasta va fi anuntata si procedura
+isi va incheia executia. La sfarsitul trimiterii mesajului, se va afisa 'MAIL SENT'. Ca verificare finala, vom vedea daca mail-ul a fost primit si ce continut are.
+</p><p>PS &#160;: recititi protocolul SMTP care a fost predat la cursul 'Retele de Calculatoare'
+</p><p>PS2: puteti folosi orice program necesar pentru testarea serverului SMTP
+</p><p>Bonus (5pt): Cine reuseste sa se autentifice pe gmail si sa trimita de acolo emalilul, are 5 puncte bonus. Emailul va fi trimis catre profesorul de la laborator.
+</p><p><br />
+3. (3pt) <i>Chit-Chat</i>
+</p><p>Realizati un client in PL/SQL si un server iterativ in JAVA. Serverul se va ocupa de managementul chat-ului intre exact 2 persoane. Clientul reprezinta o procedura stocata ce
+are ca argumente, adresa host-ului, portul la care se conecteaza, directorul de input si numele fisierului input. Fisierul input respectiv contine replicile pe care clientul trebuie
+sa le foloseasca(exact in ordinea din fisier, liniile goale fiind ignorate). Modul de realizare a chat-ului este urmatorul: clientul 1 citeste replica din fisier, o afiseaza in
+consola, o transmite serverului iar acesta o transmite clientului 2, care o va afisa in consola. Astfel, la sfarsitul conversatiei, consola fiecarui client va contine dialogul
+complet. Cand un client nu mai are replici, va afisa in continuare doar replicile celuilalt user. Fiecare user are cel putin o replica. Se va respecta formatul din urmatorul model.
+</p><p><i>Exemplu.</i> Fie userii ALLEN si MARK, si fisierele input F1.txt (al lui ALLEN)
+</p>
+<pre>
+replica1
+replica3
+replica5
+replica7
+replica9
+replica11
+
+</pre>
+<p>si F2.txt (al lui MARK)
+</p>
+<pre>
+replica2
+replica4
+replica6
+
+</pre>
+<p>Considerand ca ALLEN s-a conectat primul, cei 2 vor avea ca output afisat
+</p>
+<pre>
+ALLEN: replica1
+MARK: replica2
+ALLEN: replica3
+MARK: replica4
+ALLEN: replica5
+MARK: replica6
+ALLEN: replica7
+ALLEN: replica9
+ALLEN: replica11
+
+</pre>
+<p>PS: pe langa modificarea xml-ului, va trebui sa adaugati inca un user cu privilegii la connect pentru a putea rezolva problema (exact ca in modelul de mai sus)
+</p><p><br />
+</p><p><br />
+</p><p>Autor: Anonim (nu a dorit sa isi divulge numele).
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.014 seconds
+Real time usage: 0.017 seconds
+Preprocessor visited node count: 221/1000000
+Preprocessor generated node count: 480/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bdwiki:pcache:idhash:45-0!*!*!!ro!*!* and timestamp 20240223154431 and revision id 1202
+ -->
+</div>									<div class="printfooter">
+						Adus de la „<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=UTL_TCP&amp;oldid=1202">https://profs.info.uaic.ro/~bd/wiki/index.php?title=UTL_TCP&amp;oldid=1202</a>”					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Meniu de navigare</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Unelte personale</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Utilizator:95.76.235.126" class="new" title="Pagina de utilizator pentru adresa IP curentă [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Discu%C8%9Bie_Utilizator:95.76.235.126" class="new" title="Discuții despre editări pentru adresa IP curentă [n]" accesskey="n">Discuția pentru această adresă IP</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Special:Autentificare&amp;returnto=UTL+TCP" title="Sunteți încurajat să vă autentificați, deși acest lucru nu este obligatoriu. [o]" accesskey="o">Autentificare</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Spații de nume</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="UTL_TCP"  title="Vedeți conținutul paginii [c]" accesskey="c">Pagină</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Discu%C8%9Bie:UTL_TCP&amp;action=edit&amp;redlink=1"  title="Discuții despre această pagină [t]" accesskey="t">Discuție</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variante</span><a href="UTL_TCP#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Vizualizări</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="UTL_TCP" >Lectură</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=UTL_TCP&amp;action=edit"  title="Această pagină este protejată. Puteți vizualiza doar codul sursă [e]" accesskey="e">Sursă pagină</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=UTL_TCP&amp;action=history"  title="Versiunile anterioare ale paginii și autorii lor. [h]" accesskey="h">Istoric</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>Mai mult</span><a href="UTL_TCP#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Căutare</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Căutare" title="Căutare în BD [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Căutare" name="title" /><input type="submit" name="fulltext" value="Căutare" title="Caută în pagini pentru acest text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Salt" title="Deschide pagina cu acest nume, dacă există" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki/images/database.png);" href="../index.php"  title="Pagina principală"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigare</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Vizitați pagina principală [z]" accesskey="z">Pagina principală</a></li>
+													<li id="n-Fisa-disciplinei"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs/Fisa_disciplinei_BD-2019-2020.pdf" rel="nofollow">Fisa disciplinei</a></li>
+													<li id="n-Pregatirea-mediului-de-lucru"><a href="Pregatirea_mediului_de_lucru">Pregatirea mediului de lucru</a></li>
+													<li id="n-Ghid-SQLPlus"><a href="Ghid_SQLPlus">Ghid SQLPlus</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'>
+			<h3 id='p-Baze_de_date-label'>Baze de date</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Materiale-curs"><a href="http://profs.info.uaic.ro/~bd" rel="nofollow">Materiale curs</a></li>
+													<li id="n-Laborator-1"><a href="Laborator_1">Laborator 1</a></li>
+													<li id="n-Laborator-2"><a href="Laboratorul_2">Laborator 2</a></li>
+													<li id="n-Laborator-3"><a href="Laboratorul_3">Laborator 3</a></li>
+													<li id="n-Laborator-4"><a href="Laboratorul_4">Laborator 4</a></li>
+													<li id="n-Laborator-5"><a href="Laboratorul_5">Laborator 5</a></li>
+													<li id="n-Laborator-6"><a href="Laboratorul_6">Laborator 6</a></li>
+													<li id="n-Laborator-7"><a href="Laboratorul_7">Laborator 7</a></li>
+													<li id="n-Laborator-8"><a href="Laboratorul_8">Laborator 8</a></li>
+													<li id="n-Laborator-9"><a href="Laboratorul_9">Laborator 9</a></li>
+													<li id="n-Laborator-10"><a href="Laboratorul_10">Laborator 10</a></li>
+													<li id="n-Laborator-11"><a href="Laboratorul_11">Laborator 11</a></li>
+													<li id="n-Laborator-12"><a href="Laboratorul_12">Laborator 12</a></li>
+													<li id="n-Laborator-13"><a href="Laboratorul_13">Laborator 13</a></li>
+													<li id="n-Laborator-14"><a href="Laboratorul_14">Laborator 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Practica_SGBD' aria-labelledby='p-Practica_SGBD-label'>
+			<h3 id='p-Practica_SGBD-label'>Practica SGBD</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Pagini_Studenti' aria-labelledby='p-Pagini_Studenti-label'>
+			<h3 id='p-Pagini_Studenti-label'>Pagini Studenti</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Expresii-regulate"><a href="Expresii_regulate">Expresii regulate</a></li>
+													<li id="n-Regresii-liniare"><a href="Regresii_liniare">Regresii liniare</a></li>
+													<li id="n-UTL_TCP"><a href="UTL_TCP">UTL_TCP</a></li>
+													<li id="n-Procesare_in_blocuri"><a href="Procesare_in_blocuri">Procesare_in_blocuri</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Unelte</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Ce_se_leag%C4%83_aici/UTL_TCP" title="Lista tuturor paginilor wiki care conduc spre această pagină [j]" accesskey="j">Ce trimite aici</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Modific%C4%83ri_corelate/UTL_TCP" title="Schimbări recente în legătură cu această pagină [k]" accesskey="k">Modificări corelate</a></li>
+													<li id="t-specialpages"><a href="Special%253APagini_speciale" title="Lista tuturor paginilor speciale [q]" accesskey="q">Pagini speciale</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=UTL_TCP&amp;printable=yes" rel="alternate" title="Versiunea de tipărit a acestei pagini [p]" accesskey="p">Versiune de tipărit</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=UTL_TCP&amp;oldid=1202" title="Legătura permanentă către această versiune a paginii">Legătură permanentă</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=UTL_TCP&amp;action=info">Informații despre pagină</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> Ultima modificare efectuată la 09:48, 18 mai 2021.</li>
+											<li id="footer-info-viewcount">Pagina a fost vizitată de 1.902 ori.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Politica_de_confiden%C8%9Bialitate" title="BD:Politica de confidențialitate">Politica de confidențialitate</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Despre" title="BD:Despre">Despre BD</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Termeni" title="BD:Termeni">Termeni</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":130});
+}</script>
+	</body>
+</html>
+	

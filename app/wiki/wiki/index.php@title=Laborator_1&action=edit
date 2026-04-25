@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ro" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Vizualizare sursă pentru Laborator 1 - BD</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="BD (ro)" />
+<link rel="EditURI" type="application/rsd+xml" href="api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="index.php/Laborator_1" />
+<link rel="alternate" type="application/atom+xml" title="BD Abonare Atom" href="index.php@title=Special%253ASchimbări_recente&amp;feed=atom" />
+<link rel="stylesheet" href="load.php@debug=false&amp;lang=ro&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-css:7:4df88359e8a55d2a1f91cd845ecbc51d */</style>
+<script src="load.php@debug=false&amp;lang=ro&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Laborator_1","wgTitle":"Laborator 1","wgCurRevisionId":1255,"wgRevisionId":0,"wgArticleId":3,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"edit","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":true,"wgPageContentLanguage":"ro","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"],"wgMonthNamesShort":["","ian","feb","mar","apr","mai","iun","iul","aug","sept","oct","nov","dec"],"wgRelevantPageName":"Laborator_1","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"ro","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"ro"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bdwiki:resourceloader:filter:minify-js:7:2a32e5717ea1d009b03fd0794ab8a12b */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Laborator_1 skin-vector action-edit vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="ro"><span dir="auto">Vizualizare sursă pentru Laborator 1</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+								<div id="contentSub">← <a href="index.php/Laborator_1" title="Laborator 1">Laborator 1</a></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Salt la:					<a href="index.php@title=Laborator_1&amp;action=edit#mw-navigation">navigare</a>, 					<a href="index.php@title=Laborator_1&amp;action=edit#p-search">căutare</a>
+				</div>
+				<div id="mw-content-text"><p>Nu aveți permisiunea să modificați această pagină, din următorul motivul:
+</p>
+<div class="permissions-errors">
+<p>Acțiunea cerută este rezervată utilizatorilor din grupul: <a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=BD:Utilizatori&amp;action=edit&amp;redlink=1" class="new" title="BD:Utilizatori (pagină inexistentă)">Utilizatori</a>.
+</p>
+</div>
+<hr />
+<p>Se poate vizualiza și copia conținutul acestei pagini:
+</p><textarea readonly="" accesskey="," id="wpTextbox1" cols="80" rows="25" style="" lang="ro" dir="ltr" name="wpTextbox1" class="mw-ui-input">&lt;b>Obiective:&lt;/b>
+&lt;ul>
+&lt;li>Înțelegerea modelului relațional al bazelor de date
+&lt;li>Realizarea unei imagini de ansamblu asupra limbajului SQL
+&lt;/ul>
+
+
+
+== Modelul relațional ==
+* este un model simplu, cu implementări foarte eficiente şi un limbaj de interogare (SQL) descriptiv simplu si expresiv;
+* propus in anii '70 de catre Edgar Frank Codd, se regaseste in cele mai populare sisteme de gestiune de baze de date: http://db-engines.com/en/ranking_trend
+
+Elemente:
+* Baza de date constă dintr-o multime de tabele/relaţii
+* Fiecare tabel/relaţie are un nume unic in baza de date şi conţine un set de coloane/atribute/câmpuri
+* Fiecare atribut are un nume unic in tabelul la care aparţine si are asociat tip/domeniu din care poate lua valori
+* Fiecare linie/înregistrare/tuplu din tabel conţine valori pentru toate atributele
+* Ordinea liniilor/tuplelor nu are semnificaţie
+
+&lt;b>Schema bazei de date relaţionale &lt;/b> reprezintă descrierea structurală a tabelelor în baza de date.
+
+&lt;b>Instanţa bazei de date &lt;/b> reprezintă conţinutul bazei de date la un anumit moment
+
+&lt;b>NULL&lt;/b> – este o valoare specială utilizată când nu se cunoaşte (sau e nedefinită) valoarea unui atribut pentru o înregistrare.
+
+&lt;b>Cheie candidat&lt;/b> – un atribut care are valori unice pentru fiecare înregistrare 
+- sau un set de atribute ale căror valori combinate sunt unice, minimală în raport cu această proprietate (nici o submulţime nu e cheie); dacă nu este îndeplinită proprietatea de mulţime minimală avem de a face cu o supercheie
+
+&lt;b>Cheie primară&lt;/b> – una dintre cheile candidat aleasă pentru a identifica în mod unic înregistrările din tabel; nici un atribut implicat nu poate avea valoarea NULL
+
+&lt;b>Cheie alternativă&lt;/b> – cheie candidat care nu a fost aleasă drept cheie primară
+
+&lt;b>Cheie străină&lt;/b> – un atribut sau un set de atribute dintr-o relaţie care are corespondent o cheie candidat a altei relaţii ( sau chiar a relaţiei curente, caz în care o numim cheie străină recursivă)
+
+Obţinerea de informaţii din baza de date se realizează cu ajutorul interogărilor SQL. Rezultatul unei interogări este un nou tabel.
+
+&lt;b>Algebra relaţională&lt;/b>
+* Un limbaj formal
+* Operatorii de bază din algebra relaţională: selecţie, proiecţie, produs cartezian, intersecţie, diferenţă, redenumire
+* Bazată pe mulţimi (duplicatele se elimină)
+
+== Limbajul SQL ==
+SQL - Structured Query Language
+* limbajul utilizat în manipularea bazelor de date relaţionale
+* un limbaj esenţial declarativ; exprimă ce se doreşte de la baza de date, nu şi cum se obţine rezultatul
+* un limbaj implementat cu fundamente în algebra relaţională (semantica este definită cu ajutorul algebrei relaţionale), bazat pe multi-seturi  (nu se elimină duplicatele)
+* deşi considerat un limbaj de programare non-procedural, majoritatea SGBD-urilor relaţionale oferă şi extensii procedurale.
+
+Limbajul SQL a fost pentru prima dată standardizat de către Organizaţia Internaţională pentru Standardizare (ISO) în anul 1987. De atunci limbajul a suferit modificări/îmbunătăţiri în mai multe rânduri, ultima versiune stabilă fiind SQL:2016.
+
+Deşi standardizat la nivel internaţional, fiecare dezvoltator de baze de date a modificat şi a extins versiunea standard pentru a exploata avantajele oferite de implementarea particulară a produsului propriu. Datorită dimensiunii mari şi a complexităţii standardului cei mai mulţi dezvoltatori nu l-au implementat în totalitate. Vice-versa, standardul nu specifică comportamentul bazei de date în anumite situaţii, decizille ramânând la latitudinea dezvoltatorilor. Se vorbeşte astfel de dialecte SQL. Rezultatul este apariţia de incompatibilităţi între SGBD-uri relaţionale diferite. Unele incompatibilităţi sunt intenţionat păstrate de dezvoltatori cu scopul de fidelizare a clienţilor.
+
+Declaraţia de conformitate Oracle cu standardul ISO SQL:2008 poate fi studiată la adresa 
+https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/Oracle-and-Standard-SQL.html#GUID-330DEBBB-006E-4B35-A516-5C0AEFFE06B9
+
+În continuare sunt listate în forma Backus-Naur cele mai uzuale comenzi SQL. Convenţiile de sintaxă în acest format sunt următoarele:
+*	&lt;>		reprezintă o variabilă de substituţie
+*	|  		reprezintă disjuncţia
+*	[…]		reprezintă elemente opţionale
+*	{…|…|…}	reprezintă exact un element din listă
+
+=== Comenzi DDL (de definire a datelor) ===
+
+==== Crearea tabelelor ====
+ &lt;nowiki>
+CREATE [{GLOBAL | LOCAL} TEMPORARY] TABLE
+       &lt;nume_tabel>
+        (&lt;nume_coloană1> data_type [constrângeri] 
+        [,&lt;nume_coloana2> data_type [constrângeri]]
+        […]
+        )     
+       [ ON COMMIT { DELETE | PRESERVE } ROWS ]&lt;/nowiki>
+
+
+Opţiunea TEMPORARY specifică crearea unui tabel temporar, care îşi păstrează conţinutul doar pe durata unei tranzacţii (până la apariţia comenzii COMMIT) sau pe parcursul unei sesiuni (opţiunea ON COMMIT PRESERVE ROWS).  În Oracle există doar varianta GLOBAL a tabelelor temporare: definiţia tabelului temporar este vizibilă din toate sesiunile de lucru însă accesul la date este privat (datele inserate intr-o sesiune pot fi accesate doar din sesiunea respectivă). 
+
+
+==== Ştergerea unui tabel ====
+ &lt;nowiki>
+DROP TABLE &lt;nume_tabel>  [CASCADE CONSTRAINTS]&lt;/nowiki>
+CASCADE permite ştergerea unui tabel care e referenţiat de un VIEW sau de chei străine şi şterge view-ul şi restricţia de tip cheie străină.
+
+În Oracle sintaxa pentru ştergerea tabelelor este:
+ &lt;nowiki>
+DROP TABLE &lt;nume_tabel>  [CASCADE CONSTRAINTS] [PURGE]&lt;/nowiki>
+
+În Oracle tabelele şterse sunt reciclate dacă nu este specificată opţiunea PURGE, ele putând fi recuperate cu comanda: 
+ &lt;nowiki>
+FLASHBACK TABLE &lt;nume_tabel>   TO 
+     { { SCN | TIMESTAMP } expr 
+     [ { ENABLE | DISABLE } TRIGGERS ] | 
+     BEFORE DROP [ RENAME TO &lt;nume_nou> ]} &lt;/nowiki>
+
+=== Comenzi DML (de manipulare a datelor) ===
+
+==== Inserarea înregistrărilor ====
+ &lt;nowiki>
+INSERT INTO &lt;nume_tabel> 
+            [ (lista_coloane) ]
+            VALUES (lista_valori)&lt;/nowiki>
+
+==== Actualizarea valorilor ====
+ &lt;nowiki>
+UPDATE &lt;nume_tabel>
+       SET &lt;nume_coloana1> = valoare1
+           [, &lt;nume_coloana2> = valoare2...]
+       [WHERE conditie]&lt;/nowiki>
+
+==== Ştergerea înregistrărilor ====
+  &lt;nowiki>
+DELETE FROM &lt;nume_tabel> 
+      [WHERE conditie]&lt;/nowiki>
+
+
+==== Interogarea bazei de date ====
+ &lt;nowiki>
+SELECT [DISTINCT | ALL] {* | [expresie_coloana [AS &lt;nume_nou>]] [,...] }
+       FROM &lt;nume_tabel> [alias] [, ...]
+       [WHERE conditie]
+       [GROUP BY lista_coloane] [HAVING conditie]
+       [ORDER BY exp1 [ASC/DESC] [,exp2...]] &lt;/nowiki>
+
+== Tipuri de date (în Oracle) ==
+{| border="1" 
+|Tip	
+|Proprietăţi
+|-
+|CHAR(n)	
+|Şiruri de lungime fixă n (1 caracter e stocat pe 1 octet). Dacă valorile introduse au mai puţine caractere se adaugă blanks (spaţii) la sfarşit ; dacă valorile introduse conţin mai multe caractere apare eroare (VALUE_ERROR)
+|-
+|VARCHAR2(n)	
+|Şiruri de lungime variabilă, n este lungimea maximă. Este indicat a fi folosit cand valorile pentru un atribut diferă ca lungime fiindcă se consumă un număr de octeţi egal cu numărul de caractere din şir
+|-
+|NUMBER	
+|Corespunde numerelor în virgulă fixă şi mobilă. Numere în intervalul (-10&lt;sup>126&lt;/sup>,  10&lt;sup>126&lt;/sup>), infinit (pozitiv şi negativ)
+|-
+|NUMBER(n1, n2)	
+|Numere ce conţin în total n1 zecimale semnificative, n2 precizând numărul de cifre de la punctual zecimal până la cea mai puţin semnificativă cifră. n2 poate lua valori negative, caz în care se face rotunjirea pe numărul de poziţii specificate în stânga punctului zecimal. Ex. pentru tipul NUMBER(5,-2), introducerea valorii 12345 generează valoarea 12300 iar pentru 12399 generează 12400
+|-
+|DATE	
+|Reprezintă un moment de timp stocând anul, luna, ziua, orele minutele şi secundele
+|-
+|LOB (large object):&lt;br/>BLOB, CLOB, NCLOB, BFILE	
+|Permit stocarea în format binar sau caracter a datelor nestructurate precum text, imagini, videoclipuri…
+|}
+
+Pentru compatibilitate cu alte sisteme, Oracle suportă şi tipuri precum: decimal, integer, smallint, real; reprezentarea lor internă este însă definită de formatul tipului number.
+
+O listă completă găsiți la adresa: http://download.oracle.com/docs/cd/B19306_01/server.102/b14200/sql_elements001.htm sau la https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/predefined.htm#LNPLS2047
+
+&lt;b>NULL&lt;/b> este o valoare specială care semnifică lipsa informaţiei. Ambele teste NULL=NULL şi NULL&lt;>NULL returnează FALSE. Verificarea (in)egalităţii cu NULL se face utilizând IS [NOT] NULL.
+
+==Schema bazei de date - studiu de caz==
+
+Fiecare facultate a unei universităţi are nevoie să-şi facă managementul intern al studenţilor pe care îi are. Spre exemplu, un aspect important în cadrul secretariatului este cunoaşterea notelor pe care studenţii le-au luat la diversele materii pe care le-au studiat. Pe baza acestor informaţii, se poate decide dacă studentul va avea sau nu bursă, dacă va primi sau nu cazare în anul ce urmează sau daca va trebui să repete o anumită materie. Deşi aceste informaţii sunt disponibile în format clasic, în cataloage, este mult mai uşor de lucrat cu un număr mare de studenţi atunci când aceştia sunt stocaţi într-o bază de date. 
+
+În afara informaţiilor referitoare la studenţi (nume, prenume, anul în care sunt înmatriculaţi, etc.) ce ar putea forma o tabelă într-o bază de date, şi alte informaţii precum notele sau numele cursurilor la care au participat trebuie să fie stocate. Nu este natural ca aceste informaţii să fie stocate împreună cu informaţiile personale ale studentului (de exemplu din cauză ca participarea la doua cursuri diferite ar presupune introducerea de doua ori - ca şi înregistrari diferite în tabelă - a aceloraşi informaţii privitoare la student) şi din acest motiv sunt necesare tabele suplimentare.
+
+În cadrul laboratorului de baze de date, vom folosi tabelele studenti, cursuri, note şi profesori, ce au urmatoarele structuri: 
+
+
+Tabela studenti:
+* nr_matricol - câmp alfanumeric de 6 caractere ce nu poate fi null;
+* nume - câmp alfanumeric, variabil ca dimensiune dar având maxim 10 caractere ce nu poate fi null;
+* prenume - câmp alfanumeric, variabil ca dimensiune dar având maxim 10 caractere;
+* an - câmp numeric ce poate reţine numere formate doar dintr-o singură cifră;
+* grupa - câmp alfanumeric de 2 caractere;
+* bursa - câmp numeric ce poate ţine minte valori reale formate din 4 cifre înainte de virgulă şi două cifre după;
+* data_nastere - câmp de tip dată calendaristică.
+  
+
+
+Tabela cursuri:
+* id_curs - câmp alfanumeric de 4 caractere ce nu poate fi null;
+* titlu_curs - câmp alfanumeric, variabil ca dimensiune dar având maxim 10 caractere ce nu poate fi null;
+* an - câmp numeric ce poate reţine numere formate doar dintr-o singură cifră;
+* semestru  - câmp numeric ce poate reţine o cifra;
+* credite - câmp numeric ce poate reţine numere formate din două cifre.
+
+
+Tabela note:
+* nr_matricol - câmp alfanumeric de 6 caractere ce nu poate fi null;
+* id_curs - câmp alfanumeric de 4 caractere ce nu poate fi null;
+* valoare - câmp numeric ce poate reţine numere formate din două cifre;
+* data_notare - câmp de tip dată calendaristică.
+
+
+Tabela profesori:
+* id_prof - câmp alfanumeric de 4 caractere ce nu poate fi null;
+* nume - câmp alfanumeric, fix ca dimensiune având 10 caractere ce nu poate fi null;
+* prenume - câmp alfanumeric, fix ca dimensiune având 10 caractere;
+* grad_didactic - câmp alfanumeric, variabil ca dimensiune dar având maxim 5 caractere.
+
+
+Tabela didactic
+* id_prof - câmp alfanumeric de 4 caractere ce nu poate fi null;
+* id_curs - câmp alfanumeric de 4 caractere ce nu poate fi null.
+  
+
+&lt;span style="color:green">1. Creaţi aceste tabele utilizând contul student.&lt;/span>
+
+&lt;span style="color:green">2. Inseraţi în baza de date nou creată un student Popescu Ionut, proaspat înmatriculat în anul 2 care a luat nota 10 la materia Logica pentru informatica predata de  Cristian Masalagiu în primul semestru din anul 1.&lt;/span>
+
+&lt;span style="color:green">3. Executaţi comanda de mai jos pentru a rula un script de creare care are rolul de a crea toate tabelele de mai sus şi de a le popula cu date. Studiati continutul scriptului.&lt;/span>
+
+Descarcati acest fisier: https://profs.info.uaic.ro/~vcosmin/BD/facultate.sql si salvati-l in directorul C:/temp .
+
+Executati comanda: 
+
+&lt;code>@ C:/temp/facultate.sql&lt;/code>
+
+Pentru a vedea care sunt tabelele unui utilizator se va executa:
+
+&lt;code>SELECT table_name FROM user_tables;&lt;/code>
+
+
+Pentru a vedea care este structura unei tabele (în cazul în care aţi uitat spre exemplu din cate litere poate fi format numele de familie al unui student), puteti executa comanda SQL*Plus describe:
+
+&lt;code>DESCRIBE nume_tabel&lt;/code>
+</textarea><div class="templatesUsed"></div><p id="mw-returnto">Înapoi la <a href="index.php/Laborator_1" title="Laborator 1">Laborator 1</a>.</p>
+</div>									<div class="printfooter">
+						Adus de la „<a dir="ltr" href="index.php/Laborator_1">https://profs.info.uaic.ro/~bd/wiki/index.php/Laborator_1</a>”					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Meniu de navigare</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Unelte personale</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Utilizator:95.76.235.126" class="new" title="Pagina de utilizator pentru adresa IP curentă [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Discu%C8%9Bie_Utilizator:95.76.235.126" class="new" title="Discuții despre editări pentru adresa IP curentă [n]" accesskey="n">Discuția pentru această adresă IP</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Special:Autentificare&amp;returnto=Laborator+1&amp;returntoquery=action%3Dedit" title="Sunteți încurajat să vă autentificați, deși acest lucru nu este obligatoriu. [o]" accesskey="o">Autentificare</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Spații de nume</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="index.php/Laborator_1"  title="Vedeți conținutul paginii [c]" accesskey="c">Pagină</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki/index.php?title=Discu%C8%9Bie:Laborator_1&amp;action=edit&amp;redlink=1"  title="Discuții despre această pagină [t]" accesskey="t">Discuție</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variante</span><a href="index.php@title=Laborator_1&amp;action=edit#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Vizualizări</h3>
+						<ul>
+															<li id="ca-view"><span><a href="index.php/Laborator_1" >Lectură</a></span></li>
+															<li id="ca-viewsource" class="selected"><span><a href="index.php@title=Laborator_1&amp;action=edit"  title="Această pagină este protejată. Puteți vizualiza doar codul sursă [e]" accesskey="e">Sursă pagină</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="index.php@title=Laborator_1&amp;action=history"  title="Versiunile anterioare ale paginii și autorii lor. [h]" accesskey="h">Istoric</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>Mai mult</span><a href="index.php@title=Laborator_1&amp;action=edit#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Căutare</label>
+						</h3>
+
+						<form action="index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Căutare" title="Căutare în BD [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Căutare" name="title" /><input type="submit" name="fulltext" value="Căutare" title="Caută în pagini pentru acest text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Salt" title="Deschide pagina cu acest nume, dacă există" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki/images/database.png);" href="index.php"  title="Pagina principală"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigare</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="index.php" title="Vizitați pagina principală [z]" accesskey="z">Pagina principală</a></li>
+													<li id="n-Fisa-disciplinei"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs/Fisa_disciplinei_BD-2019-2020.pdf" rel="nofollow">Fisa disciplinei</a></li>
+													<li id="n-Pregatirea-mediului-de-lucru"><a href="index.php/Pregatirea_mediului_de_lucru">Pregatirea mediului de lucru</a></li>
+													<li id="n-Ghid-SQLPlus"><a href="index.php/Ghid_SQLPlus">Ghid SQLPlus</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Baze_de_date' aria-labelledby='p-Baze_de_date-label'>
+			<h3 id='p-Baze_de_date-label'>Baze de date</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Materiale-curs"><a href="http://profs.info.uaic.ro/~bd" rel="nofollow">Materiale curs</a></li>
+													<li id="n-Laborator-1"><a href="index.php/Laborator_1">Laborator 1</a></li>
+													<li id="n-Laborator-2"><a href="index.php/Laboratorul_2">Laborator 2</a></li>
+													<li id="n-Laborator-3"><a href="index.php/Laboratorul_3">Laborator 3</a></li>
+													<li id="n-Laborator-4"><a href="index.php/Laboratorul_4">Laborator 4</a></li>
+													<li id="n-Laborator-5"><a href="index.php/Laboratorul_5">Laborator 5</a></li>
+													<li id="n-Laborator-6"><a href="index.php/Laboratorul_6">Laborator 6</a></li>
+													<li id="n-Laborator-7"><a href="index.php/Laboratorul_7">Laborator 7</a></li>
+													<li id="n-Laborator-8"><a href="index.php/Laboratorul_8">Laborator 8</a></li>
+													<li id="n-Laborator-9"><a href="index.php/Laboratorul_9">Laborator 9</a></li>
+													<li id="n-Laborator-10"><a href="index.php/Laboratorul_10">Laborator 10</a></li>
+													<li id="n-Laborator-11"><a href="index.php/Laboratorul_11">Laborator 11</a></li>
+													<li id="n-Laborator-12"><a href="index.php/Laboratorul_12">Laborator 12</a></li>
+													<li id="n-Laborator-13"><a href="index.php/Laboratorul_13">Laborator 13</a></li>
+													<li id="n-Laborator-14"><a href="index.php/Laboratorul_14">Laborator 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Practica_SGBD' aria-labelledby='p-Practica_SGBD-label'>
+			<h3 id='p-Practica_SGBD-label'>Practica SGBD</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="index.php/PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="index.php/PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="index.php/PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="index.php/PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="index.php/PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="index.php/PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="index.php/PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="index.php/PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="index.php/PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="index.php/PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="index.php/PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="index.php/PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Pagini_Studenti' aria-labelledby='p-Pagini_Studenti-label'>
+			<h3 id='p-Pagini_Studenti-label'>Pagini Studenti</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Expresii-regulate"><a href="index.php/Expresii_regulate">Expresii regulate</a></li>
+													<li id="n-Regresii-liniare"><a href="index.php/Regresii_liniare">Regresii liniare</a></li>
+													<li id="n-UTL_TCP"><a href="index.php/UTL_TCP">UTL_TCP</a></li>
+													<li id="n-Procesare_in_blocuri"><a href="index.php/Procesare_in_blocuri">Procesare_in_blocuri</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Unelte</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="index.php/Special%253ACe_se_leagă_aici/Laborator_1" title="Lista tuturor paginilor wiki care conduc spre această pagină [j]" accesskey="j">Ce trimite aici</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/Special:Modific%C4%83ri_corelate/Laborator_1" title="Schimbări recente în legătură cu această pagină [k]" accesskey="k">Modificări corelate</a></li>
+													<li id="t-specialpages"><a href="index.php/Special%253APagini_speciale" title="Lista tuturor paginilor speciale [q]" accesskey="q">Pagini speciale</a></li>
+													<li id="t-info"><a href="index.php@title=Laborator_1&amp;action=info">Informații despre pagină</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Politica_de_confiden%C8%9Bialitate" title="BD:Politica de confidențialitate">Politica de confidențialitate</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Despre" title="BD:Despre">Despre BD</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki/index.php/BD:Termeni" title="BD:Termeni">Termeni</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.action.edit.collapsibleFooter","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":158});
+}</script>
+	</body>
+</html>
+	

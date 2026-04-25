@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>Lab 11 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="Lab_11" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Lab_11","wgTitle":"Lab 11","wgCurRevisionId":74,"wgRevisionId":74,"wgArticleId":14,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Lab_11","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Lab_11 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Lab 11</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="Lab_11#mw-navigation">navigation</a>, 					<a href="Lab_11#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="Lab_11#Substitution_variables_in_SQL.2APlus"><span class="tocnumber">1</span> <span class="toctext">Substitution variables in SQL*Plus</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="Lab_11#DML_statements_-_Modifying_data"><span class="tocnumber">2</span> <span class="toctext">DML statements - Modifying data</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="Lab_11#Inserting_records"><span class="tocnumber">2.1</span> <span class="toctext">Inserting records</span></a>
+<ul>
+<li class="toclevel-3 tocsection-4"><a href="Lab_11#SEQUENCES"><span class="tocnumber">2.1.1</span> <span class="toctext">SEQUENCES</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="Lab_11#Exercises"><span class="tocnumber">2.1.2</span> <span class="toctext">Exercises</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-6"><a href="Lab_11#Updating_records"><span class="tocnumber">2.2</span> <span class="toctext">Updating records</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="Lab_11#Exercises_2"><span class="tocnumber">2.2.1</span> <span class="toctext">Exercises</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="Lab_11#Deleting_records"><span class="tocnumber">2.3</span> <span class="toctext">Deleting records</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="Lab_11#Exercises_3"><span class="tocnumber">2.3.1</span> <span class="toctext">Exercises</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="Lab_11#DDL_statements_-_creating.2Fmodifying_data_structures"><span class="tocnumber">3</span> <span class="toctext">DDL statements - creating/modifying data structures</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="Lab_11#CREATE_TABLE_AS"><span class="tocnumber">3.1</span> <span class="toctext">CREATE TABLE AS</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="Lab_11#Exercises_4"><span class="tocnumber">3.1.1</span> <span class="toctext">Exercises</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-13"><a href="Lab_11#ALTER_TABLE"><span class="tocnumber">3.2</span> <span class="toctext">ALTER TABLE</span></a>
+<ul>
+<li class="toclevel-3 tocsection-14"><a href="Lab_11#Exercices"><span class="tocnumber">3.2.1</span> <span class="toctext">Exercices</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="Lab_11#Transactions"><span class="tocnumber">4</span> <span class="toctext">Transactions</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="Lab_11#Exercises_5"><span class="tocnumber">4.1</span> <span class="toctext">Exercises</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Substitution_variables_in_SQL.2APlus">Substitution variables in SQL*Plus</span></h1>
+<p>Substitution variables can be used to store constants, conditions required in the WHERE clause, field names used in the ORDER BY cluase or in the SELECT list.  
+</p><p>Substitution variables are preceded by symbol <b>&amp;</b> and when executing the query, SQLPlus will ask the user for the values to be used for the substitution variables.
+</p><p>Example 1:
+</p>
+<pre>
+SELECT *
+    FROM students
+    WHERE year=&amp;year AND first_name LIKE '&amp;firstName'
+
+</pre>
+<p>Example 2:
+</p>
+<pre>
+SELECT fname, &amp;field_to_show
+    FROM students
+    WHERE &amp;condition2
+    ORDER BY &amp;field_to_sort;
+
+</pre>
+<p>Execute the queries above several times, using various values for the substitution variables. Verify the results.
+</p><p>Substitution variables can be declared and instantiated in advance, case in which SQLPlus will not ask for the value when executing the query: 
+</p>
+<pre>
+DEFINE field=lname
+SELECT fname, &amp;field
+    FROM students
+    ORDER BY &amp;field;
+
+</pre>
+<p>The variable is stored during the current session until it is eliminated with the UNDEFINE command or until the session is closed.
+</p>
+<pre>
+UNDEFINE field
+
+</pre>
+<p>DEFINE and UNDEFINE commands are specific to the SQL*Plus tool and not to the SQL language.
+</p><p>For more about substitution variables read <a rel="nofollow" class="external free" href="https://blogs.oracle.com/opal/entry/sqlplus_101_substitution_varia">https://blogs.oracle.com/opal/entry/sqlplus_101_substitution_varia</a>
+</p>
+<h1><span class="mw-headline" id="DML_statements_-_Modifying_data">DML statements - Modifying data</span></h1>
+<p>So far,you worked only with queries - SELECT phrases which search for data in the database. This section is dedicated to DML commands that modify data.
+</p>
+<h2><span class="mw-headline" id="Inserting_records">Inserting records</span></h2>
+<p>Inserting new records in the database is made with the INSERT statement which has two forms:
+</p>
+<table border="1">
+<tr>
+<td><pre>INSERT INTO table_name [ (column_list) ]
+      VALUES (value_list)</pre>
+</td>
+<td> INSERT INTO courses VALUES(30, 'Mach. Learn.', 3, 1, 5);<br />
+<p>INSERT INTO courses (id_course, course_title) VALUES(31, 'NoSQL');
+</p>
+</td></tr>
+<tr>
+<td><pre>INSERT INTO table_name [ (column_list) ]
+   select_phrase	</pre>
+</td>
+<td>
+<pre>INSERT INTO grades
+SELECT id_stud, 30, 10, SYSDATE
+  FROM students
+  WHERE year=3;
+</pre>
+</td></tr></table>
+<h3><span class="mw-headline" id="SEQUENCES">SEQUENCES</span></h3>
+<p>Many times, we need to create synthetic attributes to play as keys in the database, storing unique values in the table.Sequences allow us to automatically generate integer unique values when inserting records. 
+</p><p>The syntax for creating sequences:
+</p>
+<pre>
+CREATE SEQUENCE sequence_name
+  [INCREMENT BY n]               -- step
+  [START WITH n1]                -- starting value
+  [MAXVALUE n_max | NOMAXVALUE]  -- stop value
+  [MINVALUE n_min | NOMINVALUE]  -- minimum value (lists can consist of descending values)
+  [CYCLE | NOCYCLE]              -- if the series is restarted when reaching min/max
+
+</pre>
+<p>The NEXTVAL command generates the next number in the series and CURRVAL returns the current value. NEXTVAL must be executed before the list contains any number.
+</p><p>Example:
+</p>
+<pre>
+CREATE SEQUENCE s1
+  INCREMENT BY 2
+  START WITH 10
+  MAXVALUE 15;
+
+SELECT s1.NEXTVAL FROM DUAL; --execute it repeatedly; when does it raise errors?
+
+</pre>
+<p>For more about sequences, read <a rel="nofollow" class="external free" href="https://docs.oracle.com/cd/B12037_01/server.101/b10759/statements_6014.htm">https://docs.oracle.com/cd/B12037_01/server.101/b10759/statements_6014.htm</a>
+</p>
+<h3><span class="mw-headline" id="Exercises">Exercises</span></h3>
+<p>How can be a sequence used for inserting records?
+Answer by creating a sequence to help you inserting new courses with unique IDs, with consecutive entries starting with value 1. Insert 3 new courses with the id generated by sequence.
+</p>
+<h2><span class="mw-headline" id="Updating_records">Updating records</span></h2>
+<table border="1">
+<tr>
+<td><pre>UPDATE table_name [alias]
+  SET column_name1 = value1
+     [, column_name2 = value2...]
+      [WHERE condition]</pre>
+</td>
+<td>UPDATE students
+<p>SET scholarship=scholarship*0.15
+WHERE scholarship&lt;300;
+</p>
+</td></tr>
+<tr>
+<td><pre>UPDATE table_name [alias]
+  SET (column_name1 [,column_name2]...) = (subquery)
+    [WHERE condition]</pre>
+</td>
+<td>
+</td></tr></table>
+<h3><span class="mw-headline" id="Exercises_2">Exercises</span></h3>
+<ol><li>Update the scholarship for the students who have at least one grade equal to 10. These students will earn 500RON.</li></ol>
+<h2><span class="mw-headline" id="Deleting_records">Deleting records</span></h2>
+<table border="1">
+<tr>
+<td><pre>DELETE FROM table_name 
+  [WHERE condition]</pre>
+</td>
+<td>DELETE FROM grades WHERE value &lt; 5;
+</td></tr></table>
+<h3><span class="mw-headline" id="Exercises_3">Exercises</span></h3>
+<p>Delete all the students who haven't received any grade.
+</p>
+<h1><span class="mw-headline" id="DDL_statements_-_creating.2Fmodifying_data_structures">DDL statements - creating/modifying data structures</span></h1>
+<p>These commands aim at creating or deleting tables (or other types of objects), and also at modifying the structure of the existing tables (objects). They form the DDL component (Data Definition Language) of the SQL language.
+</p>
+<h2><span class="mw-headline" id="CREATE_TABLE_AS">CREATE TABLE AS</span></h2>
+<p>The commands for creating tables were explained at the course, detailing the constraints that can be enforced on the data. Here we cover only the CREATE command using subqueries.
+</p>
+<pre>
+CREATE TABLE table_name[(col1, col2,...)] [AS] select_phrase;
+
+</pre>
+<p>The command is similar to the one used to create the view, the difference consisting that when creating a table it is filled with data and the links to the base tables is not preserved. 
+</p>
+<h3><span class="mw-headline" id="Exercises_4">Exercises</span></h3>
+<p>Execute the ROLLBACK command (simply type ROLLBACK). Than create a table to store the first_name, last_name, scholarship and the average grade for each student. 
+</p>
+<h2><span class="mw-headline" id="ALTER_TABLE">ALTER TABLE</span></h2>
+<p>The structure of the existing tables can be modified, even if the table contains data.The changes may imply adding new columns, deleting existing columns, modifying the definition of a column (the type and the constraints), renaming a column, renaming the table, adding or deleting constraints (candidate keys, primary keys, foreign keys, NOT NULL constraints, CHECK).
+</p><p>The commands are the following: 
+</p>
+<table border="1">
+<tr>
+<td>ALTER TABLE table_name ADD (col1 definition_col1 [,col2 definition_col2....])
+</td>
+<td><pre>ALTER TABLE courses ADD (abreviation CHAR(2) NULL, 
+                 description VARCHAR(40) DEFAULT 'mandatory course');</pre>
+</td></tr>
+<tr>
+<td>ALTER TABLE table_name DROP COLUMN col
+</td>
+<td><pre>ALTER TABLE courses DROP COLUMN description;</pre>
+</td></tr>
+<tr>
+<td>ALTER TABLE table_name MODIFY (col1 definitie_col1 [,col2 definitie_col2....])
+</td>
+<td><pre>ALTER TABLE instructors MODIFY (fname VARCHAR(20), 
+                            lname VARCHAR(20));</pre>
+</td></tr>
+<tr>
+<td>ALTER TABLE table_name RENAME COLUMN old_col TO new_col
+</td>
+<td><pre>ALTER TABLE grades RENAME COLUMN value TO grade;</pre>
+</td></tr>
+<tr>
+<td>ALTER TABLE old_table_name RENAME TO new_table_name
+</td>
+<td><pre>ALTER TABLE instructors RENAME TO teachers;</pre>
+</td></tr>
+<tr>
+<td>ALTER TABLE table_name ADD CONSTRAINT constraint_name constraint_definition;
+</td>
+<td><pre>ALTER TABLE students ADD CONSTRAINT 
+     pk_studs PRIMARY KEY (id_stud);</pre>
+<pre>ALTER TABLE grades ADD CONSTRAINT 
+     fk_studs FOREIGN KEY (id_stud) 
+           REFERENCES students(id_stud) ON DELETE CASCADE;</pre>
+</td></tr>
+<tr>
+<td>ALTER TABLE table_name DROP CONSTRAINT constraint_name;
+</td>
+<td><pre>ALTER TABLE grades DROP CONSTRAINT fk_studs;</pre>
+</td></tr></table>
+<h3><span class="mw-headline" id="Exercices">Exercices</span></h3>
+<p>Execute again the script here: <a rel="nofollow" class="external free" href="../../../~pmihaela/faculty.sql">http://profs.info.uaic.ro/~pmihaela/faculty.sql</a><br />
+</p>
+<ol><li>Add the primary key constraints for tables Students, Instructors, Courses.</li>
+<li>Add the referential constraints for tables Grades and Teaching. When deleting an instroctor in table Instructors, the id of the deleted instructor will be set to NULL. When deleting a course in table Courses, in table Teaching the record referencing the deleted course will also be deleted. Write some DELETE statements for the referenced tables and study the behavior. </li>
+<li>Impose the constraint that a student will not have more than a grade to each course. </li>
+<li>Impose the constraint that the grade values will be in range 1-10.</li></ol>
+<h1><span class="mw-headline" id="Transactions">Transactions</span></h1>
+<p>A transaction represents a group of commands for modifying data (DML statements) that must be executed together, in order to guarantee data consistency. Failing to execute one statement must determines the system to restore the initial state from the beginning of the transaction. 
+</p><p>A transaction begins with the first DML statement and ends when a COMMIT or ROLLBACK command is met, or when a DDL command is launched, when closing the session or when a system error appears. 
+</p><p>The ROLLBACK command ends the transaction restoring the initial state. A system failure also results a ROLLBACK, restoring the state of the database at the moment before starting the transaction; this is how data integrity is ensured. The rest of the situations which end a transaction make the results of the DML permanent in the database without the possibility to restore intermediate states.
+</p><p>Once a transaction is over, another one begins.
+</p><p>During this lab, you executed the ROLLBACK command before experimenting with CREATE TABLE, ie before launching the first DDL statement. The result was the restoration of the state of the database from the beginning of the session. If the ROLLBACK command would not have been executed, the changes made to the data would have become permanent in the moment the DDL command had been executed (as previously specified, any DDL command ends the current transaction marking the previous changes in data as permanent).
+</p>
+During a transaction, several markers can be placed helping us to restore intermediate states. Adding an indicator is made with the command <pre>SAVEPOINT indicator_name</pre> and restoring the state of the database for that moment is made with <pre>ROLLBACK TO SAVEPOINT indicator_name</pre>.
+<p>Any DDL command is considered to be a transaction.
+</p>
+<h3><span class="mw-headline" id="Exercises_5">Exercises</span></h3>
+<ol><li> Ensure that you start a new transaction.</li>
+<li> Delete all the records in table Instructors.</li>
+<li> Insert an instructor.</li>
+<li> Mark its current state as 's1'.</li>
+<li> Change the name of the inserted instructor.</li>
+<li> Query the data.</li>
+<li> Restore s1.</li>
+<li> Query the data.</li>
+<li> Restore the state at the beginning of the transaction.</li></ol>
+
+<!-- 
+NewPP limit report
+CPU time usage: 0.022 seconds
+Real time usage: 0.025 seconds
+Preprocessor visited node count: 262/1000000
+Preprocessor generated node count: 512/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:14-0!*!*!!en!*!* and timestamp 20240223154439 and revision id 74
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="../index.php@title=Lab_11&amp;oldid=74">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_11&amp;oldid=74</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="../index.php@title=Special%253AUserLogin&amp;returnto=Lab+11" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="Lab_11"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:Lab_11&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="Lab_11#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="Lab_11" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_11&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_11&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="Lab_11#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/Lab_11" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/Lab_11" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_11&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="../index.php@title=Lab_11&amp;oldid=74" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Lab_11&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 6 December 2017, at 07:44.</li>
+											<li id="footer-info-viewcount">This page has been accessed 15,914 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":114});
+}</script>
+	</body>
+</html>
+	

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head>
+<meta charset="UTF-8" />
+<title>PLSQL 1 - bd_en</title>
+<meta name="generator" content="MediaWiki 1.24.3" />
+<link rel="shortcut icon" href="https://profs.info.uaic.ro/favicon.ico" />
+<link rel="search" type="application/opensearchdescription+xml" href="../opensearch_desc.php" title="bd_en (en)" />
+<link rel="EditURI" type="application/rsd+xml" href="../api.php@action=rsd" />
+<link rel="alternate" hreflang="x-default" href="PLSQL_1" />
+<link rel="alternate" type="application/atom+xml" title="bd_en Atom feed" href="../index.php@title=Special%253ARecentChanges&amp;feed=atom" />
+<link rel="stylesheet" href="../load.php@debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint,shared%257Cmediawiki.skinning.interface%257Cmediawiki.ui.button%257Cskins.vector.styles&amp;only=styles&amp;skin=vector&amp;%252A" />
+<meta name="ResourceLoaderDynamicStyles" content="" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-css:7:db4e1501a084fdb8e82a8e108bfc1982 */</style>
+<script src="../load.php@debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector&amp;%252A"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"PLSQL_1","wgTitle":"PLSQL 1","wgCurRevisionId":101,"wgRevisionId":101,"wgArticleId":19,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"PLSQL_1","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: bdwiki-bd_wiki_en_2:resourceloader:filter:minify-js:7:2ffb09fddb30ef53a64cefb237597916 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax","skins.vector.js"]);
+}</script>
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/~bd/wiki_en/skins/Vector/csshover.min.htc")}</style><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-PLSQL_1 skin-vector action-view vector-animateLayout">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">PLSQL 1</span></h1>
+						<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From bd_en</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="PLSQL_1#mw-navigation">navigation</a>, 					<a href="PLSQL_1#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>Helpfull links:
+</p>
+<ul><li> <a rel="nofollow" class="external free" href="http://www.tutorialspoint.com/plsql/">http://www.tutorialspoint.com/plsql/</a></li></ul>
+<p><br />
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="PLSQL_1#Intro_-_Why_PL.2FSQL"><span class="tocnumber">1</span> <span class="toctext">Intro - Why PL/SQL</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="PLSQL_1#Anonymous_blocks"><span class="tocnumber">2</span> <span class="toctext">Anonymous blocks</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="PLSQL_1#Declaring_Variables"><span class="tocnumber">3</span> <span class="toctext">Declaring Variables</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="PLSQL_1#Visibility_domain_of_a_variable_.28Scope.29"><span class="tocnumber">4</span> <span class="toctext">Visibility domain of a variable (Scope)</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="PLSQL_1#Operators"><span class="tocnumber">5</span> <span class="toctext">Operators</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="PLSQL_1#Comments"><span class="tocnumber">6</span> <span class="toctext">Comments</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="PLSQL_1#Taking_a_single_value_from_a_table"><span class="tocnumber">7</span> <span class="toctext">Taking a single value from a table</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="PLSQL_1#Declaring_variables_using_.25TYPE"><span class="tocnumber">8</span> <span class="toctext">Declaring variables using&#160;%TYPE</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="PLSQL_1#Pre-defined_functions"><span class="tocnumber">9</span> <span class="toctext">Pre-defined functions</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="PLSQL_1#Converting_between_data_types"><span class="tocnumber">10</span> <span class="toctext">Converting between data types</span></a>
+<ul>
+<li class="toclevel-2 tocsection-11"><a href="PLSQL_1#Exercices"><span class="tocnumber">10.1</span> <span class="toctext">Exercices</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="Intro_-_Why_PL.2FSQL">Intro - Why PL/SQL</span></h2>
+<p>SQL Language is useful for making queries on a database.
+</p><p>Usually, an application (written in PHP, Java, C# etc.) needs to make more than one query in a database. Suppose that the data retrieved by the application only need to be processed somehow and when the result is obtain, it will be written back in the database. This kind of processing does not require the user to interact with the application. If the queries have to be executed serially (because for example the second one depend on the answer of the first one), the application may want to make different queries to the database and the time needed for final result to be obtained
+may increase. Also, if more than one queries are sent to the database server through the network (if the application is not on the same machine as the database server), all the transfer might make the application to become too slow. PL/SQL comes to solve this problem: it is a scripting language that can be executed directly by the Oracle database server (Postgre SQL has a similar language called  PL/pgSQL, MS SQL server has Transact-SQL): it allows the programmer to define scripts that will be executed directly by the Oracle SQL server. 
+</p><p>In PL/SQL you can run anonymous block codes or define your own functions and procedures. For example, you can define a function called CMMDC and after that run a SQL query like this:
+</p><p><code>SELECT CMMDC(val1, val2) FROM pairs_of_number; </code>
+</p><p>CMMDC function, obviously, in not defined into SQL. 
+</p><p>PL/SQL was defined by Oracle in the end of the '80s especially to make SQL become more complex without forcing the creation of certain functions. For example, CMMDC function should not be present as a possible function in a language designed for retrieving data from a database.
+</p><p><br />
+A PL/SQL sequence of instuctions can define: 
+</p>
+<ul><li> an anonymous block, </li>
+<li> a function, </li>
+<li> a procedure, </li>
+<li> a package, </li>
+<li> the content of a package (body), </li>
+<li> a trigger, </li>
+<li> a type of data.</li></ul>
+<h2><span class="mw-headline" id="Anonymous_blocks">Anonymous blocks</span></h2>
+<p>In order to call a function you need to know it's name. An anonymous block is just a sequence of PL/SQL lines that don't have a name and is formed of three parts:
+</p>
+<ul><li> a declarative section - where you define the variables, constants, cursors or exceptions. It starts with the keyword "DECLARE";</li>
+<li> an executable section - contains PL/SQL instructions. It always starts with the "BEGIN" keyword and ends with "END;" (; also has to be present);</li>
+<li> an exceptions section - when the block generates errors, they will be treated in this section. It starts with the keyword "EXCEPTION".</li></ul>
+<p>The only block that is mandatory is the second one (the executable section).
+</p><p>Some examples:
+</p>
+<pre>
+set serveroutput on;
+BEGIN
+   DBMS_OUTPUT.PUT_LINE('Tommorow:' || (SYSDATE+1));
+END;
+
+
+</pre>
+<pre>
+set serveroutput on;
+DECLARE
+      v_message VARCHAR2(50) := 'Hello !';
+BEGIN
+      DBMS_OUTPUT.PUT_LINE('Message: ' || v_message );
+END;
+</pre>
+<p>By default the Oracle DB server only serves applications and because of this reason it usually does not show messages to a console. In order to be able to show messages we need to force this option by writing the command <code>set serveroutput on;</code>.
+</p><p>The package DBMS_OUTPUT is created especially for helping the debug actions (<a rel="nofollow" class="external free" href="https://docs.oracle.com/cd/B19306_01/appdev.102/b14258/d_output.htm#BABJCAJA">https://docs.oracle.com/cd/B19306_01/appdev.102/b14258/d_output.htm#BABJCAJA</a>). For now, from this package we used the  PUT_LINE command which will display the information that it got as a parametter.
+</p>
+<h2><span class="mw-headline" id="Declaring_Variables">Declaring Variables</span></h2>
+<p>The syntax for declaring variables is:
+</p>
+<pre>
+identifier [CONSTANT] data_type [NOT NULL]
+     [:= expression | DEFAULT expression]
+</pre>
+<p><b>identifier</b> - the name of the variable. It has to start with a letter and can be followed by a number or the following three signs: $, #, _ . Variables should start with v_, constants should start with c_, parametters in a function should start with p_ and there is a limit of 30 characters for the name of the variable. You are not allowed to use any keywords of the language (ALL, CREATE, FROM, MODIFY, SELECT, ALTER, DATE, GROUP, NOT, SYNONYM, AND, DEFAULT, HAVING, NULL, SYSDATE, ANY, DELETE, IN, NUMBER, TABLE, AS, DESC, INDEX, OR, THEN, ASC, DISTINCT, INSERT, ORDER, UPDATE, BETWEEN, DROP, INTEGER, RENAME, VALUES, CHAR, ELSE, INTO, ROW, VARCHAR2, COLUMN, EXISTS, IS, ROWID, VIEW, COMMENT, FOR, LIKE, ROWNUM, WHERE). 
+</p><p><span style="color:red">Atention: name your variable to have a meaning&#160;!</span>
+</p><p><br />
+<b>CONSTANT</b> - is the modifier for declaring constants. In this case the value will be assigned in the declaration section and nobody will be able to modify it.
+</p><p><br />
+<b>data_type</b> - For now we will redirect you to the data types you already know (here: <a rel="nofollow" class="external free" href="Lab_2">https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_2</a>). However, you should know that there are some other data types on the Oracle server (e.g. vectors, references, objects, LOB, etc.) Here you will also include some constraints (if it's the case). For example, when you define a VARCHAR2 variable, you might want to add it's maximum number of characters (e.g. VARCHAR2(25) will define a variable that can store up to 25 characters).
+</p><p><br />
+<b>NOT NULL</b> - variables that are not allowed to be null. They also have to be initialized (or they will be null).
+</p><p><br />
+<b>:=</b> - to set a value to a variable. The value can also be the result of evaluation of some expression. The value of a variable that is not initialized with&#160;:= is NULL by default. However, if you want to change this to something else, you can use the "DEFAULT" keyword.
+</p><p>It is recommended (good programming practices) to initialize your variables. 
+</p><p><br />
+Some examples:
+</p><p><code>v_#potatoes NUMBER&#160;:= 2E4;    --20000 potatoes</code>
+</p><p><code>v_age int&#160;:= &amp;i_age;    --get the age from the keyboard when you run the code</code>
+</p><p><code>v_movie VARCHAR2(30)&#160;:= 'The Matrix';</code>
+</p><p><code>c_pi CONSTANT double precision&#160;:= 3.141592653;</code>
+</p><p><code>v_hello VARCHAR2(40) DEFAULT 'Welcome!';</code>
+</p><p><code>v_date_of_birth DATE;</code>
+</p><p><code>v_students_number NUMBER(3) NOT NULL&#160;:= 1;</code>
+</p><p><code>v_PSGBD_is_cool BOOLEAN DEFAULT TRUE;</code>
+</p><p><b>Recomandations:</b> To be easier to read, declare each variable on a different row (good practices). Avoid using columns names as variables
+</p>
+<h2><span class="mw-headline" id="Visibility_domain_of_a_variable_.28Scope.29">Visibility domain of a variable (Scope)</span></h2>
+<p>Variables declared at the beginning of the PL/SQL code are considered to be global variables. Inside the executable section there can be different declarative sections, this time the variables will be local variables and will be accessible only inside the next BEGIN-END block.
+</p><p>For example, execute the following PL/SQL code:
+</p>
+<pre>
+set serveroutput on;
+DECLARE
+   v_name VARCHAR2(20):='Christian';
+   v_age INTEGER:= 21;  -- INTEGER is an alias for NUMBER(38,0).
+BEGIN
+   DBMS_OUTPUT.PUT_LINE('Value of variable v_name is: ' || v_name);  -- will display 'Christian'
+   DECLARE
+      v_name NUMBER(3) := 5;
+   BEGIN
+         DBMS_OUTPUT.PUT_LINE('Value of variable v_name is: ' || v_name); -- will display 5
+         DBMS_OUTPUT.PUT_LINE('Value of age is: ' || v_age); -- will display 21
+   END;
+   DBMS_OUTPUT.PUT_LINE('Value of variable v_name is: ' || v_name);  -- will display 'Christian'
+END;
+</pre>
+<p><br />
+Global variables can be accessed inside internal blocks even though there are local variables declared with the same name. For that you need to add a label to the global variable you want to access. The label can be defined  like this:  "&lt;&lt; label &gt;&gt;". 
+</p><p>For example we will use a label called "global" in the next block:
+</p>
+<pre>
+&lt;&lt;global&gt;&gt;
+DECLARE
+   v_name VARCHAR2(20):='Christian';
+BEGIN
+   DBMS_OUTPUT.PUT_LINE('Value of variable v_name is: ' || v_name);  -- will display 'Christian'
+   DECLARE
+      v_name NUMBER(3) := 5;
+   BEGIN
+         DBMS_OUTPUT.PUT_LINE('Value of variable v_name is: ' || v_name); --  5
+         DBMS_OUTPUT.PUT_LINE('Value of global variable v_name is: ' || global.v_name); --'Christian'
+   END;
+   DBMS_OUTPUT.PUT_LINE('Value of variable v_name is: ' || v_name);  -- will display 'Christian'
+END;
+</pre>
+<p>Usually, to differentiate between local and global variable we can add a prefix g_ or l_.
+</p>
+<h2><span class="mw-headline" id="Operators">Operators</span></h2>
+<p>To assign a value to a variable you will use <b>:=</b> (two points and an equal).
+</p><p>You can write a value of a VARCHAR2 variable on multiple rows:
+</p>
+<pre>
+DECLARE
+   v_text VARCHAR2(200);
+BEGIN   
+   v_text := 'Felis catus is your taxonomic nomenclature. 
+An endothermic quadruped, carnivorous by nature.';
+   DBMS_OUTPUT.PUT_LINE(v_text);   
+END;
+</pre>
+<p>The types of operators are: 
+</p>
+<ul><li> arithmetics, </li>
+<li> relational, </li>
+<li> for comparation, </li>
+<li> logic,</li>
+<li> for strings. </li></ul>
+<p>Those types of operators are already known by you, but to remind them you can execute the following anonymous blocks:
+</p><p><br />
+arithmetics (+, -, *, /, **):
+</p>
+<pre>
+set serveroutput on;
+DECLARE
+   a NUMBER := 10;
+   b NUMBER := 4;
+BEGIN
+   DBMS_OUTPUT.PUT_LINE('Sum: ' || (a+b));
+   DBMS_OUTPUT.PUT_LINE('Diference: ' || (a-b));
+   DBMS_OUTPUT.PUT_LINE('Product: ' || (a*b));
+   DBMS_OUTPUT.PUT_LINE('Divide: ' || (a/b));
+   DBMS_OUTPUT.PUT_LINE('Exponentiation: ' || (a ** b)); -- not available in SQL
+END;
+  
+</pre>
+<p>For relational operators (!=, &lt;&gt;, ~=, &lt;, &gt;, &lt;=, &gt;=)&#160;:
+</p>
+<pre>
+set serveroutput on;
+DECLARE
+   a NUMBER := 10;
+   b NUMBER := 4;
+BEGIN
+   IF (a&gt;b) 
+      THEN DBMS_OUTPUT.PUT_LINE(a || '&gt;' || b);
+      ELSE DBMS_OUTPUT.PUT_LINE(b || '&gt;=' || a);
+   END IF;
+   IF (a != b) -- you can also use &lt;&gt; or ~=
+      THEN DBMS_OUTPUT.PUT_LINE('Different values.');
+      ELSE DBMS_OUTPUT.PUT_LINE('Equal!');
+   END IF;   
+END;
+</pre>
+<p>Comparation (LIKE, BETWEEN, IN, IS NULL): 
+</p>
+<pre>
+set serveroutput on;
+DECLARE
+   a NUMBER := TRUNC(DBMS_RANDOM.VALUE(0,100)); -- you can remove the assignment to get a NULL value;
+BEGIN
+   IF (a IS NOT NULL) 
+      THEN 
+         IF (a BETWEEN 20 AND 80)
+              THEN DBMS_OUTPUT.PUT_LINE(a || ' is between 20 and 80');
+              ELSE DBMS_OUTPUT.PUT_LINE(a || ' not between 20 and 80');
+         END IF;     
+      ELSE DBMS_OUTPUT.PUT_LINE('NULL value');
+   END IF;
+END;
+</pre>
+<p>Logic operators (AND, OR, NOT): You can try replacing the BETWEEN condition using relational and logical operators to get the same result&#160;?
+</p><p>Priority of the operators is the same as in other programming languages.
+</p>
+<h2><span class="mw-headline" id="Comments">Comments</span></h2>
+<p>In all programming languages you have comments: usually as reminders of what the initial programmer wanted to do with that piece of code, or (as in java) to describe what a function will return.
+</p><p>Comments are ignored by the PL/SQL interpereter.
+</p><p>In PL/SQL you can do single line comments if you start that line with "--" (two minus symbols) or if you want to comment multiple lines use " /* ... */ ".
+</p>
+<h2><span class="mw-headline" id="Taking_a_single_value_from_a_table">Taking a single value from a table</span></h2>
+<p>In order to get data from a table you will use the select statement. You can get:
+</p>
+<ul><li> more then one row;</li>
+<li> a single row;</li>
+<li> no rows.</li></ul>
+<p>Here we will discuss the second type of result (a single row). The other types of response will be discussed in the future.
+</p><p>If only one row is returned, the values contained by in that row can be stored into different variables. To do that you will need to use the keyword "INTO" and to be sure that the variable type is suited for what you want to store in it.
+</p><p><br />
+For example:
+</p><p><code>SELECT fname INTO v_name FROM students WHERE ROWNUM=1</code>
+</p><p>In this case we will store the name of the first student in the table in the variable v_name. To be sure that only one row is returned, we used ROWNUM=1.
+</p><p>If you will use an grouping function on the entire table, you can be sure that only one row is returned:
+</p><p><code>SELECT AVG(value) INTO v_avg FROM grades</code>
+</p><p>If you want to get multiple values from the row, you can separate the fields and the variables by coma as in the following example:
+</p><p><code>SELECT fname, lname INTO v_name, v_last_name FROM students WHERE ROWNUM=1 --two different values</code>
+</p><p><br />
+<span style="color:red; font-weight:bold"> If the answer is formed from a single row, you should always use SELECT... INTO...</span>
+</p>
+<h2><span class="mw-headline" id="Declaring_variables_using_.25TYPE">Declaring variables using&#160;%TYPE</span></h2>
+<p>In order to be sure that the type of the variable is the same as the returned value, we can define it as having the same type as the column of a table (or the same as an existing variable). Here is an example:
+</p><p>To correctly store the maximum value of the grade into a variable v_value, what should be it's type?
+<code>SELECT MAX(value) INTO v_value FROM grades;</code>
+</p><p>You can use the following declaration:
+</p><p><code>v_value grades.value%TYPE;</code>
+</p><p><br />
+here is the entire anoymous block code:
+</p>
+<pre>
+DECLARE
+   v_value grades.value%TYPE;
+BEGIN   
+   SELECT MAX(value) INTO v_value FROM grades; 
+   DBMS_OUTPUT.PUT_LINE('Maximum grade: ' || v_value );
+END;
+</pre>
+<p>Using&#160;%TYPE has another advantage: if you alter the initial table and change the type of the field values than the anonymous code will declare the variable as having the same type as the modified type. 
+</p><p><br />
+Rewrite the code so you display both the minimum and maximum grade.
+</p><p><span style="color:red; font-weight:bold"> Using&#160;%TYPE is very important. Declare the variables this way each time you want to get a value from a column&#160;!</span>
+</p>
+<h2><span class="mw-headline" id="Pre-defined_functions">Pre-defined functions</span></h2>
+<p>The functions that you have studied in SQL are also available here. 
+</p><p>Here is a small reminder (not containing all SQL functions):
+</p><p>Manipulating strings: ASCII, LENGTH, RPAD,CHR, LOWER, RTRIM,CONCAT, LPAD, SUBSTR, INITCAP, LTRIM, TRIM,INSTR, REPLACE, UPPER.
+</p><p>Manipulating numbers: ABS, EXP, ROUND, ACOS, LN, SIGN, ASIN, LOG, SIN, ATAN, MOD, TAN, COS, POWER, TRUNC.
+</p><p>Manipulating DATEs: ADD_MONTHS, MONTHS_BETWEEN, CURRENT_DATE, ROUND, CURRENT_TIMESTAMP, SYSDATE, LAST_DAY, TRUNC.
+</p>
+<h2><span class="mw-headline" id="Converting_between_data_types">Converting between data types</span></h2>
+<p>It is done automatically between VARCHAR2 and any other data types. Also it is automatic from a variable of type DATE, NUMBER or PLS_INTEGER to LONG (but not the other way around: LONG is bigger and data loss may occur if it is converted into a smaller data type). 
+</p><p>DATE cannot be converted to NUMBER or PLS_INTEGER.
+</p><p><b>Observation:</b> implicit conversion may be slow and might depend on the operating system (e.g. date can be converted differently to varchar2 - depends on how the operating system represent a date). 
+</p><p>Explicit conversions can be achieved using one of the following functions: TO_NUMBER(), ROWIDTONCHAR(), TO_CHAR(), HEXTORAW(), TO_CLOB(), RAWTOHEX(), CHARTOROWID(), RAWTONHEX(), ROWIDTOCHAR(), TO_DATE().
+</p><p>For example:
+</p>
+<pre>
+BEGIN
+     DBMS_OUTPUT.PUT_LINE(TO_CHAR(SYSDATE,'Month DD, YYYY'));
+END;
+
+</pre>
+<p><br />
+</p>
+<h6><span class="mw-headline" id="Exercices">Exercices</span></h6>
+<p>1. (6pt) Build a PL/SQL script that will ask the user for a last name (family name). If in the table students there are no students having that name, an error message will displayed; otherwise the script will display the following (each on a different row):
+</p>
+<ul><li> the number of students having that last name;</li>
+<li> the ID and the first name of the student that is the first one in the alphabetic ordered (order by first name);</li>
+<li> the highest and the lowest grade of that student;</li>
+<li> the number A at the power B where A is the highest grade and B is the smallest one;</li></ul>
+<p><br />
+2. (4pt) Build an anonymous block containing a declaration of a constant of type varchar2(30) that contains your birth date in the following format "ZZ-LL-YYYY" (e.g. 15-04-1993). By executing the code you will get the number of months and days it passed from that date (e.g. 124 months and 13 days) and also what day of week was that date on (Monday, Tuesday...).
+</p>
+<!-- 
+NewPP limit report
+CPU time usage: 0.021 seconds
+Real time usage: 0.025 seconds
+Preprocessor visited node count: 145/1000000
+Preprocessor generated node count: 274/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key bdwiki-bd_wiki_en_2:pcache:idhash:19-0!*!*!!en!*!* and timestamp 20240222212149 and revision id 101
+ -->
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_1&amp;oldid=101">https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_1&amp;oldid=101</a>"					</div>
+													<div id='catlinks' class='catlinks catlinks-allhidden'></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User:95.76.235.126" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">95.76.235.126</a></li><li id="pt-anontalk"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/User_talk:95.76.235.126" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-login"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Special:UserLogin&amp;returnto=PLSQL+1" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="PLSQL_1"  title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=Talk:PLSQL_1&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a href="PLSQL_1#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="PLSQL_1" >Read</a></span></li>
+															<li id="ca-viewsource"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_1&amp;action=edit"  title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_1&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="PLSQL_1#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="../index.php" id="searchform">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search bd_en [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: url(https://profs.info.uaic.ro/~bd/wiki_en/images/database.png);" href="../index.php"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-mainpage-description"><a href="../index.php" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+													<li id="n-Setting-the-lab-environment"><a href="Setting_the_lab_environment">Setting the lab environment</a></li>
+													<li id="n-SQL.2APlus-Guide"><a href="SQL%252APlus_Guide">SQL*Plus Guide</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-Databases' aria-labelledby='p-Databases-label'>
+			<h3 id='p-Databases-label'>Databases</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Course-materials"><a href="http://profs.info.uaic.ro/~pmihaela/BD/curs" rel="nofollow">Course materials</a></li>
+													<li id="n-Lab-1"><a href="Lab_1">Lab 1</a></li>
+													<li id="n-Lab-2"><a href="Lab_2">Lab 2</a></li>
+													<li id="n-Lab-3"><a href="Lab_3">Lab 3</a></li>
+													<li id="n-Lab-4"><a href="Lab_4">Lab 4</a></li>
+													<li id="n-Lab-5"><a href="Lab_5">Lab 5</a></li>
+													<li id="n-Lab-6"><a href="Lab_6">Lab 6</a></li>
+													<li id="n-Lab-7"><a href="Lab_7">Lab 7</a></li>
+													<li id="n-Lab-9"><a href="Lab_9">Lab 9</a></li>
+													<li id="n-Lab-10"><a href="Lab_10">Lab 10</a></li>
+													<li id="n-Lab-11"><a href="Lab_11">Lab 11</a></li>
+													<li id="n-Lab-12"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Lab_12">Lab 12</a></li>
+													<li id="n-Lab-13"><a href="Lab_13">Lab 13</a></li>
+													<li id="n-Lab-14"><a href="Lab_14">Lab 14</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-SGBD_Practice' aria-labelledby='p-SGBD_Practice-label'>
+			<h3 id='p-SGBD_Practice-label'>SGBD Practice</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Developer.2FViews"><a href="PLSQL_0">Developer/Views</a></li>
+													<li id="n-PLSQL-1"><a href="PLSQL_1">PLSQL 1</a></li>
+													<li id="n-PLSQL-2"><a href="PLSQL_2">PLSQL 2</a></li>
+													<li id="n-PLSQL-3"><a href="PLSQL_3">PLSQL 3</a></li>
+													<li id="n-PLSQL-4"><a href="PLSQL_4">PLSQL 4</a></li>
+													<li id="n-PLSQL-5"><a href="PLSQL_5">PLSQL 5</a></li>
+													<li id="n-PLSQL-6"><a href="PLSQL_6">PLSQL 6</a></li>
+													<li id="n-PLSQL-7"><a href="PLSQL_7">PLSQL 7</a></li>
+													<li id="n-PLSQL-8"><a href="PLSQL_8">PLSQL 8</a></li>
+													<li id="n-PLSQL-9"><a href="PLSQL_9">PLSQL 9</a></li>
+													<li id="n-PLSQL-10"><a href="PLSQL_10">PLSQL 10</a></li>
+													<li id="n-PLSQL-11"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/PLSQL_11">PLSQL 11</a></li>
+													<li id="n-PLSQL-12"><a href="PLSQL_12">PLSQL 12</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-whatlinkshere"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:WhatLinksHere/PLSQL_1" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+													<li id="t-recentchangeslinked"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Special:RecentChangesLinked/PLSQL_1" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+													<li id="t-specialpages"><a href="Special%253ASpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_1&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+													<li id="t-permalink"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_1&amp;oldid=101" title="Permanent link to this revision of the page">Permanent link</a></li>
+													<li id="t-info"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php?title=PLSQL_1&amp;action=info">Page information</a></li>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 26 February 2018, at 09:12.</li>
+											<li id="footer-info-viewcount">This page has been accessed 20,195 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:Privacy_policy" title="Bd en:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:About" title="Bd en:About">About bd_en</a></li>
+											<li id="footer-places-disclaimer"><a href="https://profs.info.uaic.ro/~bd/wiki_en/index.php/Bd_en:General_disclaimer" title="Bd en:General disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+															<a href="https://www.mediawiki.org/"><img src="../resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"ready","user":"ready","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"],null,true);
+}</script>
+<script>if(window.mw){
+mw.config.set({"wgBackendResponseTime":56});
+}</script>
+	</body>
+</html>
+	
